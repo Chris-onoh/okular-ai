@@ -22,10 +22,16 @@ open source by Chris-Onoh Chukwuebuka <ebukaconoh@gmail.com>.
   fills the editable model picker.
 - A **Set up local AI** banner appears when no key is configured, so a local
   model can be selected without touching the advanced fields.
-- A **Thinking** pill in the panel header (and a checkbox in AI settings)
-  turns reasoning on or off. When on, reasoning streams into a collapsible box
-  before the answer. When off, reasoning is hidden and the model is asked to
-  answer directly. The choice is persisted.
+- A **Thinking** pill in the panel header (and an **Enable thinking** checkbox
+  in AI settings) turns reasoning on or off. When on, reasoning streams into a
+  collapsible box before the answer. When off, the request uses the provider's
+  native disable flag (`thinking` for DeepSeek, `reasoning_effort: none` for
+  Ollama/llama.cpp, plus `chat_template_kwargs` for llama.cpp) so reasoning
+  tokens are not generated. The choice is persisted.
+- **Thinking capability detection**: DeepSeek is known to support the switch;
+  Ollama is checked through `/api/show` (`capabilities` contains `thinking`),
+  and llama.cpp through `/props` (`chat_template` / `chat_template_caps`). The
+  pill is disabled automatically for models that cannot think.
 - A **Web** toggle searches the web (Brave Search, with DuckDuckGo as a
   fallback) and adds the top results to the prompt. No search API key is
   needed.

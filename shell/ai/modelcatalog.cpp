@@ -72,6 +72,124 @@ void ModelCatalog::probeLlamaCpp(const QString &baseUrl)
     probe(LlamaCpp, url);
 }
 
+QString ModelCatalog::baseFromEndpoint(const QString &endpoint, const QString &fallback)
+{
+    QUrl url(endpoint.trimmed());
+    if (url.scheme().isEmpty()) {
+        url = QUrl(QStringLiteral("http://") + endpoint.trimmed());
+    }
+    if (!url.isValid() || url.host().isEmpty()) {
+        return fallback;
+    }
+    QString base = url.scheme() + QStringLiteral("://") + url.host();
+    if (url.port() > 0) {
+        base += QLatin1Char(':') + QString::number(url.port());
+    }
+    return base;
+}
+
+void ModelCatalog::probeThinkingSupport(int source, const QString &model, const QString &endpointBase)
+{
+    if (m_thinkingReply) {
+        m_thinkingReply->abort();
+        m_thinkingReply->deleteLater();
+        m_thinkingReply = nullptr;
+    }
+
+    const QString trimmedModel = model.trimmed();
+    if (trimmedModel.isEmpty()) {
+        Q_EMIT thinkingSupportUnknown(source, trimmedModel);
+        return;
+    }
+
+    m_thinkingSource = source;
+    m_thinkingModel = trimmedModel;
+
+    QNetworkRequest request;
+    if (source == Ollama) {
+        request.setUrl(QUrl(baseFromEndpoint(endpointBase, QStringLiteral("http://127.0.0.1:11434")) + QStringLiteral("/api/show")));
+        request.setHeader(QNetworkRequest::ContentTypeHeader, QStringLiteral("application/json"));
+    } else {
+        request.setUrl(QUrl(baseFromEndpoint(endpointBase, QStringLiteral("http://127.0.0.1:8080")) + QStringLiteral("/props")));
+    }
+    request.setTransferTimeout(4000);
+    request.setAttribute(QNetworkRequest::RedirectPolicyAttribute, QNetworkRequest::NoLessSafeRedirectPolicy);
+    request.setHeader(QNetworkRequest::UserAgentHeader, QStringLiteral("Okular-AI/1.0"));
+
+    if (source == Ollama) {
+        QJsonObject body;
+        body.insert(QStringLiteral("model"), trimmedModel);
+        m_thinkingReply = m_network.post(request, QJsonDocument(body).toJson(QJsonDocument::Compact));
+    } else {
+        m_thinkingReply = m_network.get(request);
+    }
+
+    QNetworkReply *reply = m_thinkingReply;
+    connect(reply, &QNetworkReply::finished, this, [this, reply]() {
+        finishThinkingSupport(reply);
+    });
+}
+
+void ModelCatalog::finishThinkingSupport(QNetworkReply *reply)
+{
+    if (m_thinkingReply != reply) {
+        reply->deleteLater();
+        return;
+    }
+    m_thinkingReply = nullptr;
+
+    const int source = m_thinkingSource;
+    const QString model = m_thinkingModel;
+    m_thinkingSource = -1;
+    m_thinkingModel.clear();
+
+    const QByteArray data = reply->readAll();
+    const auto networkError = reply->error();
+    reply->deleteLater();
+
+    if (networkError != QNetworkReply::NoError) {
+        Q_EMIT thinkingSupportUnknown(source, model);
+        return;
+    }
+
+    QJsonParseError parseError;
+    const QJsonDocument document = QJsonDocument::fromJson(data, &parseError);
+    if (parseError.error != QJsonParseError::NoError || !document.isObject()) {
+        Q_EMIT thinkingSupportUnknown(source, model);
+        return;
+    }
+
+    const QJsonObject object = document.object();
+    if (source == Ollama) {
+        if (!object.contains(QStringLiteral("capabilities"))) {
+            Q_EMIT thinkingSupportUnknown(source, model);
+            return;
+        }
+        bool supported = false;
+        const QJsonArray capabilities = object.value(QStringLiteral("capabilities")).toArray();
+        for (const QJsonValue capability : capabilities) {
+            if (capability.toString().compare(QStringLiteral("thinking"), Qt::CaseInsensitive) == 0) {
+                supported = true;
+                break;
+            }
+        }
+        Q_EMIT thinkingSupportFound(source, model, supported);
+        return;
+    }
+
+    const QString chatTemplate = object.value(QStringLiteral("chat_template")).toString();
+    const QJsonObject caps = object.value(QStringLiteral("chat_template_caps")).toObject();
+    if (chatTemplate.isEmpty() && caps.isEmpty()) {
+        Q_EMIT thinkingSupportUnknown(source, model);
+        return;
+    }
+
+    const QString haystack = (chatTemplate + QString::fromUtf8(QJsonDocument(caps).toJson(QJsonDocument::Compact))).toLower();
+    const bool supported = haystack.contains(QStringLiteral("enable_thinking")) || haystack.contains(QStringLiteral("reasoning"))
+        || haystack.contains(QStringLiteral("thinking"));
+    Q_EMIT thinkingSupportFound(source, model, supported);
+}
+
 void ModelCatalog::probe(int source, const QUrl &url)
 {
     QNetworkReply *&slot = source == Ollama ? m_ollamaReply : m_llamaReply;

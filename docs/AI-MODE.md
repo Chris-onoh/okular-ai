@@ -239,19 +239,59 @@ balance, 429 rate limit.
 
 ---
 
-## 8. Thinking display
+## 8. Thinking control
 
-Reasoning is displayed only when the model emits `reasoning_content`.
+`ShowThinking` is a real on/off switch, not just a visibility toggle.
 
+When it is **on**:
+
+- Reasoning is requested from the provider and displayed only if the model
+  emits `reasoning_content`.
 - `ChatTranscript::beginAssistantMessage()` creates the bubble.
 - `appendAssistantReasoning()` creates or updates the thinking box.
 - `appendAssistantChunk()` finishes and collapses the thinking box as soon as
   the first answer token arrives.
-- The **Thinking** pill in the panel header and the **Show the model's
-  thinking** checkbox in AI settings both persist `ShowThinking`.
-- When off, reasoning chunks are ignored, any open thinking box collapses, and
-  the system prompt asks the model to answer directly without step-by-step
+
+When it is **off**:
+
+- The request asks the provider to skip reasoning token generation. This saves
+  output tokens and latency.
+- Any reasoning that still arrives is ignored and the thinking box collapses.
+- The system prompt also asks for a direct answer without step-by-step
   reasoning.
+
+Provider-specific request fields, applied by `LlmClient`:
+
+| Provider | Thinking off | Thinking on |
+| --- | --- | --- |
+| `deepseek` | `"thinking": {"type": "disabled"}` | omit (provider default) |
+| `ollama` | `"reasoning_effort": "none"` | omit (model default) |
+| `llamacpp` | `"reasoning_effort": "none"` and `"chat_template_kwargs": {"enable_thinking": false}` | omit (model default) |
+| `custom` | no parameter is added (unknown API surface) | no parameter |
+
+### Capability detection
+
+`ModelCatalog` determines whether the selected model can think:
+
+- **DeepSeek:** both documented models expose the `thinking` switch, so support
+  is assumed.
+- **Ollama:** `POST /api/show` returns a `capabilities` array. A model supports
+  thinking when it contains `thinking` (for example `qwen3` or
+  `lfm2.5-thinking`; `qwen2.5` does not).
+- **llama.cpp:** `GET /props` exposes `chat_template` and `chat_template_caps`.
+  Markers such as `enable_thinking`, `thinking` or `reasoning` indicate support.
+- **Custom:** support is unknown unless the endpoint is a local llama.cpp
+  server; the pill remains usable and no provider-specific parameter is sent.
+
+When detection reports that a model cannot think, the **Thinking** pill is
+unchecked and disabled, with the tooltip `This model does not support
+thinking`. The user preference is preserved, so switching back to a thinking
+model restores it. If detection is unavailable, the pill stays enabled and the
+provider-specific disable flag is still sent for known providers.
+
+Measured locally with Ollama and `qwen3:0.6b` on a short prompt: the same answer
+used 169 completion tokens with thinking and 9 with `reasoning_effort: none`,
+with an empty reasoning field in the latter case.
 
 The box animates its maximum height over 160 ms and truncates very long
 reasoning at 6,000 characters.
@@ -263,7 +303,8 @@ providers that expose a server-side switch, the correct place to change it is
 the provider or model configuration.
 
 The header controls use text labels (`Thinking`, `Web`) as well as icons so the
-state is discoverable without hovering.
+state is discoverable without hovering. The setting is available both in the
+panel header and in AI settings.
 
 ---
 

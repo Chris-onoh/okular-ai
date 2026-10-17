@@ -40,6 +40,21 @@ void LlmClient::setModel(const QString &model)
     m_model = model;
 }
 
+void LlmClient::setProvider(const QString &provider)
+{
+    m_provider = provider;
+}
+
+void LlmClient::setThinkingSupported(bool supported)
+{
+    m_thinkingSupported = supported;
+}
+
+void LlmClient::setThinkingEnabled(bool enabled)
+{
+    m_thinkingEnabled = enabled;
+}
+
 bool LlmClient::isBusy() const
 {
     return m_reply != nullptr;
@@ -77,6 +92,23 @@ void LlmClient::sendChat(const QJsonArray &messages)
     body.insert(QStringLiteral("messages"), messages);
     body.insert(QStringLiteral("stream"), true);
     body.insert(QStringLiteral("temperature"), 0.2);
+
+    // Ask the provider not to spend tokens on reasoning. Each provider exposes
+    // a different switch; unknown/custom endpoints are left untouched.
+    if (m_thinkingSupported && !m_thinkingEnabled) {
+        if (m_provider == QLatin1String("deepseek")) {
+            QJsonObject thinking;
+            thinking.insert(QStringLiteral("type"), QStringLiteral("disabled"));
+            body.insert(QStringLiteral("thinking"), thinking);
+        } else if (m_provider == QLatin1String("ollama")) {
+            body.insert(QStringLiteral("reasoning_effort"), QStringLiteral("none"));
+        } else if (m_provider == QLatin1String("llamacpp")) {
+            body.insert(QStringLiteral("reasoning_effort"), QStringLiteral("none"));
+            QJsonObject templateArguments;
+            templateArguments.insert(QStringLiteral("enable_thinking"), false);
+            body.insert(QStringLiteral("chat_template_kwargs"), templateArguments);
+        }
+    }
 
     m_raw.clear();
     m_buffer.clear();

@@ -21,6 +21,7 @@
 
 class LlmClient;
 class EmbeddingClient;
+class ModelCatalog;
 class ChatTranscript;
 class QLabel;
 class QComboBox;
@@ -112,6 +113,8 @@ private:
     void showSettings(bool preferLocal);
     void updateStatus();
     void applyTheme();
+    void refreshThinkingCapability();
+    void applyThinkingControls();
     void updateModelCombo();
     void appendSystemMessage(const QString &text);
     void appendUserMessage(const QString &text);
@@ -127,6 +130,8 @@ private:
     LlmClient *m_client;
     EmbeddingClient *m_indexEmbedder;
     EmbeddingClient *m_queryEmbedder;
+    ModelCatalog *m_catalog = nullptr;
+    int m_thinkingSupport = -1; // 1 = supported, 0 = unsupported, -1 = unknown
     std::function<QObject *()> m_activePartProvider;
 
     ChatTranscript *m_transcript = nullptr;

@@ -46,6 +46,7 @@
 #include <QTextCursor>
 #include <QTextBrowser>
 #include <QTextDocument>
+#include <QTimer>
 #include <QToolButton>
 #include <QUrl>
 #include <QVBoxLayout>
@@ -83,6 +84,7 @@ AiChatPanel::AiChatPanel(QWidget *parent)
     , m_queryEmbedder(new EmbeddingClient(this))
 {
     m_webSearch = new WebSearchClient(this);
+    m_catalog = new ModelCatalog(this);
     setObjectName(QStringLiteral("okular_ai_panel"));
     setMinimumWidth(420);
     setAttribute(Qt::WA_StyledBackground, true);
@@ -273,6 +275,7 @@ AiChatPanel::AiChatPanel(QWidget *parent)
         m_config.model = model;
         m_config.save();
         updateStatus();
+        refreshThinkingCapability();
     });
 
     connect(m_transcript, &ChatTranscript::pageLinkActivated, this, &AiChatPanel::goToPage);
@@ -382,9 +385,25 @@ AiChatPanel::AiChatPanel(QWidget *parent)
     connect(m_webSearch, &WebSearchClient::finished, this, &AiChatPanel::onWebSearchFinished);
     connect(m_webSearch, &WebSearchClient::errorOccurred, this, &AiChatPanel::onWebSearchFailed);
 
+    connect(m_catalog, &ModelCatalog::thinkingSupportFound, this, [this](int, const QString &model, bool supported) {
+        if (model != m_config.model) {
+            return;
+        }
+        m_thinkingSupport = supported ? 1 : 0;
+        applyThinkingControls();
+    });
+    connect(m_catalog, &ModelCatalog::thinkingSupportUnknown, this, [this](int, const QString &model) {
+        if (model != m_config.model) {
+            return;
+        }
+        m_thinkingSupport = -1;
+        applyThinkingControls();
+    });
+
     updateModelCombo();
     applyTheme();
     updateStatus();
+    refreshThinkingCapability();
 }
 
 AiChatPanel::~AiChatPanel() = default;
@@ -981,6 +1000,9 @@ void AiChatPanel::sendQuestion(const QString &question, const QString &context, 
     m_client->setEndpoint(m_config.endpoint);
     m_client->setApiKey(apiKey);
     m_client->setModel(m_config.model);
+    m_client->setProvider(m_config.provider);
+    m_client->setThinkingSupported(m_thinkingSupport != 0);
+    m_client->setThinkingEnabled(m_config.showThinking && m_thinkingSupport != 0);
     m_client->sendChat(messages);
 
     if (!notice.isEmpty()) {
@@ -1313,6 +1335,61 @@ QString AiChatPanel::buildContext(const QString &question, int currentPageNumber
     return lines.join(QLatin1Char('\n'));
 }
 
+void AiChatPanel::refreshThinkingCapability()
+{
+    if (!m_catalog) {
+        return;
+    }
+
+    if (m_config.provider == QLatin1String("deepseek")) {
+        // DeepSeek exposes thinking as a request switch on both models.
+        m_thinkingSupport = 1;
+        applyThinkingControls();
+        return;
+    }
+
+    if (!AiConfig::isLocalEndpoint(m_config.endpoint)) {
+        m_thinkingSupport = -1;
+        applyThinkingControls();
+        return;
+    }
+
+    m_thinkingSupport = -1;
+    applyThinkingControls();
+
+    const QString base = ModelCatalog::baseFromEndpoint(m_config.endpoint);
+    if (m_config.provider == QLatin1String("ollama")) {
+        m_catalog->probeThinkingSupport(ModelCatalog::Ollama, m_config.model, base);
+    } else if (m_config.provider == QLatin1String("llamacpp") || m_config.provider == QLatin1String("custom")) {
+        m_catalog->probeThinkingSupport(ModelCatalog::LlamaCpp, m_config.model, base);
+    }
+}
+
+void AiChatPanel::applyThinkingControls()
+{
+    if (!m_thinkingButton) {
+        return;
+    }
+
+    const bool unsupported = m_thinkingSupport == 0;
+    m_thinkingButton->setEnabled(!unsupported);
+    {
+        const QSignalBlocker blocker(m_thinkingButton);
+        m_thinkingButton->setChecked(!unsupported && m_config.showThinking);
+    }
+
+    if (unsupported) {
+        m_thinkingButton->setToolTip(i18n("This model does not support thinking"));
+        m_thinkingButton->setAccessibleName(i18n("Thinking is not supported by this model"));
+    } else if (m_thinkingSupport < 0) {
+        m_thinkingButton->setToolTip(i18n("Enable or disable thinking. Support is detected from the model."));
+        m_thinkingButton->setAccessibleName(i18n("Toggle model thinking"));
+    } else {
+        m_thinkingButton->setToolTip(i18n("Enable or disable thinking. Off saves reasoning tokens."));
+        m_thinkingButton->setAccessibleName(i18n("Toggle model thinking"));
+    }
+}
+
 void AiChatPanel::updateStatus()
 {
     const int pageCount = documentPageCount();
@@ -1641,10 +1718,15 @@ void AiChatPanel::showSettings(bool preferLocal)
     detectLayout->addWidget(probeLabel, 1);
     simpleForm->addRow(QString(), detectRow);
 
-    auto *thinkingCheck = new QCheckBox(i18n("Show the model's thinking"), &dialog);
+    auto *thinkingCheck = new QCheckBox(i18n("Enable thinking (uses more tokens)"), &dialog);
     thinkingCheck->setChecked(m_config.showThinking);
-    thinkingCheck->setToolTip(i18n("When off, reasoning is hidden and the model is asked to answer directly."));
+    thinkingCheck->setToolTip(i18n("When off, the provider is asked not to generate reasoning tokens. "
+                                  "Support is detected from the selected model."));
     simpleForm->addRow(QString(), thinkingCheck);
+    auto *thinkingStatus = new QLabel(i18n("Choose a model to detect thinking support."), &dialog);
+    thinkingStatus->setWordWrap(true);
+    thinkingStatus->setObjectName(QStringLiteral("settingsHint"));
+    simpleForm->addRow(QString(), thinkingStatus);
     layout->addLayout(simpleForm);
 
     auto *form = new QFormLayout;
@@ -1791,6 +1873,32 @@ void AiChatPanel::showSettings(bool preferLocal)
         }
     };
 
+    auto probeThinking = [&]() {
+        const QString provider = providerCombo->currentData().toString();
+        const QString model = modelCombo->currentText().trimmed();
+        if (provider == QLatin1String("deepseek")) {
+            thinkingCheck->setEnabled(true);
+            thinkingStatus->setText(i18n("Thinking is supported by this provider."));
+            return;
+        }
+        if (!AiConfig::isLocalEndpoint(endpointEdit->text())) {
+            thinkingCheck->setEnabled(true);
+            thinkingStatus->setText(i18n("Thinking support is unknown for this provider. The setting is still used when supported."));
+            return;
+        }
+        if (model.isEmpty()) {
+            thinkingStatus->setText(i18n("Choose a model to detect thinking support."));
+            return;
+        }
+        thinkingStatus->setText(i18n("Checking thinking support…"));
+        const QString base = ModelCatalog::baseFromEndpoint(endpointEdit->text());
+        if (provider == QLatin1String("ollama")) {
+            catalog->probeThinkingSupport(ModelCatalog::Ollama, model, base);
+        } else {
+            catalog->probeThinkingSupport(ModelCatalog::LlamaCpp, model, base);
+        }
+    };
+
     connect(detectButton, &QPushButton::clicked, &dialog, runProbe);
     connect(catalog, &ModelCatalog::modelsFound, &dialog, [&](int source, const QStringList &models) {
         if (models.isEmpty()) {
@@ -1809,6 +1917,7 @@ void AiChatPanel::showSettings(bool preferLocal)
         } else {
             probeLabel->setText(i18np("%1 local model found.", "%1 local models found.", models.size()).arg(models.size()));
         }
+        probeThinking();
     });
     connect(catalog, &ModelCatalog::probeFailed, &dialog, [&](int source, const QString &message) {
         Q_UNUSED(message)
@@ -1821,6 +1930,34 @@ void AiChatPanel::showSettings(bool preferLocal)
                                      "<b>llama-server -m model.gguf --port 8080</b>, then press Detect again."));
         }
     });
+    connect(catalog, &ModelCatalog::thinkingSupportFound, &dialog, [&](int, const QString &model, bool supported) {
+        if (model != modelCombo->currentText().trimmed()) {
+            return;
+        }
+        thinkingCheck->setEnabled(supported);
+        if (supported) {
+            thinkingStatus->setText(i18n("This model supports thinking."));
+        } else {
+            thinkingCheck->setChecked(false);
+            thinkingStatus->setText(i18n("This model does not support thinking."));
+        }
+    });
+    connect(catalog, &ModelCatalog::thinkingSupportUnknown, &dialog, [&](int, const QString &model) {
+        if (model != modelCombo->currentText().trimmed()) {
+            return;
+        }
+        thinkingCheck->setEnabled(true);
+        thinkingStatus->setText(i18n("Thinking support could not be detected. The setting is applied if the provider supports it."));
+    });
+
+    auto *thinkingTimer = new QTimer(&dialog);
+    thinkingTimer->setSingleShot(true);
+    thinkingTimer->setInterval(400);
+    connect(thinkingTimer, &QTimer::timeout, &dialog, probeThinking);
+    connect(modelCombo, &QComboBox::currentTextChanged, &dialog, [thinkingTimer](const QString &) {
+        thinkingTimer->start();
+    });
+
     connect(providerCombo, QOverload<int>::of(&QComboBox::currentIndexChanged), &dialog, [&](int) {
         const QString provider = providerCombo->currentData().toString();
         advanced->setChecked(provider != QLatin1String("ollama") && provider != QLatin1String("llamacpp"));
@@ -1836,6 +1973,7 @@ void AiChatPanel::showSettings(bool preferLocal)
             replaceModels({}, QString());
         }
         runProbe();
+        probeThinking();
     });
 
     QString initialProvider = preferLocal ? QStringLiteral("ollama") : m_config.provider;
@@ -1865,6 +2003,7 @@ void AiChatPanel::showSettings(bool preferLocal)
     }
 
     runProbe();
+    probeThinking();
 
     connect(browseButton, &QPushButton::clicked, &dialog, [&dialog, keyFileEdit]() {
         const QString file = QFileDialog::getOpenFileName(&dialog, i18n("Select API Key File"), keyFileEdit->text());
@@ -1936,4 +2075,5 @@ void AiChatPanel::showSettings(bool preferLocal)
     m_config.save();
     updateModelCombo();
     updateStatus();
+    refreshThinkingCapability();
 }

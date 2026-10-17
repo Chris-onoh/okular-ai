@@ -18,7 +18,7 @@ printing behaviour. Everything AI-related is additive and opt-in.
 | Area | What this fork adds |
 | --- | --- |
 | Chat | ChatGPT-style streaming assistant with user bubbles, flat assistant answers, Markdown rendering, copy, edit and clickable `[page N]` citations |
-| Thinking | Collapsible live reasoning panel for reasoning models, with a persistent show/hide toggle |
+| Thinking | Real on/off control for reasoning models: when off, provider-specific flags stop reasoning token generation; capability detection disables the toggle for models that cannot think |
 | Web | Optional web search for every question (Brave Search, DuckDuckGo fallback, no search API key) |
 | Local models | One-click discovery of Ollama and llama.cpp models; no account or API key needed |
 | Retrieval | Full-document context for small files; local semantic retrieval with Ollama embeddings for large files; keyword fallback |
@@ -234,9 +234,11 @@ Web search is off by default. When enabled, the query leaves the machine; see
 - **Document / This page** chooses whether the whole document or only the
   current page is used as context.
 - The **model picker** switches between configured models.
-- The **Thinking** pill turns reasoning on or off. When off, reasoning is hidden
-  and the model is asked to answer directly. The choice is saved and is also
-  available in AI settings.
+- The **Thinking** pill turns reasoning on or off. When off, the request asks
+  the provider not to generate reasoning tokens, which saves tokens and time.
+  When the selected model cannot think, the pill is disabled automatically. The
+  choice is saved and is also available in AI settings as **Enable thinking
+  (uses more tokens)**.
 - The **globe** toggle enables web search for subsequent questions.
 - User messages can be edited from the pencil action. Editing rewinds the
   conversation to that point.
@@ -268,7 +270,7 @@ Settings are stored in `~/.config/okularairc`, group `[AI]`.
 | `EmbeddingBackend` | `ollama` | `ollama`, `openai` or `none` |
 | `EmbeddingEndpoint` | `http://127.0.0.1:11434/api/embed` | Embedding endpoint |
 | `EmbeddingModel` | `all-minilm` | Embedding model |
-| `ShowThinking` | `true` | Show reasoning when the model emits it |
+| `ShowThinking` | `true` | Enable thinking when the model supports it; off asks the provider to skip reasoning tokens |
 | `WebSearchEnabled` | `false` | Search the web before answering |
 
 Window and sidebar state is stored in the normal Okular configuration.

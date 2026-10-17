@@ -46,21 +46,38 @@ public:
      */
     void probeLlamaCpp(const QString &baseUrl = QStringLiteral("http://127.0.0.1:8080"));
 
+    /**
+     * Checks whether a specific model can produce reasoning output.
+     * Ollama is asked through /api/show, llama.cpp through /props.
+     */
+    void probeThinkingSupport(int source, const QString &model, const QString &endpointBase = QString());
+
     static QString defaultOllamaChatEndpoint();
     static QString defaultOllamaEmbeddingEndpoint();
     static QString defaultLlamaCppChatEndpoint();
 
+    /**
+     * Extracts scheme://host:port from a chat endpoint.
+     */
+    static QString baseFromEndpoint(const QString &endpoint, const QString &fallback = QString());
+
 Q_SIGNALS:
     void modelsFound(int source, const QStringList &models);
     void probeFailed(int source, const QString &message);
+    void thinkingSupportFound(int source, const QString &model, bool supported);
+    void thinkingSupportUnknown(int source, const QString &model);
 
 private:
     void probe(int source, const QUrl &url);
     void finish(int source, QNetworkReply *reply);
+    void finishThinkingSupport(QNetworkReply *reply);
 
     QNetworkAccessManager m_network;
     QNetworkReply *m_ollamaReply = nullptr;
     QNetworkReply *m_llamaReply = nullptr;
+    QNetworkReply *m_thinkingReply = nullptr;
+    int m_thinkingSource = -1;
+    QString m_thinkingModel;
 };
 
 #endif

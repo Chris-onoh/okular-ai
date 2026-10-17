@@ -32,6 +32,9 @@ public:
     void setEndpoint(const QString &endpoint);
     void setApiKey(const QString &apiKey);
     void setModel(const QString &model);
+    void setProvider(const QString &provider);
+    void setThinkingSupported(bool supported);
+    void setThinkingEnabled(bool enabled);
 
     bool isBusy() const;
 
@@ -67,6 +70,9 @@ private:
     QString m_endpoint;
     QString m_apiKey;
     QString m_model;
+    QString m_provider = QStringLiteral("custom");
+    bool m_thinkingSupported = true;
+    bool m_thinkingEnabled = true;
 
     QByteArray m_raw;
     QByteArray m_buffer;
