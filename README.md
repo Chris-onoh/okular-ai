@@ -231,6 +231,7 @@ Web search is off by default. When enabled, the query leaves the machine; see
 - Open the panel with the **AI mode** button at the bottom of the left rail or
   with `Ctrl+Shift+A`.
 - `Ctrl+Shift+Space` focuses the composer.
+- `Ctrl+,` opens the AI settings dialog.
 - `Enter` sends; `Shift+Enter` inserts a newline.
 - **Document / This page** chooses whether the whole document or only the
   current page is used as context.

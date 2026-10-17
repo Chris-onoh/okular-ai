@@ -287,6 +287,9 @@ AiChatPanel::AiChatPanel(QWidget *parent)
         m_input->setFocus(Qt::ShortcutFocusReason);
     });
 
+    auto *settingsShortcut = new QShortcut(QKeySequence(Qt::CTRL | Qt::Key_Comma), this);
+    connect(settingsShortcut, &QShortcut::activated, this, &AiChatPanel::openSettings);
+
     connect(m_client, &LlmClient::started, this, [this]() {
         m_statusLabel->setText(i18n("Waiting for %1…", m_config.model));
     });
@@ -1913,9 +1916,9 @@ void AiChatPanel::showSettings(bool preferLocal)
         const QString selected = models.contains(current) ? current : models.first();
         replaceModels(models, selected);
         if (source == ModelCatalog::Ollama) {
-            probeLabel->setText(i18np("%1 Ollama model found.", "%1 Ollama models found.", models.size()).arg(models.size()));
+            probeLabel->setText(i18np("%1 Ollama model found.", "%1 Ollama models found.", models.size()));
         } else {
-            probeLabel->setText(i18np("%1 local model found.", "%1 local models found.", models.size()).arg(models.size()));
+            probeLabel->setText(i18np("%1 local model found.", "%1 local models found.", models.size()));
         }
         probeThinking();
     });

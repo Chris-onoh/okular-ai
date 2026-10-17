@@ -91,9 +91,14 @@ QString ModelCatalog::baseFromEndpoint(const QString &endpoint, const QString &f
 void ModelCatalog::probeThinkingSupport(int source, const QString &model, const QString &endpointBase)
 {
     if (m_thinkingReply) {
-        m_thinkingReply->abort();
-        m_thinkingReply->deleteLater();
+        // abort() can emit finished() synchronously. Clear the member and
+        // disconnect first so finishThinkingSupport() cannot null it while we
+        // are still using the local pointer.
+        QNetworkReply *oldReply = m_thinkingReply;
         m_thinkingReply = nullptr;
+        disconnect(oldReply, nullptr, this, nullptr);
+        oldReply->abort();
+        oldReply->deleteLater();
     }
 
     const QString trimmedModel = model.trimmed();
@@ -194,9 +199,11 @@ void ModelCatalog::probe(int source, const QUrl &url)
 {
     QNetworkReply *&slot = source == Ollama ? m_ollamaReply : m_llamaReply;
     if (slot) {
-        slot->abort();
-        slot->deleteLater();
+        QNetworkReply *oldReply = slot;
         slot = nullptr;
+        disconnect(oldReply, nullptr, this, nullptr);
+        oldReply->abort();
+        oldReply->deleteLater();
     }
 
     QNetworkRequest request(url);
