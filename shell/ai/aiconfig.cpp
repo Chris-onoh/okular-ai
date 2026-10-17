@@ -91,6 +91,17 @@ AiConfig AiConfig::load()
     const KConfigGroup group(KSharedConfig::openConfig(QStringLiteral("okularairc")), QStringLiteral("AI"));
     config.endpoint = group.readEntry(QStringLiteral("Endpoint"), config.endpoint);
     config.model = group.readEntry(QStringLiteral("Model"), config.model);
+    if (group.hasKey(QStringLiteral("Provider"))) {
+        config.provider = group.readEntry(QStringLiteral("Provider"), config.provider);
+    } else if (config.endpoint.contains(QLatin1String("11434"))) {
+        config.provider = QStringLiteral("ollama");
+    } else if (config.endpoint.contains(QLatin1String(":8080"))) {
+        config.provider = QStringLiteral("llamacpp");
+    } else if (config.endpoint.contains(QLatin1String("deepseek"), Qt::CaseInsensitive)) {
+        config.provider = QStringLiteral("deepseek");
+    } else {
+        config.provider = QStringLiteral("custom");
+    }
     config.apiKeyFile = group.readEntry(QStringLiteral("ApiKeyFile"), config.apiKeyFile);
     config.apiKey = group.readEntry(QStringLiteral("ApiKey"), config.apiKey);
     config.saveKey = !config.apiKey.isEmpty();
@@ -111,6 +122,7 @@ void AiConfig::save() const
 {
     const KSharedConfigPtr sharedConfig = KSharedConfig::openConfig(QStringLiteral("okularairc"));
     KConfigGroup group(sharedConfig, QStringLiteral("AI"));
+    group.writeEntry(QStringLiteral("Provider"), provider);
     group.writeEntry(QStringLiteral("Endpoint"), endpoint);
     group.writeEntry(QStringLiteral("Model"), model);
     group.writeEntry(QStringLiteral("ApiKeyFile"), apiKeyFile);

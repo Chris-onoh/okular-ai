@@ -34,6 +34,7 @@ question becomes an answer, and where to extend it.
 | `shell/ai/embeddingclient.{h,cpp}` | Ollama and OpenAI-compatible embedding client |
 | `shell/ai/websearchclient.{h,cpp}` | Keyless web search (Brave Search, DuckDuckGo fallback) |
 | `shell/ai/aiconfig.{h,cpp}` | Configuration, key discovery and key-file parsing |
+| `shell/ai/modelcatalog.{h,cpp}` | Asynchronous discovery of Ollama and llama.cpp models |
 | `shell/shell.{h,cpp}` | Shell integration: rail sidebar, AI dock, hamburger, chrome hiding |
 | `part/part.{h,cpp}` | Page context-menu AI actions and signals |
 | `part/pageview.{h,cpp}` | Access to the selected text |
@@ -323,7 +324,8 @@ the globe toggle if queries must not leave the machine.
 ## 11. Configuration and secrets
 
 `AiConfig::load()` and `save()` use
-`KSharedConfig::openConfig("okularairc")`, group `[AI]`.
+`KSharedConfig::openConfig("okularairc")`, group `[AI]`. The `Provider` key is
+one of `deepseek`, `ollama`, `llamacpp` or `custom`.
 
 Key resolution order:
 
@@ -342,6 +344,55 @@ Key handling rules:
 - The key is never written to the source tree.
 - Storing the key in `okularairc` is opt-in and uses plain text.
 - Localhost endpoints use the placeholder `local` and need no key.
+
+### 11.1 Local providers and model discovery
+
+The settings dialog exposes four provider presets:
+
+| Provider | Chat endpoint | Discovery |
+| --- | --- | --- |
+| `deepseek` | `https://api.deepseek.com/chat/completions` | Built-in model list (`deepseek-flash`, `deepseek-v4-pro`) |
+| `ollama` | `http://127.0.0.1:11434/v1/chat/completions` | `GET /api/tags` |
+| `llamacpp` | `http://127.0.0.1:8080/v1/chat/completions` | `GET /v1/models` |
+| `custom` | whatever the user enters | `GET /v1/models` when the endpoint is local |
+
+`ModelCatalog` probes the selected provider asynchronously with a four-second
+timeout. The model combo is editable, so advanced users can type a model name
+even when detection is unavailable.
+
+Ollama discovery reads `models[].name` from `/api/tags` and hides common
+embedding-only families (`minilm`, `nomic-embed`, `embeddinggemma`,
+`granite-embedding`, `bge-`, `e5-`, `jina-embed`) so a non-technical user is not
+offered a model that cannot chat. llama.cpp discovery reads `data[].id` from
+`/v1/models`.
+
+The settings dialog is deliberately split:
+
+- **Provider and model** are always visible and are all a local user needs.
+- **Advanced settings** (checkable group) contains the endpoint, API key file,
+  session key, context budget and embedding options. It defaults to enabled for
+  cloud providers and disabled for local providers.
+
+If no key is configured and the endpoint is not localhost, the AI panel shows a
+**Set up local AI** banner. It opens the same dialog with the Ollama preset
+selected and discovery already running. The banner disappears as soon as a key
+is available or a local endpoint is active.
+
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant D as Settings dialog
+    participant C as ModelCatalog
+    participant S as Ollama or llama.cpp
+    U->>D: Choose provider
+    D->>C: probe
+    C->>S: GET /api/tags or /v1/models
+    S-->>C: model list
+    C-->>D: modelsFound
+    D-->>U: Populate model picker
+    U->>D: Pick model and OK
+    D->>D: Save provider, endpoint and model
+```
 
 ---
 

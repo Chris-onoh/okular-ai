@@ -20,6 +20,7 @@
  *   4. a key file auto-discovered on the Desktop (e.g. "api kes")
  */
 struct AiConfig {
+    QString provider = QStringLiteral("deepseek"); // "deepseek", "ollama", "llamacpp", "custom"
     QString endpoint = QStringLiteral("https://api.deepseek.com/chat/completions");
     QString model = QStringLiteral("deepseek-flash");
     QString apiKeyFile;

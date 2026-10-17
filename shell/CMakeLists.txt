@@ -23,6 +23,8 @@ set(okular_SRCS
    ai/embeddingclient.h
    ai/llmclient.cpp
    ai/llmclient.h
+   ai/modelcatalog.cpp
+   ai/modelcatalog.h
    ai/websearchclient.cpp
    ai/websearchclient.h
 

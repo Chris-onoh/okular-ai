@@ -15,7 +15,13 @@ open source by Chris-Onoh Chukwuebuka <ebukaconoh@gmail.com>.
 - Turns citations such as `[page 3]` into **clickable links** that jump to that
   page in the document.
 - **Document / This page** scope toggle in the composer.
-- Model picker in the header (`deepseek-flash` or `deepseek-v4-pro`).
+- Model picker in the header, plus a provider picker in AI settings for
+  **DeepSeek**, **Ollama**, **llama.cpp** and custom OpenAI-compatible servers.
+- **Automatic local model discovery**: the settings dialog probes Ollama
+  (`/api/tags`) and llama.cpp (`/v1/models`), filters embedding-only models and
+  fills the editable model picker.
+- A **Set up local AI** banner appears when no key is configured, so a local
+  model can be selected without touching the advanced fields.
 - A **Thinking** toggle shows the model's reasoning in a collapsible box
   before the answer. Reasoning is streamed and can be expanded or collapsed.
 - A **Web** toggle searches the web (Brave Search, with DuckDuckGo as a
@@ -136,14 +142,23 @@ OpenAI-compatible server can be used instead of a cloud provider.
 
 ### Fully local chat
 
-Ollama also exposes an OpenAI-compatible chat endpoint. To keep the whole
-pipeline on the machine, set:
+Ollama exposes an OpenAI-compatible chat endpoint. To keep the whole pipeline
+on the machine, open **AI settings**, choose **Ollama (local, free)**, press
+**Detect models**, pick a chat model and press OK. The endpoint
+(`http://127.0.0.1:11434/v1/chat/completions`) and model are filled in
+automatically.
 
-- Endpoint: `http://127.0.0.1:11434/v1/chat/completions`
-- Model: one of your local models, for example `qwen2.5:1.5b`
+With llama.cpp, start a server on port 8080 and choose **llama.cpp (local,
+free)** instead:
+
+```bash
+llama-server -m /path/to/model.gguf --host 127.0.0.1 --port 8080
+```
 
 No API key is required for localhost; the app uses a placeholder. The
-embedding endpoint stays local as well (`all-minilm`).
+embedding endpoint stays local as well (`all-minilm`). Advanced users can still
+change the endpoint, context budget and embedding settings under **Advanced
+settings**.
 
 ## Privacy
 

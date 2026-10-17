@@ -20,14 +20,15 @@ printing behaviour. Everything AI-related is additive and opt-in.
 | Chat | ChatGPT-style streaming assistant with user bubbles, flat assistant answers, Markdown rendering, copy, edit and clickable `[page N]` citations |
 | Thinking | Collapsible live reasoning panel for reasoning models, with a persistent show/hide toggle |
 | Web | Optional web search for every question (Brave Search, DuckDuckGo fallback, no search API key) |
+| Local models | One-click discovery of Ollama and llama.cpp models; no account or API key needed |
 | Retrieval | Full-document context for small files; local semantic retrieval with Ollama embeddings for large files; keyword fallback |
 | Shell | Minimalist chrome: no menu bar or main toolbar by default; icon rail sidebar; hamburger menu in the rail |
 | Context | Document/This page scope, document summary, page explanation and "ask about selected text" actions |
 | Privacy | Local embedding and fully local chat options; no bundled credentials; no telemetry |
 
-The AI assistant works with any OpenAI-compatible chat-completions endpoint. The
-default configuration targets DeepSeek, and a fully local setup using Ollama is
-documented below.
+The AI assistant works with any OpenAI-compatible chat-completions endpoint. Use
+DeepSeek or another cloud provider with an API key, or run a free local model
+with Ollama or llama.cpp. Local setup is documented below.
 
 ---
 
@@ -38,7 +39,7 @@ documented below.
 - KDE Frameworks 6 (5.240 or newer)
 - Poppler 24.08 or newer (for PDF support)
 - CMake 3.16 or newer and a C++20 compiler
-- Optional: [Ollama](https://ollama.com) for local embeddings and local chat
+- Optional: [Ollama](https://ollama.com) or a llama.cpp server for free local chat and embeddings
 
 Fedora can install the build dependencies with:
 
@@ -115,28 +116,67 @@ want to discard the stored AI settings.
 
 ## Setting up the AI
 
-### 1. Choose a provider
+There are two paths. Both take about a minute. Local models are recommended for
+users who do not want an account, a subscription or an API key.
 
-The default endpoint is DeepSeek:
+### Easiest: run a local model (no account, no key)
+
+If no API key is configured, the AI panel shows a **Set up local AI** banner.
+Click it, choose a provider, detect the models that are already on the machine
+and press OK. The endpoint, model and key handling are filled in for you.
+
+The same screen is available from the gear button in the AI panel header.
+
+#### Ollama
+
+1. Install Ollama from <https://ollama.com/download> (or use your distribution
+   package).
+2. Pull a small chat model:
+
+   ```bash
+   ollama pull qwen2.5:1.5b     # about 1 GB, quick on CPU
+   # or: ollama pull llama3.2:3b
+   ```
+
+3. In Okular open **AI mode → gear → Provider: Ollama (local, free)** and press
+   **Detect models**. Pick a model and press OK.
+
+The default is `http://127.0.0.1:11434/v1/chat/completions`. No API key is
+needed. Embedding-only models such as `all-minilm` are hidden from the chat
+model list automatically.
+
+#### llama.cpp
+
+1. Start a llama.cpp server with an OpenAI-compatible API:
+
+   ```bash
+   llama-server -m /path/to/model.gguf --host 127.0.0.1 --port 8080
+   ```
+
+2. In Okular choose **Provider: llama.cpp (local, free)** and press
+   **Detect models**.
+
+The default endpoint is `http://127.0.0.1:8080/v1/chat/completions`.
+
+#### Advanced local settings
+
+The provider screen keeps the common case simple. Expand **Advanced settings**
+to change the endpoint by hand, pick a different context budget, configure
+embeddings, or use an authenticated endpoint. The model field is editable, so
+any model name accepted by the server can be typed directly.
+
+### Cloud: DeepSeek or any OpenAI-compatible endpoint
+
+The default cloud endpoint is DeepSeek:
 
 ```text
 Endpoint: https://api.deepseek.com/chat/completions
 Model:    deepseek-flash
 ```
 
-Any OpenAI-compatible endpoint works, for example a local Ollama server:
-
-```text
-Endpoint: http://127.0.0.1:11434/v1/chat/completions
-Model:    qwen2.5:1.5b
-```
-
-Localhost endpoints do not require a key.
-
-### 2. Provide an API key
-
-Open **AI mode → settings button** (the gear in the AI panel header). The key is
-resolved at request time in this order:
+Open **AI mode → settings button** (the gear in the AI panel header), keep the
+provider on **DeepSeek (cloud)** or choose **Custom OpenAI-compatible**, and add
+a key. The key is resolved at request time in this order:
 
 1. A key entered in the settings dialog (kept in memory for the session).
 2. `OKULAR_AI_API_KEY`, `DEEPSEEK_API_KEY` or `OPENAI_API_KEY`.
@@ -156,9 +196,10 @@ Supported key-file formats:
 The repository never contains a key. The optional "Store the API key in the
 config file" checkbox writes it in plain text to
 `~/.config/okularairc` (`[AI] ApiKey=`), so only use it on a trusted account.
-Environment variables or a `chmod 600` key file are safer.
+Environment variables or a `chmod 600` key file are safer. Local endpoints never
+require a key.
 
-### 3. Optional local embeddings
+### Optional local embeddings
 
 Large documents are split into chunks and ranked by semantic similarity. The
 default embedding backend is Ollama with `all-minilm` (about 46 MB, 384
@@ -172,7 +213,7 @@ If Ollama is unavailable, the panel falls back to keyword retrieval and reports
 the reason in the status tooltip. Embeddings can also be disabled entirely or
 pointed at an OpenAI-compatible `/v1/embeddings` server in the settings dialog.
 
-### 4. Optional web search
+### Optional web search
 
 Enable the globe toggle in the AI panel header. With web search on, the question
 is sent to Brave Search first (DuckDuckGo HTML search is used as a fallback),
@@ -216,6 +257,7 @@ Settings are stored in `~/.config/okularairc`, group `[AI]`.
 
 | Key | Default | Meaning |
 | --- | --- | --- |
+| `Provider` | `deepseek` | `deepseek`, `ollama`, `llamacpp` or `custom`; drives the settings UI |
 | `Endpoint` | `https://api.deepseek.com/chat/completions` | OpenAI-compatible chat endpoint |
 | `Model` | `deepseek-flash` | Chat model name |
 | `ApiKeyFile` | empty | Explicit path to a key file |
@@ -264,7 +306,10 @@ model notes.
 
 | Symptom | Cause and fix |
 | --- | --- |
-| "No API key available" | Add a key in AI settings, export `DEEPSEEK_API_KEY`, or place a key file on the Desktop |
+| "No API key available" | Add a key in AI settings, export `DEEPSEEK_API_KEY`, use a local model, or place a key file on the Desktop |
+| Ollama models do not appear | Start Ollama (`ollama serve`), pull a chat model (`ollama pull qwen2.5:1.5b`), then press **Detect models** |
+| llama.cpp models do not appear | Start `llama-server` with `--port 8080` and make sure its `/v1/models` endpoint is reachable |
+| A local model is very slow | Small models such as `qwen2.5:1.5b` or `qwen3:0.6b` run well on CPU; larger models need a GPU |
 | "Unable to find the Okular component" | The part plugin was not found. Run through the wrapper from the installer, which sets `QT_PLUGIN_PATH` |
 | Crash in `SettingsCore` | The system and private `libOkular6Core` were mixed. Make sure `LD_LIBRARY_PATH` and `QT_PLUGIN_PATH` point at the same prefix |
 | Build freezes the desktop | Too many parallel compiler jobs. Use `JOBS=2` or `--parallel 2` |

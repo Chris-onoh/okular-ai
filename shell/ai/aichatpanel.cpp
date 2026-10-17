@@ -8,6 +8,7 @@
 #include "chattranscript.h"
 #include "embeddingclient.h"
 #include "llmclient.h"
+#include "modelcatalog.h"
 
 #include <QButtonGroup>
 #include <QCheckBox>
@@ -23,6 +24,7 @@
 #include <QFont>
 #include <QFormLayout>
 #include <QFrame>
+#include <QGroupBox>
 #include <QHBoxLayout>
 #include <QIcon>
 #include <QJsonObject>
@@ -45,6 +47,7 @@
 #include <QTextBrowser>
 #include <QTextDocument>
 #include <QToolButton>
+#include <QUrl>
 #include <QVBoxLayout>
 
 #include <algorithm>
@@ -148,6 +151,23 @@ AiChatPanel::AiChatPanel(QWidget *parent)
     header->addWidget(clearButton);
 
     layout->addLayout(header);
+
+    m_setupBanner = new QFrame(this);
+    m_setupBanner->setObjectName(QStringLiteral("aiSetupBanner"));
+    m_setupBanner->setVisible(false);
+    auto *bannerLayout = new QHBoxLayout(m_setupBanner);
+    bannerLayout->setContentsMargins(12, 8, 8, 8);
+    bannerLayout->setSpacing(8);
+    auto *bannerText = new QLabel(i18n("No API key needed: run a free model on this computer."), m_setupBanner);
+    bannerText->setObjectName(QStringLiteral("setupBannerText"));
+    bannerText->setWordWrap(true);
+    auto *bannerButton = new QPushButton(i18n("Set up local AI"), m_setupBanner);
+    bannerButton->setObjectName(QStringLiteral("setupBannerButton"));
+    bannerButton->setCursor(Qt::PointingHandCursor);
+    bannerLayout->addWidget(bannerText, 1);
+    bannerLayout->addWidget(bannerButton);
+    layout->addWidget(m_setupBanner);
+    connect(bannerButton, &QPushButton::clicked, this, &AiChatPanel::openLocalSetup);
 
     auto *documentRow = new QHBoxLayout;
     documentRow->setSpacing(8);
@@ -805,7 +825,7 @@ void AiChatPanel::ask(const QString &question)
         apiKey = QStringLiteral("local");
     }
     if (apiKey.isEmpty()) {
-        appendSystemMessage(i18n("No API key available. %1 Open the AI settings to configure one.", error));
+        appendSystemMessage(i18n("No API key available. %1 Open AI settings to configure one, or use a free local model.", error));
         return;
     }
 
@@ -1309,9 +1329,21 @@ void AiChatPanel::updateStatus()
     if (!keyError.isEmpty() && !localEndpoint) {
         keyPart = i18n("no API key");
     } else if (keySource.isEmpty()) {
-        keyPart = i18n("local endpoint");
+        if (m_config.provider == QLatin1String("ollama")) {
+            keyPart = i18n("Ollama");
+        } else if (m_config.provider == QLatin1String("llamacpp")) {
+            keyPart = i18n("llama.cpp");
+        } else {
+            keyPart = i18n("local");
+        }
     } else {
         keyPart = i18n("key: %1", keySource);
+    }
+
+    if (m_setupBanner) {
+        QString bannerError;
+        const bool hasKey = !m_config.resolveApiKey(nullptr, &bannerError).isEmpty();
+        m_setupBanner->setVisible(!hasKey && !localEndpoint);
     }
 
     QStringList parts;
@@ -1387,6 +1419,10 @@ QWidget#thinkingBox { background: @surface; border: 1px solid @border; border-ra
 QToolButton#thinkingToggle { border: none; background: transparent; color: @muted; padding: 0; text-align: left; }
 QToolButton#thinkingToggle:hover { color: @text; }
 QLabel#thinkingContent { color: @muted; }
+QFrame#aiSetupBanner { background: @accentSoft; border: 1px solid @border; border-radius: 12px; }
+QLabel#setupBannerText { color: @text; }
+QPushButton#setupBannerButton { background: @accent; color: @accentText; border: none; border-radius: 9px; padding: 7px 12px; font-weight: 600; }
+QPushButton#setupBannerButton:hover { background: @accentHover; }
 QPushButton#suggestionButton { background: @surface; border: 1px solid @border; border-radius: 12px; padding: 10px 12px; color: @text; text-align: left; }
 QPushButton#suggestionButton:hover { background: @hover; }
 QPushButton#scopeButton { background: transparent; border: 1px solid @border; border-radius: 9px; padding: 6px 14px; min-height: 28px; color: @muted; }
@@ -1432,7 +1468,12 @@ void AiChatPanel::updateModelCombo()
     const QSignalBlocker blocker(m_modelCombo);
     m_modelCombo->clear();
 
-    QStringList models = {QStringLiteral("deepseek-flash"), QStringLiteral("deepseek-v4-pro")};
+    QStringList models;
+    if (m_config.provider == QLatin1String("deepseek")) {
+        models = {QStringLiteral("deepseek-flash"), QStringLiteral("deepseek-v4-pro")};
+    }
+    // Local providers keep the discovered model list in AI settings; the panel
+    // only needs the currently selected one.
     if (!m_config.model.isEmpty() && !models.contains(m_config.model)) {
         models.prepend(m_config.model);
     }
@@ -1543,10 +1584,54 @@ void AiChatPanel::clearConversation()
 
 void AiChatPanel::openSettings()
 {
+    showSettings(false);
+}
+
+void AiChatPanel::openLocalSetup()
+{
+    showSettings(true);
+}
+
+void AiChatPanel::showSettings(bool preferLocal)
+{
     QDialog dialog(this);
-    dialog.setWindowTitle(i18n("AI Settings"));
+    dialog.setWindowTitle(i18n("AI settings"));
+    dialog.setMinimumWidth(520);
 
     auto *layout = new QVBoxLayout(&dialog);
+    layout->setSpacing(10);
+
+    auto *intro = new QLabel(i18n("Choose a provider. Local models are free, private and need no API key."), &dialog);
+    intro->setWordWrap(true);
+    layout->addWidget(intro);
+
+    auto *providerCombo = new QComboBox(&dialog);
+    providerCombo->addItem(i18n("DeepSeek (cloud)"), QStringLiteral("deepseek"));
+    providerCombo->addItem(i18n("Ollama (local, free)"), QStringLiteral("ollama"));
+    providerCombo->addItem(i18n("llama.cpp (local, free)"), QStringLiteral("llamacpp"));
+    providerCombo->addItem(i18n("Custom OpenAI-compatible"), QStringLiteral("custom"));
+
+    auto *modelCombo = new QComboBox(&dialog);
+    modelCombo->setEditable(true);
+    modelCombo->setInsertPolicy(QComboBox::NoInsert);
+    modelCombo->lineEdit()->setPlaceholderText(i18n("Choose a detected model or type a name"));
+
+    auto *probeLabel = new QLabel(&dialog);
+    probeLabel->setWordWrap(true);
+    probeLabel->setObjectName(QStringLiteral("probeLabel"));
+    auto *detectButton = new QPushButton(i18n("Detect models"), &dialog);
+
+    auto *simpleForm = new QFormLayout;
+    simpleForm->addRow(i18n("Provider:"), providerCombo);
+    simpleForm->addRow(i18n("Model:"), modelCombo);
+    auto *detectRow = new QWidget(&dialog);
+    auto *detectLayout = new QHBoxLayout(detectRow);
+    detectLayout->setContentsMargins(0, 0, 0, 0);
+    detectLayout->addWidget(detectButton);
+    detectLayout->addWidget(probeLabel, 1);
+    simpleForm->addRow(QString(), detectRow);
+    layout->addLayout(simpleForm);
+
     auto *form = new QFormLayout;
 
     auto *keyFileEdit = new QLineEdit(m_config.apiKeyFile, &dialog);
@@ -1572,9 +1657,6 @@ void AiChatPanel::openSettings()
 
     auto *endpointEdit = new QLineEdit(m_config.endpoint, &dialog);
     form->addRow(i18n("Endpoint:"), endpointEdit);
-
-    auto *modelEdit = new QLineEdit(m_config.model, &dialog);
-    form->addRow(i18n("Model:"), modelEdit);
 
     auto *contextSpin = new QSpinBox(&dialog);
     contextSpin->setRange(4000, 400000);
@@ -1604,16 +1686,163 @@ void AiChatPanel::openSettings()
     embeddingHint->setWordWrap(true);
     form->addRow(QString(), embeddingHint);
 
-    layout->addLayout(form);
+    auto *advanced = new QGroupBox(i18n("Advanced settings"), &dialog);
+    advanced->setCheckable(true);
+    advanced->setChecked(false);
+    advanced->setLayout(form);
+    layout->addWidget(advanced);
 
     auto *hint = new QLabel(&dialog);
     hint->setWordWrap(true);
-    hint->setText(i18n("The key is never written to the source tree. It can also be supplied through "
-                       "OKULAR_AI_API_KEY, DEEPSEEK_API_KEY or OPENAI_API_KEY."));
+    hint->setText(i18n("An API key is only needed for cloud providers. It is never written to the source tree "
+                       "and can also be supplied through OKULAR_AI_API_KEY, DEEPSEEK_API_KEY or OPENAI_API_KEY."));
     layout->addWidget(hint);
 
     auto *buttons = new QDialogButtonBox(QDialogButtonBox::Ok | QDialogButtonBox::Cancel, &dialog);
     layout->addWidget(buttons);
+
+    auto *catalog = new ModelCatalog(&dialog);
+
+    auto presetEndpoint = [](const QString &provider) -> QString {
+        if (provider == QLatin1String("ollama")) {
+            return ModelCatalog::defaultOllamaChatEndpoint();
+        }
+        if (provider == QLatin1String("llamacpp")) {
+            return ModelCatalog::defaultLlamaCppChatEndpoint();
+        }
+        if (provider == QLatin1String("deepseek")) {
+            return QStringLiteral("https://api.deepseek.com/chat/completions");
+        }
+        return QString();
+    };
+
+    auto presetModels = [](const QString &provider) -> QStringList {
+        if (provider == QLatin1String("deepseek")) {
+            return {QStringLiteral("deepseek-flash"), QStringLiteral("deepseek-v4-pro")};
+        }
+        return {};
+    };
+
+    auto replaceModels = [&](const QStringList &models, const QString &selected) {
+        const QSignalBlocker blocker(modelCombo);
+        modelCombo->clear();
+        modelCombo->addItems(models);
+        if (!selected.isEmpty()) {
+            const int index = modelCombo->findText(selected);
+            if (index >= 0) {
+                modelCombo->setCurrentIndex(index);
+            } else {
+                modelCombo->setEditText(selected);
+            }
+        } else if (modelCombo->count() > 0) {
+            modelCombo->setCurrentIndex(0);
+        }
+    };
+
+    auto localBase = [&]() -> QString {
+        const QString text = endpointEdit->text().trimmed();
+        QUrl url(text);
+        if (url.scheme().isEmpty()) {
+            url = QUrl(QStringLiteral("http://") + text);
+        }
+        if (!url.isValid() || url.host().isEmpty()) {
+            return QString();
+        }
+        QString base = url.scheme() + QStringLiteral("://") + url.host();
+        if (url.port() > 0) {
+            base += QLatin1Char(':') + QString::number(url.port());
+        }
+        return base;
+    };
+
+    auto runProbe = [&]() {
+        const QString provider = providerCombo->currentData().toString();
+        const QString base = localBase();
+        if (provider == QLatin1String("ollama")) {
+            probeLabel->setText(i18n("Looking for Ollama…"));
+            catalog->probeOllama(base.isEmpty() ? QStringLiteral("http://127.0.0.1:11434") : base);
+        } else if (provider == QLatin1String("llamacpp")) {
+            probeLabel->setText(i18n("Looking for a local llama.cpp server…"));
+            catalog->probeLlamaCpp(base.isEmpty() ? QStringLiteral("http://127.0.0.1:8080") : base);
+        } else if (provider == QLatin1String("custom")) {
+            if (AiConfig::isLocalEndpoint(endpointEdit->text()) && !base.isEmpty()) {
+                probeLabel->setText(i18n("Looking for a local server…"));
+                catalog->probeLlamaCpp(base);
+            } else {
+                probeLabel->setText(i18n("Enter the model name used by your server."));
+            }
+        } else {
+            probeLabel->setText(i18n("Cloud provider selected. Add an API key under Advanced settings."));
+        }
+    };
+
+    connect(detectButton, &QPushButton::clicked, &dialog, runProbe);
+    connect(catalog, &ModelCatalog::modelsFound, &dialog, [&](int source, const QStringList &models) {
+        if (models.isEmpty()) {
+            if (source == ModelCatalog::Ollama) {
+                probeLabel->setText(i18n("Ollama is running but has no models. Install one with: ollama pull qwen2.5:1.5b"));
+            } else {
+                probeLabel->setText(i18n("The local server reported no loaded models."));
+            }
+            return;
+        }
+        const QString current = modelCombo->currentText().trimmed();
+        const QString selected = models.contains(current) ? current : models.first();
+        replaceModels(models, selected);
+        if (source == ModelCatalog::Ollama) {
+            probeLabel->setText(i18np("%1 Ollama model found.", "%1 Ollama models found.", models.size()).arg(models.size()));
+        } else {
+            probeLabel->setText(i18np("%1 local model found.", "%1 local models found.", models.size()).arg(models.size()));
+        }
+    });
+    connect(catalog, &ModelCatalog::probeFailed, &dialog, [&](int source, const QString &message) {
+        Q_UNUSED(source)
+        probeLabel->setText(message);
+    });
+    connect(providerCombo, QOverload<int>::of(&QComboBox::currentIndexChanged), &dialog, [&](int) {
+        const QString provider = providerCombo->currentData().toString();
+        advanced->setChecked(provider != QLatin1String("ollama") && provider != QLatin1String("llamacpp"));
+        const QString endpoint = presetEndpoint(provider);
+        if (!endpoint.isEmpty()) {
+            endpointEdit->setText(endpoint);
+        }
+        const QStringList models = presetModels(provider);
+        if (!models.isEmpty()) {
+            const QString selected = models.contains(m_config.model) ? m_config.model : models.first();
+            replaceModels(models, selected);
+        } else if (provider == QLatin1String("ollama") || provider == QLatin1String("llamacpp") || provider == QLatin1String("custom")) {
+            replaceModels({}, QString());
+        }
+        runProbe();
+    });
+
+    QString initialProvider = preferLocal ? QStringLiteral("ollama") : m_config.provider;
+    int providerIndex = providerCombo->findData(initialProvider);
+    if (providerIndex < 0) {
+        providerIndex = 0;
+    }
+    {
+        const QSignalBlocker blocker(providerCombo);
+        providerCombo->setCurrentIndex(providerIndex);
+    }
+    initialProvider = providerCombo->currentData().toString();
+    advanced->setChecked(initialProvider == QLatin1String("deepseek") || initialProvider == QLatin1String("custom"));
+
+    QStringList initialModels = presetModels(initialProvider);
+    if (initialModels.isEmpty() && !m_config.model.isEmpty() && !preferLocal && m_config.provider == initialProvider) {
+        initialModels << m_config.model;
+    }
+    const QString initialModel = initialModels.contains(m_config.model) ? m_config.model : (initialModels.isEmpty() ? QString() : initialModels.first());
+    replaceModels(initialModels, initialModel);
+
+    const QString initialEndpoint = presetEndpoint(initialProvider);
+    if (preferLocal && !initialEndpoint.isEmpty()) {
+        endpointEdit->setText(initialEndpoint);
+    } else if (!m_config.endpoint.isEmpty()) {
+        endpointEdit->setText(m_config.endpoint);
+    }
+
+    runProbe();
 
     connect(browseButton, &QPushButton::clicked, &dialog, [&dialog, keyFileEdit]() {
         const QString file = QFileDialog::getOpenFileName(&dialog, i18n("Select API Key File"), keyFileEdit->text());
@@ -1621,13 +1850,22 @@ void AiChatPanel::openSettings()
             keyFileEdit->setText(file);
         }
     });
-    connect(buttons, &QDialogButtonBox::accepted, &dialog, &QDialog::accept);
+    connect(buttons, &QDialogButtonBox::accepted, &dialog, [&]() {
+        if (modelCombo->currentText().trimmed().isEmpty()) {
+            QMessageBox::warning(&dialog,
+                                 i18n("Model required"),
+                                 i18n("Choose a detected model or type the model name.\n\nFor Ollama you can install a small model with:\nollama pull qwen2.5:1.5b"));
+            return;
+        }
+        dialog.accept();
+    });
     connect(buttons, &QDialogButtonBox::rejected, &dialog, &QDialog::reject);
 
     if (dialog.exec() != QDialog::Accepted) {
         return;
     }
 
+    m_config.provider = providerCombo->currentData().toString();
     m_config.apiKeyFile = keyFileEdit->text().trimmed();
     if (!apiKeyEdit->text().trimmed().isEmpty()) {
         m_config.apiKey = apiKeyEdit->text().trimmed();
@@ -1636,8 +1874,8 @@ void AiChatPanel::openSettings()
     if (!endpointEdit->text().trimmed().isEmpty()) {
         m_config.endpoint = endpointEdit->text().trimmed();
     }
-    if (!modelEdit->text().trimmed().isEmpty()) {
-        m_config.model = modelEdit->text().trimmed();
+    if (!modelCombo->currentText().trimmed().isEmpty()) {
+        m_config.model = modelCombo->currentText().trimmed();
     }
     m_config.maxContextChars = contextSpin->value();
 

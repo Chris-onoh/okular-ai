@@ -28,6 +28,7 @@ class QPlainTextEdit;
 class QPushButton;
 class QComboBox;
 class QToolButton;
+class QFrame;
 
 /**
  * Chat panel that answers questions about the document currently open in
@@ -72,6 +73,7 @@ private Q_SLOTS:
     void sendMessage();
     void stopGeneration();
     void openSettings();
+    void openLocalSetup();
     void clearConversation();
     void summarizeDocument();
     void explainCurrentPage();
@@ -107,6 +109,7 @@ private:
     QString embeddingStatus() const;
     static QVector<float> normalized(const QVector<float> &vector);
     static float dotProduct(const QVector<float> &left, const QVector<float> &right);
+    void showSettings(bool preferLocal);
     void updateStatus();
     void applyTheme();
     void updateModelCombo();
@@ -138,6 +141,7 @@ private:
     WebSearchClient *m_webSearch = nullptr;
     QLabel *m_statusLabel = nullptr;
     QLabel *m_documentLabel = nullptr;
+    QFrame *m_setupBanner = nullptr;
     bool m_pageOnly = false;
     bool m_stoppedByUser = false;
     bool m_applyingTheme = false;
