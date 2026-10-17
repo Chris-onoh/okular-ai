@@ -13,20 +13,10 @@ set(okular_SRCS
    shellutils.cpp
    welcomescreen.cpp
 
-   ai/aiconfig.cpp
-   ai/aiconfig.h
    ai/aichatpanel.cpp
    ai/aichatpanel.h
    ai/chattranscript.cpp
    ai/chattranscript.h
-   ai/embeddingclient.cpp
-   ai/embeddingclient.h
-   ai/llmclient.cpp
-   ai/llmclient.h
-   ai/modelcatalog.cpp
-   ai/modelcatalog.h
-   ai/websearchclient.cpp
-   ai/websearchclient.h
 
    ../gui/recentitemsmodel.cpp
 
@@ -41,7 +31,7 @@ ecm_add_app_icon(okular_SRCS ICONS ${ICONS_SRCS})
 
 add_executable(okular ${okular_SRCS})
 
-target_link_libraries(okular KF6::I18n KF6::Parts KF6::WindowSystem KF6::Crash KF6::IconThemes KF6::KIOGui KF6::ConfigWidgets Qt6::Network)
+target_link_libraries(okular KF6::I18n KF6::Parts KF6::WindowSystem KF6::Crash KF6::IconThemes KF6::KIOGui KF6::ConfigWidgets Qt6::Network okular_ai_core)
 if (TARGET Qt6::DBus)
     target_link_libraries(okular Qt6::DBus)
 endif()

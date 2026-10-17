@@ -46,6 +46,12 @@ Kirigami.ApplicationWindow {
                 }
             },
             Kirigami.Action {
+                text: i18n("AI mode")
+                icon.name: "assistant"
+                enabled: documentItem.opened
+                onTriggered: fileBrowserRoot.pageStack.layers.push(aiPageComponent)
+            },
+            Kirigami.Action {
                 text: i18n("About")
                 icon.name: "help-about-symbolic"
                 onTriggered: fileBrowserRoot.pageStack.layers.push(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"));
@@ -75,9 +81,23 @@ Kirigami.ApplicationWindow {
         }
     }
 
+    Okular.AiBackend {
+        id: aiBackend
+        document: documentItem
+    }
+
+    Component {
+        id: aiPageComponent
+        AiChatPage {
+            ai: aiBackend
+            document: documentItem
+        }
+    }
+
     pageStack.initialPage: MainView {
         id: mainView
         document: documentItem
+        ai: aiBackend
         Kirigami.ColumnView.preventStealing: true
     }
 

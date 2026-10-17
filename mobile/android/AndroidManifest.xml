@@ -10,7 +10,7 @@
     <supports-screens android:largeScreens="true" android:normalScreens="true" android:anyDensity="true" android:smallScreens="true"/>
     <!-- %%INSERT_FEATURES -->
 
-    <application android:name="org.qtproject.qt.android.bindings.QtApplication" android:label="Okular" android:icon="@drawable/icon" android:extractNativeLibs="true">
+    <application android:name="org.qtproject.qt.android.bindings.QtApplication" android:label="Okular" android:icon="@drawable/icon" android:extractNativeLibs="true" android:usesCleartextTraffic="true">
         <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|locale|fontScale|keyboard|keyboardHidden|navigation"
                   android:name="org.kde.something.OpenFileActivity"
                   android:label="Okular"

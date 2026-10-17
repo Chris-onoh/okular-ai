@@ -16,18 +16,36 @@ Kirigami.Page {
 
     property alias document: pageArea.document
     property alias page: pageArea.page
+    property var ai
     leftPadding: 0
     topPadding: 0
     rightPadding: 0
     bottomPadding: 0
 
-    actions: Kirigami.Action {
-        icon.name: pageArea.page.bookmarked ? "bookmark-remove" : "bookmarks-organize"
-        checkable: true
-        visible: document.opened
-        onCheckedChanged: (checked) => pageArea.page.bookmarked = checked
-        text: pageArea.page.bookmarked ? i18n("Remove bookmark") : i18n("Bookmark this page")
-        checked: pageArea.page.bookmarked
+    actions: [
+        Kirigami.Action {
+            icon.name: pageArea.page.bookmarked ? "bookmark-remove" : "bookmarks-organize"
+            checkable: true
+            visible: document.opened
+            onCheckedChanged: (checked) => pageArea.page.bookmarked = checked
+            text: pageArea.page.bookmarked ? i18n("Remove bookmark") : i18n("Bookmark this page")
+            checked: pageArea.page.bookmarked
+        },
+        Kirigami.Action {
+            text: i18n("AI mode")
+            icon.name: "assistant"
+            shortcut: "Ctrl+Shift+A"
+            visible: document.opened
+            onTriggered: applicationWindow().pageStack.layers.push(aiPageComponent)
+        }
+    ]
+
+    Component {
+        id: aiPageComponent
+        AiChatPage {
+            ai: root.ai
+            document: root.document
+        }
     }
 
     Okular.DocumentView {

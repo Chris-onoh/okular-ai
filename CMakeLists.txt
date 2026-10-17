@@ -299,6 +299,7 @@ if(BUILD_COVERAGE)
 endif()
 
 add_subdirectory( icons ) # an own directory for multi-size icons retrieved by KIconThemeLoader
+add_subdirectory( ai )
 add_subdirectory( part )
 if(BUILD_DESKTOP)
     add_subdirectory( shell )

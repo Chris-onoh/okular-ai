@@ -20,6 +20,8 @@ ecm_add_qml_module(okularkirigami
 )
 
 ecm_target_qml_sources(okularkirigami SOURCES
+    ui/AiChatPage.qml
+    ui/AiSettingsPage.qml
     ui/Bookmarks.qml
     ui/CertificateViewerPage.qml
     ui/Main.qml

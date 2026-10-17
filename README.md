@@ -23,6 +23,7 @@ printing behaviour. Everything AI-related is additive and opt-in.
 | Local models | One-click discovery of Ollama and llama.cpp models; no account or API key needed |
 | Retrieval | Full-document context for small files; local semantic retrieval with Ollama embeddings for large files; keyword fallback |
 | Shell | Minimalist chrome: no menu bar or main toolbar by default; icon rail sidebar; hamburger menu in the rail |
+| Mobile | Kirigami AI page for the Okular mobile app, sharing the same core; Android build script and manifest included |
 | Context | Document/This page scope, document summary, page explanation and "ask about selected text" actions |
 | Privacy | Local embedding and fully local chat options; no bundled credentials; no telemetry |
 
@@ -255,6 +256,32 @@ open, recent files, print, view options and settings.
 
 ---
 
+## Android and mobile
+
+The repository also contains a Kirigami mobile AI mode. It uses the shared
+`okular_ai_core` library and adds a QML chat page and settings page to the
+upstream Okular mobile app.
+
+What works on mobile:
+
+- Streaming chat with editable messages and copy
+- Thinking toggle with real provider-side token saving
+- Model/provider settings, Ollama and llama.cpp discovery
+- Web search
+- Document / current-page scope
+- Clickable `[page N]` citations
+- Local LAN endpoints for Ollama or llama.cpp
+
+Building an APK requires an Android SDK, NDK and Qt-for-Android/KF6/Poppler
+sysroot. The source, CMake integration and `build-android.sh` are ready. The
+host mobile build is verified; this desktop machine did not have the Android
+toolchain installed, so no APK was produced here.
+
+See [docs/ANDROID.md](docs/ANDROID.md) for the complete setup, build, signing,
+LAN model setup and performance notes.
+
+---
+
 ## Configuration reference
 
 Settings are stored in `~/.config/okularairc`, group `[AI]`.
@@ -302,6 +329,8 @@ model notes.
   search, UI integration, configuration internals and extension points.
 - [docs/BUILDING.md](docs/BUILDING.md) — detailed Fedora build, install,
   troubleshooting and packaging notes.
+- [docs/ANDROID.md](docs/ANDROID.md) — Android/mobile build, LAN local models,
+  signing and performance notes.
 - [shell/ai/README.md](shell/ai/README.md) — AI module reference.
 
 ---

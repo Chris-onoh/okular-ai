@@ -28,13 +28,18 @@ question becomes an answer, and where to extend it.
 
 | File | Responsibility |
 | --- | --- |
-| `shell/ai/aichatpanel.{h,cpp}` | Panel widget, orchestration, document extraction, retrieval, prompt construction, settings dialog |
+| `ai/` | Shared portable core used by desktop and mobile: config, streaming, embeddings, model discovery, web search |
+| `shell/ai/aichatpanel.{h,cpp}` | Desktop panel widget, orchestration, document extraction, retrieval, prompt construction, settings dialog |
 | `shell/ai/chattranscript.{h,cpp}` | Scroll area, chat bubbles, Markdown rendering, thinking box, animations, edit/copy actions |
-| `shell/ai/llmclient.{h,cpp}` | Streaming OpenAI-compatible chat client (SSE) |
-| `shell/ai/embeddingclient.{h,cpp}` | Ollama and OpenAI-compatible embedding client |
-| `shell/ai/websearchclient.{h,cpp}` | Keyless web search (Brave Search, DuckDuckGo fallback) |
-| `shell/ai/aiconfig.{h,cpp}` | Configuration, key discovery and key-file parsing |
-| `shell/ai/modelcatalog.{h,cpp}` | Asynchronous discovery of Ollama and llama.cpp models |
+| `ai/llmclient.{h,cpp}` | Streaming OpenAI-compatible chat client (SSE) |
+| `ai/embeddingclient.{h,cpp}` | Ollama and OpenAI-compatible embedding client |
+| `ai/websearchclient.{h,cpp}` | Keyless web search (Brave Search, DuckDuckGo fallback) |
+| `mobile/components/ai/aichatmodel.{h,cpp}` | Batched QML chat model |
+| `mobile/app/ui/AiChatPage.qml` | Mobile chat UI |
+| `mobile/app/ui/AiSettingsPage.qml` | Mobile provider/model/settings UI |
+| `ai/aiconfig.{h,cpp}` | Configuration, key discovery and key-file parsing |
+| `ai/modelcatalog.{h,cpp}` | Asynchronous discovery of Ollama and llama.cpp models and thinking capabilities |
+| `mobile/components/ai/aibackend.{h,cpp}` | Mobile controller: document text, bounded retrieval, chat flow |
 | `shell/shell.{h,cpp}` | Shell integration: rail sidebar, AI dock, hamburger, chrome hiding |
 | `part/part.{h,cpp}` | Page context-menu AI actions and signals |
 | `part/pageview.{h,cpp}` | Access to the selected text |
@@ -511,7 +516,26 @@ shell connects them to `Shell::handleAiQuery()` and
 
 ---
 
-## 15. License
+## 15. Mobile / Android
+
+The Kirigami mobile app uses the same `okular_ai_core` library. The mobile UI is
+QML and lives in `mobile/app/ui/AiChatPage.qml` and `AiSettingsPage.qml`.
+`AiBackend` adapts the core to the mobile `DocumentItem`:
+
+- page text is extracted lazily and cached;
+- extraction stops at 2 MiB;
+- the context is capped at 32,000 characters;
+- retrieval is keyword based (no vector index on the phone);
+- streaming updates are batched every 33 ms in `AiChatModel`.
+
+The mobile settings screen exposes provider, model discovery, endpoint, API
+key, thinking, web search and context budget. It preserves the same
+provider-native thinking flags as the desktop.
+
+Android also requires a prepared SDK/NDK and a KF6/Poppler Android sysroot. See
+`docs/ANDROID.md` for the complete build path.
+
+## 16. License
 
 This documentation and the AI-mode implementation are part of a fork of KDE
 Okular and are distributed under **GPL-2.0-or-later**, unless a file states

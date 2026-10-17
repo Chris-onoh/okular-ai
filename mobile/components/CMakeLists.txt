@@ -18,6 +18,10 @@ target_sources(okularplugin PRIVATE
     ${CMAKE_SOURCE_DIR}/gui/pagepainter.cpp
     ${CMAKE_SOURCE_DIR}/gui/debug_ui.cpp
     ${CMAKE_SOURCE_DIR}/gui/recentitemsmodel.cpp
+    ai/aibackend.cpp
+    ai/aibackend.h
+    ai/aichatmodel.cpp
+    ai/aichatmodel.h
     pageitem.cpp
     documentitem.cpp
     thumbnailitem.cpp
@@ -46,7 +50,10 @@ target_link_libraries(okularplugin PRIVATE
     KF6::I18n
     KF6::Service
     okularcore
+    okular_ai_core
 )
+
+target_include_directories(okularplugin PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/ai)
 
 ecm_finalize_qml_module(okularplugin DESTINATION ${KDE_INSTALL_QMLDIR} EXPORT OkularTargets)
 

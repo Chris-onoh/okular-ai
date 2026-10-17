@@ -1,9 +1,14 @@
 # Okular — AI mode (module reference)
 
-This directory contains the generative-AI assistant added to this Okular fork.
+This directory contains the desktop (Qt Widgets) AI panel. The portable
+networking, configuration, streaming, model-discovery and web-search code lives
+in the top-level `ai/` directory so the Kirigami mobile app can use the same
+implementation.
+
 The project-wide documentation is in the repository root (`README.md`) and in
-`docs/AI-MODE.md` and `docs/BUILDING.md`. AI mode was integrated and released as
-open source by Chris-Onoh Chukwuebuka <ebukaconoh@gmail.com>.
+`docs/AI-MODE.md`, `docs/BUILDING.md` and `docs/ANDROID.md`. AI mode was
+integrated and released as open source by Chris-Onoh Chukwuebuka
+<ebukaconoh@gmail.com>.
 
 ## What it does
 
