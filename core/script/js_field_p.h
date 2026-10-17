@@ -1,0 +1,94 @@
+/*
+    SPDX-FileCopyrightText: 2008 Pino Toscano <pino@kde.org>
+    SPDX-FileCopyrightText: 2008 Harri Porten <porten@kde.org>
+
+    SPDX-License-Identifier: GPL-2.0-or-later
+*/
+
+#ifndef OKULAR_SCRIPT_JS_FIELD_P_H
+#define OKULAR_SCRIPT_JS_FIELD_P_H
+
+#include <QHash>
+#include <QJSValue>
+#include <QObject>
+
+namespace Okular
+{
+class FormField;
+class Page;
+
+class JSFieldCache
+{
+public:
+    void insertForm(FormField *field, Page *page)
+    {
+        formCache.insert(field, page);
+    }
+    Page *pageForField(FormField *field)
+    {
+        return formCache.value(field, nullptr);
+    }
+    void insertButton(const QString &id, FormField *button)
+    {
+        buttonCache.insert(id, button);
+    }
+    FormField *buttonForName(const QString &id)
+    {
+        return buttonCache.value(id, nullptr);
+    }
+
+private:
+    QHash<FormField *, Page *> formCache;
+    QHash<QString, FormField *> buttonCache;
+};
+
+class JSField : public QObject
+{
+    Q_OBJECT
+    Q_PROPERTY(QJSValue doc READ doc CONSTANT)
+    Q_PROPERTY(QString name READ name CONSTANT)
+    Q_PROPERTY(bool readonly READ readonly WRITE setReadonly) // clazy:exclude=qproperty-without-notify
+    Q_PROPERTY(QString type READ type CONSTANT)
+    Q_PROPERTY(QJSValue value READ value WRITE setValue)  // clazy:exclude=qproperty-without-notify
+    Q_PROPERTY(QJSValue valueAsString READ valueAsString) // clazy:exclude=qproperty-without-notify
+    Q_PROPERTY(bool hidden READ hidden WRITE setHidden)   // clazy:exclude=qproperty-without-notify
+    Q_PROPERTY(int display READ display WRITE setDisplay) // clazy:exclude=qproperty-without-notify
+    Q_PROPERTY(QJSValue numItems READ numItems CONSTANT)
+    Q_PROPERTY(QJSValue currentValueIndices READ currentValueIndices WRITE setCurrentValueIndices) // clazy:exclude=qproperty-without-notify
+
+public:
+    explicit JSField(FormField *field, const std::shared_ptr<JSFieldCache> &fieldCache, QObject *parent = nullptr);
+    ~JSField() override;
+
+    static QJSValue wrapField(QJSEngine *engine, FormField *field, Page *page, const std::shared_ptr<JSFieldCache> &fieldCache);
+
+    QJSValue doc() const;
+    QString name() const;
+    bool readonly() const;
+    void setReadonly(bool readonly);
+    int display() const;
+    void setDisplay(int display);
+    QString type() const;
+    QJSValue value() const;
+    void setValue(const QJSValue &value);
+    QJSValue valueAsString() const;
+    bool hidden() const;
+    void setHidden(bool hidden);
+    QJSValue numItems() const;
+    QJSValue currentValueIndices() const;
+    void setCurrentValueIndices(const QJSValue &value);
+
+    Q_INVOKABLE QJSValue buttonGetIcon(int nFace = 0) const;
+    Q_INVOKABLE void buttonSetIcon(const QJSValue &oIcon, int nFace = 0);
+    Q_INVOKABLE QJSValue getItemAt(int nIdx, bool bExportValue = true);
+
+private:
+    QJSValue fieldGetValueCore(bool asString) const;
+
+    FormField *m_field = nullptr;
+    std::shared_ptr<JSFieldCache> m_fieldCache;
+};
+
+}
+
+#endif

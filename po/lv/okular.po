@@ -1,0 +1,6774 @@
+# translation of okular.po to Lavtian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Toms Trasūns <toms.trasuns@posteo.net>
+# Viesturs Zarins <viesturs.zarins@mii.lu.lv>, 2007, 2008, 2010.
+# Maris Nartiss <maris.kde@gmail.com>, 2007, 2008, 2020, 2024.
+# Viesturs Zariņš <viesturs.zarins@mii.lu.lv>, 2009.
+# Einars Sprugis <einars8@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-06 00:44+0000\n"
+"PO-Revision-Date: 2025-11-11 19:00+0200\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 25.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Viesturs Zariņš, Toms Trasūns"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "viesturs.zarins@mii.lu.lv, toms.trasuns@posteo.net"
+
+#: aboutdata.h:19 part/annotationwidgets.cpp:431
+#, kde-format
+msgid "Okular"
+msgstr "Okular"
+
+#: aboutdata.h:21
+#, kde-format
+msgid "Okular, a universal document viewer"
+msgstr "Okular, universāls dokumentu skatītājs"
+
+#: aboutdata.h:23
+#, kde-format
+msgid ""
+"(C) 2002 Wilco Greven, Christophe Devriese\n"
+"(C) 2004-2005 Enrico Ros\n"
+"(C) 2005 Piotr Szymanski\n"
+"(C) 2004-2017 Albert Astals Cid\n"
+"(C) 2006-2009 Pino Toscano"
+msgstr ""
+"(C) 2002 Wilco Greven, Christophe Devriese\n"
+"(C) 2004—2005 Enrico Ros\n"
+"(C) 2005 Piotr Szymanski\n"
+"(C) 2004—2017 Albert Astals Cid\n"
+"(C) 2006—2009 Pino Toscano"
+
+#: aboutdata.h:31
+#, kde-format
+msgid "Pino Toscano"
+msgstr "Pino Toscano"
+
+#: aboutdata.h:31
+#, kde-format
+msgid "Former maintainer"
+msgstr "Iepriekšējais uzturētājs"
+
+#: aboutdata.h:32
+#, kde-format
+msgid "Tobias Koenig"
+msgstr "Tobias Koenig"
+
+#: aboutdata.h:32
+#, kde-format
+msgid "Lots of framework work, FictionBook backend and former ODT backend"
+msgstr ""
+"Daudz satvara uzlabošanas darbu, „FictionBook“ aizmugursistēma un kādreizējā "
+"ODT aizmugursistēma"
+
+#: aboutdata.h:33
+#, kde-format
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#: aboutdata.h:33
+#, kde-format
+msgid "Developer"
+msgstr "Izstrādātājs"
+
+#: aboutdata.h:34
+#, kde-format
+msgid "Piotr Szymanski"
+msgstr "Piotr Szymanski"
+
+#: aboutdata.h:34
+#, kde-format
+msgid "Created Okular from KPDF codebase"
+msgstr "Izveidoja „Okular“ no KPDF pirmkoda"
+
+#: aboutdata.h:35
+#, kde-format
+msgid "Enrico Ros"
+msgstr "Enrico Ros"
+
+#: aboutdata.h:35
+#, kde-format
+msgid "KPDF developer"
+msgstr "KPDF izstrādātājs"
+
+#: aboutdata.h:36
+#, kde-format
+msgid "Eugene Trounev"
+msgstr "Eugene Trounev"
+
+#: aboutdata.h:36
+#, kde-format
+msgid "Annotations artwork"
+msgstr "Anotāciju noformējums"
+
+#: aboutdata.h:37
+#, kde-format
+msgid "Jiri Baum - NICTA"
+msgstr "Jiri Baum — NICTA"
+
+#: aboutdata.h:37
+#, kde-format
+msgid "Table selection tool"
+msgstr "Tabulas atlasīšanas rīks"
+
+#: aboutdata.h:38
+#, kde-format
+msgid "Fabio D'Urso"
+msgstr "Fabio D'Urso"
+
+#: aboutdata.h:38
+#, kde-format
+msgid "Annotation improvements"
+msgstr "Anotācijas uzlabojumi"
+
+#: core/action.cpp:124
+#, kde-format
+msgid "Go to page %1"
+msgstr "Iet uz %1. lapu"
+
+#: core/action.cpp:124
+#, kde-format
+msgid "Open external file"
+msgstr "Atvērt ārēju datni"
+
+#: core/action.cpp:184
+#, kde-format
+msgid "Execute '%1'…"
+msgstr "Izpildīt „%1“…"
+
+#: core/action.cpp:281
+#, kde-format
+msgid "First Page"
+msgstr "Pirmā lapa"
+
+#: core/action.cpp:283 part/presentationwidget.cpp:184
+#, kde-format
+msgid "Previous Page"
+msgstr "Iepriekšējā lapa"
+
+#: core/action.cpp:285 part/presentationwidget.cpp:201
+#, kde-format
+msgid "Next Page"
+msgstr "Nākamā lapa"
+
+#: core/action.cpp:287
+#, kde-format
+msgid "Last Page"
+msgstr "Pēdējā lapa"
+
+#: core/action.cpp:289
+#, kde-format
+msgid "Back"
+msgstr "Atpakaļ"
+
+#: core/action.cpp:291
+#, kde-format
+msgid "Forward"
+msgstr "Uz priekšu"
+
+#: core/action.cpp:293
+#, kde-format
+msgid "Quit"
+msgstr "Iziet"
+
+#: core/action.cpp:295
+#, kde-format
+msgid "Start Presentation"
+msgstr "Sākt prezentāciju"
+
+#: core/action.cpp:297
+#, kde-format
+msgid "End Presentation"
+msgstr "Beigt prezentāciju"
+
+#: core/action.cpp:299
+#, kde-format
+msgid "Find…"
+msgstr "Meklēt…"
+
+#: core/action.cpp:301
+#, kde-format
+msgid "Go To Page…"
+msgstr "Iet uz lapu…"
+
+#: core/action.cpp:352
+#, kde-format
+msgid "Play sound…"
+msgstr "Atskaņot skaņu…"
+
+#: core/action.cpp:420 core/action.cpp:536
+#, kde-format
+msgid "JavaScript Script"
+msgstr "„JavaScript“ skripts"
+
+#: core/action.cpp:470
+#, kde-format
+msgid "Play movie…"
+msgstr "Atskaņot filmu…"
+
+#: core/action.cpp:541
+#, kde-format
+msgid "Play movie"
+msgstr "Atskaņot filmu"
+
+#: core/action.cpp:543
+#, kde-format
+msgid "Stop movie"
+msgstr "Apturēt filmu"
+
+#: core/action.cpp:545
+#, kde-format
+msgid "Pause movie"
+msgstr "Pauzēt filmu"
+
+#: core/action.cpp:547
+#, kde-format
+msgid "Resume movie"
+msgstr "Turpināt atskaņot filmu"
+
+#: core/audioplayer.cpp:313
+#, kde-format
+msgid "This Okular is built without audio support"
+msgstr "Šim „Okular“ būvējumam nav skaņas atbalsta"
+
+#: core/chooseenginedialog.cpp:22
+#, kde-format
+msgid "Backend Selection"
+msgstr "Aizmugursistēmas izvēle"
+
+#: core/chooseenginedialog.cpp:40
+#, kde-format
+msgid ""
+"<qt>More than one backend found for the MIME type:<br /><b>%1</b> (%2).<br /"
+"><br />Please select which one to use:</qt>"
+msgstr ""
+"<qt>Atrasta vairāk nekā viena aizmugursistēma MIME tipam:<br /><b>%1</b> "
+"(%2).<br /><br />Lūdzu izvēlieties, kuru izmantot:</qt>"
+
+#: core/document.cpp:199
+#, kde-format
+msgctxt "@info %1 is a page size"
+msgid "Most pages are %1."
+msgstr "Lielākā daļa lapu ir %1."
+
+#: core/document.cpp:220
+#, kde-format
+msgctxt "paper type and orientation (eg: Portrait A4)"
+msgid "Portrait %1"
+msgstr "Portreta %1"
+
+#: core/document.cpp:222
+#, kde-format
+msgctxt "paper type and orientation (eg: Portrait A4)"
+msgid "Landscape %1"
+msgstr "Ainavas %1"
+
+#: core/document.cpp:245
+#, kde-format
+msgctxt "%1 is width, %2 is height, %3 is paper size name"
+msgid "%1 × %2 in (%3)"
+msgstr "%1 × %2 collas (%3)"
+
+#: core/document.cpp:247
+#, kde-format
+msgctxt "%1 is width, %2 is height, %3 is paper size name"
+msgid "%1 × %2 mm (%3)"
+msgstr "%1 × %2 mm (%3)"
+
+#: core/document.cpp:1672
+#, kde-format
+msgid "Continuing search from beginning"
+msgstr "Turpināt meklēšanu no sākuma"
+
+#: core/document.cpp:1675
+#, kde-format
+msgid "Continuing search from bottom"
+msgstr "Turpināt meklēšanu no beigām"
+
+#: core/document.cpp:2394
+#, kde-format
+msgid ""
+"Can not find a plugin which is able to handle the document being passed."
+msgstr "Neizdevās atrast spraudni, kas spētu apstrādāt padoto dokumentu."
+
+#: core/document.cpp:2815
+#, kde-format
+msgctxt "Unsupported action"
+msgid "Signing not implemented for this document type"
+msgstr "Šāda tipa dokumenta parakstīšana vēl nav atbalstīta"
+
+#: core/document.cpp:3529
+#, kde-format
+msgctxt "remove a collection of annotations from the page"
+msgid "remove annotations"
+msgstr "noņemt anotācijas"
+
+#: core/document.cpp:4115 core/document.cpp:4121
+#, kde-format
+msgid ""
+"The document is trying to execute an external application and, for your "
+"safety, Okular does not allow that."
+msgstr ""
+"Dokuments mēģina palaist ārēju programmu, bet jūsu drošībai „Okular“ to "
+"neatļauj."
+
+#: core/document.cpp:4131
+#, kde-format
+msgid "No application found for opening file of mimetype %1."
+msgstr "Nav atrasta neviena programma datnes ar %1 mime tipu atvēršanai."
+
+#: core/document.cpp:4757
+#, kde-format
+msgid "Could not open a temporary file"
+msgstr "Neizdevās atvērt pagaidu datni"
+
+#: core/document.cpp:4759
+#, kde-format
+msgid "Print conversion failed"
+msgstr "Drukāšanas pārveide neizdevās"
+
+#: core/document.cpp:4761
+#, kde-format
+msgid "Printing process crashed"
+msgstr "Drukāšanas process avarēja"
+
+#: core/document.cpp:4763
+#, kde-format
+msgid "Printing process could not start"
+msgstr "Drukāšanas procesu neizdevās palaist"
+
+#: core/document.cpp:4765
+#, kde-format
+msgid "Printing to file failed"
+msgstr "Drukāšana uz datni neizdevās"
+
+#: core/document.cpp:4767
+#, kde-format
+msgid "Printer was in invalid state"
+msgstr "Printeris atradās neatļautā stāvoklī"
+
+#: core/document.cpp:4769
+#, kde-format
+msgid "Unable to find file to print"
+msgstr "Neizdevās atrast drukājamo datni"
+
+#: core/document.cpp:4771
+#, kde-format
+msgid "There was no file to print"
+msgstr "Nebija datnes, ko drukāt"
+
+#: core/document.cpp:4773
+#, kde-format
+msgid ""
+"Could not find a suitable binary for printing. Make sure CUPS lpr binary is "
+"available"
+msgstr ""
+"Neizdevās atrast piemērotu bināro datni drukāšanai. Pārliecinieties, ka CUPS "
+"lpr binārā datne ir pieejama"
+
+#: core/document.cpp:4775
+#, kde-format
+msgid "The page print size is invalid"
+msgstr "Nederīgs lapas drukas izmērs"
+
+#: core/document.cpp:5414 part/part.cpp:1141
+#, kde-format
+msgid "Could not open '%1'. File does not exist"
+msgstr "Neizdevās atvērt „%1“. Datne nepastāv"
+
+#: core/document.cpp:5923
+#, kde-format
+msgid "Title"
+msgstr "Virsraksts"
+
+#: core/document.cpp:5926
+#, kde-format
+msgid "Subject"
+msgstr "Tēma"
+
+#: core/document.cpp:5929
+#, kde-format
+msgid "Description"
+msgstr "Apraksts"
+
+#: core/document.cpp:5932
+#, kde-format
+msgid "Author"
+msgstr "Autors"
+
+#: core/document.cpp:5935
+#, kde-format
+msgid "Creator"
+msgstr "Izveidotājs"
+
+#: core/document.cpp:5938
+#, kde-format
+msgid "Producer"
+msgstr "Ražotājs"
+
+#: core/document.cpp:5941
+#, kde-format
+msgid "Copyright"
+msgstr "Autortiesības"
+
+#: core/document.cpp:5944
+#, kde-format
+msgid "Pages"
+msgstr "Lapas"
+
+#: core/document.cpp:5947
+#, kde-format
+msgid "Created"
+msgstr "Izveidots"
+
+#: core/document.cpp:5950
+#, kde-format
+msgid "Modified"
+msgstr "Mainīts"
+
+#: core/document.cpp:5953
+#, kde-format
+msgid "MIME Type"
+msgstr "MIME tips"
+
+#: core/document.cpp:5956
+#, kde-format
+msgid "Category"
+msgstr "Kategorija"
+
+#: core/document.cpp:5959
+#, kde-format
+msgid "Keywords"
+msgstr "Atslēgvārdi"
+
+#: core/document.cpp:5962
+#, kde-format
+msgid "File Path"
+msgstr "Datnes ceļš"
+
+#: core/document.cpp:5965
+#, kde-format
+msgid "File Size"
+msgstr "Datnes izmērs"
+
+#: core/document.cpp:5968
+#, kde-format
+msgid "Page Size"
+msgstr "Lapas izmērs"
+
+#: core/documentcommands.cpp:62
+#, kde-format
+msgctxt "Add an annotation to the page"
+msgid "add annotation"
+msgstr "pievienot anotāciju"
+
+#: core/documentcommands.cpp:108
+#, kde-format
+msgctxt "Remove an annotation from the page"
+msgid "remove annotation"
+msgstr "noņemt anotāciju"
+
+#: core/documentcommands.cpp:155
+#, kde-format
+msgctxt "Modify an annotation's internal properties (Color, line-width, etc.)"
+msgid "modify annotation properties"
+msgstr "mainīt anotācijas īpašības"
+
+#: core/documentcommands.cpp:190
+#, kde-format
+msgctxt "Translate an annotation's position on the page"
+msgid "translate annotation"
+msgstr "tulkot anotāciju"
+
+#: core/documentcommands.cpp:263
+#, kde-format
+msgctxt "Change an annotation's size"
+msgid "adjust annotation"
+msgstr "pielāgot anotāciju"
+
+#: core/documentcommands.cpp:333
+#, kde-format
+msgctxt "Generic text edit command"
+msgid "edit text"
+msgstr "rediģēt tekstu"
+
+#: core/documentcommands.cpp:398
+#, kde-format
+msgctxt "Edit an annotation's text contents"
+msgid "edit annotation contents"
+msgstr "rediģēt anotācijas saturu"
+
+#: core/documentcommands.cpp:447
+#, kde-format
+msgctxt "Edit an form's text contents"
+msgid "edit form contents"
+msgstr "rediģēt formas saturu"
+
+#: core/documentcommands.cpp:494
+#, kde-format
+msgctxt "Edit a list form's choices"
+msgid "edit list form choices"
+msgstr "rediģēt formas saraksta izvēles"
+
+#: core/documentcommands.cpp:528
+#, kde-format
+msgctxt "Edit a combo form's selection"
+msgid "edit combo form selection"
+msgstr "rediģēt formas kombinētā lodziņa izvēlnes"
+
+#: core/documentcommands.cpp:598
+#, kde-format
+msgctxt "Edit the state of a group of form buttons"
+msgid "edit form button states"
+msgstr "rediģēt formas pogas stāvokļus"
+
+#: core/generator.cpp:790
+#, kde-format
+msgid "Plain &Text…"
+msgstr "Vienkāršs &teksts…"
+
+#: core/generator.cpp:793
+#, kde-format
+msgid "PDF"
+msgstr "PDF"
+
+#: core/generator.cpp:797
+#, kde-format
+msgctxt "This is the document format"
+msgid "OpenDocument Text"
+msgstr "OpenDocument Text"
+
+#: core/generator.cpp:800
+#, kde-format
+msgctxt "This is the document format"
+msgid "HTML"
+msgstr "HTML"
+
+#: core/printoptionswidget.cpp:19
+#, kde-format
+msgid "Print Options"
+msgstr "Drukas iespējas"
+
+#: core/printoptionswidget.cpp:23
+#, kde-format
+msgid "Fit to printable area"
+msgstr "Ietilpināt drukas zonā"
+
+#: core/printoptionswidget.cpp:24
+#, kde-format
+msgid "Fit to full page"
+msgstr "Ietilpināt līdz pilnai lapai"
+
+#: core/printoptionswidget.cpp:25
+#, kde-format
+msgid "Scale mode:"
+msgstr "Tālummaiņas režīms:"
+
+#: core/script/js_app.cpp:203
+#, kde-format
+msgid "Do not show this message again"
+msgstr "Turpmāk vairs nerādīt šo paziņojumu"
+
+#: core/signatureutils.cpp:21 part/signaturepropertiesdialog.cpp:34
+#, kde-format
+msgid "Not Available"
+msgstr "Nav pieejams"
+
+#: core/signatureutils.cpp:521
+#, kde-format
+msgctxt "signing error"
+msgid ""
+"Signing certificate not found. If you are using a smartcard, it might have "
+"been removed or the signature store changed"
+msgstr ""
+
+#: core/signatureutils.cpp:524
+#, kde-format
+msgctxt "%1 is a error code"
+msgid ""
+"Internal signing error. Please report a bug with the steps to reproduce it. "
+"Error code %1"
+msgstr ""
+"Iekšējā parakstīšanas kļūda. Lūdzu, informējiet par šo kļūdu un soļiem, kā "
+"to atkārtot. Kļūdas kods %1"
+
+#: core/signatureutils.cpp:526
+#, kde-kuit-format
+msgctxt "%1 is a filename with path"
+msgid "Could not sign the document: <filename>%1</filename>"
+msgstr "Neizdevās parakstīt dokumentu: <filename>%1</filename>"
+
+#: core/signatureutils.cpp:528
+#, kde-format
+msgid "Signing cancelled by user"
+msgstr "Lietotājs atcēla parakstīšanu"
+
+#: core/signatureutils.cpp:530
+#, fuzzy, kde-format
+#| msgid "Could not sign. Wrong passphrase"
+msgid "Signing failed: Wrong passphrase"
+msgstr "Neizdevās parakstīt. Nepareiza parole"
+
+#: core/signatureutils.cpp:532
+#, kde-kuit-format
+msgctxt "%1 is a filename with path"
+msgid ""
+"Could not write the signed document to <filename>%1</filename>, please "
+"ensure you have selected a folder with write permission"
+msgstr ""
+"Neizdevās <filename>%1</filename> datnē rakstīt parakstītu dokumentu. "
+"Pārliecinieties, ka norādītajā mapē jums ir rakstīšanas atļaujas."
+
+#: core/signatureutils.cpp:534
+#, kde-format
+msgctxt ""
+"Unlikely error; user can choose a signature/key-combo and everything "
+"possible should be valid combinations"
+msgid "Unsupported signature type for current certificate"
+msgstr ""
+
+#: core/signatureutils.cpp:536
+#, kde-format
+msgid "Unknown signing error"
+msgstr "Nezināma parakstīšanas kļūda"
+
+#: core/sourcereference.cpp:103
+#, kde-format
+msgctxt "'source' is a source file"
+msgid "Source: %1"
+msgstr "Avots: %1"
+
+#: core/textdocumentsettings.cpp:34
+#, kde-format
+msgid "&Default Font:"
+msgstr "&Noklusētais fonts:"
+
+#: gui/certificatemodel.cpp:51
+#, kde-format
+msgid "Version"
+msgstr "Versija"
+
+#: gui/certificatemodel.cpp:53
+#, kde-format
+msgid "Serial Number"
+msgstr "Sērijas numurs"
+
+#: gui/certificatemodel.cpp:55
+#, kde-format
+msgid "Issuer"
+msgstr "Izdevējs"
+
+#: gui/certificatemodel.cpp:57 part/certificateviewer.cpp:89
+#, kde-format
+msgid "Issued On"
+msgstr "Izdots"
+
+#: gui/certificatemodel.cpp:59 part/certificateviewer.cpp:90
+#, kde-format
+msgid "Expires On"
+msgstr "Derīgs līdz"
+
+#: gui/certificatemodel.cpp:61
+#, kde-format
+msgctxt "The person/company that made the signature"
+msgid "Subject"
+msgstr "Tēma"
+
+#: gui/certificatemodel.cpp:61
+#, kde-format
+msgctxt "Name/email on key"
+msgid "User Id"
+msgstr ""
+
+#: gui/certificatemodel.cpp:63
+#, kde-format
+msgid "Public Key"
+msgstr "Publiskā atslēga"
+
+#: gui/certificatemodel.cpp:65
+#, kde-format
+msgid "Key Usage"
+msgstr "Atslēgas izmantošana"
+
+#: gui/certificatemodel.cpp:84
+#, kde-format
+msgid "V%1"
+msgstr "V%1"
+
+#: gui/certificatemodel.cpp:96
+#, kde-format
+msgid "%1 (%2 bits)"
+msgstr "%1 (%2 biti)"
+
+#: gui/certificatemodel.cpp:158
+#, kde-format
+msgid "Property"
+msgstr "Īpašība"
+
+#: gui/certificatemodel.cpp:160
+#, kde-format
+msgid "Value"
+msgstr "Vērtība"
+
+#: gui/guiutils.cpp:39 part/editannottooldialog.cpp:88
+#: part/pageviewannotator.cpp:277 part/pageviewannotator.cpp:1484
+#, kde-format
+msgid "Pop-up Note"
+msgstr "Izlecoša piezīme"
+
+#: gui/guiutils.cpp:43 part/editannottooldialog.cpp:96
+#: part/pageviewannotator.cpp:264 part/pageviewannotator.cpp:1500
+#, kde-format
+msgid "Typewriter"
+msgstr "Rakstāmmašīna"
+
+#: gui/guiutils.cpp:46 part/editannottooldialog.cpp:89
+#: part/pageviewannotator.cpp:259 part/pageviewannotator.cpp:1482
+#, kde-format
+msgid "Inline Note"
+msgstr "Iegulta piezīme"
+
+#: gui/guiutils.cpp:56
+#, kde-format
+msgid "Arrow with Comment"
+msgstr "Bultiņa ar komentāru"
+
+#. i18n: tag tool attribute name
+#: gui/guiutils.cpp:56 part/data/tools.xml:103
+#, kde-format
+msgid "Arrow"
+msgstr "Bulta"
+
+#: gui/guiutils.cpp:59
+#, kde-format
+msgid "Straight Line with Comment"
+msgstr "Taisna līnija ar komentāru"
+
+#: gui/guiutils.cpp:59 part/editannottooldialog.cpp:91
+#: part/pageviewannotator.cpp:1494
+#, kde-format
+msgid "Straight Line"
+msgstr "Taisna līnija"
+
+#: gui/guiutils.cpp:63
+#, kde-format
+msgid "Polygon with Comment"
+msgstr "Daudzstūris ar komentāru"
+
+#: gui/guiutils.cpp:63 part/editannottooldialog.cpp:92
+#: part/pageviewannotator.cpp:1486
+#, kde-format
+msgid "Polygon"
+msgstr "Daudzstūris"
+
+#: gui/guiutils.cpp:71
+#, kde-format
+msgid "Rectangle with Comment"
+msgstr "Kvadrāts ar komentāru"
+
+#: gui/guiutils.cpp:71 part/annotationwidgets.cpp:700
+#: part/pageviewannotator.cpp:1488
+#, kde-format
+msgid "Rectangle"
+msgstr "Taisnstūris"
+
+#: gui/guiutils.cpp:74
+#, kde-format
+msgid "Ellipse with Comment"
+msgstr "Elipse ar komentāru"
+
+#: gui/guiutils.cpp:74 part/annotationwidgets.cpp:701
+#: part/pageviewannotator.cpp:1476
+#, kde-format
+msgid "Ellipse"
+msgstr "Elipse"
+
+#: gui/guiutils.cpp:83
+#, kde-format
+msgid "Highlight with Comment"
+msgstr "Izcelts ar komentāru"
+
+#: gui/guiutils.cpp:83 part/annotationwidgets.cpp:653
+#, kde-format
+msgid "Highlight"
+msgstr "Izcelts"
+
+#: gui/guiutils.cpp:87
+#, kde-format
+msgid "Squiggle with Comment"
+msgstr "Vilnītis ar komentāru"
+
+#: gui/guiutils.cpp:87 part/annotationwidgets.cpp:654
+#: part/pageviewannotator.cpp:1490
+#, kde-format
+msgid "Squiggle"
+msgstr "Vilnītis"
+
+#: gui/guiutils.cpp:91
+#, kde-format
+msgid "Underline with Comment"
+msgstr "Pasvītrojums ar komentāru"
+
+#: gui/guiutils.cpp:91 part/annotationwidgets.cpp:655
+#: part/pageviewannotator.cpp:1498
+#, kde-format
+msgid "Underline"
+msgstr "Pasvītrojums"
+
+#: gui/guiutils.cpp:95
+#, kde-format
+msgid "Strike Out with Comment"
+msgstr "Pārsvītrojums ar komentāru"
+
+#: gui/guiutils.cpp:95
+#, kde-format
+msgid "Strike Out"
+msgstr "Pārsvītrots"
+
+#: gui/guiutils.cpp:102
+#, kde-format
+msgid "Stamp with Comment"
+msgstr "Spiedogs ar komentāru"
+
+#: gui/guiutils.cpp:102 part/editannottooldialog.cpp:95
+#: part/pageviewannotator.cpp:1492
+#, kde-format
+msgid "Stamp"
+msgstr "Spiedogs"
+
+#: gui/guiutils.cpp:106
+#, kde-format
+msgid "Freehand Line with Comment"
+msgstr "Brīvas formas līnija ar komentāru"
+
+#: gui/guiutils.cpp:106 part/editannottooldialog.cpp:90
+#: part/pageviewannotator.cpp:1480
+#, kde-format
+msgid "Freehand Line"
+msgstr "Brīvas formas līnija"
+
+#: gui/guiutils.cpp:110
+#, kde-format
+msgid "Caret"
+msgstr "Kursors"
+
+#: gui/guiutils.cpp:114
+#, kde-format
+msgid "File Attachment"
+msgstr "Datnes pielikums"
+
+#: gui/guiutils.cpp:118
+#, kde-format
+msgid "Sound"
+msgstr "Skaņa"
+
+#: gui/guiutils.cpp:122
+#, kde-format
+msgid "Movie"
+msgstr "Video"
+
+#: gui/guiutils.cpp:126
+#, kde-format
+msgctxt "Caption for a screen annotation"
+msgid "Screen"
+msgstr "Ekrāns"
+
+#: gui/guiutils.cpp:130
+#, kde-format
+msgctxt "Caption for a widget annotation"
+msgid "Widget"
+msgstr "Logdaļa"
+
+#: gui/guiutils.cpp:134
+#, kde-format
+msgctxt "Caption for a rich media annotation"
+msgid "Rich Media"
+msgstr "Paplašināta multivide"
+
+#: gui/guiutils.cpp:144
+#, kde-format
+msgid "Annotation"
+msgstr "Anotācija"
+
+#: gui/guiutils.cpp:172
+#, kde-format
+msgctxt "Unknown author"
+msgid "Unknown"
+msgstr "Nezināms"
+
+#: gui/guiutils.cpp:189 part/presentationwidget.cpp:376
+#, kde-format
+msgid "Author: %1"
+msgstr "Autors: %1"
+
+#: gui/guiutils.cpp:201 part/propertiesdialog.cpp:229
+#, kde-format
+msgid "Where do you want to save %1?"
+msgstr "Kur vēlaties saglabāt %1?"
+
+#: gui/guiutils.cpp:213 part/propertiesdialog.cpp:240
+#, kde-format
+msgid "Could not open \"%1\" for writing. File was not saved."
+msgstr "Neizdevās atvērt rakstīšanai „%1“. Datne netika saglabāta."
+
+#: gui/signatureguiutils.cpp:42
+#, kde-format
+msgid "The signature is cryptographically valid."
+msgstr "Paraksts ir kriptogrāfiski derīgs."
+
+#: gui/signatureguiutils.cpp:44
+#, kde-format
+msgid "The signature is cryptographically invalid."
+msgstr "Paraksts nav kriptogrāfiski derīgs."
+
+#: gui/signatureguiutils.cpp:46
+#, kde-format
+msgid "Digest Mismatch occurred."
+msgstr "Īssavilkuma nesaderība."
+
+#: gui/signatureguiutils.cpp:48
+#, kde-format
+msgid "The signature CMS/PKCS7 structure is malformed."
+msgstr "Nepareizs CMS/PKCS7 paraksta struktūras formāts."
+
+#: gui/signatureguiutils.cpp:50
+#, kde-format
+msgid "The requested signature is not present in the document."
+msgstr "Dokuments nesatur pieprasīto parakstu."
+
+#: gui/signatureguiutils.cpp:52
+#, kde-format
+msgid "The signature could not be verified."
+msgstr "Parakstu nav iespējams pārbaudīt."
+
+#: gui/signatureguiutils.cpp:60
+#, kde-format
+msgid "Certificate is Trusted."
+msgstr "Sertifikāts ir uzticams."
+
+#: gui/signatureguiutils.cpp:62
+#, kde-format
+msgid "Certificate issuer isn't Trusted."
+msgstr "Sertifikāta izdevējs nav uzticams."
+
+#: gui/signatureguiutils.cpp:64
+#, kde-format
+msgid "Certificate issuer is unknown."
+msgstr "Sertifikāta izdevējs nav zināms."
+
+#: gui/signatureguiutils.cpp:66
+#, kde-format
+msgid "Certificate has been Revoked."
+msgstr "Sertifikāts ir atsaukts."
+
+#: gui/signatureguiutils.cpp:68
+#, kde-format
+msgid "Certificate has Expired."
+msgstr "Sertifikāta derīgums ir beidzies."
+
+#: gui/signatureguiutils.cpp:70
+#, kde-format
+msgid "Certificate has not yet been verified."
+msgstr "Sertifikāts vēl nav pārbaudīts."
+
+#: gui/signatureguiutils.cpp:72
+#, kde-format
+msgid "Certificate validation in progress"
+msgstr "Notiek sertifikāta pārbaude"
+
+#: gui/signatureguiutils.cpp:74
+#, kde-format
+msgid "Unknown issue with Certificate or corrupted data."
+msgstr "Nezināma problēma ar sertifikātu vai bojāti dati."
+
+#: gui/signatureguiutils.cpp:82
+#, kde-format
+msgid "MD2"
+msgstr "MD2"
+
+#: gui/signatureguiutils.cpp:84
+#, kde-format
+msgid "MD5"
+msgstr "MD5"
+
+#: gui/signatureguiutils.cpp:86
+#, kde-format
+msgid "SHA1"
+msgstr "SHA1"
+
+#: gui/signatureguiutils.cpp:88
+#, kde-format
+msgid "SHA256"
+msgstr "SHA256"
+
+#: gui/signatureguiutils.cpp:90
+#, kde-format
+msgid "SHA384"
+msgstr "SHA384"
+
+#: gui/signatureguiutils.cpp:92
+#, kde-format
+msgid "SHA512"
+msgstr "SHA512"
+
+#: gui/signatureguiutils.cpp:94
+#, kde-format
+msgid "SHA224"
+msgstr "SHA224"
+
+#: gui/signatureguiutils.cpp:96
+#, kde-format
+msgid "Unknown Algorithm"
+msgstr "Nezināms algoritms"
+
+#: gui/signatureguiutils.cpp:104
+#, kde-format
+msgid "RSA"
+msgstr "RSA"
+
+#: gui/signatureguiutils.cpp:106
+#, kde-format
+msgid "DSA"
+msgstr "DSA"
+
+#: gui/signatureguiutils.cpp:108
+#, kde-format
+msgid "EC"
+msgstr "EC"
+
+#: gui/signatureguiutils.cpp:110 gui/signatureguiutils.cpp:113
+#, kde-format
+msgid "Unknown Type"
+msgstr "Nezināms tips"
+
+#: gui/signatureguiutils.cpp:120
+#, kde-format
+msgid "Digital Signature"
+msgstr "Digitālais paraksts"
+
+#: gui/signatureguiutils.cpp:123
+#, kde-format
+msgid "Non-Repudiation"
+msgstr "Augstas ticamības apliecinājums"
+
+#: gui/signatureguiutils.cpp:126
+#, kde-format
+msgid "Encrypt Keys"
+msgstr "Šifrēt atslēgas"
+
+#: gui/signatureguiutils.cpp:129
+#, kde-format
+msgid "Decrypt Keys"
+msgstr "Atšifrēt atslēgas"
+
+#: gui/signatureguiutils.cpp:132
+#, kde-format
+msgid "Key Agreement"
+msgstr "Atslēgu vienošanās"
+
+#: gui/signatureguiutils.cpp:135
+#, kde-format
+msgid "Sign Certificate"
+msgstr "Parakstīt sertifikātu"
+
+#: gui/signatureguiutils.cpp:138
+#, kde-format
+msgid "Sign CRL"
+msgstr "Parakstīt CRL"
+
+#: gui/signatureguiutils.cpp:141
+#, kde-format
+msgid "Encrypt Only"
+msgstr "Tikai šifrēt"
+
+#: gui/signatureguiutils.cpp:144
+#, kde-format
+msgid "No Usage Specified"
+msgstr "Nav norādīts lietojums"
+
+#: gui/signatureguiutils.cpp:151
+#, kde-format
+msgctxt "Joins the various ways a signature key can be used in a longer string"
+msgid ", "
+msgstr ", "
+
+#: gui/signatureguiutils.cpp:165
+#, kde-format
+msgid "The document has not been modified since it was signed."
+msgstr "Kopš parakstīšanas brīža šis dokuments nav mainīts."
+
+#: gui/signatureguiutils.cpp:168
+#, kde-format
+msgid ""
+"The revision of the document that was covered by this signature has not been "
+"modified;\n"
+"however there have been subsequent changes to the document."
+msgstr ""
+"Ar šo parakstu apstiprinātā dokumenta revīzija nav mainīta.\n"
+"Bet kopš revīzijas datuma dokumentā ir veiktas būtiskas izmaiņas."
+
+#: gui/signatureguiutils.cpp:172
+#, kde-format
+msgid ""
+"The document has been modified in a way not permitted by a previous signer."
+msgstr "Dokuments ir mainīts tā, kā to nav atļāvis iepriekšējais parakstītājs."
+
+#: gui/signatureguiutils.cpp:174
+#, kde-format
+msgid "The document integrity verification could not be completed."
+msgstr "Neizdevās veikt dokumenta integritātes apstiprināšanu."
+
+#: gui/signatureguiutils.cpp:212
+#, kde-format
+msgctxt "Digital signature"
+msgid "This document has signature placeholder fields."
+msgstr "Šim dokumentam ir paraksta laukumi."
+
+#: gui/signatureguiutils.cpp:215
+#, kde-format
+msgid "This document is digitally signed."
+msgstr "Šis dokuments ir digitāli parakstīts."
+
+#: gui/signatureguiutils.cpp:217
+#, kde-format
+msgid ""
+"This document is digitally signed. There have been changes since last signed."
+msgstr ""
+"Šis dokuments ir digitāli parakstīts. Kopš pēdējās parakstīšanas reizes tas "
+"ir mainīts."
+
+#: gui/signatureguiutils.cpp:220
+#, kde-format
+msgid ""
+"This document is digitally signed. Some of the signatures could not be "
+"validated properly."
+msgstr ""
+"Šis dokuments ir digitāli parakstīts. Atsevišķus tā parakstus nav iespējams "
+"droši apstiprināt."
+
+#: gui/signaturemodel.cpp:141
+#, kde-format
+msgctxt "Digital signature"
+msgid "Signature placeholder %1"
+msgstr "Paraksta lauks %1"
+
+#: gui/signaturemodel.cpp:144 gui/signaturemodel.cpp:181
+#, kde-format
+msgid "Field: %1 on page %2"
+msgstr "Lauks: %1 %2. lapā"
+
+#: gui/signaturemodel.cpp:152
+#, kde-format
+msgid "Rev. %1: Signed By %2"
+msgstr "Rev. %1: parakstīja %2"
+
+#: gui/signaturemodel.cpp:167
+#, kde-format
+msgid "Signing Time: %1"
+msgstr "Parakstīšanas laiks: %1"
+
+#: gui/signaturemodel.cpp:172
+#, kde-format
+msgid "Reason: %1"
+msgstr "Iemesls: %1"
+
+#: gui/signaturemodel.cpp:177
+#, kde-format
+msgid "Location: %1"
+msgstr "Vieta: %1"
+
+#: gui/signaturemodel.cpp:185
+#, kde-format
+msgctxt "Digital signature type"
+msgid "PGP Signature"
+msgstr "PGP paraksts"
+
+#: gui/signaturemodel.cpp:187
+#, kde-format
+msgctxt "Digital signature type"
+msgid "Adobe PKCS7"
+msgstr "Adobe PKCS7"
+
+#: gui/signaturemodel.cpp:189
+#, kde-format
+msgctxt "Digital signature type"
+msgid "Adobe PKCS7 Sha1"
+msgstr "Adobe PKCS7 Sha1"
+
+#: gui/signaturemodel.cpp:191
+#, kde-format
+msgctxt "Digital signature type"
+msgid "ETSI CAdES"
+msgstr "ETSI CAdES"
+
+#: gui/signaturemodel.cpp:193
+#, kde-format
+msgctxt "Digital signature type"
+msgid "Unknown"
+msgstr "Nezināms"
+
+#: gui/signaturemodel.cpp:195
+#, kde-format
+msgctxt "Digital signature type"
+msgid "Signature placeholder"
+msgstr "Paraksta lauks"
+
+#: gui/signaturemodel.cpp:201
+#, kde-format
+msgid "Signature Type: %1"
+msgstr "Paraksta veids: %1"
+
+#: part/annotationactionhandler.cpp:147
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Red"
+msgstr "Sarkans"
+
+#: part/annotationactionhandler.cpp:148
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Orange"
+msgstr "Oranžs"
+
+#: part/annotationactionhandler.cpp:149
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Yellow"
+msgstr "Dzeltens"
+
+#: part/annotationactionhandler.cpp:150
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Green"
+msgstr "Zaļš"
+
+#: part/annotationactionhandler.cpp:151
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Cyan"
+msgstr "Ciāna"
+
+#: part/annotationactionhandler.cpp:152
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Blue"
+msgstr "Zils"
+
+#: part/annotationactionhandler.cpp:153
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Magenta"
+msgstr "Fuksīns"
+
+#: part/annotationactionhandler.cpp:154
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "White"
+msgstr "Balts"
+
+#: part/annotationactionhandler.cpp:155
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Gray"
+msgstr "Pelēks"
+
+#: part/annotationactionhandler.cpp:156
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Black"
+msgstr "Melns"
+
+#: part/annotationactionhandler.cpp:245 part/annotationactionhandler.cpp:686
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Width %1"
+msgstr "Platums %1"
+
+#: part/annotationactionhandler.cpp:251
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "%1%"
+msgstr "%1%"
+
+#: part/annotationactionhandler.cpp:295
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation line width (No annotation selected)"
+msgstr "Anotācijas līnijas platums (nav atlasīta anotācija)"
+
+#: part/annotationactionhandler.cpp:296
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation color (No annotation selected)"
+msgstr "Anotācijas krāsa (nav atlasīta anotācija)"
+
+#: part/annotationactionhandler.cpp:297
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation fill color (No annotation selected)"
+msgstr "Anotācijas aizpildījuma krāsa (nav atlasīta anotācija)"
+
+#: part/annotationactionhandler.cpp:298
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation opacity (No annotation selected)"
+msgstr "Anotācijas caurspīdība (nav atlasīta anotācija)"
+
+#: part/annotationactionhandler.cpp:299
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation font (No annotation selected)"
+msgstr "Anotācijas fonts (nav atlasīta anotācija)"
+
+#: part/annotationactionhandler.cpp:300
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Add the current annotation to the quick annotations menu (No annotation "
+"selected)"
+msgstr ""
+"Pievienot atlasīto anotāciju ātrās anotēšanas izvēlnei (nav atlasīta "
+"anotācija)"
+
+#: part/annotationactionhandler.cpp:301
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Constrain shape ratio to 1:1 or line angle to 15° steps (No annotation "
+"selected)"
+msgstr ""
+"Ierobežot objekta formu līdz attiecībai 1:1 vai līnijas leņķi līdz 15° "
+"soļiem (nav atlasīta anotācija)"
+
+#: part/annotationactionhandler.cpp:302
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Advanced settings for the current annotation tool (No annotation selected)"
+msgstr ""
+"Papildu iestatījumi pašreizējam anotāciju rīkam (nav atlasīta anotācija)"
+
+#: part/annotationactionhandler.cpp:307
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation line width"
+msgstr "Anotācijas līnijas platums"
+
+#: part/annotationactionhandler.cpp:309
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation line width (Current annotation has no line width)"
+msgstr ""
+"Anotācijas līnijas platums (atlasītajai anotācijai nav līnijas platuma)"
+
+#: part/annotationactionhandler.cpp:313
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation text color"
+msgstr "Anotācijas teksta krāsa"
+
+#: part/annotationactionhandler.cpp:315
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation border color"
+msgstr "Anotācijas malas krāsa"
+
+#: part/annotationactionhandler.cpp:317
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation color"
+msgstr "Anotācijas krāsa"
+
+#: part/annotationactionhandler.cpp:321
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation fill color"
+msgstr "Anotācijas aizpildījuma krāsa"
+
+#: part/annotationactionhandler.cpp:323
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation fill color (Current annotation has no fill color)"
+msgstr ""
+"Anotācijas aizpildījuma krāsa (atlasītajai anotācijai nav aizpildījuma "
+"krāsas)"
+
+#: part/annotationactionhandler.cpp:327
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation font"
+msgstr "Anotācijas fonts"
+
+#: part/annotationactionhandler.cpp:329
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation font (Current annotation has no font)"
+msgstr "Anotācijas fonts (atlasītajai anotācijai nav fonta)"
+
+#: part/annotationactionhandler.cpp:333
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Constrain line angle to 15° steps"
+msgstr "Ierobežot līniju leņķi līdz 15° soļiem"
+
+#: part/annotationactionhandler.cpp:335
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Constrain shape ratio to 1:1"
+msgstr "Ierobežot objektu formu līdz 1:1 attiecībai"
+
+#: part/annotationactionhandler.cpp:337
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Constrain shape ratio to 1:1 or line angle to 15° steps (Not supported by "
+"current annotation)"
+msgstr ""
+"Ierobežot objekta formu līdz 1:1 attiecībai vai līnijas leņķi līdz 15° "
+"soļiem (atlasītā anotācija neatbalsta)"
+
+#: part/annotationactionhandler.cpp:340
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation opacity"
+msgstr "Anotācijas caurspīdīgums"
+
+#: part/annotationactionhandler.cpp:341
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add the current annotation to the quick annotations menu"
+msgstr "Pievienot atlasīto anotāciju ātrās anotēšanas izvēlnei"
+
+#: part/annotationactionhandler.cpp:342
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Advanced settings for the current annotation tool"
+msgstr "Atlasītā anotācijas rīka papildu iestatījumi"
+
+#: part/annotationactionhandler.cpp:431
+#, kde-format
+msgctxt "@action:intoolbar Current annotation config option"
+msgid "Color"
+msgstr "Krāsa"
+
+#: part/annotationactionhandler.cpp:433
+#, kde-format
+msgctxt "@action:intoolbar Current annotation config option"
+msgid "Fill Color"
+msgstr "Aizpildījuma krāsa"
+
+#: part/annotationactionhandler.cpp:434
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Transparent"
+msgstr "Caurspīdīgs"
+
+#: part/annotationactionhandler.cpp:444
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Custom Color…"
+msgstr "Pielāgota krāsa…"
+
+#: part/annotationactionhandler.cpp:498
+#, kde-format
+msgctxt "@title:window"
+msgid "Select color"
+msgstr "Izvēlies krāsu"
+
+#: part/annotationactionhandler.cpp:551
+#, kde-format
+msgid "&Annotations"
+msgstr "&Anotācijas"
+
+#: part/annotationactionhandler.cpp:552
+#, kde-format
+msgctxt "@action:intoolbar Hide the toolbar"
+msgid "Hide"
+msgstr "Paslēpt"
+
+#: part/annotationactionhandler.cpp:553
+#, kde-format
+msgctxt "@action:intoolbar Show the builtin annotation toolbar"
+msgid "Show more annotation tools"
+msgstr "Parādīt vairāk anotācijas rīku"
+
+#: part/annotationactionhandler.cpp:556
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Highlighter"
+msgstr "Izcelšanas rīks"
+
+#: part/annotationactionhandler.cpp:557
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Underline"
+msgstr "Pasvītrots"
+
+#: part/annotationactionhandler.cpp:558
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Squiggle"
+msgstr "Vilnītis"
+
+#: part/annotationactionhandler.cpp:559
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Strike Out"
+msgstr "Pārsvītrots"
+
+#: part/annotationactionhandler.cpp:561
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Typewriter"
+msgstr "Rakstāmmašīna"
+
+#: part/annotationactionhandler.cpp:562
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Inline Note"
+msgstr "Iegulta piezīme"
+
+#: part/annotationactionhandler.cpp:563
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Popup Note"
+msgstr "Izlecoša piezīme"
+
+#: part/annotationactionhandler.cpp:564
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Freehand Line"
+msgstr "Brīvas formas līnija"
+
+#: part/annotationactionhandler.cpp:566
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Straight line"
+msgstr "Taisna līnija"
+
+#: part/annotationactionhandler.cpp:567
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Arrow"
+msgstr "Bulta"
+
+#: part/annotationactionhandler.cpp:568
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Rectangle"
+msgstr "Taisnstūris"
+
+#: part/annotationactionhandler.cpp:569
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Ellipse"
+msgstr "Elipse"
+
+#: part/annotationactionhandler.cpp:570
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Polygon"
+msgstr "Daudzstūris"
+
+#: part/annotationactionhandler.cpp:571
+#, kde-format
+msgctxt "@action"
+msgid "Geometrical shapes"
+msgstr "Ģeometriskas figūras"
+
+#: part/annotationactionhandler.cpp:617
+#, kde-format
+msgctxt "@action"
+msgid "Stamp"
+msgstr "Spiedogs"
+
+#: part/annotationactionhandler.cpp:637
+#, kde-format
+msgctxt "@action:intoolbar Show list of quick annotation tools"
+msgid "Quick Annotations"
+msgstr "Ātrās anotēšanas rīki"
+
+#: part/annotationactionhandler.cpp:640
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Choose an annotation tool from the quick annotations"
+msgstr "Izvēlieties anotācijas rīku starp ātrās anotēšanas rīkiem"
+
+#: part/annotationactionhandler.cpp:650
+#, kde-format
+msgid "Quick Annotation Bar"
+msgstr "Ātras anotēšanas josla"
+
+#: part/annotationactionhandler.cpp:664
+#, kde-format
+msgctxt ""
+"@action:intoolbar Add current annotation tool to the quick annotations list"
+msgid "Add to Quick Annotations"
+msgstr "Pievienot ātrās anotēšanas izvēlnei"
+
+#: part/annotationactionhandler.cpp:667
+#, kde-format
+msgctxt ""
+"@action:intoolbar When checked keep the current annotation tool active after "
+"use"
+msgid "Keep Active"
+msgstr "Paturēt aktīvu"
+
+#: part/annotationactionhandler.cpp:668
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Keep the annotation tool active after use"
+msgstr "Anotēšanas rīku paturēt aktīvu pēc tā lietošanas"
+
+#: part/annotationactionhandler.cpp:673
+#, kde-format
+msgctxt ""
+"@action When checked, line annotations are constrained to 15° steps, shape "
+"annotations to 1:1 ratio"
+msgid "Constrain Ratio and Angle of Annotation Tools"
+msgstr "Anotēšanas rīku ierobežota attiecība un leņķis"
+
+#: part/annotationactionhandler.cpp:679
+#, kde-format
+msgctxt "@action:intoolbar Current annotation config option"
+msgid "Font"
+msgstr "Fonts"
+
+#: part/annotationactionhandler.cpp:680
+#, kde-format
+msgctxt "@action:intoolbar Current annotation advanced settings"
+msgid "Annotation Settings"
+msgstr "Anotēšanas iestatījumi"
+
+#: part/annotationactionhandler.cpp:683
+#, kde-format
+msgctxt "@action:intoolbar Current annotation config option"
+msgid "Line width"
+msgstr "Līnijas platums"
+
+#: part/annotationactionhandler.cpp:692
+#, kde-format
+msgctxt "@action:intoolbar Current annotation config option"
+msgid "Opacity"
+msgstr "Caurspīdīgums"
+
+#: part/annotationactionhandler.cpp:695
+#, kde-format
+msgctxt ""
+"@item:inlistbox Annotation opacity percentage level, make sure to include %1 "
+"in your translation"
+msgid "%1%"
+msgstr "%1%"
+
+#: part/annotationmodel.cpp:322
+#, kde-format
+msgctxt "Page label (number)"
+msgid "Page %1 (%2)"
+msgstr "%1. lapa (%2)"
+
+#: part/annotationmodel.cpp:324 part/part.cpp:3206
+#, kde-format
+msgid "Page %1"
+msgstr "%1. lapa"
+
+#: part/annotationpopup.cpp:127
+#, kde-format
+msgctxt "Menu title"
+msgid "Annotation"
+msgid_plural "%1 Annotations"
+msgstr[0] "%1 anotācija"
+msgstr[1] "%1 anotācijas"
+msgstr[2] "%1 anotāciju"
+
+#: part/annotationpopup.cpp:129 part/annotationpopup.cpp:199
+#, kde-format
+msgid "&Open Pop-up Note"
+msgstr "&Atvērt izlecošo piezīmi"
+
+#: part/annotationpopup.cpp:137 part/annotationpopup.cpp:206
+#: part/bookmarklist.cpp:263 part/part.cpp:2287 part/part.cpp:3212
+#, kde-format
+msgid "Remove Bookmark"
+msgstr "Aizvākt grāmatzīmi"
+
+#: part/annotationpopup.cpp:141 part/annotationpopup.cpp:209 part/part.cpp:3214
+#, kde-format
+msgid "Add Bookmark"
+msgstr "Pievienot grāmatzīmi"
+
+#: part/annotationpopup.cpp:146 part/annotationpopup.cpp:213
+#, fuzzy, kde-format
+#| msgid "Copyright"
+msgctxt "@action"
+msgid "Copy"
+msgstr "Autortiesības"
+
+#: part/annotationpopup.cpp:150 part/annotationpopup.cpp:217
+#, kde-format
+msgid "Paste"
+msgstr ""
+
+#: part/annotationpopup.cpp:155 part/annotationpopup.cpp:222
+#, kde-format
+msgid "Copy Text to Clipboard"
+msgstr "Kopēt tekstu uz starpliktuvi"
+
+#: part/annotationpopup.cpp:159 part/annotationpopup.cpp:226
+#: part/pageview.cpp:2589 part/pageview.cpp:2941 part/pageview.cpp:2943
+#: part/pageview.cpp:3103 part/pageview.cpp:3164 part/pageview.cpp:3166
+#, kde-format
+msgid "Copy forbidden by DRM"
+msgstr "Kopēšana ir aizliegta ar DRM"
+
+#: part/annotationpopup.cpp:164 part/annotationpopup.cpp:231
+#, kde-format
+msgid "&Delete"
+msgstr "&Dzēst"
+
+#: part/annotationpopup.cpp:178 part/annotationpopup.cpp:235 part/part.cpp:750
+#: part/propertiesdialog.cpp:54
+#, kde-format
+msgid "&Properties"
+msgstr "Ī&pašības"
+
+#: part/annotationpopup.cpp:185 part/annotationpopup.cpp:241
+#, fuzzy, kde-format
+#| msgctxt "%1 is the name of the file to save"
+#| msgid "&Save '%1'…"
+msgctxt "%1 is the name of the file to open"
+msgid "&Open '%1'…"
+msgstr "&Saglabāt „%1“…"
+
+#: part/annotationpopup.cpp:189 part/annotationpopup.cpp:245
+#, kde-format
+msgctxt "%1 is the name of the file to save"
+msgid "&Save '%1'…"
+msgstr "&Saglabāt „%1“…"
+
+#: part/annotationpropertiesdialog.cpp:54
+#, kde-format
+msgid "&Appearance"
+msgstr "&Izskats"
+
+#: part/annotationpropertiesdialog.cpp:59
+#, kde-format
+msgid "&General"
+msgstr "&Pamata"
+
+#: part/annotationpropertiesdialog.cpp:64
+#, kde-format
+msgid "&Author:"
+msgstr "&Autors:"
+
+#: part/annotationpropertiesdialog.cpp:69
+#, kde-format
+msgid "Created:"
+msgstr "Izveidots:"
+
+#: part/annotationpropertiesdialog.cpp:74
+#, kde-format
+msgid "Modified:"
+msgstr "Mainīts:"
+
+#: part/annotationpropertiesdialog.cpp:108
+#, kde-format
+msgid "Pop-up Note Properties"
+msgstr "Uzlecošās piezīmes īpašības"
+
+#: part/annotationpropertiesdialog.cpp:111
+#, kde-format
+msgid "Typewriter Properties"
+msgstr "Rakstāmmašīnas īpašības"
+
+#: part/annotationpropertiesdialog.cpp:113
+#, kde-format
+msgid "Inline Note Properties"
+msgstr "Iegultās piezīmes īpašības"
+
+#: part/annotationpropertiesdialog.cpp:119
+#, kde-format
+msgid "Straight Line Properties"
+msgstr "Taisnas līnijas īpašības"
+
+#: part/annotationpropertiesdialog.cpp:121
+#, kde-format
+msgid "Polygon Properties"
+msgstr "Daudzstūra īpašības"
+
+#: part/annotationpropertiesdialog.cpp:125
+#, kde-format
+msgid "Geometry Properties"
+msgstr "Ģeometrijas īpašības"
+
+#: part/annotationpropertiesdialog.cpp:128
+#, kde-format
+msgid "Text Markup Properties"
+msgstr "Teksta iezīmes īpašības"
+
+#: part/annotationpropertiesdialog.cpp:131
+#, kde-format
+msgid "Stamp Properties"
+msgstr "Spiedoga īpašības"
+
+#: part/annotationpropertiesdialog.cpp:134
+#, kde-format
+msgid "Freehand Line Properties"
+msgstr "Brīvas līnijas īpašības"
+
+#: part/annotationpropertiesdialog.cpp:137
+#, kde-format
+msgid "Caret Properties"
+msgstr "Kursora īpašības"
+
+#: part/annotationpropertiesdialog.cpp:140
+#, kde-format
+msgid "File Attachment Properties"
+msgstr "Datnes pielikuma īpašības"
+
+#: part/annotationpropertiesdialog.cpp:143
+#, kde-format
+msgid "Sound Properties"
+msgstr "Skaņas īpašības"
+
+#: part/annotationpropertiesdialog.cpp:146
+#, kde-format
+msgid "Movie Properties"
+msgstr "Video īpašības"
+
+#: part/annotationpropertiesdialog.cpp:149
+#, kde-format
+msgid "Annotation Properties"
+msgstr "Anotācijas īpašības"
+
+#: part/annotationwidgets.cpp:57
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select a custom stamp symbol from file"
+msgstr "Izvēlēties pielāgotu simbolu spiedogam no datnes"
+
+#: part/annotationwidgets.cpp:154
+#, kde-format
+msgctxt "@title:window file chooser"
+msgid "Select custom stamp symbol"
+msgstr "Izvēlēties pielāgotu simbolu spiedogam"
+
+#: part/annotationwidgets.cpp:154
+#, kde-format
+msgid ""
+"*.ico *.png *.xpm *.svg *.svgz | Icon Files (*.ico *.png *.xpm *.svg *.svgz)"
+msgstr ""
+"*.ico *.png *.xpm *.svg *.svgz | Ikonu datnes (*.ico *.png *.xpm *.svg *."
+"svgz)"
+
+#: part/annotationwidgets.cpp:158
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Could not load the file <filename>%1</filename>"
+msgstr "Neizdevās ielādēt datni <filename>%1</filename>"
+
+#: part/annotationwidgets.cpp:158
+#, kde-format
+msgctxt "@title:window"
+msgid "Invalid file"
+msgstr "Nederīga datne"
+
+#: part/annotationwidgets.cpp:265
+#, kde-format
+msgid "&Color:"
+msgstr "&Krāsa:"
+
+#: part/annotationwidgets.cpp:274 part/editdrawingtooldialog.cpp:74
+#, kde-format
+msgctxt "@label:spinbox Suffix for the opacity level, e.g. '80%'"
+msgid "%v%"
+msgstr "%v %"
+
+#: part/annotationwidgets.cpp:275 part/editdrawingtooldialog.cpp:68
+#, kde-format
+msgid "&Opacity:"
+msgstr "I&ntensitāte:"
+
+#: part/annotationwidgets.cpp:363
+#, kde-format
+msgid "Icon:"
+msgstr "Ikona:"
+
+#: part/annotationwidgets.cpp:364
+#, kde-format
+msgid "Comment"
+msgstr "Komentārs"
+
+#: part/annotationwidgets.cpp:365
+#, kde-format
+msgid "Help"
+msgstr "Palīdzība"
+
+#: part/annotationwidgets.cpp:366
+#, kde-format
+msgid "Insert"
+msgstr "Ievietot"
+
+#: part/annotationwidgets.cpp:367
+#, kde-format
+msgid "Key"
+msgstr "Atslēga"
+
+#: part/annotationwidgets.cpp:368
+#, kde-format
+msgid "New paragraph"
+msgstr "Jauna rindkopa"
+
+#: part/annotationwidgets.cpp:369
+#, kde-format
+msgid "Note"
+msgstr "Piezīme"
+
+#: part/annotationwidgets.cpp:370
+#, kde-format
+msgid "Paragraph"
+msgstr "Rindkopa"
+
+#: part/annotationwidgets.cpp:378
+#, kde-format
+msgid "Font:"
+msgstr "Fonts:"
+
+#: part/annotationwidgets.cpp:387
+#, kde-format
+msgid "Text &color:"
+msgstr "Teksta &krāsa:"
+
+#: part/annotationwidgets.cpp:394
+#, kde-format
+msgid "&Align:"
+msgstr "&Līdzināt:"
+
+#: part/annotationwidgets.cpp:395
+#, kde-format
+msgid "Left"
+msgstr "Pa kreisi"
+
+#: part/annotationwidgets.cpp:396
+#, kde-format
+msgid "Center"
+msgstr "Centrēt"
+
+#: part/annotationwidgets.cpp:397
+#, kde-format
+msgid "Right"
+msgstr "Pa labi"
+
+#: part/annotationwidgets.cpp:405
+#, kde-format
+msgid "Border &width:"
+msgstr "&Malas platums:"
+
+#: part/annotationwidgets.cpp:414
+#, kde-format
+msgid "Approved"
+msgstr "Apstiprināts"
+
+#: part/annotationwidgets.cpp:415
+#, kde-format
+msgid "As Is"
+msgstr "Kā ir"
+
+#: part/annotationwidgets.cpp:416
+#, kde-format
+msgid "Confidential"
+msgstr "Konfidenciāls"
+
+#: part/annotationwidgets.cpp:417
+#, kde-format
+msgid "Departmental"
+msgstr "Struktūrvienības"
+
+#: part/annotationwidgets.cpp:418
+#, kde-format
+msgid "Draft"
+msgstr "Uzmetums"
+
+#: part/annotationwidgets.cpp:419
+#, kde-format
+msgid "Experimental"
+msgstr "Eksperimentāls"
+
+#: part/annotationwidgets.cpp:420
+#, kde-format
+msgid "Expired"
+msgstr "Izbeidzies"
+
+#: part/annotationwidgets.cpp:421
+#, kde-format
+msgid "Final"
+msgstr "Pabeigts"
+
+#: part/annotationwidgets.cpp:422
+#, kde-format
+msgid "For Comment"
+msgstr "Komentēšanai"
+
+#: part/annotationwidgets.cpp:423
+#, kde-format
+msgid "For Public Release"
+msgstr "Publiskai izplatīšanai"
+
+#: part/annotationwidgets.cpp:424
+#, kde-format
+msgid "Not Approved"
+msgstr "Nav apstiprināts"
+
+#: part/annotationwidgets.cpp:425
+#, kde-format
+msgid "Not For Public Release"
+msgstr "Nav paredzēts publiskai izplatīšanai"
+
+#: part/annotationwidgets.cpp:426
+#, kde-format
+msgid "Sold"
+msgstr "Pārdots"
+
+#: part/annotationwidgets.cpp:427
+#, kde-format
+msgid "Top Secret"
+msgstr "Pilnīgi slepens"
+
+#: part/annotationwidgets.cpp:428
+#, kde-format
+msgid "Bookmark"
+msgstr "Grāmatzīme"
+
+#: part/annotationwidgets.cpp:429
+#, kde-format
+msgid "Information"
+msgstr "Informācija"
+
+#: part/annotationwidgets.cpp:430
+#, kde-format
+msgid "KDE"
+msgstr "KDE"
+
+#: part/annotationwidgets.cpp:451
+#, kde-format
+msgid "Stamp symbol:"
+msgstr "Spiedoga simbols:"
+
+#: part/annotationwidgets.cpp:499 part/annotationwidgets.cpp:561
+#: part/annotationwidgets.cpp:624 part/annotationwidgets.cpp:698
+#: part/annotationwidgets.cpp:777
+#, kde-format
+msgid "&Width:"
+msgstr "&Platums:"
+
+#: part/annotationwidgets.cpp:504
+#, kde-format
+msgid "Line start:"
+msgstr "Līnijas sākums:"
+
+#: part/annotationwidgets.cpp:506
+#, kde-format
+msgid "Line end:"
+msgstr "Līnijas beigas:"
+
+#: part/annotationwidgets.cpp:509
+#, kde-format
+msgid "Square"
+msgstr "Kvadrāts"
+
+#: part/annotationwidgets.cpp:510
+#, kde-format
+msgid "Circle"
+msgstr "Aplis"
+
+#: part/annotationwidgets.cpp:511
+#, kde-format
+msgid "Diamond"
+msgstr "Rombs"
+
+#: part/annotationwidgets.cpp:512
+#, kde-format
+msgid "Open Arrow"
+msgstr "Atvērta bulta"
+
+#: part/annotationwidgets.cpp:513
+#, kde-format
+msgid "Closed Arrow"
+msgstr "Slēgta bulta"
+
+#: part/annotationwidgets.cpp:514
+#, kde-format
+msgid "None"
+msgstr "Nav"
+
+#: part/annotationwidgets.cpp:515
+#, kde-format
+msgid "Butt"
+msgstr "Nogrieznis"
+
+#: part/annotationwidgets.cpp:516
+#, kde-format
+msgid "Right Open Arrow"
+msgstr "Atvērta bulta pa labi"
+
+#: part/annotationwidgets.cpp:517
+#, kde-format
+msgid "Right Closed Arrow"
+msgstr "Slēgta bulta pa labi"
+
+#: part/annotationwidgets.cpp:518
+#, kde-format
+msgid "Slash"
+msgstr "Slīpsvītra"
+
+#: part/annotationwidgets.cpp:531
+#, kde-format
+msgid "Leader line length:"
+msgstr "Palīglīnijas garums:"
+
+#: part/annotationwidgets.cpp:533
+#, kde-format
+msgid "Leader line extensions length:"
+msgstr "Palīglīnijas pagarinājuma garums:"
+
+#: part/annotationwidgets.cpp:547 part/annotationwidgets.cpp:691
+#, kde-format
+msgid "Enabled"
+msgstr "Ieslēgts"
+
+#: part/annotationwidgets.cpp:551 part/annotationwidgets.cpp:695
+#, kde-format
+msgid "Shape fill:"
+msgstr "Figūras aizpildījums:"
+
+#: part/annotationwidgets.cpp:651 part/annotationwidgets.cpp:685
+#, kde-format
+msgid "Type:"
+msgstr "Tips:"
+
+#: part/annotationwidgets.cpp:656 part/pageviewannotator.cpp:1496
+#, kde-format
+msgid "Strike out"
+msgstr "Pārsvītrots"
+
+#: part/annotationwidgets.cpp:745
+#, kde-format
+msgid "File attachment symbol:"
+msgstr "Datnes pielikuma simbols:"
+
+#: part/annotationwidgets.cpp:748
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Graph"
+msgstr "Diagramma"
+
+#: part/annotationwidgets.cpp:749
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Push Pin"
+msgstr "Piespraude"
+
+#: part/annotationwidgets.cpp:750
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Paperclip"
+msgstr "Papīra saspraude"
+
+#: part/annotationwidgets.cpp:751
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Tag"
+msgstr "Birka"
+
+#: part/annotationwidgets.cpp:760
+#, kde-format
+msgctxt "'File' as normal file, that can be opened, saved, etc.."
+msgid "File"
+msgstr "Datne"
+
+#: part/annotationwidgets.cpp:764 part/embeddedfilesdialog.cpp:94
+#, kde-format
+msgctxt "Not available size"
+msgid "N/A"
+msgstr "NP"
+
+#: part/annotationwidgets.cpp:765
+#, kde-format
+msgid "No description available."
+msgstr "Apraksts nav pieejams."
+
+#: part/annotationwidgets.cpp:773
+#, kde-format
+msgid "Name:"
+msgstr "Nosaukums:"
+
+#: part/annotationwidgets.cpp:784
+#, kde-format
+msgid "Description:"
+msgstr "Apraksts:"
+
+#: part/annotationwidgets.cpp:843
+#, kde-format
+msgid "Caret symbol:"
+msgstr "Kursora simbols:"
+
+#: part/annotationwidgets.cpp:845
+#, kde-format
+msgctxt "Symbol for caret annotations"
+msgid "None"
+msgstr "Nav"
+
+#: part/annotationwidgets.cpp:846
+#, kde-format
+msgctxt "Symbol for caret annotations"
+msgid "P"
+msgstr "P"
+
+#: part/annotwindow.cpp:58
+#, kde-format
+msgid "Close this note"
+msgstr "Aizvērt šo piezīmi"
+
+#: part/annotwindow.cpp:138 part/findbar.cpp:63
+#, kde-format
+msgid "Options"
+msgstr "Iespējas"
+
+#: part/annotwindow.cpp:149
+#, kde-format
+msgid ""
+"This annotation may contain LaTeX code.\n"
+"Click here to render."
+msgstr ""
+"Šī anotācija var saturēt LaTeX kodu.\n"
+"Noklikšķiniet šeit, lai to atveidotu."
+
+#: part/annotwindow.cpp:250 part/annotwindow.cpp:272
+#, fuzzy, kde-format
+#| msgid "Unknown font"
+msgid "Unknown author"
+msgstr "Nezināms fonts"
+
+#: part/annotwindow.cpp:253 part/annotwindow.cpp:275
+#, kde-format
+msgid "No date recognized"
+msgstr ""
+
+#: part/annotwindow.cpp:562
+#, kde-format
+msgid "Cannot find latex executable."
+msgstr "Neizdevās atrast „latex“ izpildāmo programmu."
+
+#: part/annotwindow.cpp:562 part/annotwindow.cpp:567 part/annotwindow.cpp:572
+#: part/annotwindow.cpp:577
+#, kde-format
+msgid "LaTeX rendering failed"
+msgstr "LaTeX atveidošana neizdevās"
+
+#: part/annotwindow.cpp:567
+#, kde-format
+msgid "Cannot find dvipng executable."
+msgstr "Neizdevās atrast „dvipng“ izpildāmo programmu."
+
+#: part/annotwindow.cpp:572
+#, kde-format
+msgid "A problem occurred during the execution of the 'latex' command."
+msgstr "Komandas „latex“ izpildes laikā radās kļūda."
+
+#: part/annotwindow.cpp:577
+#, kde-format
+msgid "A problem occurred during the execution of the 'dvipng' command."
+msgstr "Komandas „dvipng“ izpildes laikā radās kļūda."
+
+#: part/bookmarklist.cpp:114
+#, kde-format
+msgctxt "%1 is the file name"
+msgid ""
+"%1\n"
+"\n"
+"One bookmark"
+msgid_plural ""
+"%1\n"
+"\n"
+"%2 bookmarks"
+msgstr[0] ""
+"%1\n"
+"\n"
+"%2 grāmatzīme"
+msgstr[1] ""
+"%1\n"
+"\n"
+"%2 grāmatzīmes"
+msgstr[2] ""
+"%1\n"
+"\n"
+"%2 grāmatzīmju"
+
+#: part/bookmarklist.cpp:130 part/part.cpp:416
+#, kde-format
+msgid "Bookmarks"
+msgstr "Grāmatzīmes"
+
+#: part/bookmarklist.cpp:134
+#, kde-format
+msgid "Show for all documents"
+msgstr "Parādīt visiem dokumentiem"
+
+#: part/bookmarklist.cpp:141 part/searchwidget.cpp:38 part/side_reviews.cpp:127
+#: part/toc.cpp:41
+#, kde-format
+msgid "Search…"
+msgstr "Meklēt…"
+
+#: part/bookmarklist.cpp:259 part/bookmarklist.cpp:293 part/part.cpp:3194
+#, kde-format
+msgid "Expand All"
+msgstr "Izvērst visu"
+
+#: part/bookmarklist.cpp:260 part/bookmarklist.cpp:294 part/part.cpp:3195
+#, kde-format
+msgid "Collapse All"
+msgstr "Sakļaut visu"
+
+#: part/bookmarklist.cpp:261
+#, kde-format
+msgid "Go to This Bookmark"
+msgstr "Iet uz šo grāmatzīmi"
+
+#: part/bookmarklist.cpp:262 part/bookmarklist.cpp:299 part/part.cpp:692
+#: part/part.cpp:2482
+#, kde-format
+msgid "Rename Bookmark"
+msgstr "Pārdēvēt grāmatzīmi"
+
+#: part/bookmarklist.cpp:297
+#, kde-format
+msgctxt "Opens the selected document"
+msgid "Open Document"
+msgstr "Atvērt dokumentu"
+
+#: part/bookmarklist.cpp:300
+#, kde-format
+msgid "Remove all Bookmarks for this Document"
+msgstr "Noņemt visas šī dokumenta grāmatzīmes"
+
+#: part/certificateviewer.cpp:47
+#, kde-format
+msgid "Certificate Viewer"
+msgstr "Sertifikātu skatītājs"
+
+#: part/certificateviewer.cpp:50
+#, kde-format
+msgid "Export…"
+msgstr "Eksportēt…"
+
+#: part/certificateviewer.cpp:56 part/preferencesdialog.cpp:41
+#, kde-format
+msgid "General"
+msgstr "Pamata"
+
+#: part/certificateviewer.cpp:63
+#, kde-format
+msgid "Issued By"
+msgstr "Izdevējs"
+
+#: part/certificateviewer.cpp:66 part/certificateviewer.cpp:76
+#, kde-format
+msgid "Common Name(CN)"
+msgstr "Vispārīgs nosaukums(CN)"
+
+#: part/certificateviewer.cpp:67 part/certificateviewer.cpp:78
+#, kde-format
+msgid "EMail"
+msgstr "E-pasts"
+
+#: part/certificateviewer.cpp:68 part/certificateviewer.cpp:81
+#, kde-format
+msgid "Organization(O)"
+msgstr "Organizācija(O)"
+
+#: part/certificateviewer.cpp:73
+#, kde-format
+msgid "Issued To"
+msgstr "Izdots priekš"
+
+#: part/certificateviewer.cpp:76 part/propertiesdialog.cpp:424
+#, kde-format
+msgid "Name"
+msgstr "Nosaukums"
+
+#: part/certificateviewer.cpp:86
+#, kde-format
+msgid "Validity"
+msgstr "Derīgums"
+
+#: part/certificateviewer.cpp:90
+#, fuzzy, kde-format
+#| msgctxt "Spinbox prefix: Advance automatically: every n seconds"
+#| msgid "every "
+msgctxt "certificate that never expires"
+msgid "Never"
+msgstr "ik pēc "
+
+#: part/certificateviewer.cpp:94
+#, kde-format
+msgid "Fingerprints"
+msgstr "Digitālnospiedumi"
+
+#: part/certificateviewer.cpp:104
+#, kde-format
+msgid "SHA-1 Fingerprint"
+msgstr "SHA-1 digitālnospiedums"
+
+#: part/certificateviewer.cpp:105
+#, kde-format
+msgid "SHA-256 Fingerprint"
+msgstr "SHA-256 digitālnospiedums"
+
+#: part/certificateviewer.cpp:107
+#, fuzzy, kde-format
+#| msgid "Fingerprints"
+msgctxt "certificate key"
+msgid "Fingerprint"
+msgstr "Digitālnospiedumi"
+
+#: part/certificateviewer.cpp:116
+#, kde-format
+msgid "Details"
+msgstr "Papildinformācija"
+
+#: part/certificateviewer.cpp:117
+#, kde-format
+msgid "Certificate Data:"
+msgstr "Sertifikāta dati:"
+
+#: part/certificateviewer.cpp:178
+#, kde-format
+msgid "Where do you want to save this certificate?"
+msgstr "Kur vēlaties saglabāt šo sertifikātu?"
+
+#: part/certificateviewer.cpp:182
+#, fuzzy, kde-format
+#| msgid "Certificate File (*.cer)"
+msgid "Certificate File (*.asc)"
+msgstr "Sertifikāta datne (*.cer)"
+
+#: part/certificateviewer.cpp:185
+#, kde-format
+msgid "Certificate File (*.cer)"
+msgstr "Sertifikāta datne (*.cer)"
+
+#: part/certificateviewer.cpp:191
+#, kde-format
+msgid "Could not export the certificate"
+msgstr "Sertifikāta eksports neizdevās"
+
+#: part/colormodemenu.cpp:18
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Color Mode"
+msgstr "&Krāsu režīms"
+
+#: part/colormodemenu.cpp:20
+#, kde-format
+msgctxt "@action Change Colors feature toggle action"
+msgid "Change Colors"
+msgstr "Mainīt krāsas"
+
+#: part/colormodemenu.cpp:28
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "&Normal Colors"
+msgstr "&Normālas krāsas"
+
+#: part/colormodemenu.cpp:41
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "&Invert Colors"
+msgstr "&Invertēt krāsas"
+
+#: part/colormodemenu.cpp:42
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Change &Paper Color"
+msgstr "Mainīt &papīra krāsu"
+
+#: part/colormodemenu.cpp:44
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Change &Dark && Light Colors"
+msgstr "Mainīt &tumšās un gaišās krāsas"
+
+#: part/colormodemenu.cpp:46
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Convert to &Black && White"
+msgstr "Pārveidot par &melnbaltu"
+
+#: part/colormodemenu.cpp:49
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Invert &Lightness"
+msgstr "Invertēt &gaišumu"
+
+#: part/colormodemenu.cpp:52
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Invert L&uma (sRGB Linear)"
+msgstr "Invertēt L&uma (lineārs sRGB)"
+
+#: part/colormodemenu.cpp:55
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Invert Luma (&Symmetric)"
+msgstr "Invertēt Luma (&simetrisks)"
+
+#: part/colormodemenu.cpp:58
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Shift Hue P&ositive"
+msgstr "Nobīdīt nokrāsu &pozitīvi"
+
+#: part/colormodemenu.cpp:61
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Shift Hue N&egative"
+msgstr "Nobīdīt nokrāsu n&egatīvi"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:11
+#, kde-format
+msgid "Red"
+msgstr "Sarkans"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:16
+#, kde-format
+msgid "Green"
+msgstr "Zaļš"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:21
+#, kde-format
+msgid "Blue"
+msgstr "Zils"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:26
+#, kde-format
+msgid "Yellow"
+msgstr "Dzeltens"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:31
+#, kde-format
+msgid "Black"
+msgstr "Melns"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:36
+#, kde-format
+msgid "White"
+msgstr "Balts"
+
+#. i18n: tag tool attribute name
+#: part/data/toolsQuick.xml:9
+#, kde-format
+msgid "Yellow Highlighter"
+msgstr "Dzeltens izcēlums"
+
+#. i18n: tag tool attribute name
+#: part/data/toolsQuick.xml:14
+#, kde-format
+msgid "Green Highlighter"
+msgstr "Zaļa izcēlums"
+
+#. i18n: tag tool attribute name
+#: part/data/toolsQuick.xml:24
+#, kde-format
+msgid "Insert Text"
+msgstr "Ievietot tekstu"
+
+#: part/dlgaccessibility.cpp:38
+#, kde-format
+msgctxt "@option:check Config dialog, accessibility page"
+msgid "Draw border around links"
+msgstr "Zīmēt rāmi ap &saitēm"
+
+#: part/dlgaccessibility.cpp:48
+#, kde-format
+msgctxt "@option:check Config dialog, accessibility page"
+msgid "Change colors"
+msgstr "Mainīt krāsas"
+
+#: part/dlgaccessibility.cpp:54
+#, kde-format
+msgctxt "@info Config dialog, accessibility page"
+msgid "<b>Warning:</b> these options can badly affect drawing speed."
+msgstr ""
+"<b>Brīdinājums:</b> šīs iespējas var nelāgi ietekmēt attēlošanas ātrumu."
+
+#: part/dlgaccessibility.cpp:60
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert colors"
+msgstr "Invertēt krāsas"
+
+#: part/dlgaccessibility.cpp:61
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Change paper color"
+msgstr "Mainīt papīra krāsu"
+
+#: part/dlgaccessibility.cpp:62
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Change dark & light colors"
+msgstr "Mainīt tumšās un gaišās krāsas"
+
+#: part/dlgaccessibility.cpp:63
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Convert to black & white"
+msgstr "Pārveidot par melnbaltu"
+
+#: part/dlgaccessibility.cpp:64
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert lightness"
+msgstr "Invertēt krāsas"
+
+#: part/dlgaccessibility.cpp:65
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert luma (sRGB linear)"
+msgstr "Invertēt „luma“ (lineārs sRGB)"
+
+#: part/dlgaccessibility.cpp:66
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert luma (symmetric)"
+msgstr "Invertēt „luma“ (simetrisks)"
+
+#: part/dlgaccessibility.cpp:67
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Shift hue positive"
+msgstr "Nobīdīt nokrāsu pozitīvi"
+
+#: part/dlgaccessibility.cpp:68
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Shift hue negative"
+msgstr "Nobīdīt nokrāsu negatīvi"
+
+#: part/dlgaccessibility.cpp:70
+#, kde-format
+msgctxt "@label:listbox Config dialog, accessibility page"
+msgid "Color mode:"
+msgstr "Krāsu režīms:"
+
+#: part/dlgaccessibility.cpp:87
+#, kde-format
+msgctxt "@label:chooser Config dialog, accessibility page"
+msgid "Paper color:"
+msgstr "Papīra krāsa:"
+
+#: part/dlgaccessibility.cpp:99
+#, kde-format
+msgctxt "@label:chooser Config dialog, accessibility page"
+msgid "Dark color:"
+msgstr "Tumša krāsa:"
+
+#: part/dlgaccessibility.cpp:104
+#, kde-format
+msgctxt "@label:chooser Config dialog, accessibility page"
+msgid "Light color:"
+msgstr "Gaiša krāsa:"
+
+#: part/dlgaccessibility.cpp:119
+#, kde-format
+msgctxt "@label:slider Config dialog, accessibility page"
+msgid "Threshold:"
+msgstr "Slieksnis:"
+
+#: part/dlgaccessibility.cpp:127
+#, kde-format
+msgctxt "@label:slider Config dialog, accessibility page"
+msgid "Contrast:"
+msgstr "Kontrasts:"
+
+#: part/dlgaccessibility.cpp:158
+#, kde-format
+msgctxt "@label:listbox Config dialog, accessibility page"
+msgid "Text-to-speech engine:"
+msgstr "Teksta pārvēršanas runā dzinis:"
+
+#: part/dlgaccessibility.cpp:165
+#, kde-format
+msgctxt "&label:listbox Config dialog, accessibility page"
+msgid "Text-to-speech voice:"
+msgstr "Teksta pārvēršanas runā balss:"
+
+#: part/dlgannotations.cpp:25
+#, kde-format
+msgctxt "item:inlistbox Config dialog, general page"
+msgid "Full Annotation Toolbar"
+msgstr "Pilna anotāciju rīkjosla"
+
+#: part/dlgannotations.cpp:26
+#, kde-format
+msgctxt "item:inlistbox Config dialog, general page"
+msgid "Quick Annotation Toolbar"
+msgstr "Ātrās anotēšanas rīkjosla"
+
+#: part/dlgannotations.cpp:28
+#, kde-format
+msgctxt "label:listbox Config dialog, general page"
+msgid "Annotation toolbar:"
+msgstr "Anotāciju rīkjosla:"
+
+#: part/dlgannotations.cpp:34
+#, kde-format
+msgctxt "@label:textbox Config dialog, annotations page"
+msgid "Author:"
+msgstr "Autors:"
+
+#: part/dlgannotations.cpp:38
+#, kde-format
+msgctxt "@info Config dialog, annotations page"
+msgid ""
+"<b>Note:</b> the information here is used only for annotations. The "
+"information is saved in annotated documents, and so will be transmitted "
+"together with the document."
+msgstr ""
+"<b>Piezīme</b>: šī informācija tiek izmantota tikai anotācijām. Tā tiks "
+"saglabāta anotētajā dokumentā un nodota kopā ar dokumentu."
+
+#: part/dlgannotations.cpp:48
+#, kde-format
+msgctxt ""
+"@label Config dialog, annotations page, heading line for Quick Annotations "
+"tool manager"
+msgid "<h3>Quick Annotation Tools</h3>"
+msgstr "<h3>Ātrās anotēšanas rīki</h3>"
+
+#: part/dlgeditor.cpp:28
+#, kde-format
+msgctxt "@info:whatsthis Config dialog, editor page"
+msgid ""
+"Choose the editor you want to launch when Okular wants to open a source file."
+msgstr ""
+"Izvēlieties redaktoru, ko palaist kad „Okular“ vēlas atvērt pirmkoda datni."
+
+#: part/dlgeditor.cpp:29
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Custom Text Editor"
+msgstr "Pielāgots teksta redaktors"
+
+#: part/dlgeditor.cpp:30
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Kate"
+msgstr "Kate"
+
+#: part/dlgeditor.cpp:31
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Kile"
+msgstr "Kile"
+
+#: part/dlgeditor.cpp:32
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "SciTE"
+msgstr "SciTE"
+
+#: part/dlgeditor.cpp:33
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Emacs client"
+msgstr "Emacs klients"
+
+#: part/dlgeditor.cpp:34
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Lyx client"
+msgstr "Lyx klients"
+
+#: part/dlgeditor.cpp:35
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "TeXstudio"
+msgstr "TeXstudio"
+
+#: part/dlgeditor.cpp:36
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "TeXiFy IDEA"
+msgstr "TeXiFy IDEA"
+
+#: part/dlgeditor.cpp:37
+#, kde-format
+msgctxt "@label:listbox Config dialog, editor page"
+msgid "Editor:"
+msgstr "Redaktors:"
+
+#: part/dlgeditor.cpp:52
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<qt>Set the command of a custom text editor to be launched.<br />\n"
+"You can also put few placeholders:\n"
+"<ul>\n"
+"  <li>%f - the file name</li>\n"
+"  <li>%l - the line of the file to be reached</li>\n"
+"  <li>%c - the column of the file to be reached</li>\n"
+"</ul>\n"
+"If %f is not specified, then the file name is appended to the specified "
+"command."
+msgstr ""
+"<qt>Norādiet komandu, ar ko palaist pielāgotu teksta redaktoru.<br />\n"
+"Varat izmantot šādus vietturus:\n"
+"<ul>\n"
+"  <li>%f — datnes nosaukums</li>\n"
+"  <li>%l — parādāmā rinda datnē</li>\n"
+"  <li>%c — parādāmā kolona datnē</li>\n"
+"</ul>\n"
+"Nenorādot „%f“, datnes nosaukums tiks pievienots norādītās komandas galā."
+
+#: part/dlgeditor.cpp:63
+#, kde-format
+msgctxt "@label:textbox Config dialog, editor page"
+msgid "Command:"
+msgstr "Komanda:"
+
+#: part/dlggeneral.cpp:35
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Use smooth scrolling"
+msgstr "Lietot laideno ritināšanu"
+
+#: part/dlggeneral.cpp:37
+#, kde-format
+msgctxt "@title:group Config dialog, general page"
+msgid "Appearance:"
+msgstr "Izskats:"
+
+#: part/dlggeneral.cpp:41
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Show scrollbars"
+msgstr "Rādīt ritjoslas"
+
+#: part/dlggeneral.cpp:48
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Link the thumbnails with the page"
+msgstr "Sasaistīt sīktēlus ar lapu"
+
+#: part/dlggeneral.cpp:55
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Show hints and info messages"
+msgstr "Rādīt padomus un informācijas ziņojumus"
+
+#: part/dlggeneral.cpp:61
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Notify about embedded files, forms, or signatures"
+msgstr "Informēt par iegultām datnēm, formām un parakstiem"
+
+#: part/dlggeneral.cpp:68
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Display document title in titlebar if available"
+msgstr "Nosaukuma joslā parādīt dokumenta nosaukumu"
+
+#: part/dlggeneral.cpp:74
+#, kde-format
+msgctxt "item:inlistbox Config dialog, general page"
+msgid "Display file name only"
+msgstr "Rādīt tikai datnes nosaukumu"
+
+#: part/dlggeneral.cpp:75
+#, kde-format
+msgctxt "item:inlistbox Config dialog, general page"
+msgid "Display full file path"
+msgstr "Rādīt pilnu ceļu uz datni"
+
+#: part/dlggeneral.cpp:77
+#, kde-format
+msgctxt "label:listbox Config dialog, general page"
+msgid "When not displaying document title:"
+msgstr "Kad netiek parādīts dokumenta nosaukums:"
+
+#: part/dlggeneral.cpp:92
+#, kde-format
+msgctxt "@label:listbox Config dialog, general page"
+msgid "Use custom background color:"
+msgstr "Lietot pielāgotu fona krāsu:"
+
+#: part/dlggeneral.cpp:114
+#, kde-format
+msgctxt "@title:group Config dialog, general page"
+msgid "Program features:"
+msgstr "Programmas iespējas:"
+
+#: part/dlggeneral.cpp:121
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Open new files in tabs"
+msgstr "Jaunas datnes atvērt cilnēs"
+
+#: part/dlggeneral.cpp:126
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Switch to existing tab if file is already open"
+msgstr "Pārslēgties uz cilni, ja datne jau ir atvērta"
+
+#: part/dlggeneral.cpp:139
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Obey DRM limitations"
+msgstr "Respektēt DRM ierobežojumus"
+
+#: part/dlggeneral.cpp:148
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Reload document on file change"
+msgstr "Pārlādēt dokumentu ja datne izmainās"
+
+#: part/dlggeneral.cpp:155
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Show backend selection dialog"
+msgstr "Rādīt aizmugursistēmas izvēles lodziņu"
+
+#: part/dlggeneral.cpp:162
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Right to left reading direction"
+msgstr "Lasīšanas virziens no labās uz kreiso pusi"
+
+#: part/dlggeneral.cpp:168
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid ""
+"Use file information to determine whether to open in continuous mode by "
+"default"
+msgstr ""
+"Lietot datnes informāciju, lai noteiktu, vai pēc noklusējuma atvērt "
+"nepārtrauktā režīmā"
+
+#: part/dlggeneral.cpp:178
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "For files without file information, open in continuous mode by default"
+msgstr ""
+"Datņu bez datnes informācijas gadījumā pēc noklusējuma atvērt nepārtrauktā "
+"režīmā"
+
+#: part/dlggeneral.cpp:180
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Open in continuous mode by default"
+msgstr "Pēc noklusējuma atvērt nepārtrauktas lapu plūsmas režīmā"
+
+#: part/dlggeneral.cpp:188
+#, fuzzy, kde-format
+#| msgid "Continue losing changes"
+msgctxt "@option:check Config dialog, general page"
+msgid "Continue from last viewed page"
+msgstr "Turpināt zaudēt izmaiņas"
+
+#: part/dlggeneral.cpp:195
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "When using Browse Tool, wrap cursor at screen edges"
+msgstr ""
+"Izmantojot pārlūkošanas rīku, automātiski pārnest kursoru nākamajā rindā"
+
+#: part/dlggeneral.cpp:203
+#, kde-format
+msgctxt "@label:spinbox Config dialog, general page"
+msgid "Items in recent history:"
+msgstr "Vienumi nesenajā vēsturē:"
+
+#: part/dlggeneral.cpp:218
+#, kde-format
+msgctxt "@label:spinbox Config dialog, general page"
+msgid "Overview columns:"
+msgstr "Pārskata kolonnas:"
+
+#: part/dlggeneral.cpp:225
+#, kde-format
+msgctxt "@item:spinbox Config dialog, general page, page overlap factor"
+msgid "%v%"
+msgstr "%v %"
+
+#: part/dlggeneral.cpp:226
+#, kde-format
+msgctxt "@info:tooltip Config dialog, general page"
+msgid ""
+"Defines how much of the current viewing area will still be visible when "
+"pressing the Page Up/Down keys."
+msgstr ""
+"Nosaka, cik daudz no pašreizējā skata apgabala joprojām būs redzams, "
+"nospiežot taustiņus „Page Up“/„Page Down“."
+
+#: part/dlggeneral.cpp:228
+#, kde-format
+msgctxt "@label:spinbox Config dialog, general page"
+msgid "Page Up/Down overlap:"
+msgstr "„Page Up/Page Down“ pārklāšanās:"
+
+#: part/dlggeneral.cpp:233
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, custom zoom factor"
+msgid "%v%"
+msgstr "%v %"
+
+#: part/dlggeneral.cpp:237
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid "100%"
+msgstr "100 %"
+
+#: part/dlggeneral.cpp:238
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid "Fit Width"
+msgstr "Pilnā platumā"
+
+#: part/dlggeneral.cpp:239
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid "Fit Page"
+msgstr "Ietilpināt lapu"
+
+#: part/dlggeneral.cpp:240
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid "Auto Fit"
+msgstr "Automātiski ietilpināt"
+
+#: part/dlggeneral.cpp:241
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid "Custom"
+msgstr "Pielāgots"
+
+#: part/dlggeneral.cpp:242
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid ""
+"Defines the default zoom mode for files which were never opened before. For "
+"files which were opened before the previous zoom is applied."
+msgstr ""
+"Nosaka noklusējuma tālummaiņas režīmu datnēm, kas nekad iepriekš nav "
+"atvērtas. Iepriekš atvērtām datnēm programma izmantos iepriekšējo tuvinājumu."
+
+#: part/dlggeneral.cpp:246
+#, kde-format
+msgctxt "label:listbox Config dialog, general page, default zoom"
+msgid "Default zoom:"
+msgstr "Noklusētais tuvinājums:"
+
+#: part/dlgperformance.cpp:26
+#, kde-format
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable transparency effects"
+msgstr "Ieslēgt caurspīdīguma efektus"
+
+#: part/dlgperformance.cpp:28
+#, kde-format
+msgctxt "@label Config dialog, performance page"
+msgid "CPU usage:"
+msgstr "CPU lietojums:"
+
+#: part/dlgperformance.cpp:35
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Low"
+msgstr "Zems"
+
+#: part/dlgperformance.cpp:36
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Normal (default)"
+msgstr "Normāls (noklusējuma)"
+
+#: part/dlgperformance.cpp:37
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Aggressive"
+msgstr "Agresīvs"
+
+#: part/dlgperformance.cpp:38
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Greedy"
+msgstr "Alkatīgs"
+
+#: part/dlgperformance.cpp:40
+#, kde-format
+msgctxt "@label:listbox Config dialog, performance page, memory usage"
+msgid "Memory usage:"
+msgstr "Atmiņas lietojums:"
+
+#: part/dlgperformance.cpp:54
+#, kde-format
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable text antialias"
+msgstr "Ieslēgt teksta kropļojumnovērsi"
+
+#: part/dlgperformance.cpp:56
+#, kde-format
+msgctxt "@title:group Config dialog, performance page"
+msgid "Rendering options:"
+msgstr "Attēlošanas opcijas:"
+
+#: part/dlgperformance.cpp:59
+#, kde-format
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable graphics antialias"
+msgstr "Ieslēgt zīmējumu kropļojumnovērsi"
+
+#: part/dlgperformance.cpp:64
+#, kde-format
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable text hinting"
+msgstr "Ieslēgt fontu izlīdzināšanu"
+
+#: part/dlgperformance.cpp:77
+#, kde-format
+msgid ""
+"Keeps used memory as low as possible. Do not reuse anything. (For systems "
+"with low memory.)"
+msgstr ""
+"Izmanto pēc iespējas mazāk atmiņas. Neko neizmanto vēlreiz. (Sistēmām ar maz "
+"atmiņas.)"
+
+#: part/dlgperformance.cpp:80
+#, kde-format
+msgid ""
+"A good compromise between memory usage and speed gain. Preload next page and "
+"boost searches. (For systems with 2GB of memory, typically.)"
+msgstr ""
+"Labs kompromiss starp atmiņas patēriņu un ātrumu. Iepriekš ielādē nākamo "
+"lapu un paātrina meklēšanu. (Sistēmām ar apmēram 2 GB atmiņas.)"
+
+#: part/dlgperformance.cpp:83
+#, kde-format
+msgid ""
+"Keeps everything in memory. Preload next pages. Boost searches. (For systems "
+"with more than 4GB of memory.)"
+msgstr ""
+"Atmiņā patur visu. Iepriekš ielādē nākamās lapas. Paātrina meklēšanu. "
+"(Sistēmām ar vairāk nekā 4 GB atmiņas.)"
+
+#: part/dlgperformance.cpp:87
+#, no-c-format, kde-format
+msgid ""
+"Loads and keeps everything in memory. Preload all pages. (Will use at "
+"maximum 50% of your total memory or your free memory, whatever is bigger.)"
+msgstr ""
+"Ielādē un patur atmiņā visu. Iepriekš ielādē visas lapas. (Izmantos ne "
+"vairāk kā 50% no kopējās vai brīvās atmiņas — atkarībā no tā, kura ir "
+"lielāka.)"
+
+#: part/dlgpresentation.cpp:38
+#, kde-format
+msgctxt "@label:spinbox Advance automatically: Every n second"
+msgid "every %v second"
+msgid_plural "every %v seconds"
+msgstr[0] "katru %v sekundi"
+msgstr[1] "katras %v sekundes"
+msgstr[2] "katras %v sekundes"
+
+#: part/dlgpresentation.cpp:45
+#, kde-format
+msgctxt "@label:spinbox Config dialog, presentation page"
+msgid "Advance automatically:"
+msgstr "Pāršķirt automātiski:"
+
+#: part/dlgpresentation.cpp:53
+#, kde-format
+msgctxt "@option:check Config dialog, presentation page"
+msgid "Loop after last page"
+msgstr "Pēc pēdējās lapas sākt no sākuma"
+
+#: part/dlgpresentation.cpp:59
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, tap navigation"
+msgid "Tap left/right side to go back/forward"
+msgstr "Uzsist kreisajā/labajā pusē, lai ietu uz priekšu/atpakaļ"
+
+#: part/dlgpresentation.cpp:60
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, tap navigation"
+msgid "Tap anywhere to go forward"
+msgstr "Uzsist jebkur, lai ietu uz priekšu"
+
+#: part/dlgpresentation.cpp:61
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, tap navigation"
+msgid "Disabled"
+msgstr "Izslēgts"
+
+#: part/dlgpresentation.cpp:63
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, tap navigation"
+msgid "Touch navigation:"
+msgstr "Skārienu navigācija:"
+
+#: part/dlgpresentation.cpp:72
+#, kde-format
+msgctxt "@label:chooser Config dialog, presentation page"
+msgid "Background color:"
+msgstr "Fona krāsa:"
+
+#: part/dlgpresentation.cpp:76
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, cursor visibility"
+msgid "Hidden after delay"
+msgstr "Noslēpt pēc laika"
+
+#: part/dlgpresentation.cpp:77
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, cursor visibility"
+msgid "Always visible"
+msgstr "Vienmēr redzams"
+
+#: part/dlgpresentation.cpp:78
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, cursor visibility"
+msgid "Always hidden"
+msgstr "Vienmēr noslēpts"
+
+#: part/dlgpresentation.cpp:80
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, cursor visibility"
+msgid "Mouse cursor:"
+msgstr "Peles kursors:"
+
+#: part/dlgpresentation.cpp:84
+#, kde-format
+msgctxt "@option:check Config dialog, presentation page"
+msgid "Show progress indicator"
+msgstr "Rādīt progresa indikatoru"
+
+#: part/dlgpresentation.cpp:90
+#, kde-format
+msgctxt "@option:check Config dialog, presentation page"
+msgid "Show summary page"
+msgstr "Rādīt kopsavilkuma lapu"
+
+#: part/dlgpresentation.cpp:100
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Instant (Never use animations)"
+msgstr "Nekavējoties (nekad neizmantot animācijas)"
+
+#: part/dlgpresentation.cpp:101
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Replace"
+msgstr "Aizstāt"
+
+#: part/dlgpresentation.cpp:102
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Random transition"
+msgstr "Nejauša pāreja"
+
+#: part/dlgpresentation.cpp:103
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Blinds vertical"
+msgstr "Vertikālas žalūzijas"
+
+#: part/dlgpresentation.cpp:104
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Blinds horizontal"
+msgstr "Horizontālas žalūzijas"
+
+#: part/dlgpresentation.cpp:105
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Box in"
+msgstr "Kastes pāreja uz iekšpusi"
+
+#: part/dlgpresentation.cpp:106
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Box out"
+msgstr "Kastes pāreja uz ārpusi"
+
+#: part/dlgpresentation.cpp:107
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Dissolve"
+msgstr "Pa gabaliņiem"
+
+#: part/dlgpresentation.cpp:108
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Fade"
+msgstr "Izgaist"
+
+#: part/dlgpresentation.cpp:109
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Glitter down"
+msgstr "Ar mirdzumiem lejup"
+
+#: part/dlgpresentation.cpp:110
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Glitter right"
+msgstr "Ar mirdzumiem pa labi"
+
+#: part/dlgpresentation.cpp:111
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Glitter right-down"
+msgstr "Ar mirdzumiem no labās puses un uz leju"
+
+#: part/dlgpresentation.cpp:112
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split horizontal in"
+msgstr "Aizvērt horizontāli"
+
+#: part/dlgpresentation.cpp:113
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split horizontal out"
+msgstr "Atvērt horizontāli"
+
+#: part/dlgpresentation.cpp:114
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split vertical in"
+msgstr "Aizvērt vertikāli"
+
+#: part/dlgpresentation.cpp:115
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split vertical out"
+msgstr "Atvērt vertikāli"
+
+#: part/dlgpresentation.cpp:116
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe down"
+msgstr "Noslaucīt lejup"
+
+#: part/dlgpresentation.cpp:117
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe right"
+msgstr "Noslaucīt pa labi"
+
+#: part/dlgpresentation.cpp:118
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe left"
+msgstr "Noslaucīt pa kreisi"
+
+#: part/dlgpresentation.cpp:119
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe up"
+msgstr "Noslaucīt augšup"
+
+#: part/dlgpresentation.cpp:121
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, transitions"
+msgid "Default transition:"
+msgstr "Noklusētā pāreja:"
+
+#: part/dlgpresentation.cpp:130
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, preferred screen"
+msgid "Preferred screen:"
+msgstr "Priekšroka ekrānam:"
+
+#: part/dlgpresentation.cpp:137
+#, kde-format
+msgctxt ""
+"@label Config dialog, presentation page, heading line for drawing tool "
+"manager"
+msgid "<h3>Drawing Tools</h3>"
+msgstr "<h3>Zīmēšanas rīki</h3>"
+
+#: part/dlgpresentation.cpp:171
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, preferred screen"
+msgid "Current Screen"
+msgstr "Aktīvais ekrāns"
+
+#: part/dlgpresentation.cpp:172
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, preferred screen"
+msgid "Default Screen"
+msgstr "Noklusētais ekrāns"
+
+#: part/dlgpresentation.cpp:178
+#, kde-format
+msgctxt ""
+"@item:inlistbox Config dialog, presentation page, preferred screen. %1 is "
+"the screen number (0, 1, ...). %2 is the screen manufacturer name. %3 is the "
+"screen model name. %4 is the screen name like DVI-0"
+msgid "Screen %1 (%2 %3 %4)"
+msgstr "Ekrāns %1 (%2 %3 %4)"
+
+#: part/dlgpresentation.cpp:190
+#, kde-format
+msgctxt ""
+"@item:inlistbox Config dialog, presentation page, preferred screen. %1 is "
+"the screen number (0, 1, ...), hopefully not 0."
+msgid "Screen %1 (disconnected)"
+msgstr "Ekrāns %1 (atvienots)"
+
+#: part/drawingtoolactions.cpp:192
+#, kde-format
+msgid "Drawing Tool: %1"
+msgstr "Zīmēšanas rīks: %1"
+
+#: part/drawingtoolactions.cpp:214 part/drawingtoolactions.cpp:215
+#, kde-format
+msgid "Eraser"
+msgstr "Dzēšgumija"
+
+#: part/editannottooldialog.cpp:59 part/editdrawingtooldialog.cpp:44
+#, kde-format
+msgid "&Name:"
+msgstr "&Nosaukums:"
+
+#: part/editannottooldialog.cpp:69
+#, kde-format
+msgid "&Type:"
+msgstr "&Tips:"
+
+#: part/editannottooldialog.cpp:82
+#, kde-format
+msgid "Appearance"
+msgstr "Izskats"
+
+#: part/editannottooldialog.cpp:93
+#, kde-format
+msgid "Text markup"
+msgstr "Teksta marķēšana"
+
+#: part/editannottooldialog.cpp:94
+#, kde-format
+msgid "Geometrical shape"
+msgstr "Ģeometriska figūra"
+
+#: part/editannottooldialog.cpp:101
+#, kde-format
+msgid "Create annotation tool"
+msgstr "Izveidot anotāciju rīku"
+
+#: part/editannottooldialog.cpp:103
+#, kde-format
+msgid "Edit annotation tool"
+msgstr "Rediģēt anotāciju rīku"
+
+#: part/editdrawingtooldialog.cpp:51
+#, kde-format
+msgid "Color:"
+msgstr "Krāsa:"
+
+#: part/editdrawingtooldialog.cpp:58
+#, kde-format
+msgid "&Pen Width:"
+msgstr "&Zīmuļa platums:"
+
+#: part/editdrawingtooldialog.cpp:64
+#, kde-format
+msgctxt "@label:spinbox Suffix for the pen width, e.g. '10 px'"
+msgid "%v px"
+msgstr "%v piks."
+
+#: part/editdrawingtooldialog.cpp:79
+#, kde-format
+msgid "Create drawing tool"
+msgstr "Izveidot zīmēšanas rīku"
+
+#: part/editdrawingtooldialog.cpp:84
+#, kde-format
+msgid "Edit drawing tool"
+msgstr "Rediģēt zīmēšanas rīku"
+
+#: part/embeddedfilesdialog.cpp:41
+#, kde-format
+msgctxt "Unknown date"
+msgid "Unknown"
+msgstr "Nezināms"
+
+#: part/embeddedfilesdialog.cpp:47
+#, kde-format
+msgctxt "@title:window"
+msgid "Embedded Files"
+msgstr "Iegultās datnes"
+
+#: part/embeddedfilesdialog.cpp:61
+#, kde-format
+msgctxt "@action:button"
+msgid "View"
+msgstr "Skats"
+
+#: part/embeddedfilesdialog.cpp:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Open"
+msgstr ""
+
+#: part/embeddedfilesdialog.cpp:74
+#, kde-format
+msgctxt "@title:column"
+msgid "Name"
+msgstr "Nosaukums"
+
+#: part/embeddedfilesdialog.cpp:75
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
+msgstr "Apraksts"
+
+#: part/embeddedfilesdialog.cpp:76
+#, kde-format
+msgctxt "@title:column"
+msgid "Size"
+msgstr "Izmērs"
+
+#: part/embeddedfilesdialog.cpp:77
+#, kde-format
+msgctxt "@title:column"
+msgid "Created"
+msgstr "Izveidots"
+
+#: part/embeddedfilesdialog.cpp:78
+#, kde-format
+msgctxt "@title:column"
+msgid "Modified"
+msgstr "Mainīts"
+
+#: part/embeddedfilesdialog.cpp:169
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Save As…"
+msgstr "&Saglabāt kā…"
+
+#: part/embeddedfilesdialog.cpp:170
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&View…"
+msgstr "&Skats…"
+
+#: part/embeddedfilesdialog.cpp:171
+#, fuzzy, kde-format
+#| msgctxt "%1 is the name of the file to save"
+#| msgid "&Save '%1'…"
+msgctxt "@action:inmenu"
+msgid "&Open…"
+msgstr "&Saglabāt „%1“…"
+
+#: part/fileprinterpreview.cpp:113
+#, kde-format
+msgid "Could not load print preview part"
+msgstr "Neizdevās ielādēt drukas priekšskatījuma daļu"
+
+#: part/fileprinterpreview.cpp:125
+#, kde-format
+msgid "Print Preview"
+msgstr "Drukas priekšskatījums"
+
+#: part/findbar.cpp:34 part/presentationsearchbar.cpp:63
+#, kde-format
+msgid "Close"
+msgstr "Aizvērt"
+
+#: part/findbar.cpp:38
+#, kde-format
+msgctxt "Find text"
+msgid "F&ind:"
+msgstr "&Meklēt:"
+
+#: part/findbar.cpp:49
+#, kde-format
+msgid "Text to search for"
+msgstr "Meklējamais teksts"
+
+#: part/findbar.cpp:54
+#, kde-format
+msgctxt "Find and go to the next search match"
+msgid "Next"
+msgstr "Nākamais"
+
+#: part/findbar.cpp:55
+#, kde-format
+msgid "Jump to next match"
+msgstr "Nākamā atbilstība"
+
+#: part/findbar.cpp:58
+#, kde-format
+msgctxt "Find and go to the previous search match"
+msgid "Previous"
+msgstr "Iepriekšējais"
+
+#: part/findbar.cpp:59
+#, kde-format
+msgid "Jump to previous match"
+msgstr "Iepriekšējā atbilstība"
+
+#: part/findbar.cpp:64
+#, kde-format
+msgid "Modify search behavior"
+msgstr "Mainīt meklēšanas uzvedību"
+
+#: part/findbar.cpp:66
+#, kde-format
+msgid "Case sensitive"
+msgstr "Reģistrjutīga"
+
+#: part/findbar.cpp:68
+#, kde-format
+msgid "From current page"
+msgstr "No pašreizējās lapas"
+
+#: part/findbar.cpp:70
+#, kde-format
+msgid "Find as you type"
+msgstr "Meklēt rakstīšanas laikā"
+
+#: part/formwidgets.cpp:872
+#, kde-format
+msgid "All Files (*)"
+msgstr "Visas datnes (*)"
+
+#: part/formwidgets.cpp:1282
+#, kde-format
+msgctxt "Digital signature"
+msgid "Signature placeholder (Click to Sign)"
+msgstr "Paraksta lauks (klikšķiniet, lai parakstītu)"
+
+#: part/formwidgets.cpp:1348 part/signaturepanel.cpp:97
+#, kde-format
+msgid "&Sign…"
+msgstr "&Parakstīt…"
+
+#: part/formwidgets.cpp:1352 part/signaturepropertiesdialog.cpp:43
+#, kde-format
+msgid "Signature Properties"
+msgstr "Paraksta īpašības"
+
+#: part/ktreeviewsearchline.cpp:283
+#, kde-format
+msgid "Search Options"
+msgstr "Meklēšanas opcijas"
+
+#: part/ktreeviewsearchline.cpp:284
+#, kde-format
+msgctxt "Enable case sensitive search in the side navigation panels"
+msgid "Case Sensitive"
+msgstr "Reģistrjutīga"
+
+#: part/ktreeviewsearchline.cpp:287
+#, kde-format
+msgctxt "Enable regular expression search in the side navigation panels"
+msgid "Regular Expression"
+msgstr "Regulārā izteiksme"
+
+#: part/layers.cpp:33 part/part.cpp:2330
+#, kde-format
+msgid "Layers"
+msgstr "Slāņi"
+
+#: part/minibar.cpp:192
+#, kde-format
+msgctxt "Layouted like: '5 [pages] of 10'"
+msgid "of"
+msgstr "no"
+
+#: part/pageview.cpp:534
+#, kde-format
+msgid "Zoom"
+msgstr "Tālummaiņa"
+
+#: part/pageview.cpp:546
+#, kde-format
+msgid "Zoom to 100%"
+msgstr "Tuvināt līdz 100%"
+
+#: part/pageview.cpp:557
+#, kde-format
+msgid "Rotate &Right"
+msgstr "Griezt pa &labi"
+
+#: part/pageview.cpp:558
+#, kde-format
+msgctxt "Rotate right"
+msgid "Right"
+msgstr "Pa labi"
+
+#: part/pageview.cpp:562
+#, kde-format
+msgid "Rotate &Left"
+msgstr "Griezt pa &kreisi"
+
+#: part/pageview.cpp:563
+#, kde-format
+msgctxt "Rotate left"
+msgid "Left"
+msgstr "Pa kreisi"
+
+#: part/pageview.cpp:567
+#, kde-format
+msgid "Original Orientation"
+msgstr "Sākotnējā orientācija"
+
+#: part/pageview.cpp:573
+#, kde-format
+msgid "&Trim View"
+msgstr "&Apcirst skatu"
+
+#: part/pageview.cpp:577
+#, kde-format
+msgid "&Trim Margins"
+msgstr "Ap&cirst apmales"
+
+#: part/pageview.cpp:584
+#, kde-format
+msgid "Trim To &Selection"
+msgstr "Apcirst līdz &izvēlei"
+
+#: part/pageview.cpp:590
+#, kde-format
+msgid "Fit &Width"
+msgstr "Pilnā &platumā"
+
+#: part/pageview.cpp:594
+#, kde-format
+msgid "Fit &Page"
+msgstr "Visa &lapa"
+
+#: part/pageview.cpp:598
+#, kde-format
+msgid "&Auto Fit"
+msgstr "&Automātiski ietilpināt"
+
+#: part/pageview.cpp:602
+#, kde-format
+msgid "Fit Wi&ndow to Page"
+msgstr "&Mērogot logu pret lapu"
+
+#: part/pageview.cpp:609
+#, kde-format
+msgid "&View Mode"
+msgstr "&Skata režīms"
+
+#: part/pageview.cpp:621
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Single Page"
+msgstr "&Viena lapa"
+
+#: part/pageview.cpp:622
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Facing Pages"
+msgstr "&Atvērums"
+
+#: part/pageview.cpp:623
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Facing Pages (&Center First Page)"
+msgstr "Atvērums (&centrēt pirmo lapu)"
+
+#: part/pageview.cpp:626
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Overview"
+msgstr "&Pārskats"
+
+#: part/pageview.cpp:638
+#, kde-format
+msgid "&Continuous"
+msgstr "&Nepārtraukts"
+
+#: part/pageview.cpp:645
+#, kde-format
+msgctxt "@action page layout"
+msgid "Use Right to Left Reading Direction"
+msgstr "Lasīšanas virziens no labās uz kreiso pusi"
+
+#: part/pageview.cpp:654
+#, kde-format
+msgid "&Browse"
+msgstr "Pār&lūkot"
+
+#: part/pageview.cpp:662
+#, kde-format
+msgid "&Zoom"
+msgstr "&Tuvināt/tālināt"
+
+#: part/pageview.cpp:682
+#, kde-format
+msgid "Area &Selection"
+msgstr "&Zonas iezīmēšana"
+
+#: part/pageview.cpp:689
+#, kde-format
+msgid "&Text Selection"
+msgstr "&Teksta iezīmēšana"
+
+#: part/pageview.cpp:696
+#, kde-format
+msgid "T&able Selection"
+msgstr "T&abulu iezīmēšana"
+
+#: part/pageview.cpp:703
+#, kde-format
+msgid "&Magnifier"
+msgstr "&Palielinātājs"
+
+#: part/pageview.cpp:712
+#, kde-format
+msgctxt "@action"
+msgid "Selection Tools"
+msgstr "Iezīmēšanas rīki"
+
+#: part/pageview.cpp:738
+#, kde-format
+msgid "Digitally &Sign…"
+msgstr "Digitāli &parakstīt…"
+
+#: part/pageview.cpp:744
+#, kde-format
+msgid "Speak Whole Document"
+msgstr "Izrunāt visu dokumentu"
+
+#: part/pageview.cpp:749
+#, kde-format
+msgid "Speak From Current Page"
+msgstr "Izrunāt no atvērtās lapas"
+
+#: part/pageview.cpp:754
+#, kde-format
+msgid "Speak Current Page"
+msgstr "Izrunāt atvērto lapu"
+
+#: part/pageview.cpp:759
+#, kde-format
+msgid "Stop Speaking"
+msgstr "Apturēt izrunāšanu"
+
+#: part/pageview.cpp:764
+#, kde-format
+msgid "Pause/Resume Speaking"
+msgstr "Pauzēt/turpināt runāšanu"
+
+#: part/pageview.cpp:776
+#, kde-format
+msgid "Scroll Up"
+msgstr "Ritināt augšup"
+
+#: part/pageview.cpp:782
+#, kde-format
+msgid "Scroll Down"
+msgstr "Ritināt lejup"
+
+#: part/pageview.cpp:788
+#, kde-format
+msgid "Scroll Page Up"
+msgstr "Ritināt lapu augšup"
+
+#: part/pageview.cpp:794
+#, kde-format
+msgid "Scroll Page Down"
+msgstr "Ritināt lapu lejup"
+
+#: part/pageview.cpp:800
+#, kde-format
+msgid "Show Forms"
+msgstr "Rādīt formas"
+
+#: part/pageview.cpp:1312
+#, kde-format
+msgid " Loaded a one-page document."
+msgid_plural " Loaded a %1-page document."
+msgstr[0] " Ielādēts %1 lapu garš dokuments."
+msgstr[1] " Ielādēts %1 lapas garš dokuments."
+msgstr[2] " Ielādēts %1 lapu garš dokuments."
+
+#: part/pageview.cpp:2583
+#, kde-format
+msgid "Copy Table Contents to Clipboard"
+msgstr "Tabulas saturu kopēt uz starpliktuvi"
+
+#: part/pageview.cpp:2933
+#, kde-format
+msgid "Text (1 character)"
+msgid_plural "Text (%1 characters)"
+msgstr[0] "Teksts (%1 rakstzīme)"
+msgstr[1] "Teksts (%1 rakstzīmes)"
+msgstr[2] "Teksts (%1 rakstzīmju)"
+
+#: part/pageview.cpp:2934 part/pageview.cpp:2956
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "Kopēt uz starpliktuvi"
+
+#: part/pageview.cpp:2936 part/pageview.cpp:3155 part/part.cpp:843
+#, fuzzy, kde-format
+#| msgid "Copy Text to Clipboard"
+msgid "Copy Text (Without line breaks)"
+msgstr "Kopēt tekstu uz starpliktuvi"
+
+#: part/pageview.cpp:2947 part/pageview.cpp:3159
+#, kde-format
+msgid "Speak Text"
+msgstr "Izrunāt tekstu"
+
+#: part/pageview.cpp:2955
+#, kde-format
+msgid "Image (%1 × %2 pixels)"
+msgstr "Attēls (%1 × %2 pikseļi)"
+
+#: part/pageview.cpp:2957
+#, kde-format
+msgid "Save to File…"
+msgstr "Saglabāt datnē…"
+
+#: part/pageview.cpp:2977
+#, kde-format
+msgid "Image [%1 × %2] copied to clipboard."
+msgstr "Attēls [%1 × %2] ir iekopēts starpliktuvē."
+
+#: part/pageview.cpp:2980
+#, kde-format
+msgid "Save file"
+msgstr "Saglabāt datni"
+
+#: part/pageview.cpp:2980
+#, kde-format
+msgid "Images (*.png *.jpeg)"
+msgstr "Attēli (*.png *.jpeg)"
+
+#: part/pageview.cpp:2982
+#, kde-format
+msgid "File not saved."
+msgstr "Datne nav saglabāta."
+
+#: part/pageview.cpp:2993
+#, kde-format
+msgid "Image [%1 × %2] saved to %3 file."
+msgstr "Attēls [%1 × %2] ir saglabāts datnē „%3“."
+
+#: part/pageview.cpp:3154
+#, kde-format
+msgid "Copy Text"
+msgstr "Kopēt tekstu"
+
+#: part/pageview.cpp:3177
+#, kde-format
+msgid "Go to '%1'"
+msgstr "Iet uz „%1“"
+
+#: part/pageview.cpp:4208 part/part.cpp:3217
+#, kde-format
+msgid "Fit Width"
+msgstr "Pilnā platumā"
+
+#: part/pageview.cpp:4208
+#, kde-format
+msgid "Fit Page"
+msgstr "Ietilpināt lapu"
+
+#: part/pageview.cpp:4208
+#, kde-format
+msgid "Auto Fit"
+msgstr "Automātiski ietilpināt"
+
+#: part/pageview.cpp:4231
+#, kde-format
+msgctxt ""
+"Zoom percentage value %1 will be replaced by the actual zoom factor value, "
+"so make sure you include it in your translation in order to not to break "
+"anything"
+msgid "%1%"
+msgstr "%1%"
+
+#: part/pageview.cpp:4514
+#, kde-format
+msgid "Search for '%1' with"
+msgstr "Meklēt „%1“ ar"
+
+#: part/pageview.cpp:4528
+#, kde-format
+msgid "Configure Web Shortcuts…"
+msgstr "Pārvaldīt tīmekļa saīsnes…"
+
+#: part/pageview.cpp:4554
+#, kde-format
+msgid "Follow This Link"
+msgstr "Atvērt šo saiti"
+
+#: part/pageview.cpp:4557
+#, kde-format
+msgid "Play this Sound"
+msgstr "Atskaņot skaņu"
+
+#: part/pageview.cpp:4559
+#, kde-format
+msgid "Stop Sound"
+msgstr "Apturēt skaņu"
+
+#: part/pageview.cpp:4565
+#, kde-format
+msgid "Copy Link Address"
+msgstr "Kopēt saites adresi"
+
+#: part/pageview.cpp:4622
+#, kde-format
+msgid "Search for '%1' in this document"
+msgstr "Meklēt „%1“ šajā dokumentā"
+
+#: part/pageview.cpp:5154
+#, kde-format
+msgid "Welcome"
+msgstr "Laipni lūdzam"
+
+#: part/pageview.cpp:5280
+#, kde-format
+msgid "Select zooming area. Right-click to zoom out."
+msgstr ""
+"Izvēlieties tālummaiņas apgabalu. Ar peles labās pogas klikšķi varat "
+"attālināt (samazināt)."
+
+#: part/pageview.cpp:5295
+#, kde-format
+msgid "Click to see the magnified view."
+msgstr "Klikšķiniet, lai skatītu palielinātu skatu."
+
+#: part/pageview.cpp:5312
+#, kde-format
+msgid "Draw a rectangle around the text/graphics to copy."
+msgstr "Apvelciet taisnstūri ap tekstu/grafiku, ko vēlaties nokopēt."
+
+#: part/pageview.cpp:5328
+#, kde-format
+msgid "Select text"
+msgstr "Iezīmēt tekstu"
+
+#: part/pageview.cpp:5344
+#, kde-format
+msgid ""
+"Draw a rectangle around the table, then click near edges to divide up; press "
+"Esc to clear."
+msgstr ""
+"Apvelciet taisnstūri ap tabulu, tad noklikšķiniet netālu no malām, lai "
+"veiktu sadalīšanu; nospiediet „Esc“, lai notīrītu."
+
+#: part/pageview.cpp:5359 part/pageview.cpp:5367
+#, kde-format
+msgid ""
+"All your signing certificates are invalid. In case signing worked before, "
+"please check their validity dates."
+msgstr ""
+"Visi jūsu parakstīšanas sertifikāti ir nederīgi. Gadījumā, ja parakstīšana "
+"agrāk strādāja, pārbaudiet derīguma datumus."
+
+#: part/pageview.cpp:5360
+#, kde-format
+msgid "No valid certificates"
+msgstr "Bez derīga sertifikāta"
+
+#: part/pageview.cpp:5361 part/pageview.cpp:5376
+#, kde-format
+msgid "Open Certificate Manager"
+msgstr "Atvērt sertifikāta pārvaldnieku"
+
+#: part/pageview.cpp:5372
+#, kde-format
+msgid ""
+"There are no available signing certificates.<br/>Launch Certificate Manager "
+"to import or manage certificates<br/>For more information, please see the "
+"section about <a href=\"%1\">Adding Digital Signatures</a> in the manual."
+msgstr ""
+"Nav pieejami parakstīšanas sertifikāti.<br/>Lai importētu vai pārvaldītu "
+"sertifikātus, ieslēdziet sertifikātu pārvaldnieku<br/>Lai iegūtu vairāk "
+"informācijas, lasiet rokasgrāmatas sadaļu <a href=\"%1\">Digitālo parakstu "
+"pievienošana</a>"
+
+#: part/pageview.cpp:5375 part/pageview.cpp:5387
+#, kde-format
+msgid "No certificates found"
+msgstr "Sertifikāti nav atrasti"
+
+#: part/pageview.cpp:5385
+#, kde-format
+msgid ""
+"There are no available signing certificates.<br/>For more information, "
+"please see the section about <a href=\"%1\">Adding Digital Signatures</a> in "
+"the manual."
+msgstr ""
+"Nav pieejami paraksta sertifikāti<br/>Lai iegūtu vairāk informācijas, lasiet "
+"rokasgrāmatas sadaļu <a href=\"%1\">Digitālo parakstu pievienošana</a>"
+
+#: part/pageview.cpp:5410
+#, kde-format
+msgid "You have unsaved changes. Please save the document before signing it."
+msgstr ""
+"Jums ir nesaglabātas izmaiņas. Pirms parakstīšanas dokuments ir jāsaglabā."
+
+#: part/pageview.cpp:5433
+#, kde-format
+msgid "Draw a rectangle to insert the signature field"
+msgstr "Iezīmējiet četrstūri, lai ievietotu paraksta lauciņu"
+
+#: part/pageview.cpp:5583
+#, kde-format
+msgid "Draw a rectangle around the page area you wish to keep visible"
+msgstr "Apvelciet taisnstūri ap vietu lapā, kuru vēlaties paturēt redzamu"
+
+#: part/pageviewannotator.cpp:262
+#, kde-format
+msgid "New Text Note"
+msgstr "Jauna teksta piezīme"
+
+#: part/pageviewannotator.cpp:262
+#, kde-format
+msgid "Text of the new note:"
+msgstr "Jaunās piezīmes teksts:"
+
+#: part/pageviewannotator.cpp:409
+#, kde-format
+msgid ""
+"Signed by: %1\n"
+"\n"
+"Date: %2"
+msgstr ""
+"Parakstīja: %1\n"
+"\n"
+"Datums: %2"
+
+#: part/pageviewannotator.cpp:486
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"A signature of this size may be too small to read. If you would like to "
+"create a potentially more readable signature, press <interface>Start over</"
+"interface> and draw a bigger rectangle."
+msgstr ""
+"Šādu mazu parakstu var būt grūtības izlasīt. Ja vēlaties izveidot, "
+"iespējams, izlasāmāku parakstu, spiediet <interface>Sākt no sākuma</"
+"interface> un iezīmējiet lielāku četrstūri."
+
+#: part/pageviewannotator.cpp:488
+#, kde-format
+msgctxt "@action:button"
+msgid "Start Over"
+msgstr "Sākt no sākuma"
+
+#: part/pageviewannotator.cpp:489
+#, kde-format
+msgctxt "@action:button"
+msgid "Sign"
+msgstr "Parakstīt"
+
+#: part/pageviewannotator.cpp:1334
+#, kde-format
+msgid "Author name"
+msgstr "Autora vārds"
+
+#: part/pageviewannotator.cpp:1334
+#, kde-format
+msgid "Author name for the annotation:"
+msgstr "Autora vārds anotācijām:"
+
+#: part/pageviewannotator.cpp:1395
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw an ellipse (drag to select a zone)"
+msgstr "Iezīmējiet elipsi (klikšķiniet un velciet)"
+
+#: part/pageviewannotator.cpp:1397
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Highlight text"
+msgstr "Izcelts teksts"
+
+#: part/pageviewannotator.cpp:1399
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a freehand line"
+msgstr "Zīmēt brīvas formas līniju"
+
+#: part/pageviewannotator.cpp:1401
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Inline Text Annotation (drag to select a zone)"
+msgstr "Iegulta teksta anotēšana (klikšķiniet un velciet)"
+
+#: part/pageviewannotator.cpp:1403
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Put a pop-up note"
+msgstr "Ievietot izlecošu piezīmi"
+
+#: part/pageviewannotator.cpp:1405
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a polygon (click on the first point to close it)"
+msgstr "Zīmēt daudzstūri (nospiediet uz pirmā punkta, lai to pabeigtu)"
+
+#: part/pageviewannotator.cpp:1407
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a rectangle"
+msgstr "Zīmēt taisnstūri"
+
+#: part/pageviewannotator.cpp:1409
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Squiggle text"
+msgstr "Teksts ar vilnīti"
+
+#: part/pageviewannotator.cpp:1411
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Put a stamp symbol"
+msgstr "Uzlikt spiedogu"
+
+#: part/pageviewannotator.cpp:1413
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a straight line"
+msgstr "Zīmēt taisnu līniju"
+
+#: part/pageviewannotator.cpp:1415
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Strike out text"
+msgstr "Pārsvītrots teksts"
+
+#: part/pageviewannotator.cpp:1417
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Underline text"
+msgstr "Pasvītrots teksts"
+
+#: part/pageviewannotator.cpp:1419
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Typewriter Annotation (drag to select a zone)"
+msgstr "Rakstāmmašīnas anotēšana (klikšķiniet un velciet apgabalu)"
+
+#: part/pageviewannotator.cpp:1478
+#, kde-format
+msgid "Highlighter"
+msgstr "Izcelšanas rīks"
+
+#: part/pageviewannotator.cpp:1775
+#, kde-format
+msgid "Add favorite annotation"
+msgstr "Pievienojiet iecienītāko anotāciju"
+
+#: part/pageviewannotator.cpp:1775
+#, kde-format
+msgid "Custom annotation name:"
+msgstr "Pielāgotās anotācijas nosaukums:"
+
+#. i18n: ectx: Menu (file)
+#: part/part-viewermode.rc:6 part/part.rc:5
+#, kde-format
+msgid "&File"
+msgstr "&Datne"
+
+#. i18n: ectx: Menu (settings)
+#: part/part-viewermode.rc:10 part/part.rc:93
+#, kde-format
+msgid "&Settings"
+msgstr "Ie&statījumi"
+
+#. i18n: ectx: Menu (help)
+#: part/part-viewermode.rc:15 part/part.rc:100
+#, kde-format
+msgid "&Help"
+msgstr "P&alīdzība"
+
+#. i18n: ectx: Menu (view_orientation)
+#: part/part-viewermode.rc:32 part/part.rc:46
+#, kde-format
+msgid "&Orientation"
+msgstr "&Orientācija"
+
+#. i18n: ectx: Menu (bookmarks)
+#. i18n: ectx: Menu (okular_bookmarks)
+#: part/part-viewermode.rc:50 part/part.rc:67
+#, kde-format
+msgid "&Bookmarks"
+msgstr "&Grāmatzīmes"
+
+#. i18n: ectx: ToolBar (OkularViewerToolBar)
+#: part/part-viewermode.rc:63
+#, kde-format
+msgid "Viewer Toolbar"
+msgstr "Skatītāja rīkjosla"
+
+#: part/part.cpp:406 part/thumbnaillist.cpp:46
+#, kde-format
+msgid "Thumbnails"
+msgstr "Sīktēli"
+
+#: part/part.cpp:412 part/preferencesdialog.cpp:50 part/side_reviews.cpp:97
+#, kde-format
+msgid "Annotations"
+msgstr "Anotācijas"
+
+#: part/part.cpp:436
+#, kde-format
+msgid ""
+"This document contains annotations or form data that were saved internally "
+"by a previous Okular version. Internal storage is <b>no longer supported</b>."
+"<br/>Please save to a file in order to move them if you want to continue to "
+"edit the document."
+msgstr ""
+"Šis dokuments satur anotācijas vai formas lauku datus, kas ir saglabāti "
+"iekšēji ar vecāku „Okular“ versiju. Iekšējā saglabāšana <b>vairs netiek "
+"atbalstīta</b>.<br/>Ja vēlaties turpināt rediģēt šo dokumentu, saglabājiet "
+"to datnē, lai šo informāciju pārvietotu."
+
+#: part/part.cpp:444
+#, kde-format
+msgid ""
+"This document has embedded files. <a href=\"okular:/embeddedfiles\">Click "
+"here to see them</a> or go to File -> Embedded Files."
+msgstr ""
+"Šis dokuments satur iegultas datnes. <a href=\"okular:/embeddedfiles"
+"\">Nospiediet šeit, lai tās apskatītu</a> vai ejiet uz Datne -> Iegultās "
+"datnes."
+
+#: part/part.cpp:468
+#, kde-format
+msgctxt "This is a normal pdf feature, but can be abused by hostile parties"
+msgid ""
+"This document has elements that might be hidden or shown differently when "
+"printed. For important documents, please verify both."
+msgstr ""
+
+#: part/part.cpp:480
+#, kde-format
+msgid ""
+"Signing in progress. You can adjust the position and size of the signature"
+msgstr "Notiek parakstīšana. Varat pielāgot paraksta novietojumu un izmēru"
+
+#: part/part.cpp:482
+#, kde-format
+msgctxt "@action:button finish the signing process"
+msgid "Finish Signing"
+msgstr "Pabeigt parakstīšanu"
+
+#: part/part.cpp:655
+#, kde-format
+msgctxt "Previous page"
+msgid "Previous"
+msgstr "Iepriekšējā"
+
+#: part/part.cpp:656
+#, kde-format
+msgid "Go back to the Previous Page"
+msgstr "Iet atpakaļ uz iepriekšējo lapu"
+
+#: part/part.cpp:657
+#, kde-format
+msgid "Moves to the previous page of the document"
+msgstr "Doties uz iepriekšējo dokumenta lapu"
+
+#: part/part.cpp:664
+#, kde-format
+msgctxt "Next page"
+msgid "Next"
+msgstr "Nākamā"
+
+#: part/part.cpp:665
+#, kde-format
+msgid "Advance to the Next Page"
+msgstr "Iet uz nākamo lapu"
+
+#: part/part.cpp:666
+#, kde-format
+msgid "Moves to the next page of the document"
+msgstr "Doties uz nākamo dokumenta lapu"
+
+#: part/part.cpp:674
+#, kde-format
+msgid "Beginning of the document"
+msgstr "Dokumenta sākums"
+
+#: part/part.cpp:675
+#, kde-format
+msgid "Moves to the beginning of the document"
+msgstr "Doties uz dokumenta sākumu"
+
+#: part/part.cpp:679
+#, kde-format
+msgid "End of the document"
+msgstr "Dokumenta beigas"
+
+#: part/part.cpp:680
+#, kde-format
+msgid "Moves to the end of the document"
+msgstr "Doties uz dokumenta beigām"
+
+#: part/part.cpp:694
+#, kde-format
+msgid "Rename the current bookmark"
+msgstr "Pārdēvēt pašreizējo grāmatzīmi"
+
+#: part/part.cpp:698
+#, kde-format
+msgid "Previous Bookmark"
+msgstr "Iepriekšējā grāmatzīme"
+
+#: part/part.cpp:700
+#, kde-format
+msgid "Go to the previous bookmark"
+msgstr "Iet uz iepriekšējo grāmatzīmi"
+
+#: part/part.cpp:704
+#, kde-format
+msgid "Next Bookmark"
+msgstr "Nākamā grāmatzīme"
+
+#: part/part.cpp:706
+#, kde-format
+msgid "Go to the next bookmark"
+msgstr "Iet uz nākamo grāmatzīmi"
+
+#: part/part.cpp:736
+#, kde-format
+msgid "Configure Okular…"
+msgstr "Konfigurēt „Okular“…"
+
+#: part/part.cpp:739
+#, kde-format
+msgid "Configure Viewer…"
+msgstr "Konfigurēt skatītāju…"
+
+#: part/part.cpp:774
+#, kde-format
+msgid "About Backend"
+msgstr "Par aizmugursistēmu"
+
+#: part/part.cpp:779
+#, kde-format
+msgid "Reloa&d"
+msgstr "Pārlā&dēt"
+
+#: part/part.cpp:781
+#, kde-format
+msgid "Reload the current document from disk."
+msgstr "Pārlādēt aktīvo dokumentu no diska."
+
+#: part/part.cpp:787
+#, kde-format
+msgid "Close &Find Bar"
+msgstr "Aizvērt &meklēšanas joslu"
+
+#: part/part.cpp:792
+#, kde-format
+msgid "Page Number"
+msgstr "Lapas numurs"
+
+#: part/part.cpp:796
+#, kde-format
+msgctxt "@action"
+msgid "Configure Color Modes…"
+msgstr "Pārvaldīt krāsu režīmus…"
+
+#: part/part.cpp:835 part/part.cpp:3222
+#, fuzzy, kde-format
+#| msgctxt "Change an annotation's size"
+#| msgid "adjust annotation"
+msgid "Paste Annotation"
+msgstr "pielāgot anotāciju"
+
+#: part/part.cpp:853
+#, kde-format
+msgid "Select All Text on Current Page"
+msgstr "Iezīmēt visu tekstu šajā lapā"
+
+#: part/part.cpp:866
+#, kde-format
+msgid "Show S&idebar"
+msgstr "Rādīt &sānjoslu"
+
+#: part/part.cpp:875
+#, kde-format
+msgid "Show &Page Bar"
+msgstr "Rādīt la&pas joslu"
+
+#: part/part.cpp:881
+#, kde-format
+msgid "Show &Signatures Panel"
+msgstr "Rādīt &parakstu paneli"
+
+#: part/part.cpp:892
+#, kde-format
+msgid "&Embedded Files"
+msgstr "&Iegultās datnes"
+
+#: part/part.cpp:898
+#, kde-format
+msgid "E&xport As"
+msgstr "&Eksportēt kā"
+
+#: part/part.cpp:910
+#, kde-format
+msgid "S&hare"
+msgstr "&Kopīgot"
+
+#: part/part.cpp:919
+#, kde-format
+msgid "P&resentation"
+msgstr "P&rezentācija"
+
+#: part/part.cpp:926
+#, kde-format
+msgid "Open Con&taining Folder"
+msgstr "Atvērt &saturošo mapi"
+
+#: part/part.cpp:940
+#, kde-format
+msgid "&Import PostScript as PDF…"
+msgstr "&Importēt „PostScript“ kā PDF…"
+
+#: part/part.cpp:944
+#, kde-format
+msgid "Switch Blackscreen Mode"
+msgstr "Pārslēgt melnā ekrāna režīmu"
+
+#: part/part.cpp:952
+#, kde-format
+msgid "Erase Drawing"
+msgstr "Dzēst zīmējumu"
+
+#: part/part.cpp:957
+#, kde-format
+msgid "Configure Annotations…"
+msgstr "Pārvaldīt anotācijas…"
+
+#: part/part.cpp:962
+#, kde-format
+msgid "Play/Pause Presentation"
+msgstr "Atskaņot/pauzēt prezentāciju"
+
+#: part/part.cpp:1118
+#, kde-format
+msgid ""
+"You have just modified the open document, but this kind of document can not "
+"be saved.\n"
+"Any modification will be lost once Okular is closed."
+msgstr ""
+"Jūs izmainījāt atvērtu dokumentu, tomēr šāda veida dokumentu nav iespējams "
+"saglabāt.\n"
+"Visas veiktās modifikācijas pazudīs pēc „Okular“ aizvēršanas."
+
+#: part/part.cpp:1119
+#, kde-format
+msgid "Document can't be saved"
+msgstr "Dokumentu nevar saglabāt"
+
+#: part/part.cpp:1148
+#, kde-format
+msgid "Could not open '%1' (%2) "
+msgstr "Neizdevās atvērt „%1“ (%2) "
+
+#: part/part.cpp:1201
+#, kde-format
+msgid "The loading of %1 has been canceled."
+msgstr "%1 ielāde ir atcelta."
+
+#: part/part.cpp:1217
+#, kde-format
+msgid "Could not open %1. Reason: %2"
+msgstr "Neizdevās atvērt %1. Iemesls: %2"
+
+#: part/part.cpp:1311
+#, kde-format
+msgid ""
+"The program \"ps2pdf\" was not found, so Okular can not import PS files "
+"using it."
+msgstr ""
+"Nav atrasta programma „ps2pdf“, kas „Okular“ ir vajadzīga PS datņu importam."
+
+#: part/part.cpp:1311
+#, kde-format
+msgid "ps2pdf not found"
+msgstr "neizdevās atrast ps2pdf"
+
+#: part/part.cpp:1316
+#, kde-format
+msgid "PostScript files (%1)"
+msgstr "„PostScript“ datnes (%1)"
+
+#: part/part.cpp:1331
+#, kde-format
+msgid "Importing PS file as PDF (this may take a while)…"
+msgstr "Importē PS datni kā PDF (tas var prasīt kādu laiku)…"
+
+#: part/part.cpp:1463
+#, fuzzy, kde-format
+#| msgid "Please enter the password to read the document:"
+msgctxt "%1 is filename of the file to open"
+msgid "Please enter the password to read the document: %1"
+msgstr "Ievadiet paroli, lai atvērtu šo dokumentu:"
+
+#: part/part.cpp:1465
+#, fuzzy, kde-format
+#| msgid "Incorrect password. Try again:"
+msgctxt "%1 is filename of the file to open"
+msgid "Incorrect password. Try again: %1"
+msgstr "Parole nav pareiza. Mēģiniet vēlreiz:"
+
+#: part/part.cpp:1476
+#, kde-format
+msgid "Document Password"
+msgstr "Dokumenta parole"
+
+#: part/part.cpp:1599
+#, kde-format
+msgid "This document has XFA forms, which are currently <b>unsupported</b>."
+msgstr "Šim dokumentam ir XFA formas lauki, kas šobrīd <b>nav atbalstītas</b>."
+
+#: part/part.cpp:1606
+#, kde-format
+msgid ""
+"This document has forms. Click on the button to interact with them, or use "
+"View -> Show Forms."
+msgstr ""
+"Šis dokuments satur formas. Lai ar tām darbotos, nospiediet uz pogas vai "
+"izmantojiet „Skats —> Rādīt formas“."
+
+#: part/part.cpp:1623
+#, kde-format
+msgid ""
+"All editing and interactive features for this document are disabled. Please "
+"save a copy and reopen to edit this document."
+msgstr ""
+"Šim dokumentam ir izslēgtas visas rediģēšanas un interaktīvās iespējas. Lai "
+"dokumentu rediģētu, saglabājiet tā kopiju un atveriet to no jauna."
+
+#: part/part.cpp:1742
+#, kde-format
+msgid ""
+"This document wants to be shown full screen.\n"
+"Leave normal mode and enter presentation mode?"
+msgstr ""
+"Šis dokuments pieprasa, lai tiktu parādīts pilnekrāna režīmā.\n"
+"Vai tiešām vēlaties atstāt normālo režīmu un ieslēgt prezentācijas režīmu?"
+
+#: part/part.cpp:1744
+#, kde-format
+msgid "Request to Change Viewing Mode"
+msgstr "Pieprasījuma mainīt skata režīmu"
+
+#: part/part.cpp:1745
+#, kde-format
+msgid "Enter Presentation Mode"
+msgstr "Ieiet prezentācijas režīmā"
+
+#: part/part.cpp:1746
+#, kde-format
+msgid "Deny Request"
+msgstr "Noraidīt pieprasījumu"
+
+#: part/part.cpp:1836
+#, kde-format
+msgid "Could not open %1. %2"
+msgstr "Neizdevās atvērt %1. %2"
+
+#: part/part.cpp:1866
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The file <filename>%1</filename> has unsaved changes but has been modified "
+"by another program. Reloading it will replace the unsaved changes with the "
+"changes made in the other program.<nl/><nl/>Do you want to continue "
+"reloading the file?"
+msgstr ""
+"Datne <filename>%1</filename> satur nesaglabātas izmaiņas, bet to ir "
+"izmanījusi cita programma. Tās pārlādēšana nomainīs nesaglabātās izmaiņas ar "
+"tām, ko ir veikusi cita programma.<nl/><nl/>Vai vēlaties turpināt pārlādēt "
+"datni?"
+
+#: part/part.cpp:1870 part/part.cpp:1880
+#, kde-format
+msgid "File Changed"
+msgstr "Datne ir mainīta"
+
+#: part/part.cpp:1871
+#, kde-format
+msgid "Continue Reloading"
+msgstr "Turpināt pārlādēšanu"
+
+#: part/part.cpp:1872
+#, kde-format
+msgid "Abort Reloading"
+msgstr "Atcelt pārlādēšanu"
+
+#: part/part.cpp:1876
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The file <filename>%1</filename> has unsaved changes but has been modified "
+"by another program. Closing it will replace the unsaved changes with the "
+"changes made in the other program.<nl/><nl/>Do you want to continue closing "
+"the file?"
+msgstr ""
+"Datne <filename>%1</filename> satur nesaglabātas izmaiņas, bet to ir "
+"izmanījusi cita programma. Tās aizvēršana nomainīs nesaglabātās izmaiņas ar "
+"tām, ko ir veikusi cita programma.<nl/><nl/>Vai vēlaties turpināt pārlādēt "
+"datni?"
+
+#: part/part.cpp:1881
+#, kde-format
+msgid "Continue Closing"
+msgstr "Turpināt aizvēršanu"
+
+#: part/part.cpp:1882
+#, kde-format
+msgid "Abort Closing"
+msgstr "Atcelt aizvēršanu"
+
+#: part/part.cpp:1889
+#, kde-format
+msgid "Do you want to save your changes to \"%1\" or discard them?"
+msgstr "Vai vēlaties saglabāt vai noraidīt veiktās izmaiņas datnē „%1“?"
+
+#: part/part.cpp:1889
+#, kde-format
+msgid "Close Document"
+msgstr "Aizvērt dokumentu"
+
+#: part/part.cpp:2021
+#, kde-format
+msgid ""
+"This link points to a close document action that does not work when using "
+"the embedded viewer."
+msgstr ""
+"Šī saite rāda uz dokumenta aizvēršanas darbību un tas nestrādā, izmantojot "
+"iegulto skatītāju."
+
+#: part/part.cpp:2027
+#, kde-format
+msgid ""
+"This link points to a quit application action that does not work when using "
+"the embedded viewer."
+msgstr ""
+"Šī saite rāda uz programmas aizvēršanas darbību un tas nestrādā, izmantojot "
+"iegulto skatītāju."
+
+#: part/part.cpp:2119 part/part.cpp:2141
+#, kde-format
+msgid "Reloading the document…"
+msgstr "Pārlādē dokumentu…"
+
+#: part/part.cpp:2310 part/toc.cpp:36
+#, kde-format
+msgid "Contents"
+msgstr "Saturs"
+
+#: part/part.cpp:2339 part/signaturepanel.cpp:45
+#, kde-format
+msgid "Signatures"
+msgstr "Paraksti"
+
+#: part/part.cpp:2366
+#, kde-format
+msgid "Go to Page"
+msgstr "Iet uz lapu"
+
+#: part/part.cpp:2389
+#, kde-format
+msgid "&Page:"
+msgstr "&Lapa:"
+
+#: part/part.cpp:2482
+#, kde-format
+msgid "Enter the new name of the bookmark:"
+msgstr "Ievadiet grāmatzīmes jauno nosaukumu:"
+
+#: part/part.cpp:2528
+#, kde-format
+msgid "Rename this Bookmark"
+msgstr "Pārdēvēt šo grāmatzīmi"
+
+#: part/part.cpp:2531
+#, kde-format
+msgid "Remove this Bookmark"
+msgstr "Noņemt šo grāmatzīmi"
+
+#: part/part.cpp:2617 part/part.cpp:2618 part/part.cpp:3534
+#: part/signaturepartutils.cpp:321
+#, kde-format
+msgctxt "File type name and pattern"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: part/part.cpp:2625 part/revisionviewer.cpp:44
+#, kde-format
+msgid "Save As"
+msgstr "Saglabāt kā"
+
+#: part/part.cpp:2642
+#, kde-format
+msgid ""
+"You have chosen to save an Okular Archive without the file name ending with "
+"the '%1' extension. That is not allowed, do you want to choose a new name?"
+msgstr ""
+"Jūs izvēlējāties saglabāt „Okular“ arhīvā ar datnes nosaukumu, kas nebeidzas "
+"ar paplašinājumu „%1“. Tas nav atļauts, vai vēlaties izvēlēties jaunu "
+"nosaukumu?"
+
+#: part/part.cpp:2643
+#, kde-format
+msgid "Unsupported extension"
+msgstr "Neatbalstīts pagarinājums"
+
+#: part/part.cpp:2644
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose New Name"
+msgstr "Izvēlieties jaunu nosaukumu"
+
+#: part/part.cpp:2687
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The file <filename>%1</filename> has been modified by another program. If "
+"you save now, any changes made in the other program will be lost. Are you "
+"sure you want to continue?"
+msgstr ""
+"Datni <filename>%1</filename> ir izmainījusi citu programma. Ja tagad "
+"saglabāsiet, tad šīs citas programmas veiktās izmaiņas būs zudušas. Vai "
+"tiešām vēlaties turpināt?"
+
+#: part/part.cpp:2690 part/part.cpp:2709 part/part.cpp:2761
+#, kde-format
+msgid "Save - Warning"
+msgstr "Saglabāt — brīdinājums"
+
+#: part/part.cpp:2692
+#, kde-format
+msgid "Save a Copy Elsewhere"
+msgstr "Saglabāt kopiju citur"
+
+#: part/part.cpp:2708
+#, kde-format
+msgid ""
+"The current document is protected with a password.<br />In order to save, "
+"the file needs to be reloaded. You will be asked for the password again and "
+"your undo/redo history will be lost.<br />Do you want to continue?"
+msgstr ""
+"Šo dokumentu aizsargā parole.<br/>Lai to saglabātu, datne ir jāpārlādē. Jums "
+"tiks lūgts vēlreiz ievadīt paroli, kā arī būs zudusi atsaukšanas vēsture.<br/"
+">Vai vēlaties turpināt?"
+
+#: part/part.cpp:2735
+#, kde-format
+msgid "Could not open the temporary file for saving."
+msgstr "Neizdevās atvērt pagaidu datni saglabāšanai."
+
+#: part/part.cpp:2748
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Could not overwrite <filename>%1</filename> because that file is read-only. "
+"Try saving to another location or changing that file's permissions."
+msgstr ""
+"Neizdevās pārrakstīt <filename>%1</filename>, jo šī datne ir tikai lasāma. "
+"Mēģiniet saglabāt citā vietā vai mainīt šīs datnes atļaujas."
+
+#: part/part.cpp:2760
+#, kde-format
+msgid ""
+"After saving, the current document format requires the file to be reloaded. "
+"Your undo/redo history will be lost.<br />Do you want to continue?"
+msgstr ""
+"Pašreizējais dokumenta formāts pieprasa datni pēc saglabāšanas pārlādēt. "
+"Jūsu atsaukšanas vēsture pazudīs.<br/>Vai vēlaties turpināt?"
+
+#: part/part.cpp:2775 part/part.cpp:2844 part/part.cpp:2865 part/part.cpp:3549
+#, kde-format
+msgid "File could not be saved in '%1'. Try to save it to another location."
+msgstr "Neizdevās saglabāt datni mapē „%1“. Mēģiniet saglabāt citā vietā."
+
+#: part/part.cpp:2788
+#, kde-format
+msgid "Filled form contents"
+msgstr "Aizpildīto veidņu saturs"
+
+#: part/part.cpp:2791
+#, kde-format
+msgid "User annotations"
+msgstr "Lietotāja anotācijas"
+
+#: part/part.cpp:2796
+#, kde-format
+msgid ""
+"You are about to save changes, but the current file format does not support "
+"saving the following elements. Please use the <i>Okular document archive</i> "
+"format to preserve them."
+msgstr ""
+"Jūs grasāties saglabāt izmaiņas, tomēr pašreizējais datnes formāts "
+"neatbalsta šo elementu saglabāšanu. Izmantojiet <i>„Okular“ dokumentu "
+"arhīva</i> formātu, lai tos saglabātu."
+
+#: part/part.cpp:2800 part/part.cpp:2822
+#, kde-format
+msgid "Warning"
+msgstr "Brīdinājums"
+
+#: part/part.cpp:2801 part/part.cpp:2823
+#, kde-format
+msgid "Save as Okular document archive…"
+msgstr "Saglabāt kā „Okular“ dokumentu arhīvu…"
+
+#: part/part.cpp:2813
+#, kde-format
+msgid ""
+"You are about to save changes, but the current file format does not support "
+"saving the following elements. Please use the <i>Okular document archive</i> "
+"format to preserve them. Click <i>Continue</i> to save the document and "
+"discard these elements."
+msgstr ""
+"Jūs grasāties saglabāt izmaiņas, tomēr pašreizējas datnes formāts neatbalsta "
+"šo elementu saglabāšanu. Izmantojiet <i>„Okular“ dokumentu arhīva</i> "
+"formātu, lai tos saglabātu. Vai klikšķiniet <i>Turpināt</i>, lai saglabātu "
+"dokumentu un izmestu šos elementus."
+
+#: part/part.cpp:2816
+#, kde-format
+msgid ""
+"You are about to save changes, but the current file format does not support "
+"saving the following elements. Please use the <i>Okular document archive</i> "
+"format to preserve them. Click <i>Continue</i> to save, but you will lose "
+"these elements as well as the undo/redo history."
+msgstr ""
+"Jūs grasāties saglabāt izmaiņas, tomēr pašreizējais datnes formāts "
+"neatbalsta šo elementu saglabāšanu. Izmantojiet <i>„Okular“ dokumentu "
+"arhīva</i> formātu, lai tos saglabātu. Klikšķiniet <i>Turpināt</i>, lai "
+"dokumentu saglabātu, tomēr tādējādi zaudēsiet šos elementus, kā arī "
+"atsaukšanas darbību vēsturi."
+
+#: part/part.cpp:2818
+#, kde-format
+msgid "Continue"
+msgstr "Turpināt"
+
+#: part/part.cpp:2818
+#, kde-format
+msgid "Continue losing changes"
+msgstr "Turpināt zaudēt izmaiņas"
+
+#: part/part.cpp:2846
+#, kde-format
+msgid "File could not be saved in '%1'. %2"
+msgstr "Datni neizdevās saglabāt mapē „%1“. %2"
+
+#: part/part.cpp:2885
+#, kde-format
+msgid ""
+"Okular cannot copy %1 to the specified location.\n"
+"\n"
+"The document does not exist anymore."
+msgstr ""
+"„Okular“ neizdodas nokopēt „%1“ uz norādīto vietu.\n"
+"\n"
+"Dokuments vairs nepastāv."
+
+#: part/part.cpp:2921
+#, kde-format
+msgid ""
+"File could not be saved in '%1'. Error: '%2'. Try to save it to another "
+"location."
+msgstr ""
+"Datni neizdevās saglabāt mapē „%1“. Kļūda: „%2“. Mēģiniet saglabāt citā "
+"vietā."
+
+#: part/part.cpp:3192
+#, kde-format
+msgid "Expand Whole Section"
+msgstr "Izvērst visu sadaļu"
+
+#: part/part.cpp:3193
+#, kde-format
+msgid "Collapse Whole Section"
+msgstr "Sakļaut visu sadaļu"
+
+#: part/part.cpp:3209
+#, kde-format
+msgid "Sync Thumbnail with Page"
+msgstr "Sinhronizēt sīktēlu ar lapu"
+
+#: part/part.cpp:3241
+#, kde-format
+msgid "Tools"
+msgstr "Rīki"
+
+#: part/part.cpp:3429
+#, kde-format
+msgctxt "@action:inmenu menu that contains actions to control text to speach"
+msgid "Speak"
+msgstr "Izrunāt"
+
+#: part/part.cpp:3587
+#, kde-format
+msgctxt "@title:window"
+msgid "Print"
+msgstr "Drukāt"
+
+#: part/part.cpp:3644
+#, kde-format
+msgid "Printing this document is not allowed."
+msgstr "Šī dokumenta drukāšana nav atļauta."
+
+#: part/part.cpp:3657
+#, kde-format
+msgid ""
+"Could not print the document. Unknown error. Please report to bugs.kde.org"
+msgstr ""
+"Neizdevās izdrukāt dokumentu. Nezināma kļūda. Ziņojiet par to lapā bugs.kde."
+"org"
+
+#: part/part.cpp:3659
+#, kde-format
+msgid ""
+"Could not print the document. Detailed error is \"%1\". Please report to "
+"bugs.kde.org"
+msgstr ""
+"Neizdevās izdrukāt dokumentu. Sīkāka kļūda ir „%1“. Ziņojiet par to lapā "
+"bugs.kde.org"
+
+#: part/part.cpp:3751
+#, kde-format
+msgid "Go to the place you were before"
+msgstr "Iet uz vietu, kur bijāt iepriekš"
+
+#: part/part.cpp:3755
+#, kde-format
+msgid "Go to the place you were after"
+msgstr "Iet uz vietu, kur bijāt vēlāk"
+
+#: part/part.cpp:3780
+#, kde-format
+msgid ""
+"<qt><strong>File Error!</strong> Could not create temporary file "
+"<nobr><strong>%1</strong></nobr>.</qt>"
+msgstr ""
+"<qt><strong>Datnes kļūda!</strong> Neizdevās izveidot pagaidu datni "
+"<nobr><strong>%1</strong></nobr>.</qt>"
+
+#: part/part.cpp:3792
+#, kde-format
+msgid ""
+"<qt><strong>File Error!</strong> Could not open the file <nobr><strong>%1</"
+"strong></nobr> for uncompression. The file will not be loaded.</qt>"
+msgstr ""
+"<qt><strong>Datnes kļūda!</strong> Neizdevās atvērt datni <nobr><strong>%1</"
+"strong></nobr> atspiešanai. Datne netiks ielādēta.</qt>"
+
+#: part/part.cpp:3796
+#, kde-format
+msgid ""
+"<qt>This error typically occurs if you do not have enough permissions to "
+"read the file. You can check ownership and permissions if you right-click on "
+"the file in the Dolphin file manager, then choose the 'Properties' option, "
+"and select 'Permissions' tab in the opened window.</qt>"
+msgstr ""
+"<qt>Šī kļūda parasti gadās, ja jums nav atļaujas nolasīt datni. Jūs varat "
+"apskatīt datnes īpašnieku un atļaujas datņupārvaldniekā „Dolphin“, "
+"klikšķinot peles labo pogu uz datnes un izvēloties „Īpašības“, bet pēc tam "
+"ejot uz cilni „Atļaujas“.</qt>"
+
+#: part/part.cpp:3818
+#, kde-format
+msgid ""
+"<qt><strong>File Error!</strong> Could not uncompress the file <nobr><strong>"
+"%1</strong></nobr>. The file will not be loaded.</qt>"
+msgstr ""
+"<qt><strong>Datnes kļūda!</strong> Neizdevās atspiest datni <nobr><strong>"
+"%1</strong></nobr>. Datne netiks ielādēta.</qt>"
+
+#: part/part.cpp:3822
+#, kde-format
+msgid ""
+"<qt>This error typically occurs if the file is corrupt. If you want to be "
+"sure, try to decompress the file manually using command-line tools.</qt>"
+msgstr ""
+"<qt>Šī kļūda parasti gadās ja datne ir bojāta. Ja vēlaties pārliecināties, "
+"mēģiniet datni atspiest, izmantojot komandrindas rīkus.</qt>"
+
+#: part/part.cpp:3848
+#, kde-format
+msgid "No Bookmarks"
+msgstr "Nav grāmatzīmju"
+
+#: part/part.cpp:3919
+#, kde-format
+msgid "There was a problem sharing the document: %1"
+msgstr "Radās kļūme, mēģinot kopīgot dokumentu: %1"
+
+#: part/part.cpp:3919 part/part.cpp:3925
+#, kde-format
+msgid "Share"
+msgstr "Kopīgot"
+
+#: part/part.cpp:3923
+#, kde-format
+msgid "Document shared successfully"
+msgstr "Dokumenta kopīgošana veikta sekmīgi"
+
+#: part/part.cpp:3925
+#, kde-format
+msgid "You can find the shared document at: <a href=\"%1\">%1</a>"
+msgstr "Dokumentu, kuru kopīgojāt, varat atrast: <a href=\"%1\">%1</a>"
+
+#. i18n: ectx: Menu (edit)
+#: part/part.rc:19
+#, kde-format
+msgid "&Edit"
+msgstr "R&ediģēt"
+
+#. i18n: ectx: Menu (view)
+#: part/part.rc:34
+#, kde-format
+msgid "&View"
+msgstr "&Skats"
+
+#. i18n: ectx: Menu (go)
+#: part/part.rc:55
+#, kde-format
+msgid "&Go"
+msgstr "&Iet"
+
+#. i18n: ectx: Menu (tools)
+#: part/part.rc:75
+#, kde-format
+msgid "&Tools"
+msgstr "&Rīki"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: part/part.rc:104 shell/shell.rc:24
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Galvenā rīkjosla "
+
+#. i18n: ectx: ToolBar (annotationToolBar)
+#: part/part.rc:125
+#, kde-format
+msgid "Annotation Toolbar"
+msgstr "Anotāciju rīkjosla"
+
+#. i18n: ectx: ToolBar (quickAnnotationToolBar)
+#: part/part.rc:149
+#, kde-format
+msgid "Quick Annotation Toolbar"
+msgstr "Ātrās anotēšanas rīkjosla"
+
+#: part/preferencesdialog.cpp:41
+#, kde-format
+msgid "General Options"
+msgstr "Pamata opcijas"
+
+#: part/preferencesdialog.cpp:42
+#, kde-format
+msgid "Accessibility"
+msgstr "Pieejamība"
+
+#: part/preferencesdialog.cpp:42
+#, kde-format
+msgid "Accessibility Reading Aids"
+msgstr "Lasīšanas palīglīdzekļi"
+
+#: part/preferencesdialog.cpp:43
+#, kde-format
+msgid "Performance"
+msgstr "Veiktspēja"
+
+#: part/preferencesdialog.cpp:43
+#, kde-format
+msgid "Performance Tuning"
+msgstr "Veiktspējas regulēšana"
+
+#: part/preferencesdialog.cpp:45
+#, kde-format
+msgid "Configure Viewer"
+msgstr "Pārvaldīt skatītāju"
+
+#: part/preferencesdialog.cpp:49
+#, kde-format
+msgid "Presentation"
+msgstr "Prezentācija"
+
+#: part/preferencesdialog.cpp:49
+#, kde-format
+msgid "Options for Presentation Mode"
+msgstr "Prezentācijas režīma opcijas"
+
+#: part/preferencesdialog.cpp:50
+#, kde-format
+msgid "Annotation Options"
+msgstr "Anotācijas īpašības"
+
+#: part/preferencesdialog.cpp:53 part/preferencesdialog.cpp:59
+#, kde-format
+msgid "Editor"
+msgstr "Redaktors"
+
+#: part/preferencesdialog.cpp:53 part/preferencesdialog.cpp:59
+#, kde-format
+msgid "Editor Options"
+msgstr "Redaktora opcijas"
+
+#: part/preferencesdialog.cpp:56
+#, kde-format
+msgctxt ""
+"Give the user a hint, that it enabled the option --editor-cmd together with "
+"the current value of the option."
+msgid ""
+"The editor was set by the command line to \n"
+" %1 \n"
+"If you want to use the setting, start okular without the option --editor-cmd"
+msgstr ""
+"Komandrinda redaktoru iestatīja uz \n"
+" %1 \n"
+"Ja vēlaties izmantot šos iestatījumos, sāciet „Okular“ bez parametra „--"
+"editor-cmd“"
+
+#: part/presentationsearchbar.cpp:77
+#, kde-format
+msgid "Find Next"
+msgstr "Meklēt nākamo"
+
+#: part/presentationwidget.cpp:174
+#, kde-format
+msgctxt "[document title/filename] – Presentation"
+msgid "%1 – Presentation"
+msgstr "%1 — Prezentācija"
+
+#: part/presentationwidget.cpp:228
+#, kde-format
+msgid "Switch Screen"
+msgstr "Pārslēgt ekrānu"
+
+#: part/presentationwidget.cpp:233
+#, kde-format
+msgctxt "%1 is the screen number (0, 1, ...)"
+msgid "Screen %1"
+msgstr "%1. ekrāns"
+
+#: part/presentationwidget.cpp:240
+#, kde-format
+msgid "Exit Presentation Mode"
+msgstr "Iziet no prezentācijas režīma"
+
+#: part/presentationwidget.cpp:373
+#, kde-format
+msgid "Title: %1"
+msgstr "Nosaukums: %1"
+
+#: part/presentationwidget.cpp:378
+#, kde-format
+msgid "Pages: %1"
+msgstr "Lapas: %1"
+
+#: part/presentationwidget.cpp:379
+#, kde-format
+msgid "Click to begin"
+msgstr "Nospiediet lai sāktu"
+
+#: part/presentationwidget.cpp:521
+#, kde-format
+msgctxt "For Presentation"
+msgid "Pause"
+msgstr "Pauze"
+
+#: part/presentationwidget.cpp:524
+#, kde-format
+msgctxt "For Presentation"
+msgid "Play"
+msgstr "Atskaņot"
+
+#: part/presentationwidget.cpp:1622
+#, kde-format
+msgid ""
+"There are two ways of exiting presentation mode, you can press either ESC "
+"key or click with the quit button that appears when placing the mouse in the "
+"top-right corner. Of course you can cycle windows (Alt+TAB by default)"
+msgstr ""
+"No prezentācijas režīma var iziet divos veidos: vai nu nospiežot ESC "
+"taustiņu, vai nospiežot uz iziešanas pogas, kas parādās, novietojot peles "
+"kursoru augšējā labajā stūrī. Tāpat varat brīvi pārslēgties starp logiem "
+"(parasti ar Alt+Tab)"
+
+#: part/presentationwidget.cpp:1718
+#, kde-format
+msgctxt ""
+"Reason for inhibiting the screensaver activation, when the presentation mode "
+"is active"
+msgid "Giving a presentation"
+msgstr "Prezentācijas laikā"
+
+#: part/propertiesdialog.cpp:49
+#, kde-format
+msgid "Unknown File"
+msgstr "Nezināma datne"
+
+#: part/propertiesdialog.cpp:63
+#, kde-format
+msgid "%1 Properties"
+msgstr "%1 īpašības"
+
+#: part/propertiesdialog.cpp:104
+#, kde-format
+msgctxt "mimetype information, example: \"PDF Document (application/pdf)\""
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: part/propertiesdialog.cpp:117
+#, kde-format
+msgid "%1:"
+msgstr "%1:"
+
+#: part/propertiesdialog.cpp:124
+#, kde-format
+msgid "&Fonts"
+msgstr "&Fonti"
+
+#: part/propertiesdialog.cpp:145
+#, kde-format
+msgid "Reading font information…"
+msgstr "Nolasa fontu informāciju…"
+
+#: part/propertiesdialog.cpp:158
+#, kde-format
+msgid "&Page Sizes"
+msgstr "&Lapu izmēri"
+
+#: part/propertiesdialog.cpp:225
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Extract Font"
+msgstr "&Izvilkt fontu"
+
+#: part/propertiesdialog.cpp:273
+#, kde-format
+msgid "Type 1"
+msgstr "Tips 1"
+
+#: part/propertiesdialog.cpp:276
+#, kde-format
+msgid "Type 1C"
+msgstr "Tips 1C"
+
+#: part/propertiesdialog.cpp:279
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "Type 1C (OT)"
+msgstr "Tips 1C (OT)"
+
+#: part/propertiesdialog.cpp:282
+#, kde-format
+msgid "Type 3"
+msgstr "Tips 3"
+
+#: part/propertiesdialog.cpp:285
+#, kde-format
+msgid "TrueType"
+msgstr "TrueType"
+
+#: part/propertiesdialog.cpp:288
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "TrueType (OT)"
+msgstr "TrueType (OT)"
+
+#: part/propertiesdialog.cpp:291
+#, kde-format
+msgid "CID Type 0"
+msgstr "CID tips 0"
+
+#: part/propertiesdialog.cpp:294
+#, kde-format
+msgid "CID Type 0C"
+msgstr "CID tips 0C"
+
+#: part/propertiesdialog.cpp:297
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "CID Type 0C (OT)"
+msgstr "CID tips 0C (OT)"
+
+#: part/propertiesdialog.cpp:300
+#, kde-format
+msgid "CID TrueType"
+msgstr "CID TrueType"
+
+#: part/propertiesdialog.cpp:303
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "CID TrueType (OT)"
+msgstr "CID TrueType (OT)"
+
+#: part/propertiesdialog.cpp:306
+#, kde-format
+msgid "TeX PK"
+msgstr "TeX PK"
+
+#: part/propertiesdialog.cpp:309
+#, kde-format
+msgid "TeX virtual"
+msgstr "TeX virtual"
+
+#: part/propertiesdialog.cpp:312
+#, kde-format
+msgid "TeX Font Metric"
+msgstr "TeX Font Metric"
+
+#: part/propertiesdialog.cpp:315
+#, kde-format
+msgid "TeX FreeType-handled"
+msgstr "TeX FreeType-handled"
+
+#: part/propertiesdialog.cpp:318
+#, kde-format
+msgctxt "Unknown font type"
+msgid "Unknown"
+msgstr "Nezināms"
+
+#: part/propertiesdialog.cpp:331
+#, kde-format
+msgid "Embedded (subset)"
+msgstr "Iegults (apakškopa)"
+
+#: part/propertiesdialog.cpp:334
+#, kde-format
+msgid "Fully embedded"
+msgstr "Pilnībā iegults"
+
+#: part/propertiesdialog.cpp:344
+#, kde-format
+msgid "No"
+msgstr "Nav"
+
+#: part/propertiesdialog.cpp:347
+#, kde-format
+msgid "Yes (subset)"
+msgstr "Jā (apakškopa)"
+
+#: part/propertiesdialog.cpp:350
+#, kde-format
+msgid "Yes"
+msgstr "Jā"
+
+#: part/propertiesdialog.cpp:370
+#, kde-format
+msgctxt "Replacing missing font with another one"
+msgid "%1 (substituting with %2)"
+msgstr "%1 (tiek aizvietots ar %2)"
+
+#: part/propertiesdialog.cpp:372
+#, kde-format
+msgctxt "font name not available (empty)"
+msgid "[n/a]"
+msgstr "[n/p]"
+
+#: part/propertiesdialog.cpp:385
+#, kde-format
+msgid "Unknown font"
+msgstr "Nezināms fonts"
+
+#: part/propertiesdialog.cpp:391
+#, kde-format
+msgid "Embedded: %1"
+msgstr "Iegults: %1"
+
+#: part/propertiesdialog.cpp:427
+#, kde-format
+msgid "Type"
+msgstr "Tips"
+
+#: part/propertiesdialog.cpp:430
+#, kde-format
+msgid "File"
+msgstr "Datne"
+
+#: part/propertiesdialog.cpp:498
+#, kde-format
+msgid "Page"
+msgstr "Lapa"
+
+#: part/propertiesdialog.cpp:501
+#, kde-format
+msgid "Size"
+msgstr "Izmērs"
+
+#: part/revisionviewer.cpp:41
+#, kde-format
+msgid "Revision Preview"
+msgstr "Revīzijas priekšskatījums"
+
+#: part/revisionviewer.cpp:53
+#, kde-format
+msgid "Where do you want to save this revision?"
+msgstr "Kur vēlaties saglabāt šo revīziju?"
+
+#: part/revisionviewer.cpp:56
+#, kde-format
+msgid "Could not save file %1."
+msgstr "Neizdevās saglabāt datni „%1“."
+
+#: part/revisionviewer.cpp:75
+#, kde-format
+msgid "Could not view revision."
+msgstr "Neizdevās apskatīt revīziju."
+
+#: part/searchwidget.cpp:39
+#, kde-format
+msgid "Enter at least 3 letters to filter pages"
+msgstr "Ievadiet vismaz 3 burtus lai filtrētu lapas"
+
+#: part/searchwidget.cpp:49
+#, kde-format
+msgid "Case Sensitive"
+msgstr "Reģistrjutīgs"
+
+#: part/searchwidget.cpp:51
+#, kde-format
+msgid "Match Phrase"
+msgstr "Precīza frāze"
+
+#: part/searchwidget.cpp:52
+#, kde-format
+msgid "Match All Words"
+msgstr "Atrast visus vārdus"
+
+#: part/searchwidget.cpp:53
+#, kde-format
+msgid "Match Any Word"
+msgstr "Atrast jebkuru vārdu"
+
+#: part/searchwidget.cpp:72
+#, kde-format
+msgid "Filter Options"
+msgstr "Filtrēšanas opcijas"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectCertificateDialog)
+#: part/selectcertificatedialog.ui:14
+#, kde-format
+msgid "Certificates"
+msgstr "Sertifikāti"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: part/selectcertificatedialog.ui:20
+#, kde-format
+msgid "Select certificate to sign with:"
+msgstr "Izvēlieties sertifikātu, ar kuru parakstīt:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, allCertificateOption)
+#: part/selectcertificatedialog.ui:29
+#, kde-format
+msgid "All"
+msgstr "Visi"
+
+#. i18n: ectx: property (text), widget (QRadioButton, qesCertificates)
+#: part/selectcertificatedialog.ui:39
+#, kde-format
+msgid "Only QES certificates"
+msgstr "Tikai QES sertifikāti"
+
+#. i18n: ectx: property (text), widget (QRadioButton, pgpOption)
+#: part/selectcertificatedialog.ui:46
+#, kde-format
+msgctxt "@option:radio"
+msgid "Only PGP keys"
+msgstr "Tiki PGP atslēgas"
+
+#. i18n: ectx: property (text), widget (QLabel, reasonLabel)
+#: part/selectcertificatedialog.ui:70 part/signaturepropertiesdialog.cpp:71
+#, kde-format
+msgid "Reason:"
+msgstr "Iemesls:"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, reasonInput)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, locationInput)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, backgroundInput)
+#: part/selectcertificatedialog.ui:77 part/selectcertificatedialog.ui:94
+#: part/selectcertificatedialog.ui:113
+#, kde-format
+msgid "optional"
+msgstr "pēc izvēles"
+
+#. i18n: ectx: property (text), widget (QLabel, locationLabel)
+#: part/selectcertificatedialog.ui:87 part/signaturepropertiesdialog.cpp:73
+#, kde-format
+msgid "Location:"
+msgstr "Vieta:"
+
+#. i18n: ectx: property (text), widget (QLabel, backgroundLabel)
+#: part/selectcertificatedialog.ui:104
+#, kde-format
+msgid "Background:"
+msgstr "Fons:"
+
+#. i18n: ectx: property (text), widget (QPushButton, backgroundButton)
+#: part/selectcertificatedialog.ui:123
+#, kde-format
+msgid "Choose..."
+msgstr "Izvēlēties..."
+
+#. i18n: ectx: property (text), widget (QLabel, recentLabel)
+#: part/selectcertificatedialog.ui:136
+#, kde-format
+msgid "Recent backgrounds:"
+msgstr "Pēdējie foni:"
+
+#. i18n: ectx: property (text), widget (QLabel, signatureTypeLabel)
+#: part/selectcertificatedialog.ui:152
+#, fuzzy, kde-format
+#| msgid "Signature Type: %1"
+msgid "Signature Type"
+msgstr "Paraksta veids: %1"
+
+#: part/side_reviews.cpp:64
+#, kde-format
+msgid ""
+"<div align=center><h3>No annotations</h3>To create new annotations press F6 "
+"or select <i>Tools -&gt; Annotations</i> from the menu.</div>"
+msgstr ""
+"<div align=center><h3>Nav anotāciju</h3>Lai izveidotu jaunu anotāciju, "
+"spiediet F6 vai izvēlnē <i>Rīki -&gt; Anotācijas</i>.</div>"
+
+#: part/side_reviews.cpp:140
+#, kde-format
+msgid "Group by Page"
+msgstr "Grupēt pēc lapas"
+
+#: part/side_reviews.cpp:145
+#, kde-format
+msgid "Group by Author"
+msgstr "Grupēt pēc autora"
+
+#: part/side_reviews.cpp:153
+#, kde-format
+msgid "Show annotations for current page only"
+msgstr "Rādīt tikai aktīvās lapas anotācijas"
+
+#: part/side_reviews.cpp:163
+#, kde-format
+msgid "Expand all elements"
+msgstr "Izvērst visus elementus"
+
+#: part/side_reviews.cpp:165
+#, kde-format
+msgid "Collapse all elements"
+msgstr "Sakļaut visus elementus"
+
+#: part/signaturepanel.cpp:101
+#, kde-format
+msgid "Properties"
+msgstr "Īpašības"
+
+#: part/signaturepartutils.cpp:57
+#, kde-format
+msgctxt ""
+"This string is describing a default entry that generally shouldn't be shown "
+"to the user. To a point where it would be a coding bug somewhere to have it"
+msgid "NONE"
+msgstr ""
+
+#: part/signaturepartutils.cpp:59
+#, fuzzy, kde-format
+#| msgctxt "Digital signature type"
+#| msgid "Adobe PKCS7 Sha1"
+msgctxt "Signature type"
+msgid "Adobe PKCS7 signature"
+msgstr "Adobe PKCS7 Sha1"
+
+#: part/signaturepartutils.cpp:61
+#, fuzzy, kde-format
+#| msgctxt "Signature type"
+#| msgid "Unsigned signature"
+msgctxt "Signature type"
+msgid "Basic eIDAS signature"
+msgstr "Neparakstīts paraksts"
+
+#: part/signaturepartutils.cpp:63
+#, kde-format
+msgctxt "Signature type"
+msgid "eIDAS signature with timestamp"
+msgstr ""
+
+#: part/signaturepartutils.cpp:65
+#, kde-format
+msgctxt "Signature type"
+msgid "eIDAS signature with timestamp for long term validation"
+msgstr ""
+
+#: part/signaturepartutils.cpp:67
+#, kde-format
+msgctxt "Signature type"
+msgid ""
+"eIDAS signature with timestamp for long term validation and support for re-"
+"validation"
+msgstr ""
+
+#: part/signaturepartutils.cpp:222
+#, kde-format
+msgctxt "file types in a file open dialog"
+msgid "Images (%1)"
+msgstr "Attēli (%1)"
+
+#: part/signaturepartutils.cpp:223
+#, kde-format
+msgid "Select background image"
+msgstr "Izvēlēties fona attēlu"
+
+#: part/signaturepartutils.cpp:228
+#, kde-format
+msgid "Forget image"
+msgstr "Aizmirst attēlu"
+
+#: part/signaturepartutils.cpp:229
+#, kde-format
+msgid "Forget all images"
+msgstr "Aizmirst visus attēlus"
+
+#: part/signaturepartutils.cpp:272
+#, fuzzy, kde-format
+#| msgid "Enter password (if any) to unlock certificate: %1"
+msgid "Enter password/pin (if any) to unlock certificate: %1"
+msgstr "Ievadīt paroli (ja tāda ir), lai piekļūtu sertifikātam: %1"
+
+#: part/signaturepartutils.cpp:297
+#, kde-format
+msgid "Enter document password"
+msgstr "Ievadiet dokumenta paroli"
+
+#: part/signaturepartutils.cpp:331
+#, kde-format
+msgid "Save Signed File As"
+msgstr "Parakstīto datni saglabāt kā"
+
+#: part/signaturepartutils.cpp:333
+#, kde-format
+msgctxt "Error message"
+msgid ""
+"The original file cannot be overwritten. Please choose a different filename."
+msgstr ""
+
+#: part/signaturepartutils.h:63
+#, kde-format
+msgctxt ""
+"Used when suggesting a new name for a digitally signed file. %1 is the old "
+"file name and %2 its extension"
+msgid "%1_signed.%2"
+msgstr "%1_parakstīts.%2"
+
+#: part/signaturepropertiesdialog.cpp:56
+#, kde-format
+msgid "Validity Status"
+msgstr "Derīguma statuss"
+
+#: part/signaturepropertiesdialog.cpp:59
+#, kde-format
+msgid "Signature Validity:"
+msgstr "Paraksta derīgums:"
+
+#: part/signaturepropertiesdialog.cpp:60
+#, kde-format
+msgid "Document Modifications:"
+msgstr "Dokumenta izmaiņas:"
+
+#: part/signaturepropertiesdialog.cpp:63
+#, kde-format
+msgid "Additional Information"
+msgstr "Papildu informācija"
+
+#: part/signaturepropertiesdialog.cpp:66
+#, kde-format
+msgid "Signed By:"
+msgstr "Parakstītājs:"
+
+#: part/signaturepropertiesdialog.cpp:67
+#, kde-format
+msgid "Signing Time:"
+msgstr "Parakstīšanas laiks:"
+
+#: part/signaturepropertiesdialog.cpp:83
+#, kde-format
+msgid "Document Version"
+msgstr "Dokumenta versija"
+
+#: part/signaturepropertiesdialog.cpp:86
+#, kde-format
+msgctxt "Document Revision <current> of <total>"
+msgid "Document Revision %1 of %2"
+msgstr "Dokumenta revīzija %1. no %2"
+
+#: part/signaturepropertiesdialog.cpp:88
+#, kde-format
+msgid "View Signed Version…"
+msgstr "Aplūkot parakstīto versiju…"
+
+#: part/signaturepropertiesdialog.cpp:95
+#, kde-format
+msgid "View Certificate…"
+msgstr "Aplūkot sertifikātu…"
+
+#: part/signaturepropertiesdialog.cpp:97
+#, kde-format
+msgid "View in Certificate Manager"
+msgstr "Aplūkot sertifikātu pārvaldniekā"
+
+#: part/signaturepropertiesdialog.cpp:101
+#, kde-format
+msgid "KDE Certificate Manager (kleopatra) not found"
+msgstr "KDE sertifikātu pārvaldnieks (kleopatra) nav atrasts"
+
+#: part/signingcertificatelistmodel.cpp:102
+#, kde-format
+msgctxt "Qualified electronic signature, see wikipedia"
+msgid "Qualified"
+msgstr "Kvalificēts"
+
+#: part/signingcertificatelistmodel.cpp:105
+#, kde-format
+msgid "PGP"
+msgstr "PGP"
+
+#: part/thumbnaillist.cpp:1013
+#, kde-format
+msgid "Show bookmarked pages only"
+msgstr "Rādīt tikai grāmatzīmēm pievienotās lapas"
+
+#: part/videowidget.cpp:179
+#, kde-format
+msgctxt "start the movie playback"
+msgid "Play"
+msgstr "Atskaņot"
+
+#: part/videowidget.cpp:182
+#, kde-format
+msgctxt "pause the movie playback"
+msgid "Pause"
+msgstr "Pauze"
+
+#: part/videowidget.cpp:312
+#, kde-format
+msgctxt "stop the movie playback"
+msgid "Stop"
+msgstr "Apturēt"
+
+#: part/videowidget.cpp:561
+#, kde-format
+msgid "Videos not supported in this okular"
+msgstr "Šajā „Okular“ būvējumā video atskaņošana nav atbalstīta"
+
+#: part/videowidget.cpp:565
+#, kde-format
+msgid "Videos not supported in this Okular"
+msgstr "Šajā „Okular“ būvējumā video atskaņošana nav atbalstīta"
+
+#: part/widgetconfigurationtoolsbase.cpp:28
+#, kde-format
+msgid "&Add…"
+msgstr "&Pievienot…"
+
+#: part/widgetconfigurationtoolsbase.cpp:31
+#, kde-format
+msgid "&Edit…"
+msgstr "R&ediģēt…"
+
+#: part/widgetconfigurationtoolsbase.cpp:35
+#, kde-format
+msgid "&Remove"
+msgstr "&Noņemt"
+
+#: part/widgetconfigurationtoolsbase.cpp:39
+#, kde-format
+msgid "Move &Up"
+msgstr "Pārvietot &augšup"
+
+#: part/widgetconfigurationtoolsbase.cpp:43
+#, kde-format
+msgid "Move &Down"
+msgstr "Pārvietot &lejup"
+
+#: part/widgetdrawingtools.cpp:105
+#, kde-format
+msgid "Default Drawing Tool #%1"
+msgstr "Noklusējuma zīmēšanas rīks #%1"
+
+#: part/widgetdrawingtools.cpp:139 part/widgetdrawingtools.cpp:183
+#, kde-format
+msgid "There's already a tool with that name. Using a default one"
+msgstr "Rīks ar šādu nosaukumu jau pastāv. Tiek izmantots noklusējuma"
+
+#: part/widgetdrawingtools.cpp:139 part/widgetdrawingtools.cpp:183
+#, kde-format
+msgid "Duplicated Name"
+msgstr "Kopēts nosaukums"
+
+#: shell/main.cpp:114
+#, kde-format
+msgid "Page of the document to be shown"
+msgstr "Parādāmā dokumenta lapa"
+
+#: shell/main.cpp:115
+#, kde-format
+msgid "Start the document in presentation mode"
+msgstr "Atvērt dokumentu prezentācijas režīmā"
+
+#: shell/main.cpp:116
+#, kde-format
+msgid "Start with print dialog"
+msgstr "Atvērta ar drukāšanas lodziņu"
+
+#: shell/main.cpp:117
+#, kde-format
+msgid "Start with print dialog and exit after printing"
+msgstr "Atvērt ar drukāšanas lodziņu un iziet pēc drukāšanas"
+
+#: shell/main.cpp:118
+#, kde-format
+msgid "\"Unique instance\" control"
+msgstr "„Unikālas instances“ kontrole"
+
+#: shell/main.cpp:119
+#, kde-format
+msgid "Not raise window"
+msgstr "Nepacelt logu"
+
+#: shell/main.cpp:120
+#, kde-format
+msgid "Find a string on the text"
+msgstr "Atrast virkni tekstā"
+
+#: shell/main.cpp:121
+#, kde-format
+msgid "Sets the external editor command"
+msgstr "Iestata ārējā redaktora komandu"
+
+#: shell/main.cpp:122
+#, kde-format
+msgid "Documents to open. Specify '-' to read from stdin."
+msgstr "Atveramie dokumenti. Norādiet „-“, lai lasītu no „stdin“."
+
+#: shell/okular_main.cpp:66 shell/okular_main.cpp:171
+#, kde-format
+msgid ""
+"You cannot set the editor command in an already running okular instance. "
+"Please disable the tabs and try again. Please note, that unique is also not "
+"supported when setting the editor command at the commandline.\n"
+msgstr ""
+"Jūs nevarat iestatīt redaktora komandu jau atvērtā „Okular“ instancē. "
+"Izslēdziet cilnes un mēģiniet vēlreiz. Ievērojiet, ka „unique“ netiek "
+"atbalstīts arī tad, ja redaktora komandu iestatiet komandrindā.\n"
+
+#: shell/okular_main.cpp:192
+#, kde-format
+msgid "Error: Can't open more than one document with the --unique switch"
+msgstr ""
+"Kļūda: Nevar atvērt vairāk par vienu dokumentu, izmantojot slēdzi „--unique“"
+
+#: shell/okular_main.cpp:198
+#, kde-format
+msgid "Error: Can't open more than one document with the --presentation switch"
+msgstr ""
+"Kļūda: Nevar atvērt vairāk par vienu dokumentu, izmantojot slēdzi „--"
+"presentation“"
+
+#: shell/okular_main.cpp:204
+#, kde-format
+msgid "Error: Can't open more than one document with the --print switch"
+msgstr ""
+"Kļūda: Nevar atvērt vairāk par vienu dokumentu, izmantojot slēdzi „--print“"
+
+#: shell/okular_main.cpp:210
+#, kde-format
+msgid "Error: Can't open more than one document with the --page switch"
+msgstr ""
+"Kļūda: Nevar atvērt vairāk par vienu dokumentu, izmantojot slēdzi „--page“"
+
+#: shell/okular_main.cpp:216
+#, kde-format
+msgid "Error: Can't open more than one document with the --find switch"
+msgstr ""
+"Kļūda: Nevar atvērt vairāk par vienu dokumentu, izmantojot slēdzi „--find“"
+
+#: shell/shell.cpp:204
+#, kde-format
+msgid "Unable to find the Okular component: %1"
+msgstr "Neizdevās atrast „Okular“ komponentu: %1"
+
+#: shell/shell.cpp:247
+#, kde-format
+msgid "Sidebar"
+msgstr "Sānjosla"
+
+#: shell/shell.cpp:283
+#, kde-format
+msgid ""
+"There is already a unique Okular instance running. This instance won't be "
+"the unique one."
+msgstr "Jau ir ieslēgta unikāla „Okular“ instance. Šī instance nebūs unikāla."
+
+#: shell/shell.cpp:312
+#, kde-format
+msgid "Unable to find the Okular component."
+msgstr "Neizdevās atrast „Okular“ komponentu."
+
+#: shell/shell.cpp:567
+#, kde-format
+msgid ""
+"Click to open a file\n"
+"Click and hold to open a recent file"
+msgstr ""
+"Nospiediet, lai atvērtu datni\n"
+"Nospiediet un paturiet, lai atvērtu nesen lietotu datni"
+
+#: shell/shell.cpp:568
+#, kde-format
+msgid ""
+"<b>Click</b> to open a file or <b>Click and hold</b> to select a recent file"
+msgstr ""
+"<b>Nospiediet</b>, lai atvērtu datni, vai <b>Nospiediet un paturiet</b>, lai "
+"izvēlētos nesen lietotu datni"
+
+#: shell/shell.cpp:583
+#, kde-format
+msgid "Next Tab"
+msgstr "Nākamā cilne"
+
+#: shell/shell.cpp:589
+#, kde-format
+msgid "Previous Tab"
+msgstr "Iepriekšējā cilne"
+
+#: shell/shell.cpp:597
+#, kde-format
+msgid "Switch to Tab %1"
+msgstr ""
+
+#: shell/shell.cpp:613
+#, kde-format
+msgid "Undo close tab"
+msgstr "Atsaukt cilnes aizvēršanu"
+
+#: shell/shell.cpp:622
+#, kde-format
+msgid "Lock Sidebar"
+msgstr "Slēgt sānjoslu"
+
+#: shell/shell.cpp:722
+#, kde-format
+msgid "All files (*)"
+msgstr "Visas datnes (*)"
+
+#: shell/shell.cpp:723
+#, kde-format
+msgid "All supported files (%1)"
+msgstr "Visas atbalstītās datnes (%1)"
+
+#: shell/shell.cpp:727
+#, kde-format
+msgid "Open Document"
+msgstr "Atvērt dokumentu"
+
+#: shell/shell.cpp:841
+#, kde-format
+msgid "Confirm Close"
+msgstr "Apstiprināt aizvēršanu"
+
+#: shell/shell.cpp:845
+#, kde-format
+msgid "Close Tabs"
+msgstr "Aizvērt cilnes"
+
+#: shell/shell.cpp:852
+#, kde-format
+msgid "You are about to close %1 tabs. Are you sure you want to continue?"
+msgstr "Tiks aizvērtas %1 cilnes. Vai tiešām vēlaties turpināt?"
+
+#: shell/shell.cpp:854
+#, kde-format
+msgid "Warn me when I attempt to close multiple tabs"
+msgstr "Brīdināt, kad mēģinu aizvērt vairākas cilnes"
+
+#: shell/welcomescreen.cpp:64
+#, kde-format
+msgid "&Copy Path"
+msgstr "&Kopēt ceļu"
+
+#: shell/welcomescreen.cpp:77
+#, kde-format
+msgid "&Open Containing Folder"
+msgstr "&Atvērt saturošu mapi"
+
+#: shell/welcomescreen.cpp:89
+#, kde-format
+msgctxt "recent items context menu"
+msgid "&Forget This Item"
+msgstr "&Aizmirst šo vienumu"
+
+#: shell/welcomescreen.cpp:137
+#, kde-format
+msgctxt "on welcome screen"
+msgid "No recent documents"
+msgstr "Nav neseno dokumentu"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shell/welcomescreen.ui:153
+#, kde-format
+msgid "Welcome to Okular"
+msgstr "Laipni lūgti programmā „Okular“!"
+
+#. i18n: ectx: property (text), widget (QPushButton, openButton)
+#: shell/welcomescreen.ui:232
+#, kde-format
+msgctxt "on welcome screen"
+msgid "Open Document..."
+msgstr "Atvērt dokumentu..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: shell/welcomescreen.ui:382
+#, kde-format
+msgctxt "on welcome screen"
+msgid "Recent documents"
+msgstr "Nesenie dokumenti"
+
+#. i18n: ectx: property (text), widget (QToolButton, forgetAllButton)
+#: shell/welcomescreen.ui:392
+#, kde-format
+msgctxt "on welcome screen (recent document list)"
+msgid "Forget All"
+msgstr "Aizmirst visus"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, closeButton)
+#: shell/welcomescreen.ui:460
+#, kde-format
+msgid "Hide welcome screen"
+msgstr "Paslēpt sveiciena ekrānu"
+
+#~ msgid "Enter certificate password"
+#~ msgstr "Ievadiet sertifikāta paroli"
+
+#~ msgid "Configure Viewer Backends…"
+#~ msgstr "Konfigurēt skatītāja aizmugursistēmas…"
+
+#~ msgid "Configure Backends…"
+#~ msgstr "Pārvaldīt aizmugursistēmas…"
+
+#~ msgid "Configure Viewer Backends"
+#~ msgstr "Pārvaldīt skatītāja aizmugursistēmas"
+
+#~ msgid "Configure Backends"
+#~ msgstr "Pārvaldīt aizmugursistēmas"
+
+#~ msgid "Geometry with Comment"
+#~ msgstr "Ģeometrija ar komentāru"
+
+#~ msgid "Geometry"
+#~ msgstr "Ģeometrija"
+
+#~ msgctxt "Annotation type: contents"
+#~ msgid "%1: %2"
+#~ msgstr "%1: %2"
+
+#~ msgid "Modified: %1"
+#~ msgstr "Mainīts: %1"
+
+#~ msgid "Find..."
+#~ msgstr "Meklēt..."
+
+#~ msgid "Go To Page..."
+#~ msgstr "Iet uz lapu..."
+
+#~ msgid "Play movie..."
+#~ msgstr "Atskaņot filmu..."
+
+#~ msgid "Search..."
+#~ msgstr "Meklēt..."
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Save As..."
+#~ msgstr "&Saglabāt kā..."
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "&View..."
+#~ msgstr "&Skats..."
+
+#~ msgid "&Sign..."
+#~ msgstr "&Parakstīt..."
+
+#~ msgid "Configure Viewer..."
+#~ msgstr "Pārvaldīt skatītāju..."
+
+#~ msgid "Configure Viewer Backends..."
+#~ msgstr "Pārvaldīt skatītāja aizmugursistēmas..."
+
+#~ msgid "Configure Backends..."
+#~ msgstr "Pārvaldīt aizmugursistēmas..."
+
+#~ msgid "&Add..."
+#~ msgstr "&Pievienot..."
+
+#~ msgid "&Edit..."
+#~ msgstr "R&ediģēt..."
+
+#~ msgctxt "%1 is a file path"
+#~ msgid ""
+#~ "Could not sign. Invalid certificate password or could not write to '%1'"
+#~ msgstr ""
+#~ "Neizdevās parakstīt. Nederīga sertifikāta parole vai neizdevās ierakstīt "
+#~ "datnē „%1“"
+
+#, fuzzy
+#~| msgid ""
+#~| "All your signing certificates are either not valid yet or are past their "
+#~| "validity date."
+#~ msgid "All your signing certificates are invalid"
+#~ msgstr ""
+#~ "Atļaut parakstīt sertifikātus, kas vai nu nav derīgi, vai arī ar "
+#~ "izbeigušos derīguma termiņu."
+
+#~ msgid "Unsigned Signature %1"
+#~ msgstr "Neparakstīts paraksts %1"
+
+#~ msgctxt "Signature type"
+#~ msgid "Unknown"
+#~ msgstr "Nezināms"
+
+#~ msgctxt "Suffix for the opacity level, eg '80%'"
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgctxt "Suffix for the pen width, eg '10 px'"
+#~ msgid " px"
+#~ msgstr "px"
+
+#~ msgctxt "Suffix for the opacity level, eg '80 %'"
+#~ msgid " %"
+#~ msgstr " %"
+
+#~ msgctxt "%1 is a file path"
+#~ msgid "Could not sign. Could not write to '%1'"
+#~ msgstr "Neizdevās parakstīt. Neizdevās rakstīt uz „%1“"
+
+#~ msgctxt "Page Up/Down overlap, spinbox suffix"
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgctxt "item:inlistbox Config dialog, general page, default zoom"
+#~ msgid "Fit Width"
+#~ msgstr "Ietilpināt platumā"
+
+#~ msgctxt "item:inlistbox Config dialog, general page, default zoom"
+#~ msgid "Fit Page"
+#~ msgstr "Ietilpināt lapu"
+
+#~ msgctxt "item:inlistbox Config dialog, general page, default zoom"
+#~ msgid "Auto Fit"
+#~ msgstr "Automātiska ietilpināšana"
+
+#~ msgid "*|All Files"
+#~ msgstr "*|Visi faili"
+
+#, fuzzy
+#~| msgid "Show S&idebar"
+#~ msgid "Show Sidebar"
+#~ msgstr "Rādīt &sānjoslu"
+
+#~ msgctxt "@title:window"
+#~ msgid "Experimental feature"
+#~ msgstr "Eksperimentāla iespēja"
+
+#~ msgid "Remove Bookmarks"
+#~ msgstr "Izņemt grāmatzīmes"
+
+#, fuzzy
+#~| msgid "&Annotations"
+#~ msgctxt "verb"
+#~ msgid "&Annotate"
+#~ msgstr "&Anotācijas"
+
+#, fuzzy
+#~| msgid "Highlight"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Highlight"
+#~ msgstr "Izcelts"
+
+#, fuzzy
+#~| msgid "Underline"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Underline"
+#~ msgstr "Pasvītrots"
+
+#, fuzzy
+#~| msgid "Squiggly"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Squiggle"
+#~ msgstr "Vilnītis"
+
+#, fuzzy
+#~| msgid "Strike out"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Strike Out"
+#~ msgstr "Pārsvīrtots"
+
+#, fuzzy
+#~| msgid "Insert"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Insert Text"
+#~ msgstr "Ievietot"
+
+#, fuzzy
+#~| msgid "Inline Note"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Insert Inline Note"
+#~ msgstr "Iegulta piezīme"
+
+#, fuzzy
+#~| msgctxt "@action:intoolbar Annotation tool"
+#~| msgid "Popup Note"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Insert Popup Note"
+#~ msgstr "Izlecoša piezīme"
+
+#, fuzzy
+#~| msgid "Green Freehand Line"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Draw Freehand Line"
+#~ msgstr "Zaļa brīvas formas līija"
+
+#, fuzzy
+#~| msgid "Straight Yellow Line"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Draw Straight line"
+#~ msgstr "Taisna dzeltena līnija"
+
+#, fuzzy
+#~| msgctxt "@action:intoolbar Annotation tool"
+#~| msgid "Arrow"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Draw Arrow"
+#~ msgstr "Bulta"
+
+#, fuzzy
+#~| msgid "Rectangle"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Draw Rectangle"
+#~ msgstr "Taisnstūris"
+
+#, fuzzy
+#~| msgid "Cyan Ellipse"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Draw Ellipse"
+#~ msgstr "Ciāna krāsas elipse"
+
+#, fuzzy
+#~| msgid "Polygon"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Draw Polygon"
+#~ msgstr "Daudzstūris"
+
+#, fuzzy
+#~| msgid "Highlighter"
+#~ msgid "Highlight in Yellow"
+#~ msgstr "Izgaismotājs"
+
+#, fuzzy
+#~| msgid "Highlight"
+#~ msgid "Highlight in Green"
+#~ msgstr "Izcelts"
+
+#, fuzzy
+#~| msgid "Inline Note"
+#~ msgid "Insert Inline Note"
+#~ msgstr "Iegulta piezīme"
+
+#, fuzzy
+#~| msgctxt "@action:intoolbar Annotation tool"
+#~| msgid "Popup Note"
+#~ msgid "Insert Popup Note"
+#~ msgstr "Izlecoša piezīme"
+
+#, fuzzy
+#~| msgid "Select text"
+#~ msgctxt "verb"
+#~ msgid "&Select Area"
+#~ msgstr "Iezīmēt tekstu"
+
+#, fuzzy
+#~| msgid "Select text"
+#~ msgctxt "verb"
+#~ msgid "Select &Text"
+#~ msgstr "Iezīmēt tekstu"
+
+#, fuzzy
+#~| msgid "Select text"
+#~ msgctxt "verb"
+#~ msgid "Select T&able"
+#~ msgstr "Iezīmēt tekstu"
+
+#, fuzzy
+#~| msgid "Annotation"
+#~| msgid_plural "%1 Annotations"
+#~ msgid "Bookmark annotation"
+#~ msgstr "%1 anotācija"
+
+#, fuzzy
+#~| msgid "Change &colors"
+#~ msgid "&Toggle Change Colors"
+#~ msgstr "Mainīt &krāsas"
+
+#, fuzzy
+#~| msgid "Enable transitions"
+#~ msgctxt "@option:check Config dialog, presentation page, transitions"
+#~ msgid "Enable transitions"
+#~ msgstr "Ieslēgt pārejas"
+
+#, fuzzy
+#~| msgid "Advance every:"
+#~ msgctxt "@label:spinbox Config dialog, presentation page"
+#~ msgid "Advance every:"
+#~ msgstr "Iet uz nākamo ik pēc:"
+
+#, fuzzy
+#~| msgid "Background color:"
+#~ msgctxt "@label:listbox Config dialog, general page"
+#~ msgid "Custom background color:"
+#~ msgstr "Fona krāsa:"
+
+#~ msgid "Draw border around &Images"
+#~ msgstr "Zīmēt rāmi apkārt &attēliem"
+
+#~ msgid "Speech"
+#~ msgstr "Runa"
+
+#~ msgid "Engine"
+#~ msgstr "Dzinējs"
+
+#~ msgid "Identity"
+#~ msgstr "Identitāte"
+
+#~ msgid "Au&thor:"
+#~ msgstr "Au&tors:"
+
+#~ msgid "View Options"
+#~ msgstr "Skata opcijas"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Defines the default zoom mode for files which were never opened before.\n"
+#~ "For files which were opened before the previous zoom is applied."
+#~ msgstr ""
+#~ "Definē noklusēto mērogošanas režīmu failiem, kuri nekad iepriekš nav "
+#~ "tikuši atvērti.\n"
+#~ "Failiem, kuri atvērti jau iepriekš, tiek pielietots iepriekšējais "
+#~ "mērogojums."
+
+#~ msgid "Navigation"
+#~ msgstr "Navigācija"
+
+#~ msgid "Placement"
+#~ msgstr "Novietojums"
+
+#~ msgid "Screen:"
+#~ msgstr "Ekrāns:"
+
+#~ msgid "Drawing Tool Configuration"
+#~ msgstr "Zīmēšanas rīka konfigurācija"
+
+#~ msgid "&Get Books From Internet..."
+#~ msgstr "&Iegūt grāmatzīmes no Interneta..."
+
+#~ msgid "Reviews"
+#~ msgstr "Recenzijas"
+
+#~ msgctxt "@item:inlistbox Color name"
+#~ msgid "%1"
+#~ msgstr "%1"
+
+#~ msgid "Hide Forms"
+#~ msgstr "Slēpt formas"
+
+#~ msgid "&Review"
+#~ msgstr "&Recenzija"
+
+#~ msgid "Annotations author"
+#~ msgstr "Anotāciju autors"
+
+#~ msgid "Please insert your name or initials:"
+#~ msgstr "Lūdzu ievadiet jūsu vārdu vai iniciāļus:"
+
+#~ msgid "Show &Navigation Panel"
+#~ msgstr "Rādīt &navigācijas joslu"
+
+#~ msgid "Show Text"
+#~ msgstr "Rādīt tekstu"
+
+#~ msgid "Small Icons"
+#~ msgstr "Mazas ikonas"
+
+#~ msgid "Large Icons"
+#~ msgstr "Lielas ikonas"
+
+#, fuzzy
+#~| msgid ""
+#~| "Click to use the current selection tool\n"
+#~| "Click and hold to choose another selection tool"
+#~ msgid ""
+#~ "Click to use the current selection tool\n"
+#~ "Click on the arrow to choose another selection tool"
+#~ msgstr ""
+#~ "Nospiediet, lai lietotu aktīvo iezīmēšanas rīku\n"
+#~ "Nospiediet un paturiet, lai izvēlētos citu iezīmēšanas rīku"
+
+#~ msgid "Created: %1"
+#~ msgstr "Izveidots: %1"
+
+#~ msgid "Style"
+#~ msgstr "Stils"
+
+#~ msgid "&Size:"
+#~ msgstr "Izmēr&s:"
+
+#~ msgid "Inner color:"
+#~ msgstr "Iekšpuses krāsa:"
+
+#~ msgid "Name: %1"
+#~ msgstr "Nosaukums: %1"
+
+#~ msgid "Size: %1"
+#~ msgstr "Izmērs: %1"
+
+#~ msgid "&Browse Tool"
+#~ msgstr "&Pārlūkošanas rīks"
+
+#~ msgid "&Zoom Tool"
+#~ msgstr "&Mērogošanas rīks"
+
+#~ msgctxt "Zoom Tool"
+#~ msgid "Zoom"
+#~ msgstr "Mērogs"
+
+#~ msgctxt "Select Tool"
+#~ msgid "Selection"
+#~ msgstr "Iezīmēšana"
+
+#~ msgid "&Text Selection Tool"
+#~ msgstr "&Teksta iezīmēšanas rīks"
+
+#~ msgid "T&able Selection Tool"
+#~ msgstr "T&abulu iezīmēšanas rīks"
+
+#, fuzzy
+#~| msgctxt "Symbol for caret annotations"
+#~| msgid "None"
+#~ msgid " None"
+#~ msgstr "Nav"
+
+#~ msgid ""
+#~ "The document requested to be launched in presentation mode.\n"
+#~ "Do you want to allow it?"
+#~ msgstr ""
+#~ "Dokuments pieprasa lai to atver prezentācijas režīmā.\n"
+#~ "Vai vēlaties atļaut to?"
+
+#~ msgid "Presentation Mode"
+#~ msgstr "Prezentācijas režīms"
+
+#~ msgid "Allow the presentation mode"
+#~ msgstr "Atļaut prezentācijas režīmu"
+
+#~ msgid "Do Not Allow"
+#~ msgstr "Nepieļaut"
+
+#~ msgid "Do not allow the presentation mode"
+#~ msgstr "Nepieļaut prezentācijas režīmu"
+
+#~ msgid ""
+#~ "Your annotation changes will not be saved automatically. Use File -> Save "
+#~ "As...\n"
+#~ "or your changes will be lost once the document is closed"
+#~ msgstr ""
+#~ "Jūsu anotācijas izmaiņas netiks saglabātas automātiski. Izmantojiet Fails "
+#~ "-> Saglabāt kā...\n"
+#~ "vai arī izmaiņas tiks zaudētas, dokumentu aizverot"
+
+#~ msgid ""
+#~ "Your annotations are saved internally by Okular.\n"
+#~ "You can export the annotated document using File -> Export As -> Document "
+#~ "Archive"
+#~ msgstr ""
+#~ "Jūsu anotācijas Okular saglabā iekšēji.\n"
+#~ "Anotēto dokumentu varat eksportēt, izmantojot Fails -> Eksportēt kā -> "
+#~ "Dokumentu arhīvs"
+
+#~ msgid "Save &Copy As..."
+#~ msgstr "Saglabāt &kopiju kā..."
+
+#, fuzzy
+#~| msgid ""
+#~| "Your annotations are saved internally by Okular.\n"
+#~| "You can export the annotated document using File -> Export As -> "
+#~| "Document Archive"
+#~ msgid ""
+#~ "Your annotations will not be exported.\n"
+#~ "You can export the annotated document using File -> Export As -> Document "
+#~ "Archive"
+#~ msgstr ""
+#~ "Jūsu anotācijas Okular saglabā iekšēji.\n"
+#~ "Anotēto dokumentu varat eksportēt, izmantojot Fails -> Eksportēt kā -> "
+#~ "Dokumentu arhīvs"
+
+#~ msgid ""
+#~ "End of document reached.\n"
+#~ "Continue from the beginning?"
+#~ msgstr ""
+#~ "Sasniegtas dokumenta beigas.\n"
+#~ "Turpināt no sākuma?"
+
+#~ msgid ""
+#~ "Beginning of document reached.\n"
+#~ "Continue from the bottom?"
+#~ msgstr ""
+#~ "Sasniegts dokumenta sākums.\n"
+#~ "Turpināt no beigām?"
+
+#~ msgid "Current maintainer"
+#~ msgstr "Pašreizējais uzturētājs"
+
+#~ msgid " sec."
+#~ msgstr "sek."
+
+#~ msgid "Pencil color:"
+#~ msgstr "Zīmuļa krāsa:"
+
+#~ msgid "Toggle Drawing Mode"
+#~ msgstr "Pārslēgt zīmēšanas režīmu"
+
+#~ msgid "Starting Jovie Text-to-Speech service Failed: %1"
+#~ msgstr "Neizdevās palaist Jovie teksts-uz-runu servisu: %1"
+
+#~ msgid "Search Columns"
+#~ msgstr "Meklēt kolonās"
+
+#~ msgid "All Visible Columns"
+#~ msgstr "Visās redzamājās kolonās"
+
+#~ msgid "No document opened."
+#~ msgstr "Nav atvērts dokuments."
+
+#~ msgid "No matches found for '%1'."
+#~ msgstr "'%1' nav atrasts."
+
+#~ msgid "Search in progress..."
+#~ msgstr "Notiek meklēšana..."
+
+#~ msgid "Searching for %1"
+#~ msgstr "Meklē '%1'"
+
+#~ msgid "Identity Settings"
+#~ msgstr "Identitātes iestatījumi"
+
+#~ msgid "Highlight Properties"
+#~ msgstr "Izcelšanas īpašības"
+
+#~ msgid "Ink Properties"
+#~ msgstr "Tintes īpašības"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Text Annotation"
+#~ msgstr "Teksta anotēšana"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Green Ink"
+#~ msgstr "Zaļa tinte"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Yellow Highlight"
+#~ msgstr "Dzeltena izcelšana"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Straight Yellow Line"
+#~ msgstr "Taisna dzeltena līnija"
+
+#~ msgid "Black Underlining"
+#~ msgstr "Melns pasvītrojums"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Underline the text with a black line"
+#~ msgstr "Pasvītrot tekstu ar melnu līniju"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "A cyan ellipse"
+#~ msgstr "Ciāna krāsas elipse"
+
+#~ msgid "Ink"
+#~ msgstr "Tinte"
+
+#~ msgid "You must set this name:"
+#~ msgstr "Jums jāuzstāda šis vārds:"
+
+#~ msgid "Moves to the first page of the document"
+#~ msgstr "Pārvieto uz pirmo dokumenta lapu"
+
+#~ msgid "Toggles between File Path and Title"
+#~ msgstr "Pārslēdz starp faila ceļu un virsrakstu"
+
+#~ msgctxt "%1 is \"Title\""
+#~ msgid "%1:"
+#~ msgstr "%1:"
+
+#~ msgctxt "%1 is \"File Path\""
+#~ msgid "%1:"
+#~ msgstr "%1:"
+
+#~ msgctxt "@action:button"
+#~ msgid "&Overwrite"
+#~ msgstr "&Pārrakstīt"
+
+#~ msgid "Pages:"
+#~ msgstr "Lapas:"

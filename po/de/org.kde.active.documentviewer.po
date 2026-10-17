@@ -1,0 +1,237 @@
+# Copyright (C) 2025 This_file_is_part_of_KDE
+# This file is distributed under the same license as the okular package.
+# SPDX-FileCopyrightText: 2012, 2022-2023 Frederik Schwarzer <schwarzer@kde.org>
+# SPDX-FileCopyrightText: 2013, 2017-2019, 2021 Burkhard Lück <lueck@hube-lueck.de>
+# SPDX-FileCopyrightText: 2025 Philipp Kiemle <l10n.daphipz@fastmail.de>
+msgid ""
+msgstr ""
+"Project-Id-Version: org.kde.active.documentviewer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2025-12-03 18:46+0100\n"
+"Last-Translator: Philipp Kiemle <l10n.daphipz@fastmail.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.08.3\n"
+
+#: ui/Bookmarks.qml:20 ui/OkularDrawer.qml:85
+msgid "Bookmarks"
+msgstr "Lesezeichen"
+
+#: ui/CertificateViewerPage.qml:23
+msgid "Certificate Viewer"
+msgstr "Zertifikatsanzeige"
+
+#: ui/CertificateViewerPage.qml:26
+msgid "Issued By"
+msgstr "Ausgestellt von"
+
+#: ui/CertificateViewerPage.qml:31 ui/CertificateViewerPage.qml:56
+msgid "Common Name:"
+msgstr "Allgemeiner Name:"
+
+#: ui/CertificateViewerPage.qml:38 ui/CertificateViewerPage.qml:63
+msgid "EMail:"
+msgstr "E-Mail:"
+
+#: ui/CertificateViewerPage.qml:45 ui/CertificateViewerPage.qml:70
+msgid "Organization:"
+msgstr "Organisation:"
+
+#: ui/CertificateViewerPage.qml:51
+msgid "Issued To"
+msgstr "Ausgestellt für"
+
+#: ui/CertificateViewerPage.qml:76
+msgid "Validity"
+msgstr "Gültigkeit"
+
+#: ui/CertificateViewerPage.qml:81
+msgid "Issued On:"
+msgstr "Ausgestellt am:"
+
+#: ui/CertificateViewerPage.qml:88
+msgid "Expires On:"
+msgstr "Verfällt am:"
+
+#: ui/CertificateViewerPage.qml:94
+msgid "Fingerprints"
+msgstr "Fingerabdrücke"
+
+#: ui/CertificateViewerPage.qml:99
+msgid "SHA-1 Fingerprint:"
+msgstr "SHA-1-Fingerabdruck:"
+
+#: ui/CertificateViewerPage.qml:106
+msgid "SHA-256 Fingerprint:"
+msgstr "SHA-256-Fingerabdruck:"
+
+#: ui/CertificateViewerPage.qml:118 ui/CertificateViewerPage.qml:130
+msgid "Export…"
+msgstr "Exportieren …"
+
+#: ui/CertificateViewerPage.qml:137 ui/SignaturePropertiesPage.qml:148
+msgid "Close"
+msgstr "Schließen"
+
+#: ui/CertificateViewerPage.qml:146
+msgid "Certificate File (*.cer)"
+msgstr "Zertifikatsdatei (*.cer)"
+
+#: ui/CertificateViewerPage.qml:161 ui/SignaturePropertiesPage.qml:169
+msgid "Error"
+msgstr "Fehler"
+
+#: ui/CertificateViewerPage.qml:163
+msgid "Could not export the certificate."
+msgstr "Das Zertifikat kann nicht exportiert werden."
+
+#: ui/Main.qml:25 ui/Main.qml:66
+msgid "Okular"
+msgstr "Okular"
+
+#: ui/Main.qml:42
+msgid "Open…"
+msgstr "Öffnen …"
+
+#: ui/Main.qml:49
+msgid "About"
+msgstr "Über"
+
+#: ui/Main.qml:99
+msgid "Password Needed"
+msgstr "Passwort benötigt"
+
+#: ui/MainView.qml:29
+msgid "Remove bookmark"
+msgstr "Lesezeichen entfernen"
+
+#: ui/MainView.qml:29
+msgid "Bookmark this page"
+msgstr "Ein Lesezeichen für diese Seite hinzufügen"
+
+#: ui/OkularDrawer.qml:57
+msgid "Thumbnails"
+msgstr "Vorschaubilder"
+
+#: ui/OkularDrawer.qml:71
+msgid "Table of contents"
+msgstr "Inhaltsverzeichnis"
+
+#: ui/OkularDrawer.qml:99
+msgid "Signatures"
+msgstr "Signaturen"
+
+#: ui/SignaturePropertiesPage.qml:33
+msgid "Signature Properties"
+msgstr "Signatur-Eigenschaften"
+
+#: ui/SignaturePropertiesPage.qml:40
+msgid "Validity Status"
+msgstr "Gültigkeitsstatus"
+
+#: ui/SignaturePropertiesPage.qml:46
+msgid "Signature Validity:"
+msgstr "Gültigkeit der Signatur:"
+
+#: ui/SignaturePropertiesPage.qml:53
+msgid "Document Modifications:"
+msgstr "Änderungen am Dokument:"
+
+#: ui/SignaturePropertiesPage.qml:58
+msgid "Additional Information"
+msgstr "Zusätzliche Informationen"
+
+#: ui/SignaturePropertiesPage.qml:64
+msgid "Signed By:"
+msgstr "Signiert von:"
+
+#: ui/SignaturePropertiesPage.qml:71
+msgid "Signing Time:"
+msgstr "Signatur-Datum:"
+
+#: ui/SignaturePropertiesPage.qml:80
+msgid "Reason:"
+msgstr "Grund:"
+
+#: ui/SignaturePropertiesPage.qml:90
+msgid "Location:"
+msgstr "Ort:"
+
+#: ui/SignaturePropertiesPage.qml:96
+msgid "Document Version"
+msgstr "Dokumentversion"
+
+#: ui/SignaturePropertiesPage.qml:104
+msgctxt "Document Revision <current> of <total>"
+msgid "Document Revision %1 of %2"
+msgstr "Dokumentversion %1 von %2"
+
+#: ui/SignaturePropertiesPage.qml:108
+msgid "Save Signed Version…"
+msgstr "Signierte Version speichern …"
+
+#: ui/SignaturePropertiesPage.qml:122 ui/SignaturePropertiesPage.qml:137
+msgid "View Certificate…"
+msgstr "Zertifikat anzeigen …"
+
+#: ui/SignaturePropertiesPage.qml:171
+msgid "Could not save the signature."
+msgstr "Die Signatur kann nicht gespeichert werden."
+
+#: ui/Signatures.qml:27
+msgid "Not Available"
+msgstr "Nicht verfügbar"
+
+#: ui/ThumbnailsBase.qml:42
+msgid "No results found."
+msgstr "Keine Ergebnisse gefunden."
+
+#: ui/WelcomeView.qml:43
+msgid "No document open"
+msgstr "Kein geöffnetes Dokument"
+
+#: ui/WelcomeView.qml:49
+msgctxt "in welcome screen"
+msgid "Recent Documents"
+msgstr "Zuletzt geöffnete Dokumente"
+
+#: ui/WelcomeView.qml:108
+msgctxt "in welcome screen"
+msgid "My Documents"
+msgstr "Meine Dokumente"
+
+#~ msgid "Open..."
+#~ msgstr "Öffnen …"
+
+#~ msgid "Search..."
+#~ msgstr "Suchen ..."
+
+#~ msgid "Open Android..."
+#~ msgstr "Android öffnen ..."
+
+#~ msgid ""
+#~ "No Documents found. To start to read, put some files in the Documents "
+#~ "folder of your device."
+#~ msgstr ""
+#~ "Es wurden keine Dokumente gefunden. Legen Sie einige Dateien im "
+#~ "Dokumentenordner Ihres Geräts ab, um mit dem Lesen zu beginnen."
+
+#~ msgid "Document viewer for Plasma Active using Okular"
+#~ msgstr "Dokumentenbetrachter für „Plasma Active“, der Okular verwendet."
+
+#~ msgid "Reader"
+#~ msgstr "Lesegerät"
+
+#~ msgid "Copyright 2012 Marco Martin"
+#~ msgstr "Copyright 2012 Marco Martin"
+
+#~ msgid "Marco Martin"
+#~ msgstr "Marco Martin"
+
+#~ msgid "URL of the file to open"
+#~ msgstr "Adresse (URL) der zu öffnenden Datei"

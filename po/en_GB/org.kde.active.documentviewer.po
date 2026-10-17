@@ -1,0 +1,241 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Steve Allewell <steve.allewell@gmail.com>, 2014, 2016, 2018, 2019, 2020, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2022-08-07 10:58+0100\n"
+"Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
+"Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.04.3\n"
+
+#: ui/Bookmarks.qml:20 ui/OkularDrawer.qml:85
+msgid "Bookmarks"
+msgstr "Bookmarks"
+
+#: ui/CertificateViewerPage.qml:23
+msgid "Certificate Viewer"
+msgstr "Certificate Viewer"
+
+#: ui/CertificateViewerPage.qml:26
+msgid "Issued By"
+msgstr "Issued By"
+
+#: ui/CertificateViewerPage.qml:31 ui/CertificateViewerPage.qml:56
+msgid "Common Name:"
+msgstr "Common Name:"
+
+#: ui/CertificateViewerPage.qml:38 ui/CertificateViewerPage.qml:63
+msgid "EMail:"
+msgstr "EMail:"
+
+#: ui/CertificateViewerPage.qml:45 ui/CertificateViewerPage.qml:70
+msgid "Organization:"
+msgstr "Organisation:"
+
+#: ui/CertificateViewerPage.qml:51
+msgid "Issued To"
+msgstr "Issued To"
+
+#: ui/CertificateViewerPage.qml:76
+msgid "Validity"
+msgstr "Validity"
+
+#: ui/CertificateViewerPage.qml:81
+msgid "Issued On:"
+msgstr "Issued On:"
+
+#: ui/CertificateViewerPage.qml:88
+msgid "Expires On:"
+msgstr "Expires On:"
+
+#: ui/CertificateViewerPage.qml:94
+msgid "Fingerprints"
+msgstr "Fingerprints"
+
+#: ui/CertificateViewerPage.qml:99
+msgid "SHA-1 Fingerprint:"
+msgstr "SHA-1 Fingerprint:"
+
+#: ui/CertificateViewerPage.qml:106
+msgid "SHA-256 Fingerprint:"
+msgstr "SHA-256 Fingerprint:"
+
+#: ui/CertificateViewerPage.qml:118 ui/CertificateViewerPage.qml:130
+#, fuzzy
+#| msgid "Export..."
+msgid "Export…"
+msgstr "Export..."
+
+#: ui/CertificateViewerPage.qml:137 ui/SignaturePropertiesPage.qml:148
+msgid "Close"
+msgstr "Close"
+
+#: ui/CertificateViewerPage.qml:146
+msgid "Certificate File (*.cer)"
+msgstr "Certificate File (*.cer)"
+
+#: ui/CertificateViewerPage.qml:161 ui/SignaturePropertiesPage.qml:169
+msgid "Error"
+msgstr "Error"
+
+#: ui/CertificateViewerPage.qml:163
+msgid "Could not export the certificate."
+msgstr "Could not export the certificate."
+
+#: ui/Main.qml:25 ui/Main.qml:66
+msgid "Okular"
+msgstr "Okular"
+
+#: ui/Main.qml:42
+msgid "Open…"
+msgstr ""
+
+#: ui/Main.qml:49
+msgid "About"
+msgstr "About"
+
+#: ui/Main.qml:99
+msgid "Password Needed"
+msgstr "Password Needed"
+
+#: ui/MainView.qml:29
+msgid "Remove bookmark"
+msgstr "Remove bookmark"
+
+#: ui/MainView.qml:29
+msgid "Bookmark this page"
+msgstr "Bookmark this page"
+
+#: ui/OkularDrawer.qml:57
+msgid "Thumbnails"
+msgstr "Thumbnails"
+
+#: ui/OkularDrawer.qml:71
+msgid "Table of contents"
+msgstr "Table of contents"
+
+#: ui/OkularDrawer.qml:99
+msgid "Signatures"
+msgstr "Signatures"
+
+#: ui/SignaturePropertiesPage.qml:33
+msgid "Signature Properties"
+msgstr "Signature Properties"
+
+#: ui/SignaturePropertiesPage.qml:40
+msgid "Validity Status"
+msgstr "Validity Status"
+
+#: ui/SignaturePropertiesPage.qml:46
+msgid "Signature Validity:"
+msgstr "Signature Validity:"
+
+#: ui/SignaturePropertiesPage.qml:53
+msgid "Document Modifications:"
+msgstr "Document Modifications:"
+
+#: ui/SignaturePropertiesPage.qml:58
+msgid "Additional Information"
+msgstr "Additional Information"
+
+#: ui/SignaturePropertiesPage.qml:64
+msgid "Signed By:"
+msgstr "Signed By:"
+
+#: ui/SignaturePropertiesPage.qml:71
+msgid "Signing Time:"
+msgstr "Signing Time:"
+
+#: ui/SignaturePropertiesPage.qml:80
+msgid "Reason:"
+msgstr "Reason:"
+
+#: ui/SignaturePropertiesPage.qml:90
+msgid "Location:"
+msgstr "Location:"
+
+#: ui/SignaturePropertiesPage.qml:96
+msgid "Document Version"
+msgstr "Document Version"
+
+#: ui/SignaturePropertiesPage.qml:104
+msgctxt "Document Revision <current> of <total>"
+msgid "Document Revision %1 of %2"
+msgstr "Document Revision %1 of %2"
+
+#: ui/SignaturePropertiesPage.qml:108
+#, fuzzy
+#| msgid "Save Signed Version..."
+msgid "Save Signed Version…"
+msgstr "Save Signed Version..."
+
+#: ui/SignaturePropertiesPage.qml:122 ui/SignaturePropertiesPage.qml:137
+#, fuzzy
+#| msgid "View Certificate..."
+msgid "View Certificate…"
+msgstr "View Certificate..."
+
+#: ui/SignaturePropertiesPage.qml:171
+msgid "Could not save the signature."
+msgstr "Could not save the signature."
+
+#: ui/Signatures.qml:27
+msgid "Not Available"
+msgstr "Not Available"
+
+#: ui/ThumbnailsBase.qml:42
+msgid "No results found."
+msgstr "No results found."
+
+#: ui/WelcomeView.qml:43
+msgid "No document open"
+msgstr "No document open"
+
+#: ui/WelcomeView.qml:49
+msgctxt "in welcome screen"
+msgid "Recent Documents"
+msgstr ""
+
+#: ui/WelcomeView.qml:108
+#, fuzzy
+#| msgid "Document Version"
+msgctxt "in welcome screen"
+msgid "My Documents"
+msgstr "Document Version"
+
+#~ msgid "Open..."
+#~ msgstr "Open..."
+
+#~ msgid "Search..."
+#~ msgstr "Search..."
+
+#~ msgid ""
+#~ "No Documents found. To start to read, put some files in the Documents "
+#~ "folder of your device."
+#~ msgstr ""
+#~ "No Documents found. To start to read, put some files in the Documents "
+#~ "folder of your device."
+
+#~ msgid "Document viewer for Plasma Active using Okular"
+#~ msgstr "Document viewer for Plasma Active using Okular"
+
+#~ msgid "Reader"
+#~ msgstr "Reader"
+
+#~ msgid "Copyright 2012 Marco Martin"
+#~ msgstr "Copyright 2012 Marco Martin"
+
+#~ msgid "Marco Martin"
+#~ msgstr "Marco Martin"
+
+#~ msgid "URL of the file to open"
+#~ msgstr "URL of the file to open"

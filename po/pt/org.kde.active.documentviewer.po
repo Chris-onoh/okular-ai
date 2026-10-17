@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: org\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2022-08-03 16:36+0100\n"
+"Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
+"Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POFile-SpellExtra: Okular Android SHA cer\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ui/Bookmarks.qml:20 ui/OkularDrawer.qml:85
+msgid "Bookmarks"
+msgstr "Favoritos"
+
+#: ui/CertificateViewerPage.qml:23
+msgid "Certificate Viewer"
+msgstr "Visualizador do Certificado"
+
+#: ui/CertificateViewerPage.qml:26
+msgid "Issued By"
+msgstr "Emitido Por"
+
+#: ui/CertificateViewerPage.qml:31 ui/CertificateViewerPage.qml:56
+msgid "Common Name:"
+msgstr "Nome Comum:"
+
+#: ui/CertificateViewerPage.qml:38 ui/CertificateViewerPage.qml:63
+msgid "EMail:"
+msgstr "E-mail:"
+
+#: ui/CertificateViewerPage.qml:45 ui/CertificateViewerPage.qml:70
+msgid "Organization:"
+msgstr "Organização:"
+
+#: ui/CertificateViewerPage.qml:51
+msgid "Issued To"
+msgstr "Emitido Para"
+
+#: ui/CertificateViewerPage.qml:76
+msgid "Validity"
+msgstr "Validade"
+
+#: ui/CertificateViewerPage.qml:81
+msgid "Issued On:"
+msgstr "Emitido a:"
+
+#: ui/CertificateViewerPage.qml:88
+msgid "Expires On:"
+msgstr "Termina a:"
+
+#: ui/CertificateViewerPage.qml:94
+msgid "Fingerprints"
+msgstr "Impressões Digitais"
+
+#: ui/CertificateViewerPage.qml:99
+msgid "SHA-1 Fingerprint:"
+msgstr "Impressão Digital SHA-1:"
+
+#: ui/CertificateViewerPage.qml:106
+msgid "SHA-256 Fingerprint:"
+msgstr "Impressão Digital SHA-256:"
+
+#: ui/CertificateViewerPage.qml:118 ui/CertificateViewerPage.qml:130
+#, fuzzy
+#| msgid "Export..."
+msgid "Export…"
+msgstr "Exportar..."
+
+#: ui/CertificateViewerPage.qml:137 ui/SignaturePropertiesPage.qml:148
+msgid "Close"
+msgstr "Fechar"
+
+#: ui/CertificateViewerPage.qml:146
+msgid "Certificate File (*.cer)"
+msgstr "Ficheiro de Certificado (*.cer)"
+
+#: ui/CertificateViewerPage.qml:161 ui/SignaturePropertiesPage.qml:169
+msgid "Error"
+msgstr "Erro"
+
+#: ui/CertificateViewerPage.qml:163
+msgid "Could not export the certificate."
+msgstr "Não foi possível exportar o certificado."
+
+#: ui/Main.qml:25 ui/Main.qml:66
+msgid "Okular"
+msgstr "Okular"
+
+#: ui/Main.qml:42
+msgid "Open…"
+msgstr ""
+
+#: ui/Main.qml:49
+msgid "About"
+msgstr "Acerca"
+
+#: ui/Main.qml:99
+msgid "Password Needed"
+msgstr "Senha Necessária"
+
+#: ui/MainView.qml:29
+msgid "Remove bookmark"
+msgstr "Remover o favorito"
+
+#: ui/MainView.qml:29
+msgid "Bookmark this page"
+msgstr "Adicionar aos favoritos"
+
+#: ui/OkularDrawer.qml:57
+msgid "Thumbnails"
+msgstr "Miniaturas"
+
+#: ui/OkularDrawer.qml:71
+msgid "Table of contents"
+msgstr "Índice analítico"
+
+#: ui/OkularDrawer.qml:99
+msgid "Signatures"
+msgstr "Assinaturas"
+
+#: ui/SignaturePropertiesPage.qml:33
+msgid "Signature Properties"
+msgstr "Propriedades da Assinatura"
+
+#: ui/SignaturePropertiesPage.qml:40
+msgid "Validity Status"
+msgstr "Estado da Validade"
+
+#: ui/SignaturePropertiesPage.qml:46
+msgid "Signature Validity:"
+msgstr "Validade da Assinatura:"
+
+#: ui/SignaturePropertiesPage.qml:53
+msgid "Document Modifications:"
+msgstr "Modificações do Documento:"
+
+#: ui/SignaturePropertiesPage.qml:58
+msgid "Additional Information"
+msgstr "Dados Adicionais"
+
+#: ui/SignaturePropertiesPage.qml:64
+msgid "Signed By:"
+msgstr "Assinado Por:"
+
+#: ui/SignaturePropertiesPage.qml:71
+msgid "Signing Time:"
+msgstr "Hora da Assinatura:"
+
+#: ui/SignaturePropertiesPage.qml:80
+msgid "Reason:"
+msgstr "Razão:"
+
+#: ui/SignaturePropertiesPage.qml:90
+msgid "Location:"
+msgstr "Localização:"
+
+#: ui/SignaturePropertiesPage.qml:96
+msgid "Document Version"
+msgstr "Versão do Documento"
+
+#: ui/SignaturePropertiesPage.qml:104
+msgctxt "Document Revision <current> of <total>"
+msgid "Document Revision %1 of %2"
+msgstr "Versão %1 de %2 do Documento"
+
+#: ui/SignaturePropertiesPage.qml:108
+#, fuzzy
+#| msgid "Save Signed Version..."
+msgid "Save Signed Version…"
+msgstr "Gravar a Versão Assinada..."
+
+#: ui/SignaturePropertiesPage.qml:122 ui/SignaturePropertiesPage.qml:137
+#, fuzzy
+#| msgid "View Certificate..."
+msgid "View Certificate…"
+msgstr "Ver o Certificado..."
+
+#: ui/SignaturePropertiesPage.qml:171
+msgid "Could not save the signature."
+msgstr "Não foi possível gravar a assinatura."
+
+#: ui/Signatures.qml:27
+msgid "Not Available"
+msgstr "Não Disponível"
+
+#: ui/ThumbnailsBase.qml:42
+msgid "No results found."
+msgstr "Não foram encontrados resultados."
+
+#: ui/WelcomeView.qml:43
+msgid "No document open"
+msgstr "Nenhum documento aberto"
+
+#: ui/WelcomeView.qml:49
+msgctxt "in welcome screen"
+msgid "Recent Documents"
+msgstr ""
+
+#: ui/WelcomeView.qml:108
+#, fuzzy
+#| msgid "Document Version"
+msgctxt "in welcome screen"
+msgid "My Documents"
+msgstr "Versão do Documento"
+
+#~ msgid "Open..."
+#~ msgstr "Abrir..."

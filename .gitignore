@@ -1,0 +1,19 @@
+CMakeLists.txt.user*
+*.kdev4
+*.swp
+/build*/
+.cmake/
+
+# LSP & IDE
+/.clang-format
+/compile_commands.json
+.clangd
+.cache
+.idea
+.qtcreator
+/cmake-build*
+
+# Flatpak
+.flatpak-builder
+build-dir
+.DS_Store

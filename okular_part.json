@@ -1,0 +1,58 @@
+{
+    "KParts": {
+        "PluginNamespace": "okular_generators"
+    },
+    "KPlugin": {
+        "Icon": "okular",
+        "MimeTypes": [
+            "application/vnd.kde.okular-archive"
+        ],
+        "Name": "Okular",
+        "Name[ar]": "اوكلار",
+        "Name[ast]": "Okular",
+        "Name[az]": "Okular",
+        "Name[be]": "Okular",
+        "Name[bg]": "Okular",
+        "Name[ca@valencia]": "Okular",
+        "Name[ca]": "Okular",
+        "Name[cs]": "Okular",
+        "Name[de]": "Okular",
+        "Name[en_GB]": "Okular",
+        "Name[eo]": "Okular",
+        "Name[es]": "Okular",
+        "Name[eu]": "Okular",
+        "Name[fi]": "Okular",
+        "Name[fr]": "Okular",
+        "Name[ga]": "Okular",
+        "Name[gl]": "Okular",
+        "Name[he]": "Okular",
+        "Name[hu]": "Okular",
+        "Name[ia]": "Okular",
+        "Name[is]": "Okular",
+        "Name[it]": "Okular",
+        "Name[ka]": "Okular",
+        "Name[ko]": "Okular",
+        "Name[lt]": "Okular",
+        "Name[lv]": "Okular",
+        "Name[nl]": "Okular",
+        "Name[nn]": "Okular",
+        "Name[pa]": "ਓਕੁਲਾਰ",
+        "Name[pl]": "Okular",
+        "Name[pt_BR]": "Okular",
+        "Name[ru]": "Okular",
+        "Name[sa]": "नेत्रस्य",
+        "Name[sk]": "Okular",
+        "Name[sl]": "Okular",
+        "Name[sv]": "Okular",
+        "Name[ta]": "ஆக்குலர்",
+        "Name[tr]": "Okular",
+        "Name[ug]": "Okular پۈتۈك كۆرگۈچ",
+        "Name[uk]": "Okular",
+        "Name[zh_CN]": "Okular 文档查看器",
+        "Name[zh_TW]": "Okular",
+        "ServiceTypes": [
+            "KParts/ReadOnlyPart",
+            "KParts/ReadWritePart"
+        ]
+    }
+}

@@ -1,0 +1,467 @@
+# translation of okular_poppler.po to Français
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Thomas Boeglin <thomas.boeglin@gmail.com>, 2007, 2008.
+# Guillaume Pujol <guill.p@gmail.com>, 2008.
+# Florian Guillochon <florian.guillochon@gmail.com>, 2009.
+# SPDX-FileCopyrightText: 2012-2013, 2020-2021, 2023, 2025-2026 Xavier Besnard <xavier.besnard@kde.org>
+# Peter Potrowl <peter.potrowl@gmail.com>, 2018, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_poppler\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-06 00:44+0000\n"
+"PO-Revision-Date: 2026-09-21 09:14+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: fr\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Accelerator-Marker: &\n"
+"X-Environment: kde\n"
+"X-Generator: Lokalize 26.08.0\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Xavier Besnard, Thomas Boeglin, Florian Guillochon, Peter Potrowl"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"xavier.besnard@kde.org, thomas.boeglin@gmail.com, florian.guillochon@gmail."
+"com, peter.potrowl@gmail.com"
+
+#: annots.cpp:592 formfields.cpp:539 generator_pdf.cpp:2225
+#: generator_pdf.cpp:2253
+#, kde-format
+msgid "Failed writing temporary file"
+msgstr "Échec de l'écriture du fichier temporaire"
+
+#: annots.cpp:608 formfields.cpp:561 generator_pdf.cpp:2276
+#, kde-format
+msgid "Failed removing file"
+msgstr "Échec de la suppression du fichier"
+
+#: annots.cpp:612
+#, kde-format
+msgid "Failed renaming temporary file"
+msgstr "Échec du renommage du fichier temporaire"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: conf/pdfsettingswidget.ui:19
+#, kde-format
+msgid "Enable overprint preview:"
+msgstr "Activer un aperçu de sur-impression :"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_OverprintPreviewEnabled)
+#: conf/pdfsettingswidget.ui:27
+#, kde-format
+msgid "Never"
+msgstr "Jamais"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_OverprintPreviewEnabled)
+#: conf/pdfsettingswidget.ui:32
+#, kde-format
+msgid "Always"
+msgstr "Toujours"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_OverprintPreviewEnabled)
+#: conf/pdfsettingswidget.ui:37
+#, kde-format
+msgid "Automatic"
+msgstr "Automatique"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/pdfsettingswidget.ui:62
+#, kde-format
+msgid "Enhance thin lines:"
+msgstr "Épaissir les lignes fines :"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:73 generator_pdf.cpp:1032
+#, kde-format
+msgid "No"
+msgstr "Non"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:78
+#, kde-format
+msgid "Solid"
+msgstr "Solide"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:83
+#, kde-format
+msgid "Shape"
+msgstr "Forme"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conf/pdfsettingswidget.ui:108
+#, kde-format
+msgid "Default scaling mode when printing:"
+msgstr "Mode de mise à l'échelle par défaut pour l'impression :"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintScaleMode)
+#: conf/pdfsettingswidget.ui:116 generator_pdf.cpp:104
+#, kde-format
+msgid "Fit to printable area"
+msgstr "Ajuster à la zone imprimable"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintScaleMode)
+#: conf/pdfsettingswidget.ui:121 generator_pdf.cpp:105
+#, kde-format
+msgid "Fit to full page"
+msgstr "Ajuster à la page entière"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintScaleMode)
+#: conf/pdfsettingswidget.ui:126 generator_pdf.cpp:106
+#, kde-format
+msgid "None; print original size"
+msgstr "Aucun ; imprimer en taille originale"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_CheckOCSPServers)
+#: conf/pdfsettingswidget.ui:149
+#, kde-format
+msgid ""
+"Enabling this option will allow Okular to contact 3rd-party OCSP servers to "
+"check if the certificates used for digital signing have been revoked since "
+"their creation."
+msgstr ""
+"L'activation de cette option permettra à Okular de contacter des serveurs "
+"« OCSP » tiers pour vérifier si les certificats utilisés pour la signature "
+"numérique ont été révoqués depuis leur création."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckOCSPServers)
+#: conf/pdfsettingswidget.ui:152
+#, kde-format
+msgid ""
+"Check revocation of digital signatures' certificates using 3rd-party servers"
+msgstr ""
+"Vérifier la révocation des certificats utilisés pour la signature numérique "
+"en utilisant des serveurs « OCSP » tiers."
+
+#. i18n: ectx: property (text), widget (QLabel, label_signature_backend)
+#: conf/pdfsettingswidget.ui:174
+#, kde-format
+msgid "Signature backend:"
+msgstr "Moteur de signature :"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_EnablePgp)
+#: conf/pdfsettingswidget.ui:200
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"These signatures can only be validated by modern Okular users with GnuPG "
+"backend activated"
+msgstr ""
+"Ces signatures ne peuvent être validées que par les utilisateurs de versions "
+"récentes de Okular ayant le moteur GnuPG activé"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnablePgp)
+#: conf/pdfsettingswidget.ui:203
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow PGP keys for signatures (Okular extension)"
+msgstr "Autoriser les clés « PGP » pour les signatures (Extension de Okular)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, certDBGroupBox)
+#: conf/pdfsettingswidget.ui:210
+#, kde-format
+msgid "Certificate Database"
+msgstr "Base de données de certificats"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_UseDefaultCertDB)
+#: conf/pdfsettingswidget.ui:219
+#, kde-format
+msgid "Default:"
+msgstr "Par défaut :"
+
+#. i18n: ectx: property (text), widget (QRadioButton, customRadioButton)
+#: conf/pdfsettingswidget.ui:226
+#, kde-format
+msgid "Custom:"
+msgstr "Personnalisé :"
+
+#. i18n: ectx: property (title), widget (QGroupBox, certificatesGroup)
+#: conf/pdfsettingswidget.ui:243
+#, kde-format
+msgid "Available Certificates"
+msgstr "Certificats disponibles"
+
+#. i18n: ectx: property (text), widget (QPushButton, loadSignaturesButton)
+#: conf/pdfsettingswidget.ui:251
+#, kde-format
+msgid "&Load Signatures"
+msgstr "Charger &les signatures"
+
+#: formfields.cpp:565 generator_pdf.cpp:2280
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Failed renaming temporary file: %1"
+msgstr "Échec du renommage du fichier temporaire : %1"
+
+#: generator_pdf.cpp:89
+#, kde-format
+msgid "PDF Options"
+msgstr "Options « PDF »"
+
+#: generator_pdf.cpp:91
+#, kde-format
+msgid "Print annotations"
+msgstr "Imprimer les annotations"
+
+#: generator_pdf.cpp:92
+#, kde-format
+msgid "Include annotations in the printed document"
+msgstr "Insérer les annotations dans le document imprimé"
+
+#: generator_pdf.cpp:93
+#, kde-format
+msgid ""
+"Includes annotations in the printed document. You can disable this if you "
+"want to print the original unannotated document."
+msgstr ""
+"Insère les annotations dans le document imprimé. Vous pouvez désactiver ceci "
+"si vous souhaitez imprimer le document original sans annotation."
+
+#: generator_pdf.cpp:95
+#, kde-format
+msgid "Force rasterization"
+msgstr "Forcer la rastérisation (conversion en image)"
+
+#: generator_pdf.cpp:96
+#, kde-format
+msgid "Rasterize into an image before printing"
+msgstr "Rastériser (Convertir en image) avant l'impression"
+
+#: generator_pdf.cpp:97
+#, kde-format
+msgid ""
+"Forces the rasterization of each page into an image before printing it. This "
+"usually gives somewhat worse results, but is useful when printing documents "
+"that appear to print incorrectly."
+msgstr ""
+"Forcer la rastérisation (conversion en image) de chaque page avant "
+"l'impression. Les résultats obtenus sont en général moins bon, mais cela est "
+"utile pour imprimer des documents dont l'impression directe semble "
+"incorrecte."
+
+#: generator_pdf.cpp:107
+#, kde-format
+msgid "Scaling mode for the printed pages"
+msgstr "Mode de mise à l'échelle pour les pages imprimées"
+
+#: generator_pdf.cpp:108
+#, kde-format
+msgid "Scale mode:"
+msgstr "Mode de mise à l'échelle :"
+
+#: generator_pdf.cpp:1030
+#, kde-format
+msgctxt "PDF v. <version>"
+msgid "PDF v. %1.%2"
+msgstr "PDF version %1.%2"
+
+#: generator_pdf.cpp:1030
+#, kde-format
+msgid "Format"
+msgstr "Format"
+
+#: generator_pdf.cpp:1031
+#, kde-format
+msgid "Encrypted"
+msgstr "Chiffré"
+
+#: generator_pdf.cpp:1031
+#, kde-format
+msgid "Unencrypted"
+msgstr "Non chiffré"
+
+#: generator_pdf.cpp:1031
+#, kde-format
+msgid "Security"
+msgstr "Sécurité"
+
+#: generator_pdf.cpp:1032
+#, kde-format
+msgid "Yes"
+msgstr "Oui"
+
+#: generator_pdf.cpp:1032
+#, kde-format
+msgid "Optimized"
+msgstr "Optimisé"
+
+#: generator_pdf.cpp:1521
+#, kde-format
+msgid ""
+"Signed by: %1\n"
+"\n"
+"Date: %2"
+msgstr ""
+"Signé par : %1\n"
+"\n"
+"Date : %2"
+
+#: generator_pdf.cpp:1744
+#, kde-format
+msgid "Using Poppler %1"
+msgstr "Utilisation de Poppler %1"
+
+#: generator_pdf.cpp:1746
+#, kde-format
+msgid ""
+"Using Poppler %1\n"
+"\n"
+"Built against Poppler %2"
+msgstr ""
+"Utilisation de Poppler %1\n"
+"\n"
+"Construit sur Poppler %2"
+
+#: generator_pdf.cpp:1781
+#, kde-format
+msgid "PDF"
+msgstr "PDF"
+
+#: generator_pdf.cpp:1781
+#, kde-format
+msgid "PDF Backend Configuration"
+msgstr "Configuration du moteur PDF"
+
+#: generator_pdf.cpp:2300
+#, kde-format
+msgid ""
+"Some errors were found in the document, Okular might not be able to show the "
+"content correctly"
+msgstr ""
+"Des erreurs ont été trouvées dans le document. Okular pourrait ne pas être "
+"en mesure d'afficher le contenu correctement."
+
+#: pdfsettingswidget.cpp:116
+#, kde-format
+msgctxt "@info Kind of a notice/warning"
+msgid ""
+"These signatures only work between modern versions of Okular with the GnuPG "
+"based backend activated"
+msgstr ""
+"Ces signatures ne fonctionnent qu'entre les versions récentes de Okular "
+"ayant le moteur reposant sur GnuPG activé"
+
+#: pdfsettingswidget.cpp:117
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Enable PGP Signatures"
+msgstr "Activer les signatures « PGP »"
+
+#: pdfsettingswidget.cpp:147
+#, kde-format
+msgctxt "Name of the person to whom the cerficate was issued"
+msgid "Issued to"
+msgstr "Émis pour"
+
+#: pdfsettingswidget.cpp:147
+#, kde-format
+msgid "E-mail"
+msgstr "Courriel"
+
+#: pdfsettingswidget.cpp:147
+#, kde-format
+msgctxt "Certificate expiration date"
+msgid "Expiration date"
+msgstr "Date d'expiration"
+
+#: pdfsettingswidget.cpp:152
+#, kde-format
+msgctxt "@button"
+msgid "List certificates"
+msgstr "Établir la liste des certificats"
+
+#: pdfsettingswidget.cpp:174
+#, kde-format
+msgid ""
+"You are using a Poppler library built without NSS support.\n"
+"Adding Digital Signatures isn't available for that reason"
+msgstr ""
+"Vous utilisez actuellement la bibliothèque « Poppler » compilée sans la "
+"prise en charge de « NSS ».\n"
+"L'ajout de signatures numériques est indisponible pour cette raison."
+
+#: pdfsettingswidget.cpp:198
+#, kde-format
+msgctxt "certificate end validity"
+msgid "forever"
+msgstr "pour toujours"
+
+#: pdfsettingswidget.cpp:222
+#, kde-format
+msgid "Restart needed"
+msgstr "Redémarrage nécessaire"
+
+#: pdfsettingswidget.cpp:222
+#, kde-format
+msgid "You need to restart Okular after changing the NSS directory settings"
+msgstr ""
+"Vous devez redémarrer Okular après modification des paramètres de dossier "
+"« NSS »."
+
+#: pdfsignatureutils.cpp:275 pdfsignatureutils.cpp:315
+#, kde-format
+msgctxt ""
+"%1 is the thing to open (hardware or software token, certificate DB,...)"
+msgid "Enter password to open: %1"
+msgstr "Veuillez saisir le mot de passe pour l'ouverture de : %1"
+
+#~ msgid "Enter Password"
+#~ msgstr "Veuillez saisir le mot de passe"
+
+#~ msgid "Failed renaming temporary file %1:"
+#~ msgstr "Échec du renommage du fichier temporaire %1 :"
+
+#~ msgid "Not Available"
+#~ msgstr "Non disponible"
+
+#~ msgid "PDF Digital Signature Certificates"
+#~ msgstr "Certificats de signature numérique « PDF »"
+
+#~ msgid "PDF Backend"
+#~ msgstr "Moteur PDF"
+
+#~ msgid "A PDF file renderer"
+#~ msgstr "Un moteur PDF"
+
+#~ msgid "© 2005-2008 Albert Astals Cid"
+#~ msgstr "© 2005-2008 Albert Astals Cid"
+
+#~ msgid "Albert Astals Cid"
+#~ msgstr "Albert Astals Cid"
+
+#~ msgid "Saving files with /Encrypt is not supported."
+#~ msgstr ""
+#~ "L'enregistrement de fichiers avec chiffrement n'est pas pris en charge."
+
+#~ msgid "Unknown"
+#~ msgstr "Inconnu"
+
+#~ msgid "Unknown Date"
+#~ msgstr "Date inconnue"
+
+#~ msgid "Unknown Encryption"
+#~ msgstr "Chiffrement inconnu"
+
+#~ msgid "Unknown Optimization"
+#~ msgstr "Optimisation inconnue"
+
+# unreviewed-context
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Veuillez saisir le mot de passe pour l'ouverture du document :"
+
+# unreviewed-context
+#~ msgid "Incorrect password. Try again:"
+#~ msgstr "Mot de passe erroné. Nouvel essai :"

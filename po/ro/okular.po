@@ -1,0 +1,6737 @@
+# translation of kpdf.po to Romanian
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Claudiu Costin <claudiuc@kde.org>, 2003, 2004.
+# SPDX-FileCopyrightText: 2008, 2009, 2020, 2021, 2022, 2024, 2025 Sergiu Bivol <sergiu@cip.md>
+# Laurenţiu Buzdugan <lbuz@rolix.org>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kpdf\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-06 00:44+0000\n"
+"PO-Revision-Date: 2025-10-20 11:01+0100\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 25.08.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sergiu Bivol"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sergiu@cip.md"
+
+#: aboutdata.h:19 part/annotationwidgets.cpp:431
+#, kde-format
+msgid "Okular"
+msgstr "Okular"
+
+#: aboutdata.h:21
+#, kde-format
+msgid "Okular, a universal document viewer"
+msgstr "Okular, un vizualizator de documente universal"
+
+#: aboutdata.h:23
+#, kde-format
+msgid ""
+"(C) 2002 Wilco Greven, Christophe Devriese\n"
+"(C) 2004-2005 Enrico Ros\n"
+"(C) 2005 Piotr Szymanski\n"
+"(C) 2004-2017 Albert Astals Cid\n"
+"(C) 2006-2009 Pino Toscano"
+msgstr ""
+"(C) 2002 Wilco Greven, Christophe Devriese\n"
+"(C) 2004-2005 Enrico Ros\n"
+"(C) 2005 Piotr Szymanski\n"
+"(C) 2004-2017 Albert Astals Cid\n"
+"(C) 2006-2009 Pino Toscano"
+
+#: aboutdata.h:31
+#, kde-format
+msgid "Pino Toscano"
+msgstr "Pino Toscano"
+
+#: aboutdata.h:31
+#, kde-format
+msgid "Former maintainer"
+msgstr "Fostul responsabil"
+
+#: aboutdata.h:32
+#, kde-format
+msgid "Tobias Koenig"
+msgstr "Tobias Koenig"
+
+#: aboutdata.h:32
+#, kde-format
+msgid "Lots of framework work, FictionBook backend and former ODT backend"
+msgstr ""
+
+#: aboutdata.h:33
+#, kde-format
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#: aboutdata.h:33
+#, kde-format
+msgid "Developer"
+msgstr "Dezvoltator"
+
+#: aboutdata.h:34
+#, kde-format
+msgid "Piotr Szymanski"
+msgstr "Piotr Szymanski"
+
+#: aboutdata.h:34
+#, kde-format
+msgid "Created Okular from KPDF codebase"
+msgstr "A creat Okular din codul KPDF"
+
+#: aboutdata.h:35
+#, kde-format
+msgid "Enrico Ros"
+msgstr "Enrico Ros"
+
+#: aboutdata.h:35
+#, kde-format
+msgid "KPDF developer"
+msgstr "Dezvoltatorul KPDF"
+
+#: aboutdata.h:36
+#, kde-format
+msgid "Eugene Trounev"
+msgstr "Eugene Trounev"
+
+#: aboutdata.h:36
+#, kde-format
+msgid "Annotations artwork"
+msgstr "Grafica adnotărilor"
+
+#: aboutdata.h:37
+#, kde-format
+msgid "Jiri Baum - NICTA"
+msgstr "Jiri Baum - NICTA"
+
+#: aboutdata.h:37
+#, kde-format
+msgid "Table selection tool"
+msgstr "Unealtă de selecție a tabelelor"
+
+#: aboutdata.h:38
+#, kde-format
+msgid "Fabio D'Urso"
+msgstr "Fabio D'Urso"
+
+#: aboutdata.h:38
+#, kde-format
+msgid "Annotation improvements"
+msgstr "Îmbunătățiri adnotare"
+
+#: core/action.cpp:124
+#, kde-format
+msgid "Go to page %1"
+msgstr "Mergi la pagina %1"
+
+#: core/action.cpp:124
+#, kde-format
+msgid "Open external file"
+msgstr "Deschide un fișier extern"
+
+#: core/action.cpp:184
+#, fuzzy, kde-format
+#| msgid "Execute '%1'..."
+msgid "Execute '%1'…"
+msgstr "Execută „%1”…"
+
+#: core/action.cpp:281
+#, kde-format
+msgid "First Page"
+msgstr "Prima pagină"
+
+#: core/action.cpp:283 part/presentationwidget.cpp:184
+#, kde-format
+msgid "Previous Page"
+msgstr "Pagina precedentă"
+
+#: core/action.cpp:285 part/presentationwidget.cpp:201
+#, kde-format
+msgid "Next Page"
+msgstr "Pagina următoare"
+
+#: core/action.cpp:287
+#, kde-format
+msgid "Last Page"
+msgstr "Ultima pagină"
+
+#: core/action.cpp:289
+#, kde-format
+msgid "Back"
+msgstr "Înapoi"
+
+#: core/action.cpp:291
+#, kde-format
+msgid "Forward"
+msgstr "Înainte"
+
+#: core/action.cpp:293
+#, kde-format
+msgid "Quit"
+msgstr "Ieșire"
+
+#: core/action.cpp:295
+#, kde-format
+msgid "Start Presentation"
+msgstr "Începe prezentarea"
+
+#: core/action.cpp:297
+#, kde-format
+msgid "End Presentation"
+msgstr "Încheie prezentarea"
+
+#: core/action.cpp:299
+#, kde-format
+msgid "Find…"
+msgstr ""
+
+#: core/action.cpp:301
+#, fuzzy, kde-format
+#| msgid "Go to Page"
+msgid "Go To Page…"
+msgstr "Mergi la pagina"
+
+#: core/action.cpp:352
+#, fuzzy, kde-format
+#| msgid "Play sound..."
+msgid "Play sound…"
+msgstr "Redă sunet…"
+
+#: core/action.cpp:420 core/action.cpp:536
+#, kde-format
+msgid "JavaScript Script"
+msgstr "Script JavaScript"
+
+#: core/action.cpp:470
+#, fuzzy, kde-format
+#| msgid "Play movie"
+msgid "Play movie…"
+msgstr "Redă filmul"
+
+#: core/action.cpp:541
+#, kde-format
+msgid "Play movie"
+msgstr "Redă filmul"
+
+#: core/action.cpp:543
+#, kde-format
+msgid "Stop movie"
+msgstr "Oprește filmul"
+
+#: core/action.cpp:545
+#, kde-format
+msgid "Pause movie"
+msgstr "Întrerupe filmul"
+
+#: core/action.cpp:547
+#, kde-format
+msgid "Resume movie"
+msgstr "Reia filmul"
+
+#: core/audioplayer.cpp:313
+#, kde-format
+msgid "This Okular is built without audio support"
+msgstr "Acest Okular e construit fără suport sonor"
+
+#: core/chooseenginedialog.cpp:22
+#, kde-format
+msgid "Backend Selection"
+msgstr "Alegere platformă"
+
+#: core/chooseenginedialog.cpp:40
+#, kde-format
+msgid ""
+"<qt>More than one backend found for the MIME type:<br /><b>%1</b> (%2).<br /"
+"><br />Please select which one to use:</qt>"
+msgstr ""
+"<qt>Au fost găsite mai multe platforme pentru tipul MIME:<br /><b>%1</b> "
+"(%2).<br /><br />Alegeți care dintre acestea să fie utilizată:</qt>"
+
+#: core/document.cpp:199
+#, kde-format
+msgctxt "@info %1 is a page size"
+msgid "Most pages are %1."
+msgstr "Majoritatea paginilor sunt %1."
+
+#: core/document.cpp:220
+#, kde-format
+msgctxt "paper type and orientation (eg: Portrait A4)"
+msgid "Portrait %1"
+msgstr "Portret %1"
+
+#: core/document.cpp:222
+#, kde-format
+msgctxt "paper type and orientation (eg: Portrait A4)"
+msgid "Landscape %1"
+msgstr "Peisaj %1"
+
+#: core/document.cpp:245
+#, fuzzy, kde-format
+#| msgctxt "%1 is width, %2 is height, %3 is paper size name"
+#| msgid "%1 x %2 in (%3)"
+msgctxt "%1 is width, %2 is height, %3 is paper size name"
+msgid "%1 × %2 in (%3)"
+msgstr "%1 x %2 țoli (%3)"
+
+#: core/document.cpp:247
+#, fuzzy, kde-format
+#| msgctxt "%1 is width, %2 is height, %3 is paper size name"
+#| msgid "%1 x %2 mm (%3)"
+msgctxt "%1 is width, %2 is height, %3 is paper size name"
+msgid "%1 × %2 mm (%3)"
+msgstr "%1 x %2 mm (%3)"
+
+#: core/document.cpp:1672
+#, kde-format
+msgid "Continuing search from beginning"
+msgstr "Se continuă căutarea de la început"
+
+#: core/document.cpp:1675
+#, kde-format
+msgid "Continuing search from bottom"
+msgstr "Se continuă căutarea de la sfârșit"
+
+#: core/document.cpp:2394
+#, kde-format
+msgid ""
+"Can not find a plugin which is able to handle the document being passed."
+msgstr "Nu poate fi găsit niciun modul capabil să manevreze documentul cerut."
+
+#: core/document.cpp:2815
+#, kde-format
+msgctxt "Unsupported action"
+msgid "Signing not implemented for this document type"
+msgstr ""
+
+#: core/document.cpp:3529
+#, kde-format
+msgctxt "remove a collection of annotations from the page"
+msgid "remove annotations"
+msgstr "elimină adnotările"
+
+#: core/document.cpp:4115 core/document.cpp:4121
+#, kde-format
+msgid ""
+"The document is trying to execute an external application and, for your "
+"safety, Okular does not allow that."
+msgstr ""
+"Documentul încearcă să execute o aplicație externă și, pentru siguranța "
+"dumneavoastră, Okular nu permite acest lucru."
+
+#: core/document.cpp:4131
+#, kde-format
+msgid "No application found for opening file of mimetype %1."
+msgstr ""
+"Nu a fost găsită nicio aplicație pentru deschiderea fișierului cu tipul MIME "
+"%1."
+
+#: core/document.cpp:4757
+#, kde-format
+msgid "Could not open a temporary file"
+msgstr "Fișierul temporar nu a putut fi deschis"
+
+#: core/document.cpp:4759
+#, kde-format
+msgid "Print conversion failed"
+msgstr "Conversia pentru imprimare a eșuat"
+
+#: core/document.cpp:4761
+#, kde-format
+msgid "Printing process crashed"
+msgstr "Procesul de imprimare s-a prăbușit"
+
+#: core/document.cpp:4763
+#, kde-format
+msgid "Printing process could not start"
+msgstr "Procesul de imprimare nu s-a putut porni"
+
+#: core/document.cpp:4765
+#, kde-format
+msgid "Printing to file failed"
+msgstr "Imprimarea în fișier a eșuat"
+
+#: core/document.cpp:4767
+#, kde-format
+msgid "Printer was in invalid state"
+msgstr "Imprimanta era în stare nevalidă"
+
+#: core/document.cpp:4769
+#, kde-format
+msgid "Unable to find file to print"
+msgstr "Fișierul de tipărit nu a putut fi găsit"
+
+#: core/document.cpp:4771
+#, kde-format
+msgid "There was no file to print"
+msgstr "Nu era niciun fișier de tipărit"
+
+#: core/document.cpp:4773
+#, kde-format
+msgid ""
+"Could not find a suitable binary for printing. Make sure CUPS lpr binary is "
+"available"
+msgstr ""
+
+#: core/document.cpp:4775
+#, kde-format
+msgid "The page print size is invalid"
+msgstr "Dimensiunea de tipar a paginii nu e validă"
+
+#: core/document.cpp:5414 part/part.cpp:1141
+#, kde-format
+msgid "Could not open '%1'. File does not exist"
+msgstr "Nu s-a putut deschide „%1”. Fișierul nu există"
+
+#: core/document.cpp:5923
+#, kde-format
+msgid "Title"
+msgstr "Titlu"
+
+#: core/document.cpp:5926
+#, kde-format
+msgid "Subject"
+msgstr "Subiect"
+
+#: core/document.cpp:5929
+#, kde-format
+msgid "Description"
+msgstr "Descriere"
+
+#: core/document.cpp:5932
+#, kde-format
+msgid "Author"
+msgstr "Autor"
+
+#: core/document.cpp:5935
+#, kde-format
+msgid "Creator"
+msgstr "Creator"
+
+#: core/document.cpp:5938
+#, kde-format
+msgid "Producer"
+msgstr "Producător"
+
+#: core/document.cpp:5941
+#, kde-format
+msgid "Copyright"
+msgstr "Drept de autor"
+
+#: core/document.cpp:5944
+#, kde-format
+msgid "Pages"
+msgstr "Pagini"
+
+#: core/document.cpp:5947
+#, kde-format
+msgid "Created"
+msgstr "Creat"
+
+#: core/document.cpp:5950
+#, kde-format
+msgid "Modified"
+msgstr "Modificat"
+
+#: core/document.cpp:5953
+#, kde-format
+msgid "MIME Type"
+msgstr "Tip MIME"
+
+#: core/document.cpp:5956
+#, kde-format
+msgid "Category"
+msgstr "Categorie"
+
+#: core/document.cpp:5959
+#, kde-format
+msgid "Keywords"
+msgstr "Cuvinte-cheie"
+
+#: core/document.cpp:5962
+#, kde-format
+msgid "File Path"
+msgstr "Calea fișierului"
+
+#: core/document.cpp:5965
+#, kde-format
+msgid "File Size"
+msgstr "Dimensiune fișier"
+
+#: core/document.cpp:5968
+#, kde-format
+msgid "Page Size"
+msgstr "Dimensiune pagină"
+
+#: core/documentcommands.cpp:62
+#, kde-format
+msgctxt "Add an annotation to the page"
+msgid "add annotation"
+msgstr "adaugă adnotare"
+
+#: core/documentcommands.cpp:108
+#, kde-format
+msgctxt "Remove an annotation from the page"
+msgid "remove annotation"
+msgstr "elimină adnotarea"
+
+#: core/documentcommands.cpp:155
+#, kde-format
+msgctxt "Modify an annotation's internal properties (Color, line-width, etc.)"
+msgid "modify annotation properties"
+msgstr "modifică proprietățile adnotării"
+
+#: core/documentcommands.cpp:190
+#, kde-format
+msgctxt "Translate an annotation's position on the page"
+msgid "translate annotation"
+msgstr "tradu adnotarea"
+
+#: core/documentcommands.cpp:263
+#, kde-format
+msgctxt "Change an annotation's size"
+msgid "adjust annotation"
+msgstr "ajustează adnotarea"
+
+#: core/documentcommands.cpp:333
+#, kde-format
+msgctxt "Generic text edit command"
+msgid "edit text"
+msgstr "modifică textul"
+
+#: core/documentcommands.cpp:398
+#, kde-format
+msgctxt "Edit an annotation's text contents"
+msgid "edit annotation contents"
+msgstr "modifică conținutul adnotării"
+
+#: core/documentcommands.cpp:447
+#, kde-format
+msgctxt "Edit an form's text contents"
+msgid "edit form contents"
+msgstr "modifică conținutul formularului"
+
+#: core/documentcommands.cpp:494
+#, kde-format
+msgctxt "Edit a list form's choices"
+msgid "edit list form choices"
+msgstr ""
+
+#: core/documentcommands.cpp:528
+#, kde-format
+msgctxt "Edit a combo form's selection"
+msgid "edit combo form selection"
+msgstr ""
+
+#: core/documentcommands.cpp:598
+#, kde-format
+msgctxt "Edit the state of a group of form buttons"
+msgid "edit form button states"
+msgstr "modifică stările butonului din formular"
+
+#: core/generator.cpp:790
+#, fuzzy, kde-format
+#| msgid "Plain &Text..."
+msgid "Plain &Text…"
+msgstr "&Text simplu…"
+
+#: core/generator.cpp:793
+#, kde-format
+msgid "PDF"
+msgstr "PDF"
+
+#: core/generator.cpp:797
+#, kde-format
+msgctxt "This is the document format"
+msgid "OpenDocument Text"
+msgstr "Text OpenDocument"
+
+#: core/generator.cpp:800
+#, kde-format
+msgctxt "This is the document format"
+msgid "HTML"
+msgstr "HTML"
+
+#: core/printoptionswidget.cpp:19
+#, kde-format
+msgid "Print Options"
+msgstr "Opțiuni de imprimare"
+
+#: core/printoptionswidget.cpp:23
+#, kde-format
+msgid "Fit to printable area"
+msgstr "Încadrează în zona imprimabilă"
+
+#: core/printoptionswidget.cpp:24
+#, kde-format
+msgid "Fit to full page"
+msgstr "Încadrează pe toată pagina"
+
+#: core/printoptionswidget.cpp:25
+#, kde-format
+msgid "Scale mode:"
+msgstr "Regim de scalare:"
+
+#: core/script/js_app.cpp:203
+#, kde-format
+msgid "Do not show this message again"
+msgstr "Nu mai arăta acest mesaj"
+
+#: core/signatureutils.cpp:21 part/signaturepropertiesdialog.cpp:34
+#, kde-format
+msgid "Not Available"
+msgstr "Indisponibil"
+
+#: core/signatureutils.cpp:521
+#, kde-format
+msgctxt "signing error"
+msgid ""
+"Signing certificate not found. If you are using a smartcard, it might have "
+"been removed or the signature store changed"
+msgstr ""
+
+#: core/signatureutils.cpp:524
+#, kde-format
+msgctxt "%1 is a error code"
+msgid ""
+"Internal signing error. Please report a bug with the steps to reproduce it. "
+"Error code %1"
+msgstr ""
+
+#: core/signatureutils.cpp:526
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info"
+#| msgid "Could not load the file <filename>%1</filename>"
+msgctxt "%1 is a filename with path"
+msgid "Could not sign the document: <filename>%1</filename>"
+msgstr "Fișierul <filename>%1</filename> nu a putut fi încărcat"
+
+#: core/signatureutils.cpp:528
+#, kde-format
+msgid "Signing cancelled by user"
+msgstr ""
+
+#: core/signatureutils.cpp:530
+#, kde-format
+msgid "Signing failed: Wrong passphrase"
+msgstr ""
+
+#: core/signatureutils.cpp:532
+#, fuzzy, kde-kuit-format
+#| msgid "File not saved."
+msgctxt "%1 is a filename with path"
+msgid ""
+"Could not write the signed document to <filename>%1</filename>, please "
+"ensure you have selected a folder with write permission"
+msgstr "Fișier nesalvat."
+
+#: core/signatureutils.cpp:534
+#, kde-format
+msgctxt ""
+"Unlikely error; user can choose a signature/key-combo and everything "
+"possible should be valid combinations"
+msgid "Unsupported signature type for current certificate"
+msgstr ""
+
+#: core/signatureutils.cpp:536
+#, fuzzy, kde-format
+#| msgid "Unknown File"
+msgid "Unknown signing error"
+msgstr "Fișier necunoscut"
+
+#: core/sourcereference.cpp:103
+#, kde-format
+msgctxt "'source' is a source file"
+msgid "Source: %1"
+msgstr "Sursă: %1"
+
+#: core/textdocumentsettings.cpp:34
+#, kde-format
+msgid "&Default Font:"
+msgstr "&Font implicit:"
+
+#: gui/certificatemodel.cpp:51
+#, kde-format
+msgid "Version"
+msgstr "Versiune"
+
+#: gui/certificatemodel.cpp:53
+#, kde-format
+msgid "Serial Number"
+msgstr "Număr de serie"
+
+#: gui/certificatemodel.cpp:55
+#, kde-format
+msgid "Issuer"
+msgstr "Emitent"
+
+#: gui/certificatemodel.cpp:57 part/certificateviewer.cpp:89
+#, kde-format
+msgid "Issued On"
+msgstr "Emis la"
+
+#: gui/certificatemodel.cpp:59 part/certificateviewer.cpp:90
+#, kde-format
+msgid "Expires On"
+msgstr "Expiră la"
+
+#: gui/certificatemodel.cpp:61
+#, kde-format
+msgctxt "The person/company that made the signature"
+msgid "Subject"
+msgstr "Subiect"
+
+#: gui/certificatemodel.cpp:61
+#, kde-format
+msgctxt "Name/email on key"
+msgid "User Id"
+msgstr ""
+
+#: gui/certificatemodel.cpp:63
+#, kde-format
+msgid "Public Key"
+msgstr "Cheie publică"
+
+#: gui/certificatemodel.cpp:65
+#, kde-format
+msgid "Key Usage"
+msgstr "Utilizare cheie"
+
+#: gui/certificatemodel.cpp:84
+#, kde-format
+msgid "V%1"
+msgstr "V%1"
+
+#: gui/certificatemodel.cpp:96
+#, kde-format
+msgid "%1 (%2 bits)"
+msgstr "%1 (%2 biți)"
+
+#: gui/certificatemodel.cpp:158
+#, kde-format
+msgid "Property"
+msgstr "Proprietate"
+
+#: gui/certificatemodel.cpp:160
+#, kde-format
+msgid "Value"
+msgstr "Valoare"
+
+#: gui/guiutils.cpp:39 part/editannottooldialog.cpp:88
+#: part/pageviewannotator.cpp:277 part/pageviewannotator.cpp:1484
+#, kde-format
+msgid "Pop-up Note"
+msgstr "Notă plutitoare"
+
+#: gui/guiutils.cpp:43 part/editannottooldialog.cpp:96
+#: part/pageviewannotator.cpp:264 part/pageviewannotator.cpp:1500
+#, kde-format
+msgid "Typewriter"
+msgstr "Mașină de scris"
+
+#: gui/guiutils.cpp:46 part/editannottooldialog.cpp:89
+#: part/pageviewannotator.cpp:259 part/pageviewannotator.cpp:1482
+#, kde-format
+msgid "Inline Note"
+msgstr "Notă în rând"
+
+#: gui/guiutils.cpp:56
+#, fuzzy, kde-format
+#| msgid "Polygon with Comment"
+msgid "Arrow with Comment"
+msgstr "Poligon cu comentariu"
+
+#. i18n: tag tool attribute name
+#: gui/guiutils.cpp:56 part/data/tools.xml:103
+#, kde-format
+msgid "Arrow"
+msgstr "Săgeată"
+
+#: gui/guiutils.cpp:59
+#, kde-format
+msgid "Straight Line with Comment"
+msgstr "Linie dreaptă cu comentariu"
+
+#: gui/guiutils.cpp:59 part/editannottooldialog.cpp:91
+#: part/pageviewannotator.cpp:1494
+#, kde-format
+msgid "Straight Line"
+msgstr "Linie dreaptă"
+
+#: gui/guiutils.cpp:63
+#, kde-format
+msgid "Polygon with Comment"
+msgstr "Poligon cu comentariu"
+
+#: gui/guiutils.cpp:63 part/editannottooldialog.cpp:92
+#: part/pageviewannotator.cpp:1486
+#, kde-format
+msgid "Polygon"
+msgstr "Poligon"
+
+#: gui/guiutils.cpp:71
+#, fuzzy, kde-format
+#| msgid "Stamp with Comment"
+msgid "Rectangle with Comment"
+msgstr "Ștampilă cu comentariu"
+
+#: gui/guiutils.cpp:71 part/annotationwidgets.cpp:700
+#: part/pageviewannotator.cpp:1488
+#, kde-format
+msgid "Rectangle"
+msgstr "Dreptunghi"
+
+#: gui/guiutils.cpp:74
+#, fuzzy, kde-format
+#| msgid "Underline with Comment"
+msgid "Ellipse with Comment"
+msgstr "Subliniat cu comentariu"
+
+#: gui/guiutils.cpp:74 part/annotationwidgets.cpp:701
+#: part/pageviewannotator.cpp:1476
+#, kde-format
+msgid "Ellipse"
+msgstr "Elipsă"
+
+#: gui/guiutils.cpp:83
+#, kde-format
+msgid "Highlight with Comment"
+msgstr "Evidențiere cu comentariu"
+
+#: gui/guiutils.cpp:83 part/annotationwidgets.cpp:653
+#, kde-format
+msgid "Highlight"
+msgstr "Evidențiere"
+
+#: gui/guiutils.cpp:87
+#, fuzzy, kde-format
+#| msgid "Select text"
+msgid "Squiggle with Comment"
+msgstr "Selectează text"
+
+#: gui/guiutils.cpp:87 part/annotationwidgets.cpp:654
+#: part/pageviewannotator.cpp:1490
+#, kde-format
+msgid "Squiggle"
+msgstr ""
+
+#: gui/guiutils.cpp:91
+#, kde-format
+msgid "Underline with Comment"
+msgstr "Subliniat cu comentariu"
+
+#: gui/guiutils.cpp:91 part/annotationwidgets.cpp:655
+#: part/pageviewannotator.cpp:1498
+#, kde-format
+msgid "Underline"
+msgstr "Subliniat"
+
+#: gui/guiutils.cpp:95
+#, fuzzy, kde-format
+#| msgid "Strike out"
+msgid "Strike Out with Comment"
+msgstr "Tăiat"
+
+#: gui/guiutils.cpp:95
+#, fuzzy, kde-format
+#| msgid "Strike out"
+msgid "Strike Out"
+msgstr "Tăiat"
+
+#: gui/guiutils.cpp:102
+#, kde-format
+msgid "Stamp with Comment"
+msgstr "Ștampilă cu comentariu"
+
+#: gui/guiutils.cpp:102 part/editannottooldialog.cpp:95
+#: part/pageviewannotator.cpp:1492
+#, kde-format
+msgid "Stamp"
+msgstr "Ștampilă"
+
+#: gui/guiutils.cpp:106
+#, kde-format
+msgid "Freehand Line with Comment"
+msgstr "Linie cu mâna liberă cu comentariu"
+
+#: gui/guiutils.cpp:106 part/editannottooldialog.cpp:90
+#: part/pageviewannotator.cpp:1480
+#, kde-format
+msgid "Freehand Line"
+msgstr "Linie liberă"
+
+#: gui/guiutils.cpp:110
+#, kde-format
+msgid "Caret"
+msgstr ""
+
+#: gui/guiutils.cpp:114
+#, kde-format
+msgid "File Attachment"
+msgstr "Atașament cu fișier"
+
+#: gui/guiutils.cpp:118
+#, kde-format
+msgid "Sound"
+msgstr "Sunet"
+
+#: gui/guiutils.cpp:122
+#, kde-format
+msgid "Movie"
+msgstr "Film"
+
+#: gui/guiutils.cpp:126
+#, kde-format
+msgctxt "Caption for a screen annotation"
+msgid "Screen"
+msgstr "Ecran"
+
+#: gui/guiutils.cpp:130
+#, kde-format
+msgctxt "Caption for a widget annotation"
+msgid "Widget"
+msgstr "Control grafic"
+
+#: gui/guiutils.cpp:134
+#, kde-format
+msgctxt "Caption for a rich media annotation"
+msgid "Rich Media"
+msgstr ""
+
+#: gui/guiutils.cpp:144
+#, fuzzy, kde-format
+#| msgid "Annotation"
+#| msgid_plural "%1 Annotations"
+msgid "Annotation"
+msgstr "Adnotare"
+
+#: gui/guiutils.cpp:172
+#, kde-format
+msgctxt "Unknown author"
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: gui/guiutils.cpp:189 part/presentationwidget.cpp:376
+#, kde-format
+msgid "Author: %1"
+msgstr "Autor: %1"
+
+#: gui/guiutils.cpp:201 part/propertiesdialog.cpp:229
+#, kde-format
+msgid "Where do you want to save %1?"
+msgstr "Unde doriți să salvați %1?"
+
+#: gui/guiutils.cpp:213 part/propertiesdialog.cpp:240
+#, kde-format
+msgid "Could not open \"%1\" for writing. File was not saved."
+msgstr "Imposibil de deschis „%1” pentru scriere. Fișierul nu a fost salvat."
+
+#: gui/signatureguiutils.cpp:42
+#, kde-format
+msgid "The signature is cryptographically valid."
+msgstr "Semnătura e validă din punct de vedere criptografic."
+
+#: gui/signatureguiutils.cpp:44
+#, kde-format
+msgid "The signature is cryptographically invalid."
+msgstr "Semnătura nu e validă din punct de vedere criptografic."
+
+#: gui/signatureguiutils.cpp:46
+#, kde-format
+msgid "Digest Mismatch occurred."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:48
+#, kde-format
+msgid "The signature CMS/PKCS7 structure is malformed."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:50
+#, kde-format
+msgid "The requested signature is not present in the document."
+msgstr "Semnătura cerută nu e prezentă în document."
+
+#: gui/signatureguiutils.cpp:52
+#, kde-format
+msgid "The signature could not be verified."
+msgstr "Semnătura nu a putut fi verificată."
+
+#: gui/signatureguiutils.cpp:60
+#, kde-format
+msgid "Certificate is Trusted."
+msgstr "Certificatul este de încredere."
+
+#: gui/signatureguiutils.cpp:62
+#, kde-format
+msgid "Certificate issuer isn't Trusted."
+msgstr "Emitentul certificatului nu este de încredere."
+
+#: gui/signatureguiutils.cpp:64
+#, kde-format
+msgid "Certificate issuer is unknown."
+msgstr "Emitentul certificatului este necunoscut."
+
+#: gui/signatureguiutils.cpp:66
+#, kde-format
+msgid "Certificate has been Revoked."
+msgstr "Certificatul a fost revocat."
+
+#: gui/signatureguiutils.cpp:68
+#, kde-format
+msgid "Certificate has Expired."
+msgstr "Certificatul a expirat."
+
+#: gui/signatureguiutils.cpp:70
+#, kde-format
+msgid "Certificate has not yet been verified."
+msgstr "Certificatul nu a fost verificat încă."
+
+#: gui/signatureguiutils.cpp:72
+#, kde-format
+msgid "Certificate validation in progress"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:74
+#, kde-format
+msgid "Unknown issue with Certificate or corrupted data."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:82
+#, kde-format
+msgid "MD2"
+msgstr "MD2"
+
+#: gui/signatureguiutils.cpp:84
+#, kde-format
+msgid "MD5"
+msgstr "MD5"
+
+#: gui/signatureguiutils.cpp:86
+#, kde-format
+msgid "SHA1"
+msgstr "SHA1"
+
+#: gui/signatureguiutils.cpp:88
+#, kde-format
+msgid "SHA256"
+msgstr "SHA256"
+
+#: gui/signatureguiutils.cpp:90
+#, kde-format
+msgid "SHA384"
+msgstr "SHA384"
+
+#: gui/signatureguiutils.cpp:92
+#, kde-format
+msgid "SHA512"
+msgstr "SHA512"
+
+#: gui/signatureguiutils.cpp:94
+#, kde-format
+msgid "SHA224"
+msgstr "SHA224"
+
+#: gui/signatureguiutils.cpp:96
+#, kde-format
+msgid "Unknown Algorithm"
+msgstr "Algoritm necunoscut"
+
+#: gui/signatureguiutils.cpp:104
+#, kde-format
+msgid "RSA"
+msgstr "RSA"
+
+#: gui/signatureguiutils.cpp:106
+#, kde-format
+msgid "DSA"
+msgstr "DSA"
+
+#: gui/signatureguiutils.cpp:108
+#, kde-format
+msgid "EC"
+msgstr "EC"
+
+#: gui/signatureguiutils.cpp:110 gui/signatureguiutils.cpp:113
+#, kde-format
+msgid "Unknown Type"
+msgstr "Tip necunoscut"
+
+#: gui/signatureguiutils.cpp:120
+#, kde-format
+msgid "Digital Signature"
+msgstr "Semnătură electronică"
+
+#: gui/signatureguiutils.cpp:123
+#, kde-format
+msgid "Non-Repudiation"
+msgstr ""
+
+#: gui/signatureguiutils.cpp:126
+#, kde-format
+msgid "Encrypt Keys"
+msgstr "Criptează chei"
+
+#: gui/signatureguiutils.cpp:129
+#, kde-format
+msgid "Decrypt Keys"
+msgstr "Decriptează chei"
+
+#: gui/signatureguiutils.cpp:132
+#, kde-format
+msgid "Key Agreement"
+msgstr "Acord pentru chei"
+
+#: gui/signatureguiutils.cpp:135
+#, kde-format
+msgid "Sign Certificate"
+msgstr "Semnează certificat"
+
+#: gui/signatureguiutils.cpp:138
+#, kde-format
+msgid "Sign CRL"
+msgstr "Semnează CRL"
+
+#: gui/signatureguiutils.cpp:141
+#, kde-format
+msgid "Encrypt Only"
+msgstr "Doar criptare"
+
+#: gui/signatureguiutils.cpp:144
+#, kde-format
+msgid "No Usage Specified"
+msgstr "Nicio utilizare specificată"
+
+#: gui/signatureguiutils.cpp:151
+#, kde-format
+msgctxt "Joins the various ways a signature key can be used in a longer string"
+msgid ", "
+msgstr ", "
+
+#: gui/signatureguiutils.cpp:165
+#, kde-format
+msgid "The document has not been modified since it was signed."
+msgstr "Documentul nu a fost modificat de la semnare."
+
+#: gui/signatureguiutils.cpp:168
+#, kde-format
+msgid ""
+"The revision of the document that was covered by this signature has not been "
+"modified;\n"
+"however there have been subsequent changes to the document."
+msgstr ""
+
+#: gui/signatureguiutils.cpp:172
+#, kde-format
+msgid ""
+"The document has been modified in a way not permitted by a previous signer."
+msgstr ""
+"Documentul a fost modificat într-un mod nepermis de către un semnatar "
+"precedent."
+
+#: gui/signatureguiutils.cpp:174
+#, kde-format
+msgid "The document integrity verification could not be completed."
+msgstr "Verificarea integrității documentului nu a putut fi finalizată."
+
+#: gui/signatureguiutils.cpp:212
+#, fuzzy, kde-format
+#| msgid "This document has unsigned signature fields."
+msgctxt "Digital signature"
+msgid "This document has signature placeholder fields."
+msgstr "Acest document are câmpuri pentru semnătură nesemnate."
+
+#: gui/signatureguiutils.cpp:215
+#, kde-format
+msgid "This document is digitally signed."
+msgstr "Acest document e semnat electronic."
+
+#: gui/signatureguiutils.cpp:217
+#, kde-format
+msgid ""
+"This document is digitally signed. There have been changes since last signed."
+msgstr ""
+"Acest document e semnat electronic. Au avut loc modificări de la ultima "
+"semnare."
+
+#: gui/signatureguiutils.cpp:220
+#, kde-format
+msgid ""
+"This document is digitally signed. Some of the signatures could not be "
+"validated properly."
+msgstr ""
+"Acest document e semnat electronic. Unele semnături nu au putut fi validate "
+"corespunzător."
+
+#: gui/signaturemodel.cpp:141
+#, fuzzy, kde-format
+#| msgid "Signature Validity:"
+msgctxt "Digital signature"
+msgid "Signature placeholder %1"
+msgstr "Valabilitate semnătură:"
+
+#: gui/signaturemodel.cpp:144 gui/signaturemodel.cpp:181
+#, kde-format
+msgid "Field: %1 on page %2"
+msgstr "Câmp: %1 pe pagina %2"
+
+#: gui/signaturemodel.cpp:152
+#, kde-format
+msgid "Rev. %1: Signed By %2"
+msgstr "Rev. %1: semnată de %2"
+
+#: gui/signaturemodel.cpp:167
+#, kde-format
+msgid "Signing Time: %1"
+msgstr "Ora semnării: %1"
+
+#: gui/signaturemodel.cpp:172
+#, kde-format
+msgid "Reason: %1"
+msgstr "Motiv: %1"
+
+#: gui/signaturemodel.cpp:177
+#, kde-format
+msgid "Location: %1"
+msgstr "Amplasare: %1"
+
+#: gui/signaturemodel.cpp:185
+#, fuzzy, kde-format
+#| msgid "Signatures"
+msgctxt "Digital signature type"
+msgid "PGP Signature"
+msgstr "Semnături"
+
+#: gui/signaturemodel.cpp:187
+#, kde-format
+msgctxt "Digital signature type"
+msgid "Adobe PKCS7"
+msgstr ""
+
+#: gui/signaturemodel.cpp:189
+#, kde-format
+msgctxt "Digital signature type"
+msgid "Adobe PKCS7 Sha1"
+msgstr ""
+
+#: gui/signaturemodel.cpp:191
+#, kde-format
+msgctxt "Digital signature type"
+msgid "ETSI CAdES"
+msgstr ""
+
+#: gui/signaturemodel.cpp:193
+#, fuzzy, kde-format
+#| msgctxt "Unknown author"
+#| msgid "Unknown"
+msgctxt "Digital signature type"
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: gui/signaturemodel.cpp:195
+#, fuzzy, kde-format
+#| msgid "Signature Validity:"
+msgctxt "Digital signature type"
+msgid "Signature placeholder"
+msgstr "Valabilitate semnătură:"
+
+#: gui/signaturemodel.cpp:201
+#, fuzzy, kde-format
+#| msgid "Signature Validity:"
+msgid "Signature Type: %1"
+msgstr "Valabilitate semnătură:"
+
+#: part/annotationactionhandler.cpp:147
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Red"
+msgstr "Roșu"
+
+#: part/annotationactionhandler.cpp:148
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Orange"
+msgstr "Portocaliu"
+
+#: part/annotationactionhandler.cpp:149
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Yellow"
+msgstr "Galben"
+
+#: part/annotationactionhandler.cpp:150
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Green"
+msgstr "Verde"
+
+#: part/annotationactionhandler.cpp:151
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Cyan"
+msgstr "Turcoaz"
+
+#: part/annotationactionhandler.cpp:152
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Blue"
+msgstr "Albastru"
+
+#: part/annotationactionhandler.cpp:153
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Magenta"
+msgstr "Purpuriu"
+
+#: part/annotationactionhandler.cpp:154
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "White"
+msgstr "Alb"
+
+#: part/annotationactionhandler.cpp:155
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Gray"
+msgstr "Gri"
+
+#: part/annotationactionhandler.cpp:156
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Black"
+msgstr "Negru"
+
+#: part/annotationactionhandler.cpp:245 part/annotationactionhandler.cpp:686
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Width %1"
+msgstr "Lățime %1"
+
+#: part/annotationactionhandler.cpp:251
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "%1%"
+msgstr "%1%"
+
+#: part/annotationactionhandler.cpp:295
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation line width (No annotation selected)"
+msgstr "Lățime linie adnotare (nicio adnotare aleasă)"
+
+#: part/annotationactionhandler.cpp:296
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation color (No annotation selected)"
+msgstr "Culoare adnotare (nicio adnotare aleasă)"
+
+#: part/annotationactionhandler.cpp:297
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation fill color (No annotation selected)"
+msgstr "Culoare umplere adnotare (nicio adnotare aleasă)"
+
+#: part/annotationactionhandler.cpp:298
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation opacity (No annotation selected)"
+msgstr "Opacitate adnotare (nicio adnotare aleasă)"
+
+#: part/annotationactionhandler.cpp:299
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation font (No annotation selected)"
+msgstr "Font adnotare (nicio adnotare aleasă)"
+
+#: part/annotationactionhandler.cpp:300
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Add the current annotation to the quick annotations menu (No annotation "
+"selected)"
+msgstr ""
+"Adaugă adnotarea actuală la meniul de adnotări rapide (nicio adnotare aleasă)"
+
+#: part/annotationactionhandler.cpp:301
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Constrain shape ratio to 1:1 or line angle to 15° steps (No annotation "
+"selected)"
+msgstr ""
+
+#: part/annotationactionhandler.cpp:302
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Advanced settings for the current annotation tool (No annotation selected)"
+msgstr ""
+"Configurări avansate pentru unealta de adnotare actuală (nicio adnotare "
+"aleasă)"
+
+#: part/annotationactionhandler.cpp:307
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation line width"
+msgstr "Lățime linie adnotare"
+
+#: part/annotationactionhandler.cpp:309
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation line width (Current annotation has no line width)"
+msgstr ""
+
+#: part/annotationactionhandler.cpp:313
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation text color"
+msgstr "Culoare text adnotare"
+
+#: part/annotationactionhandler.cpp:315
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation border color"
+msgstr "Culoare contur adnotare"
+
+#: part/annotationactionhandler.cpp:317
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation color"
+msgstr "Culoare adnotare"
+
+#: part/annotationactionhandler.cpp:321
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation fill color"
+msgstr "Culoare umplere adnotare"
+
+#: part/annotationactionhandler.cpp:323
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation fill color (Current annotation has no fill color)"
+msgstr "Culoare umplere adnotare (adnotarea actuală nu are culoare de umplere)"
+
+#: part/annotationactionhandler.cpp:327
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation font"
+msgstr "Font adnotare"
+
+#: part/annotationactionhandler.cpp:329
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation font (Current annotation has no font)"
+msgstr "Font adnotare (adnotarea actuală nu are font)"
+
+#: part/annotationactionhandler.cpp:333
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Constrain line angle to 15° steps"
+msgstr "Constrânge unghiul liniei la pas de 15°"
+
+#: part/annotationactionhandler.cpp:335
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Constrain shape ratio to 1:1"
+msgstr "Constrânge raportul formei la 1:1"
+
+#: part/annotationactionhandler.cpp:337
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Constrain shape ratio to 1:1 or line angle to 15° steps (Not supported by "
+"current annotation)"
+msgstr ""
+
+#: part/annotationactionhandler.cpp:340
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation opacity"
+msgstr "Opacitate adnotare"
+
+#: part/annotationactionhandler.cpp:341
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add the current annotation to the quick annotations menu"
+msgstr "Adaugă adnotarea actuală la meniul de adnotări rapide"
+
+#: part/annotationactionhandler.cpp:342
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Advanced settings for the current annotation tool"
+msgstr "Configurări avansate pentru unealta de adnotare actuală"
+
+#: part/annotationactionhandler.cpp:431
+#, kde-format
+msgctxt "@action:intoolbar Current annotation config option"
+msgid "Color"
+msgstr "Culoare"
+
+#: part/annotationactionhandler.cpp:433
+#, kde-format
+msgctxt "@action:intoolbar Current annotation config option"
+msgid "Fill Color"
+msgstr "Culoare umplere"
+
+#: part/annotationactionhandler.cpp:434
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Transparent"
+msgstr "Transparent"
+
+#: part/annotationactionhandler.cpp:444
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Custom Color..."
+msgctxt "@item:inlistbox"
+msgid "Custom Color…"
+msgstr "Culoare personalizată…"
+
+#: part/annotationactionhandler.cpp:498
+#, kde-format
+msgctxt "@title:window"
+msgid "Select color"
+msgstr "Alege culoarea"
+
+#: part/annotationactionhandler.cpp:551
+#, kde-format
+msgid "&Annotations"
+msgstr "&Adnotări"
+
+#: part/annotationactionhandler.cpp:552
+#, kde-format
+msgctxt "@action:intoolbar Hide the toolbar"
+msgid "Hide"
+msgstr "Ascunde"
+
+#: part/annotationactionhandler.cpp:553
+#, kde-format
+msgctxt "@action:intoolbar Show the builtin annotation toolbar"
+msgid "Show more annotation tools"
+msgstr "Arată unelte de adnotare suplimentare"
+
+#: part/annotationactionhandler.cpp:556
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Highlighter"
+msgstr "Evidențiere"
+
+#: part/annotationactionhandler.cpp:557
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Underline"
+msgstr "Subliniere"
+
+#: part/annotationactionhandler.cpp:558
+#, fuzzy, kde-format
+#| msgid "Select text"
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Squiggle"
+msgstr "Selectează text"
+
+#: part/annotationactionhandler.cpp:559
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Strike Out"
+msgstr "Tăiere"
+
+#: part/annotationactionhandler.cpp:561
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Typewriter"
+msgstr "Mașină de scris"
+
+#: part/annotationactionhandler.cpp:562
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Inline Note"
+msgstr "Notă în rând"
+
+#: part/annotationactionhandler.cpp:563
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Popup Note"
+msgstr "Notă flotantă"
+
+#: part/annotationactionhandler.cpp:564
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Freehand Line"
+msgstr "Linie liberă"
+
+#: part/annotationactionhandler.cpp:566
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Straight line"
+msgstr "Linie dreaptă"
+
+#: part/annotationactionhandler.cpp:567
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Arrow"
+msgstr "Săgeată"
+
+#: part/annotationactionhandler.cpp:568
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Rectangle"
+msgstr "Dreptunghi"
+
+#: part/annotationactionhandler.cpp:569
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Ellipse"
+msgstr "Elipsă"
+
+#: part/annotationactionhandler.cpp:570
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Polygon"
+msgstr "Poligon"
+
+#: part/annotationactionhandler.cpp:571
+#, kde-format
+msgctxt "@action"
+msgid "Geometrical shapes"
+msgstr "Figuri geometrice"
+
+#: part/annotationactionhandler.cpp:617
+#, kde-format
+msgctxt "@action"
+msgid "Stamp"
+msgstr "Ștampilă"
+
+#: part/annotationactionhandler.cpp:637
+#, kde-format
+msgctxt "@action:intoolbar Show list of quick annotation tools"
+msgid "Quick Annotations"
+msgstr "Adnotări rapide"
+
+#: part/annotationactionhandler.cpp:640
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Choose an annotation tool from the quick annotations"
+msgstr "Alegeți o unealtă de adnotare dintre adnotările rapide"
+
+#: part/annotationactionhandler.cpp:650
+#, kde-format
+msgid "Quick Annotation Bar"
+msgstr "Bară cu adnotări rapide"
+
+#: part/annotationactionhandler.cpp:664
+#, kde-format
+msgctxt ""
+"@action:intoolbar Add current annotation tool to the quick annotations list"
+msgid "Add to Quick Annotations"
+msgstr "Adaugă la adnotări rapide"
+
+#: part/annotationactionhandler.cpp:667
+#, kde-format
+msgctxt ""
+"@action:intoolbar When checked keep the current annotation tool active after "
+"use"
+msgid "Keep Active"
+msgstr "Ține activă"
+
+#: part/annotationactionhandler.cpp:668
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Keep the annotation tool active after use"
+msgstr "Ține unealta de adnotare activă după folosire"
+
+#: part/annotationactionhandler.cpp:673
+#, kde-format
+msgctxt ""
+"@action When checked, line annotations are constrained to 15° steps, shape "
+"annotations to 1:1 ratio"
+msgid "Constrain Ratio and Angle of Annotation Tools"
+msgstr "Constrânge raportul și unghiul uneltelor de adnotare"
+
+#: part/annotationactionhandler.cpp:679
+#, kde-format
+msgctxt "@action:intoolbar Current annotation config option"
+msgid "Font"
+msgstr "Font"
+
+#: part/annotationactionhandler.cpp:680
+#, kde-format
+msgctxt "@action:intoolbar Current annotation advanced settings"
+msgid "Annotation Settings"
+msgstr "Configurări adnotare"
+
+#: part/annotationactionhandler.cpp:683
+#, kde-format
+msgctxt "@action:intoolbar Current annotation config option"
+msgid "Line width"
+msgstr "Grosimea liniei"
+
+#: part/annotationactionhandler.cpp:692
+#, kde-format
+msgctxt "@action:intoolbar Current annotation config option"
+msgid "Opacity"
+msgstr "Opacitate"
+
+#: part/annotationactionhandler.cpp:695
+#, kde-format
+msgctxt ""
+"@item:inlistbox Annotation opacity percentage level, make sure to include %1 "
+"in your translation"
+msgid "%1%"
+msgstr "%1%"
+
+#: part/annotationmodel.cpp:322
+#, kde-format
+msgctxt "Page label (number)"
+msgid "Page %1 (%2)"
+msgstr "Pagina %1 (%2)"
+
+#: part/annotationmodel.cpp:324 part/part.cpp:3206
+#, kde-format
+msgid "Page %1"
+msgstr "Pagina %1"
+
+#: part/annotationpopup.cpp:127
+#, fuzzy, kde-format
+#| msgid "Annotation"
+#| msgid_plural "%1 Annotations"
+msgctxt "Menu title"
+msgid "Annotation"
+msgid_plural "%1 Annotations"
+msgstr[0] "Adnotare"
+msgstr[1] "%1 adnotări"
+msgstr[2] "%1 de adnotări"
+
+#: part/annotationpopup.cpp:129 part/annotationpopup.cpp:199
+#, kde-format
+msgid "&Open Pop-up Note"
+msgstr "Deschide n&ota plutitoare"
+
+#: part/annotationpopup.cpp:137 part/annotationpopup.cpp:206
+#: part/bookmarklist.cpp:263 part/part.cpp:2287 part/part.cpp:3212
+#, kde-format
+msgid "Remove Bookmark"
+msgstr "Elimină semnul de carte"
+
+#: part/annotationpopup.cpp:141 part/annotationpopup.cpp:209 part/part.cpp:3214
+#, kde-format
+msgid "Add Bookmark"
+msgstr "Adaugă semn de carte"
+
+#: part/annotationpopup.cpp:146 part/annotationpopup.cpp:213
+#, fuzzy, kde-format
+#| msgid "Copyright"
+msgctxt "@action"
+msgid "Copy"
+msgstr "Drept de autor"
+
+#: part/annotationpopup.cpp:150 part/annotationpopup.cpp:217
+#, kde-format
+msgid "Paste"
+msgstr ""
+
+#: part/annotationpopup.cpp:155 part/annotationpopup.cpp:222
+#, kde-format
+msgid "Copy Text to Clipboard"
+msgstr "Copiază textul în clipboard"
+
+#: part/annotationpopup.cpp:159 part/annotationpopup.cpp:226
+#: part/pageview.cpp:2589 part/pageview.cpp:2941 part/pageview.cpp:2943
+#: part/pageview.cpp:3103 part/pageview.cpp:3164 part/pageview.cpp:3166
+#, kde-format
+msgid "Copy forbidden by DRM"
+msgstr "Copiere interzisă de DRM"
+
+#: part/annotationpopup.cpp:164 part/annotationpopup.cpp:231
+#, kde-format
+msgid "&Delete"
+msgstr "Ș&terge"
+
+#: part/annotationpopup.cpp:178 part/annotationpopup.cpp:235 part/part.cpp:750
+#: part/propertiesdialog.cpp:54
+#, kde-format
+msgid "&Properties"
+msgstr "&Proprietăți"
+
+#: part/annotationpopup.cpp:185 part/annotationpopup.cpp:241
+#, fuzzy, kde-format
+#| msgctxt "%1 is the name of the file to save"
+#| msgid "&Save '%1'..."
+msgctxt "%1 is the name of the file to open"
+msgid "&Open '%1'…"
+msgstr "&Salvează „%1”…"
+
+#: part/annotationpopup.cpp:189 part/annotationpopup.cpp:245
+#, fuzzy, kde-format
+#| msgctxt "%1 is the name of the file to save"
+#| msgid "&Save '%1'..."
+msgctxt "%1 is the name of the file to save"
+msgid "&Save '%1'…"
+msgstr "&Salvează „%1”…"
+
+#: part/annotationpropertiesdialog.cpp:54
+#, kde-format
+msgid "&Appearance"
+msgstr "&Aspect"
+
+#: part/annotationpropertiesdialog.cpp:59
+#, kde-format
+msgid "&General"
+msgstr "&General"
+
+#: part/annotationpropertiesdialog.cpp:64
+#, kde-format
+msgid "&Author:"
+msgstr "&Autor:"
+
+#: part/annotationpropertiesdialog.cpp:69
+#, kde-format
+msgid "Created:"
+msgstr "Creat:"
+
+#: part/annotationpropertiesdialog.cpp:74
+#, kde-format
+msgid "Modified:"
+msgstr "Modificat:"
+
+#: part/annotationpropertiesdialog.cpp:108
+#, kde-format
+msgid "Pop-up Note Properties"
+msgstr "Proprietăți notă plutitoare"
+
+#: part/annotationpropertiesdialog.cpp:111
+#, kde-format
+msgid "Typewriter Properties"
+msgstr "Proprietăți mașină de scris"
+
+#: part/annotationpropertiesdialog.cpp:113
+#, kde-format
+msgid "Inline Note Properties"
+msgstr "Proprietăți notă în rând"
+
+#: part/annotationpropertiesdialog.cpp:119
+#, kde-format
+msgid "Straight Line Properties"
+msgstr "Proprietăți linie dreaptă"
+
+#: part/annotationpropertiesdialog.cpp:121
+#, kde-format
+msgid "Polygon Properties"
+msgstr "Proprietăți poligon"
+
+#: part/annotationpropertiesdialog.cpp:125
+#, kde-format
+msgid "Geometry Properties"
+msgstr "Proprietăți geometrie"
+
+#: part/annotationpropertiesdialog.cpp:128
+#, kde-format
+msgid "Text Markup Properties"
+msgstr "Proprietăți marcare textuală"
+
+#: part/annotationpropertiesdialog.cpp:131
+#, kde-format
+msgid "Stamp Properties"
+msgstr "Proprietăți ștampilă"
+
+#: part/annotationpropertiesdialog.cpp:134
+#, kde-format
+msgid "Freehand Line Properties"
+msgstr "Proprietăți linie liberă"
+
+#: part/annotationpropertiesdialog.cpp:137
+#, kde-format
+msgid "Caret Properties"
+msgstr ""
+
+#: part/annotationpropertiesdialog.cpp:140
+#, kde-format
+msgid "File Attachment Properties"
+msgstr "Proprietăți atașament fișier"
+
+#: part/annotationpropertiesdialog.cpp:143
+#, kde-format
+msgid "Sound Properties"
+msgstr "Proprietăți sunet"
+
+#: part/annotationpropertiesdialog.cpp:146
+#, kde-format
+msgid "Movie Properties"
+msgstr "Proprietăți film"
+
+#: part/annotationpropertiesdialog.cpp:149
+#, kde-format
+msgid "Annotation Properties"
+msgstr "Proprietăți adnotare"
+
+#: part/annotationwidgets.cpp:57
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select a custom stamp symbol from file"
+msgstr "Alege simbol personalizat pentru ștampilă din fișier"
+
+#: part/annotationwidgets.cpp:154
+#, kde-format
+msgctxt "@title:window file chooser"
+msgid "Select custom stamp symbol"
+msgstr "Alege simbol personalizat pentru ștampilă"
+
+#: part/annotationwidgets.cpp:154
+#, kde-format
+msgid ""
+"*.ico *.png *.xpm *.svg *.svgz | Icon Files (*.ico *.png *.xpm *.svg *.svgz)"
+msgstr ""
+"*.ico *.png *.xpm *.svg *.svgz | Fișiere pictogramă (*.ico *.png *.xpm *.svg "
+"*.svgz)"
+
+#: part/annotationwidgets.cpp:158
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Could not load the file <filename>%1</filename>"
+msgstr "Fișierul <filename>%1</filename> nu a putut fi încărcat"
+
+#: part/annotationwidgets.cpp:158
+#, kde-format
+msgctxt "@title:window"
+msgid "Invalid file"
+msgstr "Fișier eronat"
+
+#: part/annotationwidgets.cpp:265
+#, kde-format
+msgid "&Color:"
+msgstr "&Culoare:"
+
+#: part/annotationwidgets.cpp:274 part/editdrawingtooldialog.cpp:74
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "%1%"
+msgctxt "@label:spinbox Suffix for the opacity level, e.g. '80%'"
+msgid "%v%"
+msgstr "%1%"
+
+#: part/annotationwidgets.cpp:275 part/editdrawingtooldialog.cpp:68
+#, kde-format
+msgid "&Opacity:"
+msgstr "&Opacitate:"
+
+#: part/annotationwidgets.cpp:363
+#, kde-format
+msgid "Icon:"
+msgstr "Pictogramă:"
+
+#: part/annotationwidgets.cpp:364
+#, kde-format
+msgid "Comment"
+msgstr "Comentariu"
+
+#: part/annotationwidgets.cpp:365
+#, kde-format
+msgid "Help"
+msgstr "Ajutor"
+
+#: part/annotationwidgets.cpp:366
+#, kde-format
+msgid "Insert"
+msgstr "Inserează"
+
+#: part/annotationwidgets.cpp:367
+#, kde-format
+msgid "Key"
+msgstr "Cheie"
+
+#: part/annotationwidgets.cpp:368
+#, kde-format
+msgid "New paragraph"
+msgstr "Paragraf nou"
+
+#: part/annotationwidgets.cpp:369
+#, kde-format
+msgid "Note"
+msgstr "Notă"
+
+#: part/annotationwidgets.cpp:370
+#, kde-format
+msgid "Paragraph"
+msgstr "Paragraf"
+
+#: part/annotationwidgets.cpp:378
+#, kde-format
+msgid "Font:"
+msgstr "Font:"
+
+#: part/annotationwidgets.cpp:387
+#, kde-format
+msgid "Text &color:"
+msgstr "&Culoare text:"
+
+#: part/annotationwidgets.cpp:394
+#, kde-format
+msgid "&Align:"
+msgstr "&Aliniere:"
+
+#: part/annotationwidgets.cpp:395
+#, kde-format
+msgid "Left"
+msgstr "Stânga"
+
+#: part/annotationwidgets.cpp:396
+#, kde-format
+msgid "Center"
+msgstr "Centru"
+
+#: part/annotationwidgets.cpp:397
+#, kde-format
+msgid "Right"
+msgstr "Dreapta"
+
+#: part/annotationwidgets.cpp:405
+#, kde-format
+msgid "Border &width:"
+msgstr "Lățime cont&ur:"
+
+#: part/annotationwidgets.cpp:414
+#, kde-format
+msgid "Approved"
+msgstr "Aprobat"
+
+#: part/annotationwidgets.cpp:415
+#, kde-format
+msgid "As Is"
+msgstr "Așa cum este"
+
+#: part/annotationwidgets.cpp:416
+#, kde-format
+msgid "Confidential"
+msgstr "Confidențial"
+
+#: part/annotationwidgets.cpp:417
+#, kde-format
+msgid "Departmental"
+msgstr "Departmental"
+
+#: part/annotationwidgets.cpp:418
+#, kde-format
+msgid "Draft"
+msgstr "Ciornă"
+
+#: part/annotationwidgets.cpp:419
+#, kde-format
+msgid "Experimental"
+msgstr "Experimental"
+
+#: part/annotationwidgets.cpp:420
+#, kde-format
+msgid "Expired"
+msgstr "Expirat"
+
+#: part/annotationwidgets.cpp:421
+#, kde-format
+msgid "Final"
+msgstr "Final"
+
+#: part/annotationwidgets.cpp:422
+#, kde-format
+msgid "For Comment"
+msgstr "Pentru comentare"
+
+#: part/annotationwidgets.cpp:423
+#, kde-format
+msgid "For Public Release"
+msgstr "Pentru public"
+
+#: part/annotationwidgets.cpp:424
+#, kde-format
+msgid "Not Approved"
+msgstr "Neaprobat"
+
+#: part/annotationwidgets.cpp:425
+#, kde-format
+msgid "Not For Public Release"
+msgstr "Nu pentru public"
+
+#: part/annotationwidgets.cpp:426
+#, kde-format
+msgid "Sold"
+msgstr "Vândut"
+
+#: part/annotationwidgets.cpp:427
+#, kde-format
+msgid "Top Secret"
+msgstr "Strict secret"
+
+#: part/annotationwidgets.cpp:428
+#, kde-format
+msgid "Bookmark"
+msgstr "Semn de carte"
+
+#: part/annotationwidgets.cpp:429
+#, kde-format
+msgid "Information"
+msgstr "Informații"
+
+#: part/annotationwidgets.cpp:430
+#, kde-format
+msgid "KDE"
+msgstr "KDE"
+
+#: part/annotationwidgets.cpp:451
+#, kde-format
+msgid "Stamp symbol:"
+msgstr "Simbol ștampilă:"
+
+#: part/annotationwidgets.cpp:499 part/annotationwidgets.cpp:561
+#: part/annotationwidgets.cpp:624 part/annotationwidgets.cpp:698
+#: part/annotationwidgets.cpp:777
+#, kde-format
+msgid "&Width:"
+msgstr "&Lățime:"
+
+#: part/annotationwidgets.cpp:504
+#, kde-format
+msgid "Line start:"
+msgstr "Început linie:"
+
+#: part/annotationwidgets.cpp:506
+#, kde-format
+msgid "Line end:"
+msgstr "Sfârșit linie:"
+
+#: part/annotationwidgets.cpp:509
+#, kde-format
+msgid "Square"
+msgstr "Pătrat"
+
+#: part/annotationwidgets.cpp:510
+#, kde-format
+msgid "Circle"
+msgstr "Cerc"
+
+#: part/annotationwidgets.cpp:511
+#, kde-format
+msgid "Diamond"
+msgstr "Diamant"
+
+#: part/annotationwidgets.cpp:512
+#, kde-format
+msgid "Open Arrow"
+msgstr "Săgeată deschisă"
+
+#: part/annotationwidgets.cpp:513
+#, kde-format
+msgid "Closed Arrow"
+msgstr "Săgeată închisă"
+
+#: part/annotationwidgets.cpp:514
+#, kde-format
+msgid "None"
+msgstr "Niciunul"
+
+#: part/annotationwidgets.cpp:515
+#, kde-format
+msgid "Butt"
+msgstr ""
+
+#: part/annotationwidgets.cpp:516
+#, kde-format
+msgid "Right Open Arrow"
+msgstr "Săgeată deschisă la dreapta"
+
+#: part/annotationwidgets.cpp:517
+#, kde-format
+msgid "Right Closed Arrow"
+msgstr "Săgeată închisă la dreapta"
+
+#: part/annotationwidgets.cpp:518
+#, kde-format
+msgid "Slash"
+msgstr "Bară oblică"
+
+#: part/annotationwidgets.cpp:531
+#, fuzzy, kde-format
+#| msgid "Underline"
+msgid "Leader line length:"
+msgstr "Subliniat"
+
+#: part/annotationwidgets.cpp:533
+#, kde-format
+msgid "Leader line extensions length:"
+msgstr ""
+
+#: part/annotationwidgets.cpp:547 part/annotationwidgets.cpp:691
+#, kde-format
+msgid "Enabled"
+msgstr "Activat"
+
+#: part/annotationwidgets.cpp:551 part/annotationwidgets.cpp:695
+#, kde-format
+msgid "Shape fill:"
+msgstr "Umplere formă:"
+
+#: part/annotationwidgets.cpp:651 part/annotationwidgets.cpp:685
+#, kde-format
+msgid "Type:"
+msgstr "Tip:"
+
+#: part/annotationwidgets.cpp:656 part/pageviewannotator.cpp:1496
+#, kde-format
+msgid "Strike out"
+msgstr "Tăiat"
+
+#: part/annotationwidgets.cpp:745
+#, kde-format
+msgid "File attachment symbol:"
+msgstr "Simbol pentru atașament-fișier:"
+
+#: part/annotationwidgets.cpp:748
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Graph"
+msgstr "Grafic"
+
+#: part/annotationwidgets.cpp:749
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Push Pin"
+msgstr "Piuneză"
+
+#: part/annotationwidgets.cpp:750
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Paperclip"
+msgstr "Agrafă"
+
+#: part/annotationwidgets.cpp:751
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Tag"
+msgstr "Marcaj"
+
+#: part/annotationwidgets.cpp:760
+#, kde-format
+msgctxt "'File' as normal file, that can be opened, saved, etc.."
+msgid "File"
+msgstr "Fișier"
+
+#: part/annotationwidgets.cpp:764 part/embeddedfilesdialog.cpp:94
+#, kde-format
+msgctxt "Not available size"
+msgid "N/A"
+msgstr "Indisp."
+
+#: part/annotationwidgets.cpp:765
+#, kde-format
+msgid "No description available."
+msgstr "Nicio descriere disponibilă."
+
+#: part/annotationwidgets.cpp:773
+#, kde-format
+msgid "Name:"
+msgstr "Denumire:"
+
+#: part/annotationwidgets.cpp:784
+#, kde-format
+msgid "Description:"
+msgstr "Descriere:"
+
+#: part/annotationwidgets.cpp:843
+#, kde-format
+msgid "Caret symbol:"
+msgstr ""
+
+#: part/annotationwidgets.cpp:845
+#, kde-format
+msgctxt "Symbol for caret annotations"
+msgid "None"
+msgstr "Niciunul"
+
+#: part/annotationwidgets.cpp:846
+#, kde-format
+msgctxt "Symbol for caret annotations"
+msgid "P"
+msgstr "P"
+
+#: part/annotwindow.cpp:58
+#, kde-format
+msgid "Close this note"
+msgstr "Închide această notă"
+
+#: part/annotwindow.cpp:138 part/findbar.cpp:63
+#, kde-format
+msgid "Options"
+msgstr "Opțiuni"
+
+#: part/annotwindow.cpp:149
+#, kde-format
+msgid ""
+"This annotation may contain LaTeX code.\n"
+"Click here to render."
+msgstr ""
+"Această adnotare poate conține cod LaTeX.\n"
+"Apăsați aici pentru randare."
+
+#: part/annotwindow.cpp:250 part/annotwindow.cpp:272
+#, fuzzy, kde-format
+#| msgid "Unknown font"
+msgid "Unknown author"
+msgstr "Font necunoscut"
+
+#: part/annotwindow.cpp:253 part/annotwindow.cpp:275
+#, kde-format
+msgid "No date recognized"
+msgstr ""
+
+#: part/annotwindow.cpp:562
+#, kde-format
+msgid "Cannot find latex executable."
+msgstr "Executabilul latex nu poate fi găsit."
+
+#: part/annotwindow.cpp:562 part/annotwindow.cpp:567 part/annotwindow.cpp:572
+#: part/annotwindow.cpp:577
+#, kde-format
+msgid "LaTeX rendering failed"
+msgstr "Randarea LaTeX a eșuat"
+
+#: part/annotwindow.cpp:567
+#, kde-format
+msgid "Cannot find dvipng executable."
+msgstr ""
+
+#: part/annotwindow.cpp:572
+#, kde-format
+msgid "A problem occurred during the execution of the 'latex' command."
+msgstr ""
+
+#: part/annotwindow.cpp:577
+#, kde-format
+msgid "A problem occurred during the execution of the 'dvipng' command."
+msgstr ""
+
+#: part/bookmarklist.cpp:114
+#, kde-format
+msgctxt "%1 is the file name"
+msgid ""
+"%1\n"
+"\n"
+"One bookmark"
+msgid_plural ""
+"%1\n"
+"\n"
+"%2 bookmarks"
+msgstr[0] ""
+"%1\n"
+"\n"
+"Un semn de carte"
+msgstr[1] ""
+"%1\n"
+"\n"
+"%2 semne de carte"
+msgstr[2] ""
+"%1\n"
+"\n"
+"%2 de semne de carte"
+
+#: part/bookmarklist.cpp:130 part/part.cpp:416
+#, kde-format
+msgid "Bookmarks"
+msgstr "Semne de carte"
+
+#: part/bookmarklist.cpp:134
+#, kde-format
+msgid "Show for all documents"
+msgstr "Arată pentru toate documentele"
+
+#: part/bookmarklist.cpp:141 part/searchwidget.cpp:38 part/side_reviews.cpp:127
+#: part/toc.cpp:41
+#, fuzzy, kde-format
+#| msgid "S&earch:"
+msgid "Search…"
+msgstr "C&aută:"
+
+#: part/bookmarklist.cpp:259 part/bookmarklist.cpp:293 part/part.cpp:3194
+#, fuzzy, kde-format
+#| msgid "Expand all"
+msgid "Expand All"
+msgstr "Desfășoară tot"
+
+#: part/bookmarklist.cpp:260 part/bookmarklist.cpp:294 part/part.cpp:3195
+#, fuzzy, kde-format
+#| msgid "Collapse all"
+msgid "Collapse All"
+msgstr "Restrânge tot"
+
+#: part/bookmarklist.cpp:261
+#, kde-format
+msgid "Go to This Bookmark"
+msgstr "Mergi la acest semn de carte"
+
+#: part/bookmarklist.cpp:262 part/bookmarklist.cpp:299 part/part.cpp:692
+#: part/part.cpp:2482
+#, kde-format
+msgid "Rename Bookmark"
+msgstr "Redenumește semnul de carte"
+
+#: part/bookmarklist.cpp:297
+#, kde-format
+msgctxt "Opens the selected document"
+msgid "Open Document"
+msgstr "Deschide document"
+
+#: part/bookmarklist.cpp:300
+#, kde-format
+msgid "Remove all Bookmarks for this Document"
+msgstr "Elimină toate semnele de carte pentru acest document"
+
+#: part/certificateviewer.cpp:47
+#, kde-format
+msgid "Certificate Viewer"
+msgstr "Vizualizor de certificate"
+
+#: part/certificateviewer.cpp:50
+#, fuzzy, kde-format
+#| msgid "Export..."
+msgid "Export…"
+msgstr "Exportă..."
+
+#: part/certificateviewer.cpp:56 part/preferencesdialog.cpp:41
+#, kde-format
+msgid "General"
+msgstr "Generale"
+
+#: part/certificateviewer.cpp:63
+#, kde-format
+msgid "Issued By"
+msgstr "Emis de"
+
+#: part/certificateviewer.cpp:66 part/certificateviewer.cpp:76
+#, kde-format
+msgid "Common Name(CN)"
+msgstr "Nume comun (CN)"
+
+#: part/certificateviewer.cpp:67 part/certificateviewer.cpp:78
+#, kde-format
+msgid "EMail"
+msgstr "Email"
+
+#: part/certificateviewer.cpp:68 part/certificateviewer.cpp:81
+#, kde-format
+msgid "Organization(O)"
+msgstr "Organizație (O)"
+
+#: part/certificateviewer.cpp:73
+#, kde-format
+msgid "Issued To"
+msgstr "Emis către"
+
+#: part/certificateviewer.cpp:76 part/propertiesdialog.cpp:424
+#, kde-format
+msgid "Name"
+msgstr "Denumire"
+
+#: part/certificateviewer.cpp:86
+#, kde-format
+msgid "Validity"
+msgstr "Valabilitate"
+
+#: part/certificateviewer.cpp:90
+#, fuzzy, kde-format
+#| msgctxt "Spinbox prefix: Advance automatically: every n seconds"
+#| msgid "every "
+msgctxt "certificate that never expires"
+msgid "Never"
+msgstr "la fiecare "
+
+#: part/certificateviewer.cpp:94
+#, kde-format
+msgid "Fingerprints"
+msgstr "Amprente"
+
+#: part/certificateviewer.cpp:104
+#, kde-format
+msgid "SHA-1 Fingerprint"
+msgstr "Amprentă SHA-1"
+
+#: part/certificateviewer.cpp:105
+#, kde-format
+msgid "SHA-256 Fingerprint"
+msgstr "Amprentă SHA-256"
+
+#: part/certificateviewer.cpp:107
+#, fuzzy, kde-format
+#| msgid "Fingerprints"
+msgctxt "certificate key"
+msgid "Fingerprint"
+msgstr "Amprente"
+
+#: part/certificateviewer.cpp:116
+#, kde-format
+msgid "Details"
+msgstr "Detalii"
+
+#: part/certificateviewer.cpp:117
+#, kde-format
+msgid "Certificate Data:"
+msgstr "Date certificat:"
+
+#: part/certificateviewer.cpp:178
+#, kde-format
+msgid "Where do you want to save this certificate?"
+msgstr "Unde doriți să salvați acest certificat?"
+
+#: part/certificateviewer.cpp:182
+#, fuzzy, kde-format
+#| msgid "Certificate File (*.cer)"
+msgid "Certificate File (*.asc)"
+msgstr "Fișier cu certificat (*.cer)"
+
+#: part/certificateviewer.cpp:185
+#, kde-format
+msgid "Certificate File (*.cer)"
+msgstr "Fișier cu certificat (*.cer)"
+
+#: part/certificateviewer.cpp:191
+#, kde-format
+msgid "Could not export the certificate"
+msgstr "Certificatul nu a putut fi exportat"
+
+#: part/colormodemenu.cpp:18
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Color Mode"
+msgstr "Regim &color"
+
+#: part/colormodemenu.cpp:20
+#, kde-format
+msgctxt "@action Change Colors feature toggle action"
+msgid "Change Colors"
+msgstr "Schimbă culorile"
+
+#: part/colormodemenu.cpp:28
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "&Normal Colors"
+msgstr "Culori &normale"
+
+#: part/colormodemenu.cpp:41
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "&Invert Colors"
+msgstr "&Inversează culorile"
+
+#: part/colormodemenu.cpp:42
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Change &Paper Color"
+msgstr "Schim&bă culoarea hârtiei"
+
+#: part/colormodemenu.cpp:44
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Change &Dark && Light Colors"
+msgstr "Schimbă culorile închise și &deschise"
+
+#: part/colormodemenu.cpp:46
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Convert to &Black && White"
+msgstr "Conversie în al&b-negru"
+
+#: part/colormodemenu.cpp:49
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Invert &Lightness"
+msgstr "Inversează &luminozitatea"
+
+#: part/colormodemenu.cpp:52
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Invert L&uma (sRGB Linear)"
+msgstr "Inversează l&uminanța (sRGB liniar)"
+
+#: part/colormodemenu.cpp:55
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Invert Luma (&Symmetric)"
+msgstr "Inversează luminanța (&simetric)"
+
+#: part/colormodemenu.cpp:58
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Shift Hue P&ositive"
+msgstr ""
+
+#: part/colormodemenu.cpp:61
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Shift Hue N&egative"
+msgstr ""
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:11
+#, kde-format
+msgid "Red"
+msgstr "Roșu"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:16
+#, kde-format
+msgid "Green"
+msgstr "Verde"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:21
+#, kde-format
+msgid "Blue"
+msgstr "Albastru"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:26
+#, kde-format
+msgid "Yellow"
+msgstr "Galben"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:31
+#, kde-format
+msgid "Black"
+msgstr "Negru"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:36
+#, kde-format
+msgid "White"
+msgstr "Alb"
+
+#. i18n: tag tool attribute name
+#: part/data/toolsQuick.xml:9
+#, kde-format
+msgid "Yellow Highlighter"
+msgstr "Evidențiator galben"
+
+#. i18n: tag tool attribute name
+#: part/data/toolsQuick.xml:14
+#, kde-format
+msgid "Green Highlighter"
+msgstr "Evidențiator verde"
+
+#. i18n: tag tool attribute name
+#: part/data/toolsQuick.xml:24
+#, kde-format
+msgid "Insert Text"
+msgstr "Inserează text"
+
+#: part/dlgaccessibility.cpp:38
+#, kde-format
+msgctxt "@option:check Config dialog, accessibility page"
+msgid "Draw border around links"
+msgstr "Desenează contur în jurul legăturilor"
+
+#: part/dlgaccessibility.cpp:48
+#, kde-format
+msgctxt "@option:check Config dialog, accessibility page"
+msgid "Change colors"
+msgstr "Schimbă culorile"
+
+#: part/dlgaccessibility.cpp:54
+#, kde-format
+msgctxt "@info Config dialog, accessibility page"
+msgid "<b>Warning:</b> these options can badly affect drawing speed."
+msgstr ""
+"<b>Avertizare:</b> aceste opțiuni pot afecta negativ viteza de desenare."
+
+#: part/dlgaccessibility.cpp:60
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert colors"
+msgstr "Inversează culorile"
+
+#: part/dlgaccessibility.cpp:61
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Change paper color"
+msgstr "Schimbă culoarea hârtiei"
+
+#: part/dlgaccessibility.cpp:62
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Change dark & light colors"
+msgstr "Schimbă culorile închise și deschise"
+
+#: part/dlgaccessibility.cpp:63
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Convert to black & white"
+msgstr "Conversie în alb-negru"
+
+#: part/dlgaccessibility.cpp:64
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert lightness"
+msgstr "Inversează luminozitatea"
+
+#: part/dlgaccessibility.cpp:65
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert luma (sRGB linear)"
+msgstr "Inversează luminanța (sRGB liniar)"
+
+#: part/dlgaccessibility.cpp:66
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert luma (symmetric)"
+msgstr "Inversează luminanța (simetric)"
+
+#: part/dlgaccessibility.cpp:67
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Shift hue positive"
+msgstr ""
+
+#: part/dlgaccessibility.cpp:68
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Shift hue negative"
+msgstr ""
+
+#: part/dlgaccessibility.cpp:70
+#, kde-format
+msgctxt "@label:listbox Config dialog, accessibility page"
+msgid "Color mode:"
+msgstr "Regim color:"
+
+#: part/dlgaccessibility.cpp:87
+#, kde-format
+msgctxt "@label:chooser Config dialog, accessibility page"
+msgid "Paper color:"
+msgstr "Culoarea hârtiei:"
+
+#: part/dlgaccessibility.cpp:99
+#, kde-format
+msgctxt "@label:chooser Config dialog, accessibility page"
+msgid "Dark color:"
+msgstr "Culoare întunecată:"
+
+#: part/dlgaccessibility.cpp:104
+#, kde-format
+msgctxt "@label:chooser Config dialog, accessibility page"
+msgid "Light color:"
+msgstr "Culoare luminoasă:"
+
+#: part/dlgaccessibility.cpp:119
+#, kde-format
+msgctxt "@label:slider Config dialog, accessibility page"
+msgid "Threshold:"
+msgstr "Prag:"
+
+#: part/dlgaccessibility.cpp:127
+#, kde-format
+msgctxt "@label:slider Config dialog, accessibility page"
+msgid "Contrast:"
+msgstr "Contrast:"
+
+#: part/dlgaccessibility.cpp:158
+#, kde-format
+msgctxt "@label:listbox Config dialog, accessibility page"
+msgid "Text-to-speech engine:"
+msgstr "Motor de text-în-vorbire:"
+
+#: part/dlgaccessibility.cpp:165
+#, kde-format
+msgctxt "&label:listbox Config dialog, accessibility page"
+msgid "Text-to-speech voice:"
+msgstr "Voce pentru text-în-vorbire:"
+
+#: part/dlgannotations.cpp:25
+#, kde-format
+msgctxt "item:inlistbox Config dialog, general page"
+msgid "Full Annotation Toolbar"
+msgstr "Bară cu adnotări deplină"
+
+#: part/dlgannotations.cpp:26
+#, kde-format
+msgctxt "item:inlistbox Config dialog, general page"
+msgid "Quick Annotation Toolbar"
+msgstr "Bară cu adnotări rapide"
+
+#: part/dlgannotations.cpp:28
+#, kde-format
+msgctxt "label:listbox Config dialog, general page"
+msgid "Annotation toolbar:"
+msgstr "Bară cu adnotări:"
+
+#: part/dlgannotations.cpp:34
+#, kde-format
+msgctxt "@label:textbox Config dialog, annotations page"
+msgid "Author:"
+msgstr "Autor:"
+
+#: part/dlgannotations.cpp:38
+#, kde-format
+msgctxt "@info Config dialog, annotations page"
+msgid ""
+"<b>Note:</b> the information here is used only for annotations. The "
+"information is saved in annotated documents, and so will be transmitted "
+"together with the document."
+msgstr ""
+"<b>Notă:</b> informația de aici e folosită doar pentru adnotări. Informația "
+"e salvată în documentele adnotate, deci va fi transmisă împreună cu "
+"documentul."
+
+#: part/dlgannotations.cpp:48
+#, kde-format
+msgctxt ""
+"@label Config dialog, annotations page, heading line for Quick Annotations "
+"tool manager"
+msgid "<h3>Quick Annotation Tools</h3>"
+msgstr "<h3>Unelte de adnotare rapidă</h3>"
+
+#: part/dlgeditor.cpp:28
+#, kde-format
+msgctxt "@info:whatsthis Config dialog, editor page"
+msgid ""
+"Choose the editor you want to launch when Okular wants to open a source file."
+msgstr ""
+"Alegeți redactorul care să fie lansat când Okular vrea să deschidă un fișier-"
+"sursă."
+
+#: part/dlgeditor.cpp:29
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Custom Text Editor"
+msgstr "Redactor de text personalizat"
+
+#: part/dlgeditor.cpp:30
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Kate"
+msgstr "Kate"
+
+#: part/dlgeditor.cpp:31
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Kile"
+msgstr "Kile"
+
+#: part/dlgeditor.cpp:32
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "SciTE"
+msgstr "SciTE"
+
+#: part/dlgeditor.cpp:33
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Emacs client"
+msgstr "Client Emacs"
+
+#: part/dlgeditor.cpp:34
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Lyx client"
+msgstr "Client Lyx"
+
+#: part/dlgeditor.cpp:35
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "TeXstudio"
+msgstr "TeXstudio"
+
+#: part/dlgeditor.cpp:36
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "TeXiFy IDEA"
+msgstr "TeXiFy IDEA"
+
+#: part/dlgeditor.cpp:37
+#, kde-format
+msgctxt "@label:listbox Config dialog, editor page"
+msgid "Editor:"
+msgstr "Redactor:"
+
+#: part/dlgeditor.cpp:52
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<qt>Set the command of a custom text editor to be launched.<br />\n"
+"You can also put few placeholders:\n"
+"<ul>\n"
+"  <li>%f - the file name</li>\n"
+"  <li>%l - the line of the file to be reached</li>\n"
+"  <li>%c - the column of the file to be reached</li>\n"
+"</ul>\n"
+"If %f is not specified, then the file name is appended to the specified "
+"command."
+msgstr ""
+
+#: part/dlgeditor.cpp:63
+#, kde-format
+msgctxt "@label:textbox Config dialog, editor page"
+msgid "Command:"
+msgstr "Comandă:"
+
+#: part/dlggeneral.cpp:35
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Use smooth scrolling"
+msgstr "Folosește derulare lină"
+
+#: part/dlggeneral.cpp:37
+#, kde-format
+msgctxt "@title:group Config dialog, general page"
+msgid "Appearance:"
+msgstr "Aspect:"
+
+#: part/dlggeneral.cpp:41
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Show scrollbars"
+msgstr "Arată barele de derulare"
+
+#: part/dlggeneral.cpp:48
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Link the thumbnails with the page"
+msgstr "Leagă miniaturile de pagină"
+
+#: part/dlggeneral.cpp:55
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Show hints and info messages"
+msgstr "Arată indicii și mesaje informative"
+
+#: part/dlggeneral.cpp:61
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Notify about embedded files, forms, or signatures"
+msgstr "Înștiințează despre fișiere înglobate, formulare, sau semnături"
+
+#: part/dlggeneral.cpp:68
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Display document title in titlebar if available"
+msgstr "Afișează titlul documentului în bara de titlu dacă e disponibil"
+
+#: part/dlggeneral.cpp:74
+#, kde-format
+msgctxt "item:inlistbox Config dialog, general page"
+msgid "Display file name only"
+msgstr "Afișează doar denumirea fișierului"
+
+#: part/dlggeneral.cpp:75
+#, kde-format
+msgctxt "item:inlistbox Config dialog, general page"
+msgid "Display full file path"
+msgstr "Afișează calea completă a fișierului"
+
+#: part/dlggeneral.cpp:77
+#, kde-format
+msgctxt "label:listbox Config dialog, general page"
+msgid "When not displaying document title:"
+msgstr "Când nu se afișează titlul documentului:"
+
+#: part/dlggeneral.cpp:92
+#, kde-format
+msgctxt "@label:listbox Config dialog, general page"
+msgid "Use custom background color:"
+msgstr "Folosește culoare de fundal personalizată:"
+
+#: part/dlggeneral.cpp:114
+#, kde-format
+msgctxt "@title:group Config dialog, general page"
+msgid "Program features:"
+msgstr "Caracteristici program:"
+
+#: part/dlggeneral.cpp:121
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Open new files in tabs"
+msgstr "Deschide fișierele noi în file"
+
+#: part/dlggeneral.cpp:126
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Switch to existing tab if file is already open"
+msgstr "Schimbă la fila existentă dacă fișierul e deschis deja"
+
+#: part/dlggeneral.cpp:139
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Obey DRM limitations"
+msgstr "Respectă limitările DRM"
+
+#: part/dlggeneral.cpp:148
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Reload document on file change"
+msgstr "Reîncarcă documentul la modificarea fișierului"
+
+#: part/dlggeneral.cpp:155
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Show backend selection dialog"
+msgstr "Arată dialogul de alegere a platformei"
+
+#: part/dlggeneral.cpp:162
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Right to left reading direction"
+msgstr "Direcție de citire de la stânga la dreapta"
+
+#: part/dlggeneral.cpp:168
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid ""
+"Use file information to determine whether to open in continuous mode by "
+"default"
+msgstr ""
+
+#: part/dlggeneral.cpp:178
+#, fuzzy, kde-format
+#| msgctxt "@option:check Config dialog, general page"
+#| msgid "Open in continuous mode by default"
+msgctxt "@option:check Config dialog, general page"
+msgid "For files without file information, open in continuous mode by default"
+msgstr "Deschide implicit în regim continuu"
+
+#: part/dlggeneral.cpp:180
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Open in continuous mode by default"
+msgstr "Deschide implicit în regim continuu"
+
+#: part/dlggeneral.cpp:188
+#, fuzzy, kde-format
+#| msgid "Continue losing changes"
+msgctxt "@option:check Config dialog, general page"
+msgid "Continue from last viewed page"
+msgstr "Continuă cu pierderea modificărilor"
+
+#: part/dlggeneral.cpp:195
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "When using Browse Tool, wrap cursor at screen edges"
+msgstr ""
+
+#: part/dlggeneral.cpp:203
+#, kde-format
+msgctxt "@label:spinbox Config dialog, general page"
+msgid "Items in recent history:"
+msgstr ""
+
+#: part/dlggeneral.cpp:218
+#, kde-format
+msgctxt "@label:spinbox Config dialog, general page"
+msgid "Overview columns:"
+msgstr "Coloane pentru privire generală:"
+
+#: part/dlggeneral.cpp:225
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "%1%"
+msgctxt "@item:spinbox Config dialog, general page, page overlap factor"
+msgid "%v%"
+msgstr "%1%"
+
+#: part/dlggeneral.cpp:226
+#, kde-format
+msgctxt "@info:tooltip Config dialog, general page"
+msgid ""
+"Defines how much of the current viewing area will still be visible when "
+"pressing the Page Up/Down keys."
+msgstr ""
+
+#: part/dlggeneral.cpp:228
+#, kde-format
+msgctxt "@label:spinbox Config dialog, general page"
+msgid "Page Up/Down overlap:"
+msgstr ""
+
+#: part/dlggeneral.cpp:233
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "%1%"
+msgctxt "@item:inlistbox Config dialog, general page, custom zoom factor"
+msgid "%v%"
+msgstr "%1%"
+
+#: part/dlggeneral.cpp:237
+#, fuzzy, kde-format
+#| msgctxt "item:inlistbox Config dialog, general page, default zoom"
+#| msgid "100%"
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid "100%"
+msgstr "100%"
+
+#: part/dlggeneral.cpp:238
+#, fuzzy, kde-format
+#| msgid "Fit Width"
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid "Fit Width"
+msgstr "Potrivire lățime"
+
+#: part/dlggeneral.cpp:239
+#, fuzzy, kde-format
+#| msgid "Fit Page"
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid "Fit Page"
+msgstr "Potrivire pagină"
+
+#: part/dlggeneral.cpp:240
+#, fuzzy, kde-format
+#| msgid "Auto Fit"
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid "Auto Fit"
+msgstr "Potrivire automată"
+
+#: part/dlggeneral.cpp:241
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid "Custom"
+msgstr ""
+
+#: part/dlggeneral.cpp:242
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid ""
+"Defines the default zoom mode for files which were never opened before. For "
+"files which were opened before the previous zoom is applied."
+msgstr ""
+
+#: part/dlggeneral.cpp:246
+#, kde-format
+msgctxt "label:listbox Config dialog, general page, default zoom"
+msgid "Default zoom:"
+msgstr "Apropiere implicită:"
+
+#: part/dlgperformance.cpp:26
+#, kde-format
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable transparency effects"
+msgstr "Activează efectele de transparență"
+
+#: part/dlgperformance.cpp:28
+#, kde-format
+msgctxt "@label Config dialog, performance page"
+msgid "CPU usage:"
+msgstr "Utilizare procesor:"
+
+#: part/dlgperformance.cpp:35
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Low"
+msgstr "Scăzută"
+
+#: part/dlgperformance.cpp:36
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Normal (default)"
+msgstr "Normală (implicit)"
+
+#: part/dlgperformance.cpp:37
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Aggressive"
+msgstr "Agresivă"
+
+#: part/dlgperformance.cpp:38
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Greedy"
+msgstr "Lacomă"
+
+#: part/dlgperformance.cpp:40
+#, kde-format
+msgctxt "@label:listbox Config dialog, performance page, memory usage"
+msgid "Memory usage:"
+msgstr "Utilizare memorie:"
+
+#: part/dlgperformance.cpp:54
+#, kde-format
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable text antialias"
+msgstr "Activează anti-crenelarea textului"
+
+#: part/dlgperformance.cpp:56
+#, kde-format
+msgctxt "@title:group Config dialog, performance page"
+msgid "Rendering options:"
+msgstr "Opțiuni de randare:"
+
+#: part/dlgperformance.cpp:59
+#, kde-format
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable graphics antialias"
+msgstr "Activează anti-crenelare grafică"
+
+#: part/dlgperformance.cpp:64
+#, fuzzy, kde-format
+#| msgid "Enable transitions"
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable text hinting"
+msgstr "Activează tranziții"
+
+#: part/dlgperformance.cpp:77
+#, kde-format
+msgid ""
+"Keeps used memory as low as possible. Do not reuse anything. (For systems "
+"with low memory.)"
+msgstr ""
+"Ține memoria la nivel cât mai scăzut. Nu reutiliza nimic. (Pentru sisteme cu "
+"puțină memorie.)"
+
+#: part/dlgperformance.cpp:80
+#, fuzzy, kde-format
+#| msgid ""
+#| "A good compromise between memory usage and speed gain. Preload next page "
+#| "and boost searches. (For systems with 256MB of memory, typically.)"
+msgid ""
+"A good compromise between memory usage and speed gain. Preload next page and "
+"boost searches. (For systems with 2GB of memory, typically.)"
+msgstr ""
+"Un compromis între utilizarea memoriei și viteză. Preîncarcă pagina "
+"următoare și accelerează căutările. (Tipic pentru sisteme cu 256MO de "
+"memorie.)"
+
+#: part/dlgperformance.cpp:83
+#, fuzzy, kde-format
+#| msgid ""
+#| "Keeps everything in memory. Preload next pages. Boost searches. (For "
+#| "systems with more than 512MB of memory.)"
+msgid ""
+"Keeps everything in memory. Preload next pages. Boost searches. (For systems "
+"with more than 4GB of memory.)"
+msgstr ""
+"Păstrează totul în memorie. Preîncarcă paginile următoare. Accelerează "
+"căutările. (Pentru sisteme cu peste 512MO de memorie.)"
+
+#: part/dlgperformance.cpp:87
+#, no-c-format, kde-format
+msgid ""
+"Loads and keeps everything in memory. Preload all pages. (Will use at "
+"maximum 50% of your total memory or your free memory, whatever is bigger.)"
+msgstr ""
+
+#: part/dlgpresentation.cpp:38
+#, fuzzy, kde-format
+#| msgctxt "Advance every %1 seconds"
+#| msgid " second"
+#| msgid_plural " seconds"
+msgctxt "@label:spinbox Advance automatically: Every n second"
+msgid "every %v second"
+msgid_plural "every %v seconds"
+msgstr[0] " secundă"
+msgstr[1] " secunde"
+msgstr[2] " de secunde"
+
+#: part/dlgpresentation.cpp:45
+#, kde-format
+msgctxt "@label:spinbox Config dialog, presentation page"
+msgid "Advance automatically:"
+msgstr "Avansează automat:"
+
+#: part/dlgpresentation.cpp:53
+#, kde-format
+msgctxt "@option:check Config dialog, presentation page"
+msgid "Loop after last page"
+msgstr ""
+
+#: part/dlgpresentation.cpp:59
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, tap navigation"
+msgid "Tap left/right side to go back/forward"
+msgstr ""
+
+#: part/dlgpresentation.cpp:60
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, tap navigation"
+msgid "Tap anywhere to go forward"
+msgstr ""
+
+#: part/dlgpresentation.cpp:61
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, tap navigation"
+msgid "Disabled"
+msgstr "Dezactivată"
+
+#: part/dlgpresentation.cpp:63
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, tap navigation"
+msgid "Touch navigation:"
+msgstr "Navigare prin atingere:"
+
+#: part/dlgpresentation.cpp:72
+#, kde-format
+msgctxt "@label:chooser Config dialog, presentation page"
+msgid "Background color:"
+msgstr "Culoare fundal:"
+
+#: part/dlgpresentation.cpp:76
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, cursor visibility"
+msgid "Hidden after delay"
+msgstr "Ascuns cu întârziere"
+
+#: part/dlgpresentation.cpp:77
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, cursor visibility"
+msgid "Always visible"
+msgstr "Vizibil întotdeauna"
+
+#: part/dlgpresentation.cpp:78
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, cursor visibility"
+msgid "Always hidden"
+msgstr "Ascuns întotdeauna"
+
+#: part/dlgpresentation.cpp:80
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, cursor visibility"
+msgid "Mouse cursor:"
+msgstr "Cursor maus:"
+
+#: part/dlgpresentation.cpp:84
+#, kde-format
+msgctxt "@option:check Config dialog, presentation page"
+msgid "Show progress indicator"
+msgstr "Arată indicator de progres"
+
+#: part/dlgpresentation.cpp:90
+#, kde-format
+msgctxt "@option:check Config dialog, presentation page"
+msgid "Show summary page"
+msgstr "Arată pagina cu sumar"
+
+#: part/dlgpresentation.cpp:100
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Instant (Never use animations)"
+msgstr "Instant (nu folosi animații)"
+
+#: part/dlgpresentation.cpp:101
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Replace"
+msgstr "Înlocuire"
+
+#: part/dlgpresentation.cpp:102
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Random transition"
+msgstr "Tranziție aleatoare"
+
+#: part/dlgpresentation.cpp:103
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Blinds vertical"
+msgstr ""
+
+#: part/dlgpresentation.cpp:104
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Blinds horizontal"
+msgstr ""
+
+#: part/dlgpresentation.cpp:105
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Box in"
+msgstr ""
+
+#: part/dlgpresentation.cpp:106
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Box out"
+msgstr ""
+
+#: part/dlgpresentation.cpp:107
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Dissolve"
+msgstr "Dizolvare"
+
+#: part/dlgpresentation.cpp:108
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Fade"
+msgstr "Estompare"
+
+#: part/dlgpresentation.cpp:109
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Glitter down"
+msgstr ""
+
+#: part/dlgpresentation.cpp:110
+#, fuzzy, kde-format
+#| msgid "Rotate &Right"
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Glitter right"
+msgstr "&Rotește la dreapta"
+
+#: part/dlgpresentation.cpp:111
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Glitter right-down"
+msgstr ""
+
+#: part/dlgpresentation.cpp:112
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split horizontal in"
+msgstr ""
+
+#: part/dlgpresentation.cpp:113
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split horizontal out"
+msgstr ""
+
+#: part/dlgpresentation.cpp:114
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split vertical in"
+msgstr ""
+
+#: part/dlgpresentation.cpp:115
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split vertical out"
+msgstr ""
+
+#: part/dlgpresentation.cpp:116
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe down"
+msgstr ""
+
+#: part/dlgpresentation.cpp:117
+#, fuzzy, kde-format
+#| msgid "Copyright"
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe right"
+msgstr "Drept de autor"
+
+#: part/dlgpresentation.cpp:118
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe left"
+msgstr ""
+
+#: part/dlgpresentation.cpp:119
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe up"
+msgstr ""
+
+#: part/dlgpresentation.cpp:121
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, transitions"
+msgid "Default transition:"
+msgstr "Tranziție implicită:"
+
+#: part/dlgpresentation.cpp:130
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, preferred screen"
+msgid "Preferred screen:"
+msgstr "Ecran preferat:"
+
+#: part/dlgpresentation.cpp:137
+#, kde-format
+msgctxt ""
+"@label Config dialog, presentation page, heading line for drawing tool "
+"manager"
+msgid "<h3>Drawing Tools</h3>"
+msgstr "<h3>Unelte pentru desen</h3>"
+
+#: part/dlgpresentation.cpp:171
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, preferred screen"
+msgid "Current Screen"
+msgstr "Ecranul actual"
+
+#: part/dlgpresentation.cpp:172
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, preferred screen"
+msgid "Default Screen"
+msgstr "Ecranul implicit"
+
+#: part/dlgpresentation.cpp:178
+#, kde-format
+msgctxt ""
+"@item:inlistbox Config dialog, presentation page, preferred screen. %1 is "
+"the screen number (0, 1, ...). %2 is the screen manufacturer name. %3 is the "
+"screen model name. %4 is the screen name like DVI-0"
+msgid "Screen %1 (%2 %3 %4)"
+msgstr "Ecranul %1 (%2 %3 %4)"
+
+#: part/dlgpresentation.cpp:190
+#, kde-format
+msgctxt ""
+"@item:inlistbox Config dialog, presentation page, preferred screen. %1 is "
+"the screen number (0, 1, ...), hopefully not 0."
+msgid "Screen %1 (disconnected)"
+msgstr "Ecranul %1 (deconectat)"
+
+#: part/drawingtoolactions.cpp:192
+#, kde-format
+msgid "Drawing Tool: %1"
+msgstr "Unealtă pentru desen: %1"
+
+#: part/drawingtoolactions.cpp:214 part/drawingtoolactions.cpp:215
+#, kde-format
+msgid "Eraser"
+msgstr "Radieră"
+
+#: part/editannottooldialog.cpp:59 part/editdrawingtooldialog.cpp:44
+#, kde-format
+msgid "&Name:"
+msgstr "De&numire:"
+
+#: part/editannottooldialog.cpp:69
+#, kde-format
+msgid "&Type:"
+msgstr "&Tip:"
+
+#: part/editannottooldialog.cpp:82
+#, kde-format
+msgid "Appearance"
+msgstr "Aspect"
+
+#: part/editannottooldialog.cpp:93
+#, kde-format
+msgid "Text markup"
+msgstr "Marcaj textual"
+
+#: part/editannottooldialog.cpp:94
+#, kde-format
+msgid "Geometrical shape"
+msgstr "Figură geometrică"
+
+#: part/editannottooldialog.cpp:101
+#, kde-format
+msgid "Create annotation tool"
+msgstr "Creează unealtă de adnotare"
+
+#: part/editannottooldialog.cpp:103
+#, kde-format
+msgid "Edit annotation tool"
+msgstr "Modifică unealta de adnotare"
+
+#: part/editdrawingtooldialog.cpp:51
+#, kde-format
+msgid "Color:"
+msgstr "Culoare:"
+
+#: part/editdrawingtooldialog.cpp:58
+#, kde-format
+msgid "&Pen Width:"
+msgstr "Lățime &peniță:"
+
+#: part/editdrawingtooldialog.cpp:64
+#, kde-format
+msgctxt "@label:spinbox Suffix for the pen width, e.g. '10 px'"
+msgid "%v px"
+msgstr "%v px"
+
+#: part/editdrawingtooldialog.cpp:79
+#, kde-format
+msgid "Create drawing tool"
+msgstr "Creează unealtă pentru desen"
+
+#: part/editdrawingtooldialog.cpp:84
+#, kde-format
+msgid "Edit drawing tool"
+msgstr "Modifică unealta pentru desen"
+
+#: part/embeddedfilesdialog.cpp:41
+#, kde-format
+msgctxt "Unknown date"
+msgid "Unknown"
+msgstr "Necunoscută"
+
+#: part/embeddedfilesdialog.cpp:47
+#, kde-format
+msgctxt "@title:window"
+msgid "Embedded Files"
+msgstr "Fișiere înglobate"
+
+#: part/embeddedfilesdialog.cpp:61
+#, kde-format
+msgctxt "@action:button"
+msgid "View"
+msgstr "Vezi"
+
+#: part/embeddedfilesdialog.cpp:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Open"
+msgstr ""
+
+#: part/embeddedfilesdialog.cpp:74
+#, kde-format
+msgctxt "@title:column"
+msgid "Name"
+msgstr "Denumire"
+
+#: part/embeddedfilesdialog.cpp:75
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
+msgstr "Descriere"
+
+#: part/embeddedfilesdialog.cpp:76
+#, kde-format
+msgctxt "@title:column"
+msgid "Size"
+msgstr "Dimensiune"
+
+#: part/embeddedfilesdialog.cpp:77
+#, kde-format
+msgctxt "@title:column"
+msgid "Created"
+msgstr "Creat"
+
+#: part/embeddedfilesdialog.cpp:78
+#, kde-format
+msgctxt "@title:column"
+msgid "Modified"
+msgstr "Modificat"
+
+#: part/embeddedfilesdialog.cpp:169
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Save As…"
+msgstr "&Salvează ca…"
+
+#: part/embeddedfilesdialog.cpp:170
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&View…"
+msgstr "&Vizualizare…"
+
+#: part/embeddedfilesdialog.cpp:171
+#, fuzzy, kde-format
+#| msgctxt "%1 is the name of the file to save"
+#| msgid "&Save '%1'..."
+msgctxt "@action:inmenu"
+msgid "&Open…"
+msgstr "&Salvează „%1”…"
+
+#: part/fileprinterpreview.cpp:113
+#, kde-format
+msgid "Could not load print preview part"
+msgstr "Nu pot încărca componenta de previzualizare pentru tipărire"
+
+#: part/fileprinterpreview.cpp:125
+#, kde-format
+msgid "Print Preview"
+msgstr "Previzualizare tipărire"
+
+#: part/findbar.cpp:34 part/presentationsearchbar.cpp:63
+#, kde-format
+msgid "Close"
+msgstr "Închide"
+
+#: part/findbar.cpp:38
+#, kde-format
+msgctxt "Find text"
+msgid "F&ind:"
+msgstr "&Caută:"
+
+#: part/findbar.cpp:49
+#, kde-format
+msgid "Text to search for"
+msgstr "Text de căutat"
+
+#: part/findbar.cpp:54
+#, kde-format
+msgctxt "Find and go to the next search match"
+msgid "Next"
+msgstr "Următoarea"
+
+#: part/findbar.cpp:55
+#, kde-format
+msgid "Jump to next match"
+msgstr "Sari la următoarea potrivire"
+
+#: part/findbar.cpp:58
+#, kde-format
+msgctxt "Find and go to the previous search match"
+msgid "Previous"
+msgstr "Precedenta"
+
+#: part/findbar.cpp:59
+#, kde-format
+msgid "Jump to previous match"
+msgstr "Sari la potrivirea precedentă"
+
+#: part/findbar.cpp:64
+#, kde-format
+msgid "Modify search behavior"
+msgstr "Modifică comportamentul căutării"
+
+#: part/findbar.cpp:66
+#, kde-format
+msgid "Case sensitive"
+msgstr "Sensibil la registru"
+
+#: part/findbar.cpp:68
+#, kde-format
+msgid "From current page"
+msgstr "De la pagina curentă"
+
+#: part/findbar.cpp:70
+#, kde-format
+msgid "Find as you type"
+msgstr "Caută pe măsură ce scrieți"
+
+#: part/formwidgets.cpp:872
+#, kde-format
+msgid "All Files (*)"
+msgstr "Toate fișierele (*)"
+
+#: part/formwidgets.cpp:1282
+#, kde-format
+msgctxt "Digital signature"
+msgid "Signature placeholder (Click to Sign)"
+msgstr "Locul ștampilei (apăsați pentru a semna)"
+
+#: part/formwidgets.cpp:1348 part/signaturepanel.cpp:97
+#, kde-format
+msgid "&Sign…"
+msgstr "&Semnează…"
+
+#: part/formwidgets.cpp:1352 part/signaturepropertiesdialog.cpp:43
+#, kde-format
+msgid "Signature Properties"
+msgstr "Proprietăți semnătură"
+
+#: part/ktreeviewsearchline.cpp:283
+#, kde-format
+msgid "Search Options"
+msgstr "Opțiuni căutare"
+
+#: part/ktreeviewsearchline.cpp:284
+#, kde-format
+msgctxt "Enable case sensitive search in the side navigation panels"
+msgid "Case Sensitive"
+msgstr "Sensibil la registru"
+
+#: part/ktreeviewsearchline.cpp:287
+#, kde-format
+msgctxt "Enable regular expression search in the side navigation panels"
+msgid "Regular Expression"
+msgstr "Expresie regulată"
+
+#: part/layers.cpp:33 part/part.cpp:2330
+#, kde-format
+msgid "Layers"
+msgstr "Straturi"
+
+#: part/minibar.cpp:192
+#, kde-format
+msgctxt "Layouted like: '5 [pages] of 10'"
+msgid "of"
+msgstr "din"
+
+#: part/pageview.cpp:534
+#, kde-format
+msgid "Zoom"
+msgstr "Apropiere"
+
+#: part/pageview.cpp:546
+#, kde-format
+msgid "Zoom to 100%"
+msgstr "Apropie la 100%"
+
+#: part/pageview.cpp:557
+#, kde-format
+msgid "Rotate &Right"
+msgstr "&Rotește la dreapta"
+
+#: part/pageview.cpp:558
+#, kde-format
+msgctxt "Rotate right"
+msgid "Right"
+msgstr "Dreapta"
+
+#: part/pageview.cpp:562
+#, kde-format
+msgid "Rotate &Left"
+msgstr "Rotește &la stânga"
+
+#: part/pageview.cpp:563
+#, kde-format
+msgctxt "Rotate left"
+msgid "Left"
+msgstr "Stânga"
+
+#: part/pageview.cpp:567
+#, kde-format
+msgid "Original Orientation"
+msgstr "Orientare originală"
+
+#: part/pageview.cpp:573
+#, kde-format
+msgid "&Trim View"
+msgstr "&Tunde vizualizarea"
+
+#: part/pageview.cpp:577
+#, kde-format
+msgid "&Trim Margins"
+msgstr "&Tunde marginile"
+
+#: part/pageview.cpp:584
+#, kde-format
+msgid "Trim To &Selection"
+msgstr "Tunde la &selecție"
+
+#: part/pageview.cpp:590
+#, kde-format
+msgid "Fit &Width"
+msgstr "Potri&vește lățimea"
+
+#: part/pageview.cpp:594
+#, kde-format
+msgid "Fit &Page"
+msgstr "Potrivește &pagina"
+
+#: part/pageview.cpp:598
+#, kde-format
+msgid "&Auto Fit"
+msgstr "Potrivire &automată"
+
+#: part/pageview.cpp:602
+#, kde-format
+msgid "Fit Wi&ndow to Page"
+msgstr "Potrivește fereastra la pagi&nă"
+
+#: part/pageview.cpp:609
+#, kde-format
+msgid "&View Mode"
+msgstr "Regim &vizualizare"
+
+#: part/pageview.cpp:621
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Single Page"
+msgstr "O &singură pagină"
+
+#: part/pageview.cpp:622
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Facing Pages"
+msgstr "P&agini alăturate"
+
+#: part/pageview.cpp:623
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Facing Pages (&Center First Page)"
+msgstr "Pagini alăturate (&centrează prima pagină)"
+
+#: part/pageview.cpp:626
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Overview"
+msgstr "&Sumar"
+
+#: part/pageview.cpp:638
+#, kde-format
+msgid "&Continuous"
+msgstr "&Continuu"
+
+#: part/pageview.cpp:645
+#, kde-format
+msgctxt "@action page layout"
+msgid "Use Right to Left Reading Direction"
+msgstr "Folosește direcție de citire de la stânga la dreapta"
+
+#: part/pageview.cpp:654
+#, kde-format
+msgid "&Browse"
+msgstr "&Răsfoiește"
+
+#: part/pageview.cpp:662
+#, kde-format
+msgid "&Zoom"
+msgstr "&Apropie"
+
+#: part/pageview.cpp:682
+#, kde-format
+msgid "Area &Selection"
+msgstr "Alegere &zonă"
+
+#: part/pageview.cpp:689
+#, kde-format
+msgid "&Text Selection"
+msgstr "Alegere &text"
+
+#: part/pageview.cpp:696
+#, kde-format
+msgid "T&able Selection"
+msgstr "Alegere t&abel"
+
+#: part/pageview.cpp:703
+#, kde-format
+msgid "&Magnifier"
+msgstr "&Lupă"
+
+#: part/pageview.cpp:712
+#, kde-format
+msgctxt "@action"
+msgid "Selection Tools"
+msgstr "Unelte de alegere"
+
+#: part/pageview.cpp:738
+#, kde-format
+msgid "Digitally &Sign…"
+msgstr "&Semnează digital…"
+
+#: part/pageview.cpp:744
+#, kde-format
+msgid "Speak Whole Document"
+msgstr "Vorbește tot documentul"
+
+#: part/pageview.cpp:749
+#, kde-format
+msgid "Speak From Current Page"
+msgstr "Vorbește de la pagina curentă"
+
+#: part/pageview.cpp:754
+#, kde-format
+msgid "Speak Current Page"
+msgstr "Vorbește pagina curentă"
+
+#: part/pageview.cpp:759
+#, kde-format
+msgid "Stop Speaking"
+msgstr "Oprește vorbirea"
+
+#: part/pageview.cpp:764
+#, kde-format
+msgid "Pause/Resume Speaking"
+msgstr "Întrerupe/reia vorbirea"
+
+#: part/pageview.cpp:776
+#, kde-format
+msgid "Scroll Up"
+msgstr "Derulează în sus"
+
+#: part/pageview.cpp:782
+#, kde-format
+msgid "Scroll Down"
+msgstr "Derulează în jos"
+
+#: part/pageview.cpp:788
+#, kde-format
+msgid "Scroll Page Up"
+msgstr "Derulează o pagină mai sus"
+
+#: part/pageview.cpp:794
+#, kde-format
+msgid "Scroll Page Down"
+msgstr "Derulează o pagină mai jos"
+
+#: part/pageview.cpp:800
+#, kde-format
+msgid "Show Forms"
+msgstr "Arată formulare"
+
+#: part/pageview.cpp:1312
+#, kde-format
+msgid " Loaded a one-page document."
+msgid_plural " Loaded a %1-page document."
+msgstr[0] " Un document de o pagină încărcat."
+msgstr[1] " Un document de %1 pagini încărcat."
+msgstr[2] " Un document de %1 de pagini încărcat"
+
+#: part/pageview.cpp:2583
+#, kde-format
+msgid "Copy Table Contents to Clipboard"
+msgstr "Copiază conținutul tabelului în clipboard"
+
+#: part/pageview.cpp:2933
+#, kde-format
+msgid "Text (1 character)"
+msgid_plural "Text (%1 characters)"
+msgstr[0] "Text (1 caracter)"
+msgstr[1] "Text (%1 caractere)"
+msgstr[2] "Text (%1 de caractere)"
+
+#: part/pageview.cpp:2934 part/pageview.cpp:2956
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "Copiază în clipboard"
+
+#: part/pageview.cpp:2936 part/pageview.cpp:3155 part/part.cpp:843
+#, fuzzy, kde-format
+#| msgid "Copy Text to Clipboard"
+msgid "Copy Text (Without line breaks)"
+msgstr "Copiază textul în clipboard"
+
+#: part/pageview.cpp:2947 part/pageview.cpp:3159
+#, kde-format
+msgid "Speak Text"
+msgstr "Vorbește textul"
+
+#: part/pageview.cpp:2955
+#, kde-format
+msgid "Image (%1 × %2 pixels)"
+msgstr "Imagine (%1 × %2 pixeli)"
+
+#: part/pageview.cpp:2957
+#, kde-format
+msgid "Save to File…"
+msgstr "Salvează în fișier…"
+
+#: part/pageview.cpp:2977
+#, kde-format
+msgid "Image [%1 × %2] copied to clipboard."
+msgstr "Imagine [%1 × %2] copiată în clipboard."
+
+#: part/pageview.cpp:2980
+#, kde-format
+msgid "Save file"
+msgstr "Salvează fișierul"
+
+#: part/pageview.cpp:2980
+#, kde-format
+msgid "Images (*.png *.jpeg)"
+msgstr "Imagini (*.png *.jpeg)"
+
+#: part/pageview.cpp:2982
+#, kde-format
+msgid "File not saved."
+msgstr "Fișier nesalvat."
+
+#: part/pageview.cpp:2993
+#, kde-format
+msgid "Image [%1 × %2] saved to %3 file."
+msgstr "Imagine [%1 × %2] salvată în fișierul %3."
+
+#: part/pageview.cpp:3154
+#, kde-format
+msgid "Copy Text"
+msgstr "Copiază textul"
+
+#: part/pageview.cpp:3177
+#, kde-format
+msgid "Go to '%1'"
+msgstr "Mergi la „%1”"
+
+#: part/pageview.cpp:4208 part/part.cpp:3217
+#, kde-format
+msgid "Fit Width"
+msgstr "Potrivire lățime"
+
+#: part/pageview.cpp:4208
+#, kde-format
+msgid "Fit Page"
+msgstr "Potrivire pagină"
+
+#: part/pageview.cpp:4208
+#, kde-format
+msgid "Auto Fit"
+msgstr "Potrivire automată"
+
+#: part/pageview.cpp:4231
+#, kde-format
+msgctxt ""
+"Zoom percentage value %1 will be replaced by the actual zoom factor value, "
+"so make sure you include it in your translation in order to not to break "
+"anything"
+msgid "%1%"
+msgstr "%1%"
+
+#: part/pageview.cpp:4514
+#, kde-format
+msgid "Search for '%1' with"
+msgstr "Caută „%1” cu"
+
+#: part/pageview.cpp:4528
+#, kde-format
+msgid "Configure Web Shortcuts…"
+msgstr "Configurare scurtături web…"
+
+#: part/pageview.cpp:4554
+#, kde-format
+msgid "Follow This Link"
+msgstr "Urmează această legătură"
+
+#: part/pageview.cpp:4557
+#, kde-format
+msgid "Play this Sound"
+msgstr "Redă acest sunet"
+
+#: part/pageview.cpp:4559
+#, kde-format
+msgid "Stop Sound"
+msgstr "Oprește sunetul"
+
+#: part/pageview.cpp:4565
+#, kde-format
+msgid "Copy Link Address"
+msgstr "Copiază adresa legăturii"
+
+#: part/pageview.cpp:4622
+#, kde-format
+msgid "Search for '%1' in this document"
+msgstr "Caută „%1” în acest document"
+
+#: part/pageview.cpp:5154
+#, kde-format
+msgid "Welcome"
+msgstr "Bun venit"
+
+#: part/pageview.cpp:5280
+#, kde-format
+msgid "Select zooming area. Right-click to zoom out."
+msgstr "Alegeți zona de apropiere. Clic drept pentru îndepărtare."
+
+#: part/pageview.cpp:5295
+#, kde-format
+msgid "Click to see the magnified view."
+msgstr "Apăsați pentru vizualizare mărită."
+
+#: part/pageview.cpp:5312
+#, kde-format
+msgid "Draw a rectangle around the text/graphics to copy."
+msgstr "Desenează un dreptunghi în jurul textului/imaginilor de copiat."
+
+#: part/pageview.cpp:5328
+#, kde-format
+msgid "Select text"
+msgstr "Selectează text"
+
+#: part/pageview.cpp:5344
+#, fuzzy, kde-format
+#| msgid "Draw a rectangle around the text/graphics to copy."
+msgid ""
+"Draw a rectangle around the table, then click near edges to divide up; press "
+"Esc to clear."
+msgstr "Desenează un dreptunghi în jurul textului/imaginilor de copiat."
+
+#: part/pageview.cpp:5359 part/pageview.cpp:5367
+#, kde-format
+msgid ""
+"All your signing certificates are invalid. In case signing worked before, "
+"please check their validity dates."
+msgstr ""
+"Toate certificatele dumneavoastră pentru semnare nu sunt valide. Dacă "
+"semnarea a funcționat înainte,verificați datele de valabilitate ale acestora."
+
+#: part/pageview.cpp:5360
+#, kde-format
+msgid "No valid certificates"
+msgstr "Niciun certificat valabil"
+
+#: part/pageview.cpp:5361 part/pageview.cpp:5376
+#, kde-format
+msgid "Open Certificate Manager"
+msgstr "Deschide gestionarul de certificate"
+
+#: part/pageview.cpp:5372
+#, kde-format
+msgid ""
+"There are no available signing certificates.<br/>Launch Certificate Manager "
+"to import or manage certificates<br/>For more information, please see the "
+"section about <a href=\"%1\">Adding Digital Signatures</a> in the manual."
+msgstr ""
+
+#: part/pageview.cpp:5375 part/pageview.cpp:5387
+#, kde-format
+msgid "No certificates found"
+msgstr "Niciun certificat găsit"
+
+#: part/pageview.cpp:5385
+#, kde-format
+msgid ""
+"There are no available signing certificates.<br/>For more information, "
+"please see the section about <a href=\"%1\">Adding Digital Signatures</a> in "
+"the manual."
+msgstr ""
+
+#: part/pageview.cpp:5410
+#, kde-format
+msgid "You have unsaved changes. Please save the document before signing it."
+msgstr "Aveți modificări nesalvate. Salvați documentul înainte de a-l semna."
+
+#: part/pageview.cpp:5433
+#, kde-format
+msgid "Draw a rectangle to insert the signature field"
+msgstr "Desenați un dreptunghi pentru a insera câmpul cu semnătură"
+
+#: part/pageview.cpp:5583
+#, kde-format
+msgid "Draw a rectangle around the page area you wish to keep visible"
+msgstr ""
+"Desenați un dreptunghi în jurul zonei din pagină pe care doriți să o lăsați "
+"vizibilă"
+
+#: part/pageviewannotator.cpp:262
+#, kde-format
+msgid "New Text Note"
+msgstr "Notă textuală nouă"
+
+#: part/pageviewannotator.cpp:262
+#, kde-format
+msgid "Text of the new note:"
+msgstr "Textul noii note:"
+
+#: part/pageviewannotator.cpp:409
+#, kde-format
+msgid ""
+"Signed by: %1\n"
+"\n"
+"Date: %2"
+msgstr ""
+"Semnat de: %1\n"
+"\n"
+"Dată: %2"
+
+#: part/pageviewannotator.cpp:486
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"A signature of this size may be too small to read. If you would like to "
+"create a potentially more readable signature, press <interface>Start over</"
+"interface> and draw a bigger rectangle."
+msgstr ""
+"O semnătură de această mărime poate fi prea mică pentru citit. Dacă doriți "
+"să creați o semnătură potențial mai lizibilă, apăsați <interface>Ia de la "
+"capăt</interface> și desenați un dreptunghi mai mare."
+
+#: part/pageviewannotator.cpp:488
+#, kde-format
+msgctxt "@action:button"
+msgid "Start Over"
+msgstr "Ia de la capăt"
+
+#: part/pageviewannotator.cpp:489
+#, kde-format
+msgctxt "@action:button"
+msgid "Sign"
+msgstr "Semnează"
+
+#: part/pageviewannotator.cpp:1334
+#, kde-format
+msgid "Author name"
+msgstr "Numele autorului"
+
+#: part/pageviewannotator.cpp:1334
+#, kde-format
+msgid "Author name for the annotation:"
+msgstr "Numele autorului pentru adnotare:"
+
+#: part/pageviewannotator.cpp:1395
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw an ellipse (drag to select a zone)"
+msgstr "Desenează o elipsă (trageți pentru a alege o zonă)"
+
+#: part/pageviewannotator.cpp:1397
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Highlight text"
+msgstr "Evidențiază text"
+
+#: part/pageviewannotator.cpp:1399
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a freehand line"
+msgstr "Desenează o linie liberă"
+
+#: part/pageviewannotator.cpp:1401
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Inline Text Annotation (drag to select a zone)"
+msgstr "Adnotare text în rând (trageți pentru a alege o zonă)"
+
+#: part/pageviewannotator.cpp:1403
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Put a pop-up note"
+msgstr "Pune o notă plutitoare"
+
+#: part/pageviewannotator.cpp:1405
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a polygon (click on the first point to close it)"
+msgstr "Desenează un poligon (apăsați pe primul punct pentru a-l închide)"
+
+#: part/pageviewannotator.cpp:1407
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a rectangle"
+msgstr "Desenează un dreptunghi"
+
+#: part/pageviewannotator.cpp:1409
+#, fuzzy, kde-format
+#| msgid "Select text"
+msgctxt "Annotation tool"
+msgid "Squiggle text"
+msgstr "Selectează text"
+
+#: part/pageviewannotator.cpp:1411
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Put a stamp symbol"
+msgstr "Pune un simbol ca ștampilă"
+
+#: part/pageviewannotator.cpp:1413
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a straight line"
+msgstr "Desenează o linie dreaptă"
+
+#: part/pageviewannotator.cpp:1415
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Strike out text"
+msgstr "Taie text"
+
+#: part/pageviewannotator.cpp:1417
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Underline text"
+msgstr "Subliniază text"
+
+#: part/pageviewannotator.cpp:1419
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Typewriter Annotation (drag to select a zone)"
+msgstr "Adnotare la mașina de scris (trageți pentru a alege o zonă)"
+
+#: part/pageviewannotator.cpp:1478
+#, kde-format
+msgid "Highlighter"
+msgstr "Evidențiator"
+
+#: part/pageviewannotator.cpp:1775
+#, kde-format
+msgid "Add favorite annotation"
+msgstr "Adaugă adnotare favorită"
+
+#: part/pageviewannotator.cpp:1775
+#, kde-format
+msgid "Custom annotation name:"
+msgstr "Denumire adnotare personalizată:"
+
+#. i18n: ectx: Menu (file)
+#: part/part-viewermode.rc:6 part/part.rc:5
+#, kde-format
+msgid "&File"
+msgstr "&Fișier"
+
+#. i18n: ectx: Menu (settings)
+#: part/part-viewermode.rc:10 part/part.rc:93
+#, kde-format
+msgid "&Settings"
+msgstr "&Configurări"
+
+#. i18n: ectx: Menu (help)
+#: part/part-viewermode.rc:15 part/part.rc:100
+#, kde-format
+msgid "&Help"
+msgstr "&Ajutor"
+
+#. i18n: ectx: Menu (view_orientation)
+#: part/part-viewermode.rc:32 part/part.rc:46
+#, kde-format
+msgid "&Orientation"
+msgstr "&Orientare"
+
+#. i18n: ectx: Menu (bookmarks)
+#. i18n: ectx: Menu (okular_bookmarks)
+#: part/part-viewermode.rc:50 part/part.rc:67
+#, kde-format
+msgid "&Bookmarks"
+msgstr "&Semne de carte"
+
+#. i18n: ectx: ToolBar (OkularViewerToolBar)
+#: part/part-viewermode.rc:63
+#, kde-format
+msgid "Viewer Toolbar"
+msgstr "Bară de unelte vizualizor"
+
+#: part/part.cpp:406 part/thumbnaillist.cpp:46
+#, kde-format
+msgid "Thumbnails"
+msgstr "Miniaturi"
+
+#: part/part.cpp:412 part/preferencesdialog.cpp:50 part/side_reviews.cpp:97
+#, kde-format
+msgid "Annotations"
+msgstr "Adnotări"
+
+#: part/part.cpp:436
+#, kde-format
+msgid ""
+"This document contains annotations or form data that were saved internally "
+"by a previous Okular version. Internal storage is <b>no longer supported</b>."
+"<br/>Please save to a file in order to move them if you want to continue to "
+"edit the document."
+msgstr ""
+
+#: part/part.cpp:444
+#, kde-format
+msgid ""
+"This document has embedded files. <a href=\"okular:/embeddedfiles\">Click "
+"here to see them</a> or go to File -> Embedded Files."
+msgstr ""
+"Documentul conține fișiere încorporate. <a href=\"okular:/embeddedfiles"
+"\">Apăsați aici pentru a le vedea</a> sau mergeți la Fișier -> Fișiere "
+"încorporate."
+
+#: part/part.cpp:468
+#, kde-format
+msgctxt "This is a normal pdf feature, but can be abused by hostile parties"
+msgid ""
+"This document has elements that might be hidden or shown differently when "
+"printed. For important documents, please verify both."
+msgstr ""
+
+#: part/part.cpp:480
+#, kde-format
+msgid ""
+"Signing in progress. You can adjust the position and size of the signature"
+msgstr "Semnare în curs. Puteți ajusta poziția și dimensiunea semnăturii"
+
+#: part/part.cpp:482
+#, kde-format
+msgctxt "@action:button finish the signing process"
+msgid "Finish Signing"
+msgstr "Termină semnarea"
+
+#: part/part.cpp:655
+#, kde-format
+msgctxt "Previous page"
+msgid "Previous"
+msgstr "Precedentă"
+
+#: part/part.cpp:656
+#, kde-format
+msgid "Go back to the Previous Page"
+msgstr "Mergi înapoi la pagina precedentă"
+
+#: part/part.cpp:657
+#, kde-format
+msgid "Moves to the previous page of the document"
+msgstr "Trece la pagina precedentă a documentului"
+
+#: part/part.cpp:664
+#, kde-format
+msgctxt "Next page"
+msgid "Next"
+msgstr "Următoare"
+
+#: part/part.cpp:665
+#, kde-format
+msgid "Advance to the Next Page"
+msgstr "Avansează la pagina următoare"
+
+#: part/part.cpp:666
+#, kde-format
+msgid "Moves to the next page of the document"
+msgstr "Trece la pagina următoare a documentului"
+
+#: part/part.cpp:674
+#, kde-format
+msgid "Beginning of the document"
+msgstr "Începutul documentului"
+
+#: part/part.cpp:675
+#, kde-format
+msgid "Moves to the beginning of the document"
+msgstr "Trece la începutul documentului"
+
+#: part/part.cpp:679
+#, kde-format
+msgid "End of the document"
+msgstr "Sfârșitul documentului"
+
+#: part/part.cpp:680
+#, kde-format
+msgid "Moves to the end of the document"
+msgstr "Trece la sfârșitul documentului"
+
+#: part/part.cpp:694
+#, kde-format
+msgid "Rename the current bookmark"
+msgstr "Redenumește semnul de carte actual"
+
+#: part/part.cpp:698
+#, kde-format
+msgid "Previous Bookmark"
+msgstr "Semnul de carte precedent"
+
+#: part/part.cpp:700
+#, kde-format
+msgid "Go to the previous bookmark"
+msgstr "Mergi la semnul de carte precedent"
+
+#: part/part.cpp:704
+#, kde-format
+msgid "Next Bookmark"
+msgstr "Semnul de carte următor"
+
+#: part/part.cpp:706
+#, kde-format
+msgid "Go to the next bookmark"
+msgstr "Mergi la semnul de carte următor"
+
+#: part/part.cpp:736
+#, kde-format
+msgid "Configure Okular…"
+msgstr "Configurează Okular…"
+
+#: part/part.cpp:739
+#, kde-format
+msgid "Configure Viewer…"
+msgstr "Configurează vizualizorul…"
+
+#: part/part.cpp:774
+#, kde-format
+msgid "About Backend"
+msgstr "Despre platformă"
+
+#: part/part.cpp:779
+#, kde-format
+msgid "Reloa&d"
+msgstr "&Reîncarcă"
+
+#: part/part.cpp:781
+#, kde-format
+msgid "Reload the current document from disk."
+msgstr "Reîncarcă documentul actual de pe disc."
+
+#: part/part.cpp:787
+#, kde-format
+msgid "Close &Find Bar"
+msgstr "Închide &bara de căutare"
+
+#: part/part.cpp:792
+#, kde-format
+msgid "Page Number"
+msgstr "Număr pagină"
+
+#: part/part.cpp:796
+#, kde-format
+msgctxt "@action"
+msgid "Configure Color Modes…"
+msgstr "Configurează regimuri de culoare…"
+
+#: part/part.cpp:835 part/part.cpp:3222
+#, fuzzy, kde-format
+#| msgctxt "Change an annotation's size"
+#| msgid "adjust annotation"
+msgid "Paste Annotation"
+msgstr "ajustează adnotarea"
+
+#: part/part.cpp:853
+#, kde-format
+msgid "Select All Text on Current Page"
+msgstr "Selectează tot textul de pe pagina actuală"
+
+#: part/part.cpp:866
+#, kde-format
+msgid "Show S&idebar"
+msgstr "&Arată bara laterală"
+
+#: part/part.cpp:875
+#, kde-format
+msgid "Show &Page Bar"
+msgstr "Arată &bara cu pagini"
+
+#: part/part.cpp:881
+#, kde-format
+msgid "Show &Signatures Panel"
+msgstr "Arată panoul cu &semnături"
+
+#: part/part.cpp:892
+#, kde-format
+msgid "&Embedded Files"
+msgstr "Fișier&e încorporate"
+
+#: part/part.cpp:898
+#, kde-format
+msgid "E&xport As"
+msgstr "E&xportă ca"
+
+#: part/part.cpp:910
+#, kde-format
+msgid "S&hare"
+msgstr "Parta&jează"
+
+#: part/part.cpp:919
+#, kde-format
+msgid "P&resentation"
+msgstr "P&rezentare"
+
+#: part/part.cpp:926
+#, kde-format
+msgid "Open Con&taining Folder"
+msgstr "Deschide dosarul conțină&tor"
+
+#: part/part.cpp:940
+#, kde-format
+msgid "&Import PostScript as PDF…"
+msgstr "&Importă PostScript ca PDF…"
+
+#: part/part.cpp:944
+#, kde-format
+msgid "Switch Blackscreen Mode"
+msgstr ""
+
+#: part/part.cpp:952
+#, kde-format
+msgid "Erase Drawing"
+msgstr "Șterge desenul"
+
+#: part/part.cpp:957
+#, kde-format
+msgid "Configure Annotations…"
+msgstr "Configurează adnotările…"
+
+#: part/part.cpp:962
+#, kde-format
+msgid "Play/Pause Presentation"
+msgstr "Redă/întrerupe prezentarea"
+
+#: part/part.cpp:1118
+#, kde-format
+msgid ""
+"You have just modified the open document, but this kind of document can not "
+"be saved.\n"
+"Any modification will be lost once Okular is closed."
+msgstr ""
+
+#: part/part.cpp:1119
+#, kde-format
+msgid "Document can't be saved"
+msgstr "Documentul nu poate fi salvat"
+
+#: part/part.cpp:1148
+#, kde-format
+msgid "Could not open '%1' (%2) "
+msgstr "Nu s-a putut deschide „%1” (%2) "
+
+#: part/part.cpp:1201
+#, kde-format
+msgid "The loading of %1 has been canceled."
+msgstr "Încărcarea %1 a fost anulată."
+
+#: part/part.cpp:1217
+#, kde-format
+msgid "Could not open %1. Reason: %2"
+msgstr "Nu s-a putut deschide %1. Motivul: %2"
+
+#: part/part.cpp:1311
+#, kde-format
+msgid ""
+"The program \"ps2pdf\" was not found, so Okular can not import PS files "
+"using it."
+msgstr ""
+"Programul „ps2pdf” nu a fost găsit, astfel încît Okular nu poate importa "
+"fișiere PS utilizîndu-l."
+
+#: part/part.cpp:1311
+#, kde-format
+msgid "ps2pdf not found"
+msgstr "ps2pdf nu a fost găsit"
+
+#: part/part.cpp:1316
+#, kde-format
+msgid "PostScript files (%1)"
+msgstr "Fișiere PostScript (%1)"
+
+#: part/part.cpp:1331
+#, kde-format
+msgid "Importing PS file as PDF (this may take a while)…"
+msgstr "Import fișier PS ca PDF (poate dura ceva timp)…"
+
+#: part/part.cpp:1463
+#, fuzzy, kde-format
+#| msgid "Please enter the password to read the document:"
+msgctxt "%1 is filename of the file to open"
+msgid "Please enter the password to read the document: %1"
+msgstr "Introduceți parola pentru a citi documentul:"
+
+#: part/part.cpp:1465
+#, fuzzy, kde-format
+#| msgid "Incorrect password. Try again:"
+msgctxt "%1 is filename of the file to open"
+msgid "Incorrect password. Try again: %1"
+msgstr "Parolă greșită. Reîncercați:"
+
+#: part/part.cpp:1476
+#, kde-format
+msgid "Document Password"
+msgstr "Parola documentului"
+
+#: part/part.cpp:1599
+#, kde-format
+msgid "This document has XFA forms, which are currently <b>unsupported</b>."
+msgstr ""
+"Acest document conține formulare XFA, care <b>nu sunt susținute</b> momentan."
+
+#: part/part.cpp:1606
+#, kde-format
+msgid ""
+"This document has forms. Click on the button to interact with them, or use "
+"View -> Show Forms."
+msgstr ""
+"Acest document conține formulare. Apăsați butonul pentru a interacționa cu "
+"acestea sau utilizați Vizualizare -> Arată formularele."
+
+#: part/part.cpp:1623
+#, kde-format
+msgid ""
+"All editing and interactive features for this document are disabled. Please "
+"save a copy and reopen to edit this document."
+msgstr ""
+"Toate caracteristicile de redactare și interactive sunt dezactivate pentru "
+"acest document. Salvați o copie și redeschideți documentul pentru a-l "
+"redacta."
+
+#: part/part.cpp:1742
+#, kde-format
+msgid ""
+"This document wants to be shown full screen.\n"
+"Leave normal mode and enter presentation mode?"
+msgstr ""
+"Acest document vrea să fie afișat pe tot ecranul.\n"
+"Părăsiți regimul normal și întrați în regim de prezentare?"
+
+#: part/part.cpp:1744
+#, kde-format
+msgid "Request to Change Viewing Mode"
+msgstr "Cerere de schimbare a regimului de vizualizare"
+
+#: part/part.cpp:1745
+#, kde-format
+msgid "Enter Presentation Mode"
+msgstr "Intră în regim de prezentare"
+
+#: part/part.cpp:1746
+#, kde-format
+msgid "Deny Request"
+msgstr "Refuză cererea"
+
+#: part/part.cpp:1836
+#, kde-format
+msgid "Could not open %1. %2"
+msgstr "Nu s-a putut deschide %1. %2"
+
+#: part/part.cpp:1866
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The file <filename>%1</filename> has unsaved changes but has been modified "
+"by another program. Reloading it will replace the unsaved changes with the "
+"changes made in the other program.<nl/><nl/>Do you want to continue "
+"reloading the file?"
+msgstr ""
+
+#: part/part.cpp:1870 part/part.cpp:1880
+#, kde-format
+msgid "File Changed"
+msgstr "Fișier modificat"
+
+#: part/part.cpp:1871
+#, kde-format
+msgid "Continue Reloading"
+msgstr "Continuă reîncărcarea"
+
+#: part/part.cpp:1872
+#, kde-format
+msgid "Abort Reloading"
+msgstr "Abandonează reîncărcarea"
+
+#: part/part.cpp:1876
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The file <filename>%1</filename> has unsaved changes but has been modified "
+"by another program. Closing it will replace the unsaved changes with the "
+"changes made in the other program.<nl/><nl/>Do you want to continue closing "
+"the file?"
+msgstr ""
+
+#: part/part.cpp:1881
+#, kde-format
+msgid "Continue Closing"
+msgstr "Continuă închiderea"
+
+#: part/part.cpp:1882
+#, kde-format
+msgid "Abort Closing"
+msgstr "Abandonează închiderea"
+
+#: part/part.cpp:1889
+#, kde-format
+msgid "Do you want to save your changes to \"%1\" or discard them?"
+msgstr "Doriți să salvați modificările pentru „%1” sau le aruncați?"
+
+#: part/part.cpp:1889
+#, kde-format
+msgid "Close Document"
+msgstr "Închide documentul"
+
+#: part/part.cpp:2021
+#, kde-format
+msgid ""
+"This link points to a close document action that does not work when using "
+"the embedded viewer."
+msgstr ""
+"Această legătură indică spre o acțiune de închidere a documentului care nu "
+"funcționează în cazul folosirii vizualizorului înglobat."
+
+#: part/part.cpp:2027
+#, kde-format
+msgid ""
+"This link points to a quit application action that does not work when using "
+"the embedded viewer."
+msgstr ""
+"Această legătură indică spre o acțiune de terminare a programului care nu "
+"funcționează în cazul folosirii vizualizorului înglobat."
+
+#: part/part.cpp:2119 part/part.cpp:2141
+#, kde-format
+msgid "Reloading the document…"
+msgstr "Se reîncarcă documentul…"
+
+#: part/part.cpp:2310 part/toc.cpp:36
+#, kde-format
+msgid "Contents"
+msgstr "Conținut"
+
+#: part/part.cpp:2339 part/signaturepanel.cpp:45
+#, kde-format
+msgid "Signatures"
+msgstr "Semnături"
+
+#: part/part.cpp:2366
+#, kde-format
+msgid "Go to Page"
+msgstr "Mergi la pagina"
+
+#: part/part.cpp:2389
+#, kde-format
+msgid "&Page:"
+msgstr "&Pagina:"
+
+#: part/part.cpp:2482
+#, kde-format
+msgid "Enter the new name of the bookmark:"
+msgstr "Introduceți noua denumire a semnului de carte:"
+
+#: part/part.cpp:2528
+#, kde-format
+msgid "Rename this Bookmark"
+msgstr "Redenumește acest semn de carte"
+
+#: part/part.cpp:2531
+#, kde-format
+msgid "Remove this Bookmark"
+msgstr "Elimină acest semn de carte"
+
+#: part/part.cpp:2617 part/part.cpp:2618 part/part.cpp:3534
+#: part/signaturepartutils.cpp:321
+#, kde-format
+msgctxt "File type name and pattern"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: part/part.cpp:2625 part/revisionviewer.cpp:44
+#, kde-format
+msgid "Save As"
+msgstr "Salvează ca"
+
+#: part/part.cpp:2642
+#, kde-format
+msgid ""
+"You have chosen to save an Okular Archive without the file name ending with "
+"the '%1' extension. That is not allowed, do you want to choose a new name?"
+msgstr ""
+
+#: part/part.cpp:2643
+#, kde-format
+msgid "Unsupported extension"
+msgstr "Extensie nesusținută"
+
+#: part/part.cpp:2644
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose New Name"
+msgstr "Alege denumire nouă"
+
+#: part/part.cpp:2687
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The file <filename>%1</filename> has been modified by another program. If "
+"you save now, any changes made in the other program will be lost. Are you "
+"sure you want to continue?"
+msgstr ""
+
+#: part/part.cpp:2690 part/part.cpp:2709 part/part.cpp:2761
+#, kde-format
+msgid "Save - Warning"
+msgstr "Salvează - Avertisment"
+
+#: part/part.cpp:2692
+#, kde-format
+msgid "Save a Copy Elsewhere"
+msgstr "Salvează copie în altă parte"
+
+#: part/part.cpp:2708
+#, kde-format
+msgid ""
+"The current document is protected with a password.<br />In order to save, "
+"the file needs to be reloaded. You will be asked for the password again and "
+"your undo/redo history will be lost.<br />Do you want to continue?"
+msgstr ""
+
+#: part/part.cpp:2735
+#, kde-format
+msgid "Could not open the temporary file for saving."
+msgstr "Fișierul temporar nu a putut fi deschis pentru salvare."
+
+#: part/part.cpp:2748
+#, fuzzy, kde-kuit-format
+#| msgid "File not saved."
+msgctxt "@info"
+msgid ""
+"Could not overwrite <filename>%1</filename> because that file is read-only. "
+"Try saving to another location or changing that file's permissions."
+msgstr "Fișier nesalvat."
+
+#: part/part.cpp:2760
+#, kde-format
+msgid ""
+"After saving, the current document format requires the file to be reloaded. "
+"Your undo/redo history will be lost.<br />Do you want to continue?"
+msgstr ""
+
+#: part/part.cpp:2775 part/part.cpp:2844 part/part.cpp:2865 part/part.cpp:3549
+#, kde-format
+msgid "File could not be saved in '%1'. Try to save it to another location."
+msgstr ""
+"Fișierul nu a putut fi salvat la „%1”. Încercați să-l salvați în altă parte."
+
+#: part/part.cpp:2788
+#, kde-format
+msgid "Filled form contents"
+msgstr "Conținutul formularului completat"
+
+#: part/part.cpp:2791
+#, kde-format
+msgid "User annotations"
+msgstr "Adnotările utilizatorului"
+
+#: part/part.cpp:2796
+#, kde-format
+msgid ""
+"You are about to save changes, but the current file format does not support "
+"saving the following elements. Please use the <i>Okular document archive</i> "
+"format to preserve them."
+msgstr ""
+
+#: part/part.cpp:2800 part/part.cpp:2822
+#, kde-format
+msgid "Warning"
+msgstr "Avertisment"
+
+#: part/part.cpp:2801 part/part.cpp:2823
+#, fuzzy, kde-format
+#| msgid "Save as Okular document archive..."
+msgid "Save as Okular document archive…"
+msgstr "Salvează ca arhivă de documente Okular…"
+
+#: part/part.cpp:2813
+#, kde-format
+msgid ""
+"You are about to save changes, but the current file format does not support "
+"saving the following elements. Please use the <i>Okular document archive</i> "
+"format to preserve them. Click <i>Continue</i> to save the document and "
+"discard these elements."
+msgstr ""
+
+#: part/part.cpp:2816
+#, kde-format
+msgid ""
+"You are about to save changes, but the current file format does not support "
+"saving the following elements. Please use the <i>Okular document archive</i> "
+"format to preserve them. Click <i>Continue</i> to save, but you will lose "
+"these elements as well as the undo/redo history."
+msgstr ""
+
+#: part/part.cpp:2818
+#, kde-format
+msgid "Continue"
+msgstr "Continuă"
+
+#: part/part.cpp:2818
+#, kde-format
+msgid "Continue losing changes"
+msgstr "Continuă cu pierderea modificărilor"
+
+#: part/part.cpp:2846
+#, kde-format
+msgid "File could not be saved in '%1'. %2"
+msgstr "Fișierul nu a putut fi salvat la „%1”. %2"
+
+#: part/part.cpp:2885
+#, kde-format
+msgid ""
+"Okular cannot copy %1 to the specified location.\n"
+"\n"
+"The document does not exist anymore."
+msgstr ""
+"Okular nu poate copia %1 la locul specificat.\n"
+"\n"
+"Documentul nu mai există."
+
+#: part/part.cpp:2921
+#, kde-format
+msgid ""
+"File could not be saved in '%1'. Error: '%2'. Try to save it to another "
+"location."
+msgstr ""
+"Fișierul nu a putut fi salvat la „%1”. Eroare: „%2”. Încercați să-l salvați "
+"în altă parte."
+
+#: part/part.cpp:3192
+#, fuzzy, kde-format
+#| msgid "Expand whole section"
+msgid "Expand Whole Section"
+msgstr "Desfășoară toată secțiunea"
+
+#: part/part.cpp:3193
+#, fuzzy, kde-format
+#| msgid "Collapse whole section"
+msgid "Collapse Whole Section"
+msgstr "Restrânge toată secțiunea"
+
+#: part/part.cpp:3209
+#, kde-format
+msgid "Sync Thumbnail with Page"
+msgstr "Sincronizează miniatura cu pagina"
+
+#: part/part.cpp:3241
+#, kde-format
+msgid "Tools"
+msgstr "Unelte"
+
+#: part/part.cpp:3429
+#, kde-format
+msgctxt "@action:inmenu menu that contains actions to control text to speach"
+msgid "Speak"
+msgstr "Vorbește"
+
+#: part/part.cpp:3587
+#, kde-format
+msgctxt "@title:window"
+msgid "Print"
+msgstr "Tipărește"
+
+#: part/part.cpp:3644
+#, kde-format
+msgid "Printing this document is not allowed."
+msgstr "Tipărirea acestui document nu este permisă."
+
+#: part/part.cpp:3657
+#, kde-format
+msgid ""
+"Could not print the document. Unknown error. Please report to bugs.kde.org"
+msgstr ""
+
+#: part/part.cpp:3659
+#, kde-format
+msgid ""
+"Could not print the document. Detailed error is \"%1\". Please report to "
+"bugs.kde.org"
+msgstr ""
+
+#: part/part.cpp:3751
+#, kde-format
+msgid "Go to the place you were before"
+msgstr "Mergi la locul precedent"
+
+#: part/part.cpp:3755
+#, kde-format
+msgid "Go to the place you were after"
+msgstr "Mergi la locul următor"
+
+#: part/part.cpp:3780
+#, kde-format
+msgid ""
+"<qt><strong>File Error!</strong> Could not create temporary file "
+"<nobr><strong>%1</strong></nobr>.</qt>"
+msgstr ""
+
+#: part/part.cpp:3792
+#, kde-format
+msgid ""
+"<qt><strong>File Error!</strong> Could not open the file <nobr><strong>%1</"
+"strong></nobr> for uncompression. The file will not be loaded.</qt>"
+msgstr ""
+
+#: part/part.cpp:3796
+#, kde-format
+msgid ""
+"<qt>This error typically occurs if you do not have enough permissions to "
+"read the file. You can check ownership and permissions if you right-click on "
+"the file in the Dolphin file manager, then choose the 'Properties' option, "
+"and select 'Permissions' tab in the opened window.</qt>"
+msgstr ""
+
+#: part/part.cpp:3818
+#, kde-format
+msgid ""
+"<qt><strong>File Error!</strong> Could not uncompress the file <nobr><strong>"
+"%1</strong></nobr>. The file will not be loaded.</qt>"
+msgstr ""
+
+#: part/part.cpp:3822
+#, kde-format
+msgid ""
+"<qt>This error typically occurs if the file is corrupt. If you want to be "
+"sure, try to decompress the file manually using command-line tools.</qt>"
+msgstr ""
+
+#: part/part.cpp:3848
+#, kde-format
+msgid "No Bookmarks"
+msgstr "Niciun semn de carte"
+
+#: part/part.cpp:3919
+#, kde-format
+msgid "There was a problem sharing the document: %1"
+msgstr "A fost o problemă cu partajarea documentului: %1"
+
+#: part/part.cpp:3919 part/part.cpp:3925
+#, kde-format
+msgid "Share"
+msgstr "Partajează"
+
+#: part/part.cpp:3923
+#, kde-format
+msgid "Document shared successfully"
+msgstr "Document partajat cu succes"
+
+#: part/part.cpp:3925
+#, kde-format
+msgid "You can find the shared document at: <a href=\"%1\">%1</a>"
+msgstr "Puteți găsi documentul partajat la: <a href=\"%1\">%1</a>"
+
+#. i18n: ectx: Menu (edit)
+#: part/part.rc:19
+#, kde-format
+msgid "&Edit"
+msgstr "&Editare"
+
+#. i18n: ectx: Menu (view)
+#: part/part.rc:34
+#, kde-format
+msgid "&View"
+msgstr "&Vizualizare"
+
+#. i18n: ectx: Menu (go)
+#: part/part.rc:55
+#, kde-format
+msgid "&Go"
+msgstr "Mer&gi"
+
+#. i18n: ectx: Menu (tools)
+#: part/part.rc:75
+#, kde-format
+msgid "&Tools"
+msgstr "Unel&te"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: part/part.rc:104 shell/shell.rc:24
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Bara de unelte principală"
+
+#. i18n: ectx: ToolBar (annotationToolBar)
+#: part/part.rc:125
+#, kde-format
+msgid "Annotation Toolbar"
+msgstr "Bară cu adnotări"
+
+#. i18n: ectx: ToolBar (quickAnnotationToolBar)
+#: part/part.rc:149
+#, kde-format
+msgid "Quick Annotation Toolbar"
+msgstr "Bară cu adnotări rapide"
+
+#: part/preferencesdialog.cpp:41
+#, kde-format
+msgid "General Options"
+msgstr "Opțiuni generale"
+
+#: part/preferencesdialog.cpp:42
+#, kde-format
+msgid "Accessibility"
+msgstr "Accesibilitate"
+
+#: part/preferencesdialog.cpp:42
+#, kde-format
+msgid "Accessibility Reading Aids"
+msgstr ""
+
+#: part/preferencesdialog.cpp:43
+#, kde-format
+msgid "Performance"
+msgstr "Performanță"
+
+#: part/preferencesdialog.cpp:43
+#, kde-format
+msgid "Performance Tuning"
+msgstr "Acordarea performanțelor"
+
+#: part/preferencesdialog.cpp:45
+#, kde-format
+msgid "Configure Viewer"
+msgstr "Configurează vizualizorul"
+
+#: part/preferencesdialog.cpp:49
+#, kde-format
+msgid "Presentation"
+msgstr "Prezentare"
+
+#: part/preferencesdialog.cpp:49
+#, kde-format
+msgid "Options for Presentation Mode"
+msgstr "Opțiuni pentru regimul de prezentare"
+
+#: part/preferencesdialog.cpp:50
+#, kde-format
+msgid "Annotation Options"
+msgstr "Opțiuni adnotare"
+
+#: part/preferencesdialog.cpp:53 part/preferencesdialog.cpp:59
+#, kde-format
+msgid "Editor"
+msgstr "Editor"
+
+#: part/preferencesdialog.cpp:53 part/preferencesdialog.cpp:59
+#, kde-format
+msgid "Editor Options"
+msgstr "Opțiuni editor"
+
+#: part/preferencesdialog.cpp:56
+#, kde-format
+msgctxt ""
+"Give the user a hint, that it enabled the option --editor-cmd together with "
+"the current value of the option."
+msgid ""
+"The editor was set by the command line to \n"
+" %1 \n"
+"If you want to use the setting, start okular without the option --editor-cmd"
+msgstr ""
+
+#: part/presentationsearchbar.cpp:77
+#, kde-format
+msgid "Find Next"
+msgstr "Caută următorul"
+
+#: part/presentationwidget.cpp:174
+#, kde-format
+msgctxt "[document title/filename] – Presentation"
+msgid "%1 – Presentation"
+msgstr "%1 – Prezentare"
+
+#: part/presentationwidget.cpp:228
+#, kde-format
+msgid "Switch Screen"
+msgstr "Comută ecranul"
+
+#: part/presentationwidget.cpp:233
+#, kde-format
+msgctxt "%1 is the screen number (0, 1, ...)"
+msgid "Screen %1"
+msgstr "Ecranul %1"
+
+#: part/presentationwidget.cpp:240
+#, kde-format
+msgid "Exit Presentation Mode"
+msgstr "Părăsește regimul de prezentare"
+
+#: part/presentationwidget.cpp:373
+#, kde-format
+msgid "Title: %1"
+msgstr "Titlu: %1"
+
+#: part/presentationwidget.cpp:378
+#, kde-format
+msgid "Pages: %1"
+msgstr "Pagini: %1"
+
+#: part/presentationwidget.cpp:379
+#, kde-format
+msgid "Click to begin"
+msgstr "Faceți clic pentru a începe"
+
+#: part/presentationwidget.cpp:521
+#, kde-format
+msgctxt "For Presentation"
+msgid "Pause"
+msgstr "Întrerupe"
+
+#: part/presentationwidget.cpp:524
+#, kde-format
+msgctxt "For Presentation"
+msgid "Play"
+msgstr "Redă"
+
+#: part/presentationwidget.cpp:1622
+#, kde-format
+msgid ""
+"There are two ways of exiting presentation mode, you can press either ESC "
+"key or click with the quit button that appears when placing the mouse in the "
+"top-right corner. Of course you can cycle windows (Alt+TAB by default)"
+msgstr ""
+
+#: part/presentationwidget.cpp:1718
+#, kde-format
+msgctxt ""
+"Reason for inhibiting the screensaver activation, when the presentation mode "
+"is active"
+msgid "Giving a presentation"
+msgstr "Se face o prezentare"
+
+#: part/propertiesdialog.cpp:49
+#, kde-format
+msgid "Unknown File"
+msgstr "Fișier necunoscut"
+
+#: part/propertiesdialog.cpp:63
+#, kde-format
+msgid "%1 Properties"
+msgstr "Proprietăți %1"
+
+#: part/propertiesdialog.cpp:104
+#, kde-format
+msgctxt "mimetype information, example: \"PDF Document (application/pdf)\""
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: part/propertiesdialog.cpp:117
+#, kde-format
+msgid "%1:"
+msgstr "%1:"
+
+#: part/propertiesdialog.cpp:124
+#, kde-format
+msgid "&Fonts"
+msgstr "&Fonturi"
+
+#: part/propertiesdialog.cpp:145
+#, kde-format
+msgid "Reading font information…"
+msgstr "Se citesc informații despre fonturi…"
+
+#: part/propertiesdialog.cpp:158
+#, kde-format
+msgid "&Page Sizes"
+msgstr "Dimensiuni &pagină"
+
+#: part/propertiesdialog.cpp:225
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Extract Font"
+msgstr "&Extrage fontul"
+
+#: part/propertiesdialog.cpp:273
+#, kde-format
+msgid "Type 1"
+msgstr "Tip 1"
+
+#: part/propertiesdialog.cpp:276
+#, kde-format
+msgid "Type 1C"
+msgstr "Tip 1C"
+
+#: part/propertiesdialog.cpp:279
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "Type 1C (OT)"
+msgstr "Tip 1C (OT)"
+
+#: part/propertiesdialog.cpp:282
+#, kde-format
+msgid "Type 3"
+msgstr "Tip 3"
+
+#: part/propertiesdialog.cpp:285
+#, kde-format
+msgid "TrueType"
+msgstr "TrueType"
+
+#: part/propertiesdialog.cpp:288
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "TrueType (OT)"
+msgstr "TrueType (OT)"
+
+#: part/propertiesdialog.cpp:291
+#, kde-format
+msgid "CID Type 0"
+msgstr "CID Tip 0"
+
+#: part/propertiesdialog.cpp:294
+#, kde-format
+msgid "CID Type 0C"
+msgstr "CID Tip 0C"
+
+#: part/propertiesdialog.cpp:297
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "CID Type 0C (OT)"
+msgstr "CID Tip 0C (OT)"
+
+#: part/propertiesdialog.cpp:300
+#, kde-format
+msgid "CID TrueType"
+msgstr "CID TrueType"
+
+#: part/propertiesdialog.cpp:303
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "CID TrueType (OT)"
+msgstr "CID TrueType (OT)"
+
+#: part/propertiesdialog.cpp:306
+#, kde-format
+msgid "TeX PK"
+msgstr "TeX PK"
+
+#: part/propertiesdialog.cpp:309
+#, kde-format
+msgid "TeX virtual"
+msgstr "TeX virtual"
+
+#: part/propertiesdialog.cpp:312
+#, kde-format
+msgid "TeX Font Metric"
+msgstr ""
+
+#: part/propertiesdialog.cpp:315
+#, kde-format
+msgid "TeX FreeType-handled"
+msgstr ""
+
+#: part/propertiesdialog.cpp:318
+#, kde-format
+msgctxt "Unknown font type"
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: part/propertiesdialog.cpp:331
+#, kde-format
+msgid "Embedded (subset)"
+msgstr "Încorporat (subset)"
+
+#: part/propertiesdialog.cpp:334
+#, kde-format
+msgid "Fully embedded"
+msgstr "Complet încorporat"
+
+#: part/propertiesdialog.cpp:344
+#, kde-format
+msgid "No"
+msgstr "Nu"
+
+#: part/propertiesdialog.cpp:347
+#, kde-format
+msgid "Yes (subset)"
+msgstr "Da (subset)"
+
+#: part/propertiesdialog.cpp:350
+#, kde-format
+msgid "Yes"
+msgstr "Da"
+
+#: part/propertiesdialog.cpp:370
+#, kde-format
+msgctxt "Replacing missing font with another one"
+msgid "%1 (substituting with %2)"
+msgstr "%1 (substituit cu %2)"
+
+#: part/propertiesdialog.cpp:372
+#, kde-format
+msgctxt "font name not available (empty)"
+msgid "[n/a]"
+msgstr "[indisp.]"
+
+#: part/propertiesdialog.cpp:385
+#, kde-format
+msgid "Unknown font"
+msgstr "Font necunoscut"
+
+#: part/propertiesdialog.cpp:391
+#, kde-format
+msgid "Embedded: %1"
+msgstr "Încorporat: %1"
+
+#: part/propertiesdialog.cpp:427
+#, kde-format
+msgid "Type"
+msgstr "Tip"
+
+#: part/propertiesdialog.cpp:430
+#, kde-format
+msgid "File"
+msgstr "Fișier"
+
+#: part/propertiesdialog.cpp:498
+#, kde-format
+msgid "Page"
+msgstr "Pagină"
+
+#: part/propertiesdialog.cpp:501
+#, kde-format
+msgid "Size"
+msgstr "Dimensiune"
+
+#: part/revisionviewer.cpp:41
+#, kde-format
+msgid "Revision Preview"
+msgstr "Previzualizare revizie"
+
+#: part/revisionviewer.cpp:53
+#, kde-format
+msgid "Where do you want to save this revision?"
+msgstr "Unde doriți să salvați această revizie?"
+
+#: part/revisionviewer.cpp:56
+#, kde-format
+msgid "Could not save file %1."
+msgstr "Fișierul %1 nu a putut fi salvat."
+
+#: part/revisionviewer.cpp:75
+#, kde-format
+msgid "Could not view revision."
+msgstr "Revizia nu a putut fi văzută."
+
+#: part/searchwidget.cpp:39
+#, kde-format
+msgid "Enter at least 3 letters to filter pages"
+msgstr "Introduceți cel puțin 3 litere pentru a filtra paginile"
+
+#: part/searchwidget.cpp:49
+#, kde-format
+msgid "Case Sensitive"
+msgstr "Sensibil la registru"
+
+#: part/searchwidget.cpp:51
+#, kde-format
+msgid "Match Phrase"
+msgstr "Potrivește fraza"
+
+#: part/searchwidget.cpp:52
+#, kde-format
+msgid "Match All Words"
+msgstr "Potrivește toate cuvintele"
+
+#: part/searchwidget.cpp:53
+#, kde-format
+msgid "Match Any Word"
+msgstr "Potrivește oricare cuvînt"
+
+#: part/searchwidget.cpp:72
+#, kde-format
+msgid "Filter Options"
+msgstr "Opțiuni filtru"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectCertificateDialog)
+#: part/selectcertificatedialog.ui:14
+#, kde-format
+msgid "Certificates"
+msgstr "Certificate"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: part/selectcertificatedialog.ui:20
+#, kde-format
+msgid "Select certificate to sign with:"
+msgstr "Alege certificatul pentru semnare:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, allCertificateOption)
+#: part/selectcertificatedialog.ui:29
+#, kde-format
+msgid "All"
+msgstr "Toate"
+
+#. i18n: ectx: property (text), widget (QRadioButton, qesCertificates)
+#: part/selectcertificatedialog.ui:39
+#, kde-format
+msgid "Only QES certificates"
+msgstr "Doar certificate QES"
+
+#. i18n: ectx: property (text), widget (QRadioButton, pgpOption)
+#: part/selectcertificatedialog.ui:46
+#, kde-format
+msgctxt "@option:radio"
+msgid "Only PGP keys"
+msgstr "Doar chei PGP"
+
+#. i18n: ectx: property (text), widget (QLabel, reasonLabel)
+#: part/selectcertificatedialog.ui:70 part/signaturepropertiesdialog.cpp:71
+#, kde-format
+msgid "Reason:"
+msgstr "Motiv:"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, reasonInput)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, locationInput)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, backgroundInput)
+#: part/selectcertificatedialog.ui:77 part/selectcertificatedialog.ui:94
+#: part/selectcertificatedialog.ui:113
+#, kde-format
+msgid "optional"
+msgstr "opțional"
+
+#. i18n: ectx: property (text), widget (QLabel, locationLabel)
+#: part/selectcertificatedialog.ui:87 part/signaturepropertiesdialog.cpp:73
+#, kde-format
+msgid "Location:"
+msgstr "Amplasare:"
+
+#. i18n: ectx: property (text), widget (QLabel, backgroundLabel)
+#: part/selectcertificatedialog.ui:104
+#, kde-format
+msgid "Background:"
+msgstr "Fundal:"
+
+#. i18n: ectx: property (text), widget (QPushButton, backgroundButton)
+#: part/selectcertificatedialog.ui:123
+#, kde-format
+msgid "Choose..."
+msgstr "Alege…"
+
+#. i18n: ectx: property (text), widget (QLabel, recentLabel)
+#: part/selectcertificatedialog.ui:136
+#, kde-format
+msgid "Recent backgrounds:"
+msgstr "Fundaluri recente:"
+
+#. i18n: ectx: property (text), widget (QLabel, signatureTypeLabel)
+#: part/selectcertificatedialog.ui:152
+#, fuzzy, kde-format
+#| msgid "Signature Validity:"
+msgid "Signature Type"
+msgstr "Valabilitate semnătură:"
+
+#: part/side_reviews.cpp:64
+#, kde-format
+msgid ""
+"<div align=center><h3>No annotations</h3>To create new annotations press F6 "
+"or select <i>Tools -&gt; Annotations</i> from the menu.</div>"
+msgstr ""
+"<div align=center><h3>Nicio adnotare</h3>Pentru a crea adnotări noi, apăsați "
+"F6 sau alegeți <i>Unelte -&gt; Adnotări</i> din meniu.</div>"
+
+#: part/side_reviews.cpp:140
+#, kde-format
+msgid "Group by Page"
+msgstr "Grupează după pagină"
+
+#: part/side_reviews.cpp:145
+#, kde-format
+msgid "Group by Author"
+msgstr "Grupează după autor"
+
+#: part/side_reviews.cpp:153
+#, kde-format
+msgid "Show annotations for current page only"
+msgstr "Arată numai adnotările pentru pagina actuală"
+
+#: part/side_reviews.cpp:163
+#, kde-format
+msgid "Expand all elements"
+msgstr "Desfășoară toate elementele"
+
+#: part/side_reviews.cpp:165
+#, kde-format
+msgid "Collapse all elements"
+msgstr "Restrânge toate elementele"
+
+#: part/signaturepanel.cpp:101
+#, kde-format
+msgid "Properties"
+msgstr "Proprietăți"
+
+#: part/signaturepartutils.cpp:57
+#, kde-format
+msgctxt ""
+"This string is describing a default entry that generally shouldn't be shown "
+"to the user. To a point where it would be a coding bug somewhere to have it"
+msgid "NONE"
+msgstr ""
+
+#: part/signaturepartutils.cpp:59
+#, kde-format
+msgctxt "Signature type"
+msgid "Adobe PKCS7 signature"
+msgstr ""
+
+#: part/signaturepartutils.cpp:61
+#, fuzzy, kde-format
+#| msgid "Unsigned Signature %1"
+msgctxt "Signature type"
+msgid "Basic eIDAS signature"
+msgstr "Semnătură nesemnată %1"
+
+#: part/signaturepartutils.cpp:63
+#, kde-format
+msgctxt "Signature type"
+msgid "eIDAS signature with timestamp"
+msgstr ""
+
+#: part/signaturepartutils.cpp:65
+#, kde-format
+msgctxt "Signature type"
+msgid "eIDAS signature with timestamp for long term validation"
+msgstr ""
+
+#: part/signaturepartutils.cpp:67
+#, kde-format
+msgctxt "Signature type"
+msgid ""
+"eIDAS signature with timestamp for long term validation and support for re-"
+"validation"
+msgstr ""
+
+#: part/signaturepartutils.cpp:222
+#, kde-format
+msgctxt "file types in a file open dialog"
+msgid "Images (%1)"
+msgstr "Imagini (%1)"
+
+#: part/signaturepartutils.cpp:223
+#, kde-format
+msgid "Select background image"
+msgstr "Alege imaginea de fundal"
+
+#: part/signaturepartutils.cpp:228
+#, kde-format
+msgid "Forget image"
+msgstr "Uită imaginea"
+
+#: part/signaturepartutils.cpp:229
+#, kde-format
+msgid "Forget all images"
+msgstr "Uită toate imaginile"
+
+#: part/signaturepartutils.cpp:272
+#, fuzzy, kde-format
+#| msgid "Enter password (if any) to unlock certificate: %1"
+msgid "Enter password/pin (if any) to unlock certificate: %1"
+msgstr "Introduceți parola (dacă este) pentru deblocarea certificatului: %1"
+
+#: part/signaturepartutils.cpp:297
+#, kde-format
+msgid "Enter document password"
+msgstr "Introduceți parola documentului"
+
+#: part/signaturepartutils.cpp:331
+#, kde-format
+msgid "Save Signed File As"
+msgstr "Salvează fișier semnat ca"
+
+#: part/signaturepartutils.cpp:333
+#, kde-format
+msgctxt "Error message"
+msgid ""
+"The original file cannot be overwritten. Please choose a different filename."
+msgstr ""
+
+#: part/signaturepartutils.h:63
+#, kde-format
+msgctxt ""
+"Used when suggesting a new name for a digitally signed file. %1 is the old "
+"file name and %2 its extension"
+msgid "%1_signed.%2"
+msgstr "%1_semnat.%2"
+
+#: part/signaturepropertiesdialog.cpp:56
+#, kde-format
+msgid "Validity Status"
+msgstr "Stare valabilitate"
+
+#: part/signaturepropertiesdialog.cpp:59
+#, kde-format
+msgid "Signature Validity:"
+msgstr "Valabilitate semnătură:"
+
+#: part/signaturepropertiesdialog.cpp:60
+#, kde-format
+msgid "Document Modifications:"
+msgstr "Modificări document:"
+
+#: part/signaturepropertiesdialog.cpp:63
+#, kde-format
+msgid "Additional Information"
+msgstr "Informații suplimentare"
+
+#: part/signaturepropertiesdialog.cpp:66
+#, kde-format
+msgid "Signed By:"
+msgstr "Semnat de:"
+
+#: part/signaturepropertiesdialog.cpp:67
+#, kde-format
+msgid "Signing Time:"
+msgstr "Ora semnării:"
+
+#: part/signaturepropertiesdialog.cpp:83
+#, kde-format
+msgid "Document Version"
+msgstr "Versiune document"
+
+#: part/signaturepropertiesdialog.cpp:86
+#, kde-format
+msgctxt "Document Revision <current> of <total>"
+msgid "Document Revision %1 of %2"
+msgstr "Revizie document %1 din %2"
+
+#: part/signaturepropertiesdialog.cpp:88
+#, kde-format
+msgid "View Signed Version…"
+msgstr "Vezi versiunea semnată…"
+
+#: part/signaturepropertiesdialog.cpp:95
+#, kde-format
+msgid "View Certificate…"
+msgstr "Vezi certificatul…"
+
+#: part/signaturepropertiesdialog.cpp:97
+#, kde-format
+msgid "View in Certificate Manager"
+msgstr "Vezi în gestionarul de certificate"
+
+#: part/signaturepropertiesdialog.cpp:101
+#, kde-format
+msgid "KDE Certificate Manager (kleopatra) not found"
+msgstr "Gestionarul de certificate KDE (kleopatra) nu a fost găsit"
+
+#: part/signingcertificatelistmodel.cpp:102
+#, kde-format
+msgctxt "Qualified electronic signature, see wikipedia"
+msgid "Qualified"
+msgstr "Calificat"
+
+#: part/signingcertificatelistmodel.cpp:105
+#, kde-format
+msgid "PGP"
+msgstr "PGP"
+
+#: part/thumbnaillist.cpp:1013
+#, kde-format
+msgid "Show bookmarked pages only"
+msgstr "Arată numai paginile însemnate"
+
+#: part/videowidget.cpp:179
+#, kde-format
+msgctxt "start the movie playback"
+msgid "Play"
+msgstr "Redă"
+
+#: part/videowidget.cpp:182
+#, kde-format
+msgctxt "pause the movie playback"
+msgid "Pause"
+msgstr "Întrerupe"
+
+#: part/videowidget.cpp:312
+#, kde-format
+msgctxt "stop the movie playback"
+msgid "Stop"
+msgstr "Oprește"
+
+#: part/videowidget.cpp:561
+#, kde-format
+msgid "Videos not supported in this okular"
+msgstr "Acest Okular nu susține videoclipuri"
+
+#: part/videowidget.cpp:565
+#, kde-format
+msgid "Videos not supported in this Okular"
+msgstr "Acest Okular nu susține videoclipuri"
+
+#: part/widgetconfigurationtoolsbase.cpp:28
+#, kde-format
+msgid "&Add…"
+msgstr "&Adaugă…"
+
+#: part/widgetconfigurationtoolsbase.cpp:31
+#, kde-format
+msgid "&Edit…"
+msgstr "&Modifică…"
+
+#: part/widgetconfigurationtoolsbase.cpp:35
+#, kde-format
+msgid "&Remove"
+msgstr "&Elimină"
+
+#: part/widgetconfigurationtoolsbase.cpp:39
+#, kde-format
+msgid "Move &Up"
+msgstr "Mută în s&us"
+
+#: part/widgetconfigurationtoolsbase.cpp:43
+#, kde-format
+msgid "Move &Down"
+msgstr "Mută în &jos"
+
+#: part/widgetdrawingtools.cpp:105
+#, kde-format
+msgid "Default Drawing Tool #%1"
+msgstr "Unealtă de desen implicită #%1"
+
+#: part/widgetdrawingtools.cpp:139 part/widgetdrawingtools.cpp:183
+#, kde-format
+msgid "There's already a tool with that name. Using a default one"
+msgstr "Există deja o unealtă cu acea denumire. Se folosește una implicită"
+
+#: part/widgetdrawingtools.cpp:139 part/widgetdrawingtools.cpp:183
+#, kde-format
+msgid "Duplicated Name"
+msgstr "Denumire duplicată"
+
+#: shell/main.cpp:114
+#, kde-format
+msgid "Page of the document to be shown"
+msgstr "Pagina documentului de afișat"
+
+#: shell/main.cpp:115
+#, kde-format
+msgid "Start the document in presentation mode"
+msgstr "Pornește documentul în regim de prezentare"
+
+#: shell/main.cpp:116
+#, kde-format
+msgid "Start with print dialog"
+msgstr "Pornește cu dialogul de imprimare"
+
+#: shell/main.cpp:117
+#, kde-format
+msgid "Start with print dialog and exit after printing"
+msgstr "Pornește cu dialogul de imprimare și ieși după imprimare"
+
+#: shell/main.cpp:118
+#, kde-format
+msgid "\"Unique instance\" control"
+msgstr "Control „Instanță unică”"
+
+#: shell/main.cpp:119
+#, kde-format
+msgid "Not raise window"
+msgstr "Nu ridică fereastra"
+
+#: shell/main.cpp:120
+#, kde-format
+msgid "Find a string on the text"
+msgstr "Găsește un șir în text"
+
+#: shell/main.cpp:121
+#, kde-format
+msgid "Sets the external editor command"
+msgstr "Stabilește comanda de redactor extern"
+
+#: shell/main.cpp:122
+#, kde-format
+msgid "Documents to open. Specify '-' to read from stdin."
+msgstr "Documente de deschis. Specificați „-” pentru a citi intrarea standard."
+
+#: shell/okular_main.cpp:66 shell/okular_main.cpp:171
+#, kde-format
+msgid ""
+"You cannot set the editor command in an already running okular instance. "
+"Please disable the tabs and try again. Please note, that unique is also not "
+"supported when setting the editor command at the commandline.\n"
+msgstr ""
+
+#: shell/okular_main.cpp:192
+#, kde-format
+msgid "Error: Can't open more than one document with the --unique switch"
+msgstr ""
+"Eroare: Nu se poate deschide mai mult de un document cu opțiunea --unique"
+
+#: shell/okular_main.cpp:198
+#, kde-format
+msgid "Error: Can't open more than one document with the --presentation switch"
+msgstr ""
+"Eroare: Nu se poate deschide mai mult de un document cu opțiunea --"
+"presentation"
+
+#: shell/okular_main.cpp:204
+#, kde-format
+msgid "Error: Can't open more than one document with the --print switch"
+msgstr ""
+"Eroare: Nu se poate deschide mai mult de un document cu opțiunea --print"
+
+#: shell/okular_main.cpp:210
+#, kde-format
+msgid "Error: Can't open more than one document with the --page switch"
+msgstr ""
+"Eroare: Nu se poate deschide mai mult de un document cu opțiunea --page"
+
+#: shell/okular_main.cpp:216
+#, kde-format
+msgid "Error: Can't open more than one document with the --find switch"
+msgstr ""
+"Eroare: Nu se poate deschide mai mult de un document cu opțiunea --find"
+
+#: shell/shell.cpp:204
+#, kde-format
+msgid "Unable to find the Okular component: %1"
+msgstr "Componenta Okular nu poate fi găsită: %1"
+
+#: shell/shell.cpp:247
+#, kde-format
+msgid "Sidebar"
+msgstr "Bara laterală"
+
+#: shell/shell.cpp:283
+#, kde-format
+msgid ""
+"There is already a unique Okular instance running. This instance won't be "
+"the unique one."
+msgstr ""
+"O instanță unică Okular rulează deja. Această instanță nu va fi cea unică."
+
+#: shell/shell.cpp:312
+#, kde-format
+msgid "Unable to find the Okular component."
+msgstr "Componenta Okular nu poate fi găsită."
+
+#: shell/shell.cpp:567
+#, kde-format
+msgid ""
+"Click to open a file\n"
+"Click and hold to open a recent file"
+msgstr ""
+"Apăsați pentru a deschide un fișier\n"
+"Țineți apăsat pentru a deschide un fișier recent"
+
+#: shell/shell.cpp:568
+#, kde-format
+msgid ""
+"<b>Click</b> to open a file or <b>Click and hold</b> to select a recent file"
+msgstr ""
+"<b>Apăsați</b> pentru a deschide un fișier sau <b>țineți apăsat</b> pentru a "
+"alege un fișier recent"
+
+#: shell/shell.cpp:583
+#, kde-format
+msgid "Next Tab"
+msgstr "Fila următoare"
+
+#: shell/shell.cpp:589
+#, kde-format
+msgid "Previous Tab"
+msgstr "Fila precedentă"
+
+#: shell/shell.cpp:597
+#, kde-format
+msgid "Switch to Tab %1"
+msgstr ""
+
+#: shell/shell.cpp:613
+#, kde-format
+msgid "Undo close tab"
+msgstr "Desfă închiderea filei"
+
+#: shell/shell.cpp:622
+#, kde-format
+msgid "Lock Sidebar"
+msgstr "Blochează bara laterală"
+
+#: shell/shell.cpp:722
+#, kde-format
+msgid "All files (*)"
+msgstr "Toate fișierele (*)"
+
+#: shell/shell.cpp:723
+#, kde-format
+msgid "All supported files (%1)"
+msgstr "Toate fișierele susținute (%1)"
+
+#: shell/shell.cpp:727
+#, kde-format
+msgid "Open Document"
+msgstr "Deschide documentul"
+
+#: shell/shell.cpp:841
+#, kde-format
+msgid "Confirm Close"
+msgstr "Confirmă închiderea"
+
+#: shell/shell.cpp:845
+#, kde-format
+msgid "Close Tabs"
+msgstr "Închide filele"
+
+#: shell/shell.cpp:852
+#, kde-format
+msgid "You are about to close %1 tabs. Are you sure you want to continue?"
+msgstr "Sunteți pe cale să închideți %1 file. Sigur doriți să continuați?"
+
+#: shell/shell.cpp:854
+#, kde-format
+msgid "Warn me when I attempt to close multiple tabs"
+msgstr "Avertizează-mă când încerc să închid mai multe file"
+
+#: shell/welcomescreen.cpp:64
+#, kde-format
+msgid "&Copy Path"
+msgstr "&Copiază calea"
+
+#: shell/welcomescreen.cpp:77
+#, kde-format
+msgid "&Open Containing Folder"
+msgstr "Deschide d&osarul conținător"
+
+#: shell/welcomescreen.cpp:89
+#, kde-format
+msgctxt "recent items context menu"
+msgid "&Forget This Item"
+msgstr "&Uită acest element"
+
+#: shell/welcomescreen.cpp:137
+#, kde-format
+msgctxt "on welcome screen"
+msgid "No recent documents"
+msgstr "Nu sunt documente recente"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shell/welcomescreen.ui:153
+#, kde-format
+msgid "Welcome to Okular"
+msgstr "Bun veni în Okular"
+
+#. i18n: ectx: property (text), widget (QPushButton, openButton)
+#: shell/welcomescreen.ui:232
+#, kde-format
+msgctxt "on welcome screen"
+msgid "Open Document..."
+msgstr "Deschide document…"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: shell/welcomescreen.ui:382
+#, kde-format
+msgctxt "on welcome screen"
+msgid "Recent documents"
+msgstr "Documente recente"
+
+#. i18n: ectx: property (text), widget (QToolButton, forgetAllButton)
+#: shell/welcomescreen.ui:392
+#, kde-format
+msgctxt "on welcome screen (recent document list)"
+msgid "Forget All"
+msgstr "Uită tot"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, closeButton)
+#: shell/welcomescreen.ui:460
+#, kde-format
+msgid "Hide welcome screen"
+msgstr "Ascunde ecranul de bun venit"
+
+#~ msgid "Enter certificate password"
+#~ msgstr "Introduceți parola certificatului"
+
+#~ msgid "Configure Viewer Backends…"
+#~ msgstr "Configurează platformele vizualizorului…"
+
+#~ msgid "Configure Backends…"
+#~ msgstr "Configurează platformele…"
+
+#~ msgid "Configure Viewer Backends"
+#~ msgstr "Configurează platformele vizualizorului"
+
+#~ msgid "Configure Backends"
+#~ msgstr "Configurează platformele"
+
+#~ msgid "Geometry with Comment"
+#~ msgstr "Geometrie cu comentariu"
+
+#~ msgid "Geometry"
+#~ msgstr "Geometrie"
+
+#~ msgctxt "Annotation type: contents"
+#~ msgid "%1: %2"
+#~ msgstr "%1: %2"
+
+#~ msgid "Modified: %1"
+#~ msgstr "Modificat: %1"
+
+#~ msgid "Find..."
+#~ msgstr "Găsește…"
+
+#~ msgid "Go To Page..."
+#~ msgstr "Mergi la pagina…"
+
+#~ msgid "Play movie..."
+#~ msgstr "Redă film…"
+
+#~ msgid "Search..."
+#~ msgstr "Caută…"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Save As..."
+#~ msgstr "&Salvează ca..."
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "&View..."
+#~ msgstr "&Vezi..."
+
+#~ msgid "&Sign..."
+#~ msgstr "&Semnează…"
+
+#~ msgid "Configure Viewer..."
+#~ msgstr "Configurare vizualizor…"
+
+#~ msgid "Configure Viewer Backends..."
+#~ msgstr "Configurare platforme vizualizor…"
+
+#~ msgid "Configure Backends..."
+#~ msgstr "Configurare platforme…"
+
+#~ msgid "&Add..."
+#~ msgstr "&Adaugă…"
+
+#~ msgid "&Edit..."
+#~ msgstr "&Modifică…"
+
+#~ msgctxt "%1 is a file path"
+#~ msgid ""
+#~ "Could not sign. Invalid certificate password or could not write to '%1'"
+#~ msgstr ""
+#~ "Nu s-a putut semna. Parolă nevalidă pentru certificat sau nu s-a putut "
+#~ "scrie în „%1”"
+
+#~ msgid "Unsigned Signature %1"
+#~ msgstr "Semnătură nesemnată %1"
+
+#, fuzzy
+#~| msgctxt "Unknown author"
+#~| msgid "Unknown"
+#~ msgctxt "Signature type"
+#~ msgid "Unknown"
+#~ msgstr "Necunoscut"
+
+#~ msgctxt "Suffix for the opacity level, eg '80%'"
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgctxt "Suffix for the pen width, eg '10 px'"
+#~ msgid " px"
+#~ msgstr " px"
+
+#~ msgctxt "Suffix for the opacity level, eg '80 %'"
+#~ msgid " %"
+#~ msgstr " %"
+
+#, fuzzy
+#~| msgctxt "%1 is a file path"
+#~| msgid ""
+#~| "Could not sign. Invalid certificate password or could not write to '%1'"
+#~ msgctxt "%1 is a file path"
+#~ msgid "Could not sign. Could not write to '%1'"
+#~ msgstr ""
+#~ "Nu s-a putut semna. Parolă nevalidă pentru certificat sau nu s-a putut "
+#~ "scrie în „%1”"
+
+#~ msgctxt "Page Up/Down overlap, spinbox suffix"
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgctxt "item:inlistbox Config dialog, general page, default zoom"
+#~ msgid "Fit Width"
+#~ msgstr "Potrivire lățime"
+
+#~ msgctxt "item:inlistbox Config dialog, general page, default zoom"
+#~ msgid "Fit Page"
+#~ msgstr "Potrivire pagină"
+
+#~ msgctxt "item:inlistbox Config dialog, general page, default zoom"
+#~ msgid "Auto Fit"
+#~ msgstr "Potrivire automată"
+
+#~ msgid "*|All Files"
+#~ msgstr "*|Toate fișierele"
+
+#~ msgid "Missing alert type"
+#~ msgstr "Lipsește tipul alertei"
+
+#~ msgid ""
+#~ "The file '%1' has been modified by another program, which means it can no "
+#~ "longer be saved."
+#~ msgstr ""
+#~ "Fișierul „%1” a fost modificat de un alt program, ceea ce înseamnă că nu "
+#~ "mai poate fi salvat."
+
+#, fuzzy
+#~| msgid "Show S&idebar"
+#~ msgid "Show Sidebar"
+#~ msgstr "&Arată bara laterală"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<warning>experimental feature.<nl/>Stamps inserted in PDF documents are "
+#~ "not visible in PDF readers other than Okular.</warning>"
+#~ msgstr ""
+#~ "<warning>Caracteristică experimentală.<nl/>Ștampilele inserate în "
+#~ "documente PDF nu sunt vizibile în alte cititoare de PDF decât Okular.</"
+#~ "warning>"
+
+#~ msgctxt "@title:window"
+#~ msgid "Poppler library is too old"
+#~ msgstr "Biblioteca Poppler e prea veche"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Stamps inserted in PDF documents are not visible in PDF readers other "
+#~ "than Okular"
+#~ msgstr ""
+#~ "Ștampilele inserate în documente PDF nu sunt vizibile în alte cititoare "
+#~ "de PDF decât Okular"
+
+#~ msgctxt "@title:window"
+#~ msgid "Experimental feature"
+#~ msgstr "Caracteristică experimentală"
+
+#~ msgid "Remove Bookmarks"
+#~ msgstr "Elimină semne de carte"
+
+#, fuzzy
+#~| msgid "Annotation"
+#~| msgid_plural "%1 Annotations"
+#~ msgctxt "verb"
+#~ msgid "&Annotate"
+#~ msgstr "Adnotare"
+
+#, fuzzy
+#~| msgid "Highlight"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Highlight"
+#~ msgstr "Evidențiere"
+
+#, fuzzy
+#~| msgid "Underline"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Underline"
+#~ msgstr "Subliniat"
+
+#, fuzzy
+#~| msgid "Strike out"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Strike Out"
+#~ msgstr "Tăiat"
+
+#, fuzzy
+#~| msgid "Insert"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Insert Text"
+#~ msgstr "Inserează"
+
+#, fuzzy
+#~| msgid "Underline"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Insert Inline Note"
+#~ msgstr "Subliniat"
+
+#, fuzzy
+#~| msgid "Note Properties"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Insert Popup Note"
+#~ msgstr "Proprietăți notă"
+
+#, fuzzy
+#~| msgid "Freehand Line"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Draw Freehand Line"
+#~ msgstr "Linie liberă"
+
+#, fuzzy
+#~| msgid "Straight Yellow Line"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Draw Straight line"
+#~ msgstr "Linie galbenă dreaptă"
+
+#, fuzzy
+#~| msgid "Rectangle"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Draw Rectangle"
+#~ msgstr "Dreptunghi"
+
+#, fuzzy
+#~| msgid "Ellipse"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Draw Ellipse"
+#~ msgstr "Elipsă"
+
+#, fuzzy
+#~| msgid "Polygon"
+#~ msgctxt "@action:intoolbar Annotation tool, verb"
+#~ msgid "Draw Polygon"
+#~ msgstr "Poligon"
+
+#, fuzzy
+#~| msgid "Highlight"
+#~ msgid "Highlight in Yellow"
+#~ msgstr "Evidențiere"
+
+#, fuzzy
+#~| msgid "Highlight with Comment"
+#~ msgid "Highlight in Green"
+#~ msgstr "Evidențiere cu comentariu"
+
+#, fuzzy
+#~| msgid "Select text"
+#~ msgctxt "verb"
+#~ msgid "&Select Area"
+#~ msgstr "Selectează text"
+
+#, fuzzy
+#~| msgid "Select text"
+#~ msgctxt "verb"
+#~ msgid "Select &Text"
+#~ msgstr "Selectează text"
+
+#, fuzzy
+#~| msgid "Select text"
+#~ msgctxt "verb"
+#~ msgid "Select T&able"
+#~ msgstr "Selectează text"
+
+#, fuzzy
+#~| msgid "Annotation"
+#~| msgid_plural "%1 Annotations"
+#~ msgid "Bookmark annotation"
+#~ msgstr "Adnotare"
+
+#, fuzzy
+#~| msgid "Change &colors"
+#~ msgid "&Toggle Change Colors"
+#~ msgstr "Schimbă &culorile"
+
+#, fuzzy
+#~| msgid "Enable transitions"
+#~ msgctxt "@option:check Config dialog, presentation page, transitions"
+#~ msgid "Enable transitions"
+#~ msgstr "Activează tranziții"
+
+#, fuzzy
+#~| msgid "Advance every:"
+#~ msgctxt "@label:spinbox Config dialog, presentation page"
+#~ msgid "Advance every:"
+#~ msgstr "Avansează la fiecare:"
+
+#, fuzzy
+#~| msgid "Background color:"
+#~ msgctxt "@label:listbox Config dialog, general page"
+#~ msgid "Custom background color:"
+#~ msgstr "Culoare fundal:"
+
+#~ msgid "Draw border around &Images"
+#~ msgstr "Desenează contur în jurul &imaginilor"
+
+#~ msgid "Identity"
+#~ msgstr "Identitate"
+
+#, fuzzy
+#~| msgid "&Author:"
+#~ msgid "Au&thor:"
+#~ msgstr "&Autor:"
+
+#~ msgid "View Options"
+#~ msgstr "Opțiuni vizualizare"
+
+#~ msgid "Navigation"
+#~ msgstr "Navigare"
+
+#~ msgid "Placement"
+#~ msgstr "Amplasare"
+
+#~ msgid "Screen:"
+#~ msgstr "Ecran:"
+
+#~ msgid "&Get Books From Internet..."
+#~ msgstr "&Obținere cărți din Internet..."
+
+#~ msgid "Reviews"
+#~ msgstr "Recenzii"
+
+#, fuzzy
+#~| msgid "%1:"
+#~ msgctxt "@item:inlistbox Color name"
+#~ msgid "%1"
+#~ msgstr "%1:"
+
+#~ msgid "Hide Forms"
+#~ msgstr "Ascunde formulare"
+
+#~ msgid "&Review"
+#~ msgstr "&Recenzie"
+
+#~ msgid "Annotations author"
+#~ msgstr "Autorul adnotărilor"
+
+#~ msgid "Please insert your name or initials:"
+#~ msgstr "Introduceți numele sau inițialele dumneavoastră:"
+
+#~ msgid "Show &Navigation Panel"
+#~ msgstr "Arată panoul de &navigare"
+
+#~ msgid "Show Text"
+#~ msgstr "Arată textul"
+
+#~ msgid "Small Icons"
+#~ msgstr "Pictograme mici"
+
+#~ msgid "Large Icons"
+#~ msgstr "Pictograme mari"
+
+#, fuzzy
+#~| msgid ""
+#~| "Click to use the current selection tool\n"
+#~| "Click and hold to choose another selection tool"
+#~ msgid ""
+#~ "Click to use the current selection tool\n"
+#~ "Click on the arrow to choose another selection tool"
+#~ msgstr ""
+#~ "Apăsați pentru unealta de selecție actuală\n"
+#~ "Apăsați și țineți pentru a alege altă unealtă de selecție"
+
+#~ msgid "Created: %1"
+#~ msgstr "Creat: %1"
+
+#~ msgid "Style"
+#~ msgstr "Stil"
+
+#~ msgid "&Size:"
+#~ msgstr "Dimen&siune:"
+
+#~ msgid "Inner color:"
+#~ msgstr "Culoare interioară:"
+
+#~ msgid "Name: %1"
+#~ msgstr "Denumire: %1"
+
+#~ msgid "Size: %1"
+#~ msgstr "Dimensiune: %1"
+
+#~ msgid "&Browse Tool"
+#~ msgstr "Unealtă de &navigare"
+
+#~ msgid "&Zoom Tool"
+#~ msgstr "Unealtă de &panoramare"
+
+#~ msgctxt "Zoom Tool"
+#~ msgid "Zoom"
+#~ msgstr "Panoramare"
+
+#~ msgctxt "Select Tool"
+#~ msgid "Selection"
+#~ msgstr "Selecție"
+
+#~ msgid "&Text Selection Tool"
+#~ msgstr "Unealtă de selecție a &textului"
+
+#, fuzzy
+#~| msgid "&Selection Tool"
+#~ msgid "T&able Selection Tool"
+#~ msgstr "Unealtă de &selecție"
+
+#, fuzzy
+#~| msgctxt "Symbol for caret annotations"
+#~| msgid "None"
+#~ msgid " None"
+#~ msgstr "Niciunul"
+
+#~ msgid ""
+#~ "The document requested to be launched in presentation mode.\n"
+#~ "Do you want to allow it?"
+#~ msgstr ""
+#~ "Documentul a cerut să fie lansat în regim de prezentare.\n"
+#~ "Îi permiteți acest lucru?"
+
+#~ msgid "Presentation Mode"
+#~ msgstr "Regim de prezentare"
+
+#~ msgid "Allow the presentation mode"
+#~ msgstr "Permite regimul de prezentare"
+
+#~ msgid "Do Not Allow"
+#~ msgstr "Nu permite"
+
+#~ msgid "Do not allow the presentation mode"
+#~ msgstr "Nu permite regimul de prezentare"
+
+#~ msgid "Save &Copy As..."
+#~ msgstr "Salvare &copie ca..."
+
+#~ msgid ""
+#~ "End of document reached.\n"
+#~ "Continue from the beginning?"
+#~ msgstr ""
+#~ "A fost atins sfîrșitul documentului.\n"
+#~ " Continuați de la început?"
+
+#~ msgid ""
+#~ "Beginning of document reached.\n"
+#~ "Continue from the bottom?"
+#~ msgstr ""
+#~ "A fost atins începutul documentului.\n"
+#~ " Continuați de la sfîrșit?"
+
+#~ msgid "Current maintainer"
+#~ msgstr "Responsabil actual"
+
+#~ msgid " sec."
+#~ msgstr " sec."
+
+#~ msgid "Pencil color:"
+#~ msgstr "Culoare creion:"
+
+#~ msgid "Toggle Drawing Mode"
+#~ msgstr "Comută regimul de desenare"
+
+#, fuzzy
+#~| msgid "Starting KTTSD Failed: %1"
+#~ msgid "Starting Jovie Text-to-Speech service Failed: %1"
+#~ msgstr "Execuția KTTSD a eșuat: %1"
+
+#~ msgid "Search Columns"
+#~ msgstr "Căutare coloane"
+
+#~ msgid "All Visible Columns"
+#~ msgstr "Toate coloanele vizibile"
+
+#~ msgid "No document opened."
+#~ msgstr "Niciun document deschis."
+
+#~ msgid "No matches found for '%1'."
+#~ msgstr "Nu s-au găsit potriviri pentru „%1”."
+
+#~ msgid "Search in progress..."
+#~ msgstr "Căutare în curs..."
+
+#~ msgid "Searching for %1"
+#~ msgstr "Căutare %1"
+
+#~ msgid "Identity Settings"
+#~ msgstr "Configurări identitate"
+
+#~ msgid "Highlight Properties"
+#~ msgstr "Proprietăți evidențiere"
+
+#~ msgid "Ink Properties"
+#~ msgstr "Proprietăți cerneală"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Text Annotation"
+#~ msgstr "Adnotare text"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Green Ink"
+#~ msgstr "Cerneală verde"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Yellow Highlight"
+#~ msgstr "Evidențiere galbenă"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Straight Yellow Line"
+#~ msgstr "Linie galbenă dreaptă"
+
+#~ msgid "Black Underlining"
+#~ msgstr "Subliniere neagră"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Underline the text with a black line"
+#~ msgstr "Subliniază textul cu o linie neagră"
+
+#~ msgid "Ink"
+#~ msgstr "Cerneală"
+
+#, fuzzy
+#~| msgid "Hide Forms"
+#~ msgid "Reset Forms"
+#~ msgstr "Ascunde formulare"
+
+#~ msgid "Moves to the first page of the document"
+#~ msgstr "Trece la prima pagină a documentului"
+
+#~ msgid "Moves to the last page of the document"
+#~ msgstr "Trece la ultima pagină a documentului"
+
+#~ msgid "You must set this name:"
+#~ msgstr "Trebuie să stabiliți acest nume:"
+
+#, fuzzy
+#~| msgid "%1:"
+#~ msgctxt "%1 is \"Title\""
+#~ msgid "%1:"
+#~ msgstr "%1:"
+
+#, fuzzy
+#~| msgid "%1:"
+#~ msgctxt "%1 is \"File Path\""
+#~ msgid "%1:"
+#~ msgstr "%1:"
+
+#~ msgctxt "@action:button"
+#~ msgid "&Overwrite"
+#~ msgstr "&Suprascrie"
+
+#~ msgid "Pages:"
+#~ msgstr "Pagini:"
+
+#, fuzzy
+#~| msgid "Moves to the next page of the document"
+#~ msgid "Could not load the necessary plugin to view the document."
+#~ msgstr "Trece la pagina următoare a documentului"
+
+#, fuzzy
+#~ msgid "Fit &Text"
+#~ msgstr "Scalează la &lățimea paginii"
+
+#, fuzzy
+#~ msgid "page %1"
+#~ msgstr "Pagina:"
+
+#, fuzzy
+#~ msgid "flags:"
+#~ msgstr "Pagina:"
+
+#~ msgid "Fit to Page &Width"
+#~ msgstr "Scalează la &lățimea paginii"
+
+#, fuzzy
+#~ msgid "&Two Pages"
+#~ msgstr "Du-te la pagina"
+
+#, fuzzy
+#~ msgid "kpdf, a kde pdf viewer based on poppler"
+#~ msgstr "Un vizualizor de PDF-uri bazat pe Xpdf"
+
+#~ msgid "KPDF::Part"
+#~ msgstr "Componentă PDF"

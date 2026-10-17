@@ -1,0 +1,6185 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# SPDX-FileCopyrightText: 2022-2026 Emir SARI <emir_sari@icloud.com>
+# Adem Alp Yıldız <ademalp@linux-sevenler.org>, 2004.
+# Alper Sen <aalpersen@gmail.com>, 2005.
+# Görkem Çetin <gorkem@kde.org>, 2004.
+# Görkem Çetin <gorkem@kde.org.tr>, 2005.
+# H. İbrahim Güngör <ibrahim@pardus.org.tr>, 2010.
+# Kaya Oğuz <kaya@kuzeykutbu.org>, 2005.
+# Onur Küçük <onur@uludag.org.tr>, 2004.
+# Ozan Çağlayan <ozan@pardus.org.tr>, 2010.
+# obsoleteman <tulliana@gmail.com>, 2008-2012.
+# Serhat Demirkol <serhat_demirkol@yahoo.com>, 2009.
+# Volkan Gezer <volkangezer@gmail.com>, 2013-2014, 2015, 2017, 2022.
+# Zerrin Cakmakkaya <zerrin@uludag.org.tr>, 2005.
+# Emir SARI <emir_sari@icloud.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdegraphics-kde4\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-06 00:44+0000\n"
+"PO-Revision-Date: 2026-09-26 20:38+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 26.08.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Serdar SOYTETİR, Görkem ÇETİN, Kaya OĞUZ, Ayhan YALÇINSOY, Volkan GEZER, "
+"Emir SARI"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"tulliana@gmail.com, gorkem@kde.org, kaya@kuzeykutbu.org,  "
+"ayhanyalcinsoy@gmail.com, volkangezer@gmail.com, emir_sari@icloud.com"
+
+#: aboutdata.h:19 part/annotationwidgets.cpp:431
+#, kde-format
+msgid "Okular"
+msgstr "Okular"
+
+#: aboutdata.h:21
+#, kde-format
+msgid "Okular, a universal document viewer"
+msgstr "Okular, çok amaçlı bir belge görüntüleyicisi"
+
+#: aboutdata.h:23
+#, kde-format
+msgid ""
+"(C) 2002 Wilco Greven, Christophe Devriese\n"
+"(C) 2004-2005 Enrico Ros\n"
+"(C) 2005 Piotr Szymanski\n"
+"(C) 2004-2017 Albert Astals Cid\n"
+"(C) 2006-2009 Pino Toscano"
+msgstr ""
+"© 2002 Wilco Greven, Christophe Devriese\n"
+"© 2004–2005 Enrico Ros\n"
+"© 2005 Piotr Szymanski\n"
+"© 2004–2017 Albert Astals Cid\n"
+"© 2006–2009 Pino Toscano"
+
+#: aboutdata.h:31
+#, kde-format
+msgid "Pino Toscano"
+msgstr "Pino Toscano"
+
+#: aboutdata.h:31
+#, kde-format
+msgid "Former maintainer"
+msgstr "Önceki bakımcı"
+
+#: aboutdata.h:32
+#, kde-format
+msgid "Tobias Koenig"
+msgstr "Tobias König"
+
+#: aboutdata.h:32
+#, kde-format
+msgid "Lots of framework work, FictionBook backend and former ODT backend"
+msgstr ""
+"Çalışma alanının büyük bir bölümü, FictionBook arka ucu ve daha önceki ODT "
+"arka ucu"
+
+#: aboutdata.h:33
+#, kde-format
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#: aboutdata.h:33
+#, kde-format
+msgid "Developer"
+msgstr "Geliştirici"
+
+#: aboutdata.h:34
+#, kde-format
+msgid "Piotr Szymanski"
+msgstr "Piotr Szymanski"
+
+#: aboutdata.h:34
+#, kde-format
+msgid "Created Okular from KPDF codebase"
+msgstr "Okular uygulamasını KPDF kod tabanından oluşturdu"
+
+#: aboutdata.h:35
+#, kde-format
+msgid "Enrico Ros"
+msgstr "Enrico Ros"
+
+#: aboutdata.h:35
+#, kde-format
+msgid "KPDF developer"
+msgstr "KPDF geliştiricisi"
+
+#: aboutdata.h:36
+#, kde-format
+msgid "Eugene Trounev"
+msgstr "Eugene Trounev"
+
+#: aboutdata.h:36
+#, kde-format
+msgid "Annotations artwork"
+msgstr "Ek açıklamalar için sanatsal çalışmalar"
+
+#: aboutdata.h:37
+#, kde-format
+msgid "Jiri Baum - NICTA"
+msgstr "Jiri Baum — NICTA"
+
+#: aboutdata.h:37
+#, kde-format
+msgid "Table selection tool"
+msgstr "Tablo seçim aracı"
+
+#: aboutdata.h:38
+#, kde-format
+msgid "Fabio D'Urso"
+msgstr "Fabio D’Urso"
+
+#: aboutdata.h:38
+#, kde-format
+msgid "Annotation improvements"
+msgstr "Ek açıklama geliştirmeleri"
+
+#: core/action.cpp:124
+#, kde-format
+msgid "Go to page %1"
+msgstr "%1. Sayfaya Git"
+
+#: core/action.cpp:124
+#, kde-format
+msgid "Open external file"
+msgstr "Dış dosya aç"
+
+#: core/action.cpp:184
+#, kde-format
+msgid "Execute '%1'…"
+msgstr "Yürüt: “%1”…"
+
+#: core/action.cpp:281
+#, kde-format
+msgid "First Page"
+msgstr "İlk Sayfa"
+
+#: core/action.cpp:283 part/presentationwidget.cpp:184
+#, kde-format
+msgid "Previous Page"
+msgstr "Önceki Sayfa"
+
+#: core/action.cpp:285 part/presentationwidget.cpp:201
+#, kde-format
+msgid "Next Page"
+msgstr "Sonraki Sayfa"
+
+#: core/action.cpp:287
+#, kde-format
+msgid "Last Page"
+msgstr "Son Sayfa"
+
+#: core/action.cpp:289
+#, kde-format
+msgid "Back"
+msgstr "Geri"
+
+#: core/action.cpp:291
+#, kde-format
+msgid "Forward"
+msgstr "İleri"
+
+#: core/action.cpp:293
+#, kde-format
+msgid "Quit"
+msgstr "Çık"
+
+#: core/action.cpp:295
+#, kde-format
+msgid "Start Presentation"
+msgstr "Sunumu Başlat"
+
+#: core/action.cpp:297
+#, kde-format
+msgid "End Presentation"
+msgstr "Sunumu Bitir"
+
+#: core/action.cpp:299
+#, kde-format
+msgid "Find…"
+msgstr "Bul…"
+
+#: core/action.cpp:301
+#, kde-format
+msgid "Go To Page…"
+msgstr "Sayfaya Git…"
+
+#: core/action.cpp:352
+#, kde-format
+msgid "Play sound…"
+msgstr "Ses Çal…"
+
+#: core/action.cpp:420 core/action.cpp:536
+#, kde-format
+msgid "JavaScript Script"
+msgstr "JavaScript Betiği"
+
+#: core/action.cpp:470
+#, kde-format
+msgid "Play movie…"
+msgstr "Film Oynat…"
+
+#: core/action.cpp:541
+#, kde-format
+msgid "Play movie"
+msgstr "Film oynat"
+
+#: core/action.cpp:543
+#, kde-format
+msgid "Stop movie"
+msgstr "Filmi durdur"
+
+#: core/action.cpp:545
+#, kde-format
+msgid "Pause movie"
+msgstr "Filmi duraklat"
+
+#: core/action.cpp:547
+#, kde-format
+msgid "Resume movie"
+msgstr "Filmi sürdür"
+
+#: core/audioplayer.cpp:313
+#, kde-format
+msgid "This Okular is built without audio support"
+msgstr "Bu Okular, ses desteği olmadan yapılmış"
+
+#: core/chooseenginedialog.cpp:22
+#, kde-format
+msgid "Backend Selection"
+msgstr "Arka Uç Seçimi"
+
+#: core/chooseenginedialog.cpp:40
+#, kde-format
+msgid ""
+"<qt>More than one backend found for the MIME type:<br /><b>%1</b> (%2).<br /"
+"><br />Please select which one to use:</qt>"
+msgstr ""
+"<qt>MIME türü için birden fazla arka uç bulundu:<br /><b>%1</b> (%2).<br /"
+"><br />Lütfen kullanmak için birini seçin:</qt>"
+
+#: core/document.cpp:199
+#, kde-format
+msgctxt "@info %1 is a page size"
+msgid "Most pages are %1."
+msgstr "Çoğu sayfa %1."
+
+#: core/document.cpp:220
+#, kde-format
+msgctxt "paper type and orientation (eg: Portrait A4)"
+msgid "Portrait %1"
+msgstr "Dikey %1"
+
+#: core/document.cpp:222
+#, kde-format
+msgctxt "paper type and orientation (eg: Portrait A4)"
+msgid "Landscape %1"
+msgstr "Yatay %1"
+
+#: core/document.cpp:245
+#, kde-format
+msgctxt "%1 is width, %2 is height, %3 is paper size name"
+msgid "%1 × %2 in (%3)"
+msgstr "%1 × %2 inç (%3)"
+
+#: core/document.cpp:247
+#, kde-format
+msgctxt "%1 is width, %2 is height, %3 is paper size name"
+msgid "%1 × %2 mm (%3)"
+msgstr "%1 × %2 mm (%3)"
+
+#: core/document.cpp:1672
+#, kde-format
+msgid "Continuing search from beginning"
+msgstr "Arama, başlangıçtan sürüyor"
+
+#: core/document.cpp:1675
+#, kde-format
+msgid "Continuing search from bottom"
+msgstr "Arama, sondan sürüyor"
+
+#: core/document.cpp:2394
+#, kde-format
+msgid ""
+"Can not find a plugin which is able to handle the document being passed."
+msgstr "Bu belgeyi açmak için bir eklenti bulunamadı."
+
+#: core/document.cpp:2815
+#, kde-format
+msgctxt "Unsupported action"
+msgid "Signing not implemented for this document type"
+msgstr "Bu belge türü için imzalama henüz gerçeklenmemiş"
+
+#: core/document.cpp:3529
+#, kde-format
+msgctxt "remove a collection of annotations from the page"
+msgid "remove annotations"
+msgstr "ek açıklamaları kaldır"
+
+#: core/document.cpp:4115 core/document.cpp:4121
+#, kde-format
+msgid ""
+"The document is trying to execute an external application and, for your "
+"safety, Okular does not allow that."
+msgstr ""
+"Belge, bir dış uygulamayı yürütmek istiyor; güvenliğiniz için Okular buna "
+"izin vermez."
+
+#: core/document.cpp:4131
+#, kde-format
+msgid "No application found for opening file of mimetype %1."
+msgstr "%1 dosya türünü açmak için bir uygulama bulunamadı."
+
+#: core/document.cpp:4757
+#, kde-format
+msgid "Could not open a temporary file"
+msgstr "Geçici dosya açılamadı"
+
+#: core/document.cpp:4759
+#, kde-format
+msgid "Print conversion failed"
+msgstr "Yazdırma dönüşümü başarısız"
+
+#: core/document.cpp:4761
+#, kde-format
+msgid "Printing process crashed"
+msgstr "Yazdırma süreci çöktü"
+
+#: core/document.cpp:4763
+#, kde-format
+msgid "Printing process could not start"
+msgstr "Yazdırma süreci başlatılamadı"
+
+#: core/document.cpp:4765
+#, kde-format
+msgid "Printing to file failed"
+msgstr "Dosyaya yazdırma başarısız"
+
+#: core/document.cpp:4767
+#, kde-format
+msgid "Printer was in invalid state"
+msgstr "Yazıcı geçersiz bir durumdaydı"
+
+#: core/document.cpp:4769
+#, kde-format
+msgid "Unable to find file to print"
+msgstr "Yazdırılacak dosya bulunamadı"
+
+#: core/document.cpp:4771
+#, kde-format
+msgid "There was no file to print"
+msgstr "Yazdırılacak dosya yok"
+
+#: core/document.cpp:4773
+#, kde-format
+msgid ""
+"Could not find a suitable binary for printing. Make sure CUPS lpr binary is "
+"available"
+msgstr ""
+"Yazdırmak için uygun bir ikili dosya bulunamadı. CUPS lpr ikili dosyasının "
+"kullanılabilir olduğundan emin olun"
+
+#: core/document.cpp:4775
+#, kde-format
+msgid "The page print size is invalid"
+msgstr "Sayfa yazdırma boyutu geçersiz"
+
+#: core/document.cpp:5414 part/part.cpp:1141
+#, kde-format
+msgid "Could not open '%1'. File does not exist"
+msgstr "“%1” açılamadı. Dosya yok."
+
+#: core/document.cpp:5923
+#, kde-format
+msgid "Title"
+msgstr "Başlık"
+
+#: core/document.cpp:5926
+#, kde-format
+msgid "Subject"
+msgstr "Konu"
+
+#: core/document.cpp:5929
+#, kde-format
+msgid "Description"
+msgstr "Açıklama"
+
+#: core/document.cpp:5932
+#, kde-format
+msgid "Author"
+msgstr "Yazar"
+
+#: core/document.cpp:5935
+#, kde-format
+msgid "Creator"
+msgstr "Oluşturan"
+
+#: core/document.cpp:5938
+#, kde-format
+msgid "Producer"
+msgstr "Üretici"
+
+#: core/document.cpp:5941
+#, kde-format
+msgid "Copyright"
+msgstr "Telif hakkı"
+
+#: core/document.cpp:5944
+#, kde-format
+msgid "Pages"
+msgstr "Sayfalar"
+
+#: core/document.cpp:5947
+#, kde-format
+msgid "Created"
+msgstr "Oluşturulma"
+
+#: core/document.cpp:5950
+#, kde-format
+msgid "Modified"
+msgstr "Değiştirilme"
+
+#: core/document.cpp:5953
+#, kde-format
+msgid "MIME Type"
+msgstr "MIME türü"
+
+#: core/document.cpp:5956
+#, kde-format
+msgid "Category"
+msgstr "Kategori"
+
+#: core/document.cpp:5959
+#, kde-format
+msgid "Keywords"
+msgstr "Anahtar sözcükler"
+
+#: core/document.cpp:5962
+#, kde-format
+msgid "File Path"
+msgstr "Dosya yolu"
+
+#: core/document.cpp:5965
+#, kde-format
+msgid "File Size"
+msgstr "Dosya boyutu"
+
+#: core/document.cpp:5968
+#, kde-format
+msgid "Page Size"
+msgstr "Sayfa boyutu"
+
+#: core/documentcommands.cpp:62
+#, kde-format
+msgctxt "Add an annotation to the page"
+msgid "add annotation"
+msgstr "ek açıklama ekle"
+
+#: core/documentcommands.cpp:108
+#, kde-format
+msgctxt "Remove an annotation from the page"
+msgid "remove annotation"
+msgstr "ek açıklamayı kaldır"
+
+#: core/documentcommands.cpp:155
+#, kde-format
+msgctxt "Modify an annotation's internal properties (Color, line-width, etc.)"
+msgid "modify annotation properties"
+msgstr "ek açıklama özelliklerini değiştir"
+
+#: core/documentcommands.cpp:190
+#, kde-format
+msgctxt "Translate an annotation's position on the page"
+msgid "translate annotation"
+msgstr "ek açıklamayı çevir"
+
+#: core/documentcommands.cpp:263
+#, kde-format
+msgctxt "Change an annotation's size"
+msgid "adjust annotation"
+msgstr "ek açıklamayı ayarla"
+
+#: core/documentcommands.cpp:333
+#, kde-format
+msgctxt "Generic text edit command"
+msgid "edit text"
+msgstr "metni düzenle"
+
+#: core/documentcommands.cpp:398
+#, kde-format
+msgctxt "Edit an annotation's text contents"
+msgid "edit annotation contents"
+msgstr "ek açıklama içeriğini düzenle"
+
+#: core/documentcommands.cpp:447
+#, kde-format
+msgctxt "Edit an form's text contents"
+msgid "edit form contents"
+msgstr "form içeriğini düzenle"
+
+#: core/documentcommands.cpp:494
+#, kde-format
+msgctxt "Edit a list form's choices"
+msgid "edit list form choices"
+msgstr "liste formu seçimlerini düzenle"
+
+#: core/documentcommands.cpp:528
+#, kde-format
+msgctxt "Edit a combo form's selection"
+msgid "edit combo form selection"
+msgstr "açılır kutu seçimlerini düzenle"
+
+#: core/documentcommands.cpp:598
+#, kde-format
+msgctxt "Edit the state of a group of form buttons"
+msgid "edit form button states"
+msgstr "form düğme durumlarını düzenle"
+
+#: core/generator.cpp:790
+#, kde-format
+msgid "Plain &Text…"
+msgstr "Düz &Metin…"
+
+#: core/generator.cpp:793
+#, kde-format
+msgid "PDF"
+msgstr "PDF"
+
+#: core/generator.cpp:797
+#, kde-format
+msgctxt "This is the document format"
+msgid "OpenDocument Text"
+msgstr "OpenDocument Metni"
+
+#: core/generator.cpp:800
+#, kde-format
+msgctxt "This is the document format"
+msgid "HTML"
+msgstr "HTML"
+
+#: core/printoptionswidget.cpp:19
+#, kde-format
+msgid "Print Options"
+msgstr "Yazdırma Seçenekleri"
+
+#: core/printoptionswidget.cpp:23
+#, kde-format
+msgid "Fit to printable area"
+msgstr "Yazdırılabilir alana sığdır"
+
+#: core/printoptionswidget.cpp:24
+#, kde-format
+msgid "Fit to full page"
+msgstr "Tam sayfaya sığdır"
+
+#: core/printoptionswidget.cpp:25
+#, kde-format
+msgid "Scale mode:"
+msgstr "Ölçek kipi:"
+
+#: core/script/js_app.cpp:203
+#, kde-format
+msgid "Do not show this message again"
+msgstr "Bu iletiyi bir daha gösterme"
+
+#: core/signatureutils.cpp:21 part/signaturepropertiesdialog.cpp:34
+#, kde-format
+msgid "Not Available"
+msgstr "Kullanılamıyor"
+
+#: core/signatureutils.cpp:521
+#, kde-format
+msgctxt "signing error"
+msgid ""
+"Signing certificate not found. If you are using a smartcard, it might have "
+"been removed or the signature store changed"
+msgstr ""
+"İmzalama sertifikası bulunamadı. Eğer bir akıllı kart kullanıyorsanız "
+"çıkarılmış veya imza deposu değişmiş olabilir."
+
+#: core/signatureutils.cpp:524
+#, kde-format
+msgctxt "%1 is a error code"
+msgid ""
+"Internal signing error. Please report a bug with the steps to reproduce it. "
+"Error code %1"
+msgstr ""
+"İçsel imzalama hatası. Lütfen, yeniden oluşturma adımlarını da içererek bir "
+"hata kaydı açın. Hata kodu %1."
+
+#: core/signatureutils.cpp:526
+#, kde-kuit-format
+msgctxt "%1 is a filename with path"
+msgid "Could not sign the document: <filename>%1</filename>"
+msgstr "Dosya imzalanamadı: <filename>%1</filename>"
+
+#: core/signatureutils.cpp:528
+#, kde-format
+msgid "Signing cancelled by user"
+msgstr "İmzalama kullanıcı tarafından iptal edildi"
+
+#: core/signatureutils.cpp:530
+#, kde-format
+msgid "Signing failed: Wrong passphrase"
+msgstr "İmzalanamadı: Yanlış anahtar parolası"
+
+#: core/signatureutils.cpp:532
+#, kde-kuit-format
+msgctxt "%1 is a filename with path"
+msgid ""
+"Could not write the signed document to <filename>%1</filename>, please "
+"ensure you have selected a folder with write permission"
+msgstr ""
+"<filename>%1</filename> konumundaki imzalı belgeye yazılamadı; lütfen yazma "
+"iznine iye olduğunuz bir klasör seçtiğinizden emin olun."
+
+#: core/signatureutils.cpp:534
+#, kde-format
+msgctxt ""
+"Unlikely error; user can choose a signature/key-combo and everything "
+"possible should be valid combinations"
+msgid "Unsupported signature type for current certificate"
+msgstr "Geçerli sertifika için desteklenmeyen imza türü"
+
+#: core/signatureutils.cpp:536
+#, kde-format
+msgid "Unknown signing error"
+msgstr "Bilinmeyen İmzalama Hatası"
+
+#: core/sourcereference.cpp:103
+#, kde-format
+msgctxt "'source' is a source file"
+msgid "Source: %1"
+msgstr "Kaynak: %1"
+
+#: core/textdocumentsettings.cpp:34
+#, kde-format
+msgid "&Default Font:"
+msgstr "Ö&ntanımlı yazıtipi:"
+
+#: gui/certificatemodel.cpp:51
+#, kde-format
+msgid "Version"
+msgstr "Sürüm"
+
+#: gui/certificatemodel.cpp:53
+#, kde-format
+msgid "Serial Number"
+msgstr "Seri Numarası"
+
+#: gui/certificatemodel.cpp:55
+#, kde-format
+msgid "Issuer"
+msgstr "Veren"
+
+#: gui/certificatemodel.cpp:57 part/certificateviewer.cpp:89
+#, kde-format
+msgid "Issued On"
+msgstr "Verilme Tarihi"
+
+#: gui/certificatemodel.cpp:59 part/certificateviewer.cpp:90
+#, kde-format
+msgid "Expires On"
+msgstr "Son Kullanım Tarihi"
+
+#: gui/certificatemodel.cpp:61
+#, kde-format
+msgctxt "The person/company that made the signature"
+msgid "Subject"
+msgstr "Konu"
+
+#: gui/certificatemodel.cpp:61
+#, kde-format
+msgctxt "Name/email on key"
+msgid "User Id"
+msgstr "Kullanıcı Kimliği"
+
+#: gui/certificatemodel.cpp:63
+#, kde-format
+msgid "Public Key"
+msgstr "Genel Anahtar"
+
+#: gui/certificatemodel.cpp:65
+#, kde-format
+msgid "Key Usage"
+msgstr "Anahtar Kullanımı"
+
+#: gui/certificatemodel.cpp:84
+#, kde-format
+msgid "V%1"
+msgstr "V%1"
+
+#: gui/certificatemodel.cpp:96
+#, kde-format
+msgid "%1 (%2 bits)"
+msgstr "%1 (%2 bit)"
+
+#: gui/certificatemodel.cpp:158
+#, kde-format
+msgid "Property"
+msgstr "Özellik"
+
+#: gui/certificatemodel.cpp:160
+#, kde-format
+msgid "Value"
+msgstr "Değer"
+
+#: gui/guiutils.cpp:39 part/editannottooldialog.cpp:88
+#: part/pageviewannotator.cpp:277 part/pageviewannotator.cpp:1484
+#, kde-format
+msgid "Pop-up Note"
+msgstr "Açılır Not"
+
+#: gui/guiutils.cpp:43 part/editannottooldialog.cpp:96
+#: part/pageviewannotator.cpp:264 part/pageviewannotator.cpp:1500
+#, kde-format
+msgid "Typewriter"
+msgstr "Daktilo"
+
+#: gui/guiutils.cpp:46 part/editannottooldialog.cpp:89
+#: part/pageviewannotator.cpp:259 part/pageviewannotator.cpp:1482
+#, kde-format
+msgid "Inline Note"
+msgstr "İç Not"
+
+#: gui/guiutils.cpp:56
+#, kde-format
+msgid "Arrow with Comment"
+msgstr "Ok, Yorum ile"
+
+#. i18n: tag tool attribute name
+#: gui/guiutils.cpp:56 part/data/tools.xml:103
+#, kde-format
+msgid "Arrow"
+msgstr "Ok"
+
+#: gui/guiutils.cpp:59
+#, kde-format
+msgid "Straight Line with Comment"
+msgstr "Düz Çizgi, Yorum ile"
+
+#: gui/guiutils.cpp:59 part/editannottooldialog.cpp:91
+#: part/pageviewannotator.cpp:1494
+#, kde-format
+msgid "Straight Line"
+msgstr "Düz Çizgi"
+
+#: gui/guiutils.cpp:63
+#, kde-format
+msgid "Polygon with Comment"
+msgstr "Çokgen, Yorum ile"
+
+#: gui/guiutils.cpp:63 part/editannottooldialog.cpp:92
+#: part/pageviewannotator.cpp:1486
+#, kde-format
+msgid "Polygon"
+msgstr "Çokgen"
+
+#: gui/guiutils.cpp:71
+#, kde-format
+msgid "Rectangle with Comment"
+msgstr "Dörtgen, Yorum ile"
+
+#: gui/guiutils.cpp:71 part/annotationwidgets.cpp:700
+#: part/pageviewannotator.cpp:1488
+#, kde-format
+msgid "Rectangle"
+msgstr "Dikdörtgen"
+
+#: gui/guiutils.cpp:74
+#, kde-format
+msgid "Ellipse with Comment"
+msgstr "Elips, Yorum ile"
+
+#: gui/guiutils.cpp:74 part/annotationwidgets.cpp:701
+#: part/pageviewannotator.cpp:1476
+#, kde-format
+msgid "Ellipse"
+msgstr "Elips"
+
+#: gui/guiutils.cpp:83
+#, kde-format
+msgid "Highlight with Comment"
+msgstr "Vurgulama, Yorum ile"
+
+#: gui/guiutils.cpp:83 part/annotationwidgets.cpp:653
+#, kde-format
+msgid "Highlight"
+msgstr "Vurgulama"
+
+#: gui/guiutils.cpp:87
+#, kde-format
+msgid "Squiggle with Comment"
+msgstr "Dalgalı Çizgili, Yorum ile"
+
+#: gui/guiutils.cpp:87 part/annotationwidgets.cpp:654
+#: part/pageviewannotator.cpp:1490
+#, kde-format
+msgid "Squiggle"
+msgstr "Dalgalı Çizgili"
+
+#: gui/guiutils.cpp:91
+#, kde-format
+msgid "Underline with Comment"
+msgstr "Altı Çizili, Yorum ile"
+
+#: gui/guiutils.cpp:91 part/annotationwidgets.cpp:655
+#: part/pageviewannotator.cpp:1498
+#, kde-format
+msgid "Underline"
+msgstr "Altı Çizili"
+
+#: gui/guiutils.cpp:95
+#, kde-format
+msgid "Strike Out with Comment"
+msgstr "Üzeri Çizili, Yorum ile"
+
+#: gui/guiutils.cpp:95
+#, kde-format
+msgid "Strike Out"
+msgstr "Üzeri Çizili"
+
+#: gui/guiutils.cpp:102
+#, kde-format
+msgid "Stamp with Comment"
+msgstr "Damga, Yorum ile"
+
+#: gui/guiutils.cpp:102 part/editannottooldialog.cpp:95
+#: part/pageviewannotator.cpp:1492
+#, kde-format
+msgid "Stamp"
+msgstr "Damga"
+
+#: gui/guiutils.cpp:106
+#, kde-format
+msgid "Freehand Line with Comment"
+msgstr "Serbest Çizim, Yorum ile"
+
+#: gui/guiutils.cpp:106 part/editannottooldialog.cpp:90
+#: part/pageviewannotator.cpp:1480
+#, kde-format
+msgid "Freehand Line"
+msgstr "Serbest Çizim Çizgisi"
+
+#: gui/guiutils.cpp:110
+#, kde-format
+msgid "Caret"
+msgstr "Metin İmleci"
+
+#: gui/guiutils.cpp:114
+#, kde-format
+msgid "File Attachment"
+msgstr "Dosya Eki"
+
+#: gui/guiutils.cpp:118
+#, kde-format
+msgid "Sound"
+msgstr "Ses"
+
+#: gui/guiutils.cpp:122
+#, kde-format
+msgid "Movie"
+msgstr "Film"
+
+#: gui/guiutils.cpp:126
+#, kde-format
+msgctxt "Caption for a screen annotation"
+msgid "Screen"
+msgstr "Ekran"
+
+#: gui/guiutils.cpp:130
+#, kde-format
+msgctxt "Caption for a widget annotation"
+msgid "Widget"
+msgstr "Araç Takımı"
+
+#: gui/guiutils.cpp:134
+#, kde-format
+msgctxt "Caption for a rich media annotation"
+msgid "Rich Media"
+msgstr "Zengin Ortam"
+
+#: gui/guiutils.cpp:144
+#, kde-format
+msgid "Annotation"
+msgstr "Ek Açıklama"
+
+#: gui/guiutils.cpp:172
+#, kde-format
+msgctxt "Unknown author"
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: gui/guiutils.cpp:189 part/presentationwidget.cpp:376
+#, kde-format
+msgid "Author: %1"
+msgstr "Yazar: %1"
+
+#: gui/guiutils.cpp:201 part/propertiesdialog.cpp:229
+#, kde-format
+msgid "Where do you want to save %1?"
+msgstr "%1 belgesini nereye kaydetmek istiyorsunuz?"
+
+#: gui/guiutils.cpp:213 part/propertiesdialog.cpp:240
+#, kde-format
+msgid "Could not open \"%1\" for writing. File was not saved."
+msgstr "“%1” yazmak için açılamadı. Dosya kaydedilmedi."
+
+#: gui/signatureguiutils.cpp:42
+#, kde-format
+msgid "The signature is cryptographically valid."
+msgstr "İmza, kriptografik olarak geçerli."
+
+#: gui/signatureguiutils.cpp:44
+#, kde-format
+msgid "The signature is cryptographically invalid."
+msgstr "İmza, kriptografik olarak geçersiz."
+
+#: gui/signatureguiutils.cpp:46
+#, kde-format
+msgid "Digest Mismatch occurred."
+msgstr "Özet uyuşmazlığı meydana geldi."
+
+#: gui/signatureguiutils.cpp:48
+#, kde-format
+msgid "The signature CMS/PKCS7 structure is malformed."
+msgstr "İmza CMS/PKS7 yapısı hatalı oluşturulmuş."
+
+#: gui/signatureguiutils.cpp:50
+#, kde-format
+msgid "The requested signature is not present in the document."
+msgstr "İstenen imza belgede yok."
+
+#: gui/signatureguiutils.cpp:52
+#, kde-format
+msgid "The signature could not be verified."
+msgstr "İmza doğrulanamadı."
+
+#: gui/signatureguiutils.cpp:60
+#, kde-format
+msgid "Certificate is Trusted."
+msgstr "Sertifika, güvenilir."
+
+#: gui/signatureguiutils.cpp:62
+#, kde-format
+msgid "Certificate issuer isn't Trusted."
+msgstr "Sertifikayı verene güvenilemiyor."
+
+#: gui/signatureguiutils.cpp:64
+#, kde-format
+msgid "Certificate issuer is unknown."
+msgstr "Sertifika vereni bilinmiyor."
+
+#: gui/signatureguiutils.cpp:66
+#, kde-format
+msgid "Certificate has been Revoked."
+msgstr "Sertifika yürürlükten kaldırılmış."
+
+#: gui/signatureguiutils.cpp:68
+#, kde-format
+msgid "Certificate has Expired."
+msgstr "Sertifika süresi geçmiş."
+
+#: gui/signatureguiutils.cpp:70
+#, kde-format
+msgid "Certificate has not yet been verified."
+msgstr "Sertifika henüz doğrulanmadı."
+
+#: gui/signatureguiutils.cpp:72
+#, kde-format
+msgid "Certificate validation in progress"
+msgstr "Sertifika doğrulaması sürüyor…"
+
+#: gui/signatureguiutils.cpp:74
+#, kde-format
+msgid "Unknown issue with Certificate or corrupted data."
+msgstr "Sertifika ile ilgili bilinmeyen sorun veya hasarlı veri."
+
+#: gui/signatureguiutils.cpp:82
+#, kde-format
+msgid "MD2"
+msgstr "MD2"
+
+#: gui/signatureguiutils.cpp:84
+#, kde-format
+msgid "MD5"
+msgstr "MD5"
+
+#: gui/signatureguiutils.cpp:86
+#, kde-format
+msgid "SHA1"
+msgstr "SHA1"
+
+#: gui/signatureguiutils.cpp:88
+#, kde-format
+msgid "SHA256"
+msgstr "SHA256"
+
+#: gui/signatureguiutils.cpp:90
+#, kde-format
+msgid "SHA384"
+msgstr "SHA284"
+
+#: gui/signatureguiutils.cpp:92
+#, kde-format
+msgid "SHA512"
+msgstr "SHA512"
+
+#: gui/signatureguiutils.cpp:94
+#, kde-format
+msgid "SHA224"
+msgstr "SHA224"
+
+#: gui/signatureguiutils.cpp:96
+#, kde-format
+msgid "Unknown Algorithm"
+msgstr "Bilinmeyen Algoritma"
+
+#: gui/signatureguiutils.cpp:104
+#, kde-format
+msgid "RSA"
+msgstr "RSA"
+
+#: gui/signatureguiutils.cpp:106
+#, kde-format
+msgid "DSA"
+msgstr "DSA"
+
+#: gui/signatureguiutils.cpp:108
+#, kde-format
+msgid "EC"
+msgstr "EC"
+
+#: gui/signatureguiutils.cpp:110 gui/signatureguiutils.cpp:113
+#, kde-format
+msgid "Unknown Type"
+msgstr "Bilinmeyen Tür"
+
+#: gui/signatureguiutils.cpp:120
+#, kde-format
+msgid "Digital Signature"
+msgstr "Sayısal İmza"
+
+#: gui/signatureguiutils.cpp:123
+#, kde-format
+msgid "Non-Repudiation"
+msgstr "Geri Çevrilemez"
+
+#: gui/signatureguiutils.cpp:126
+#, kde-format
+msgid "Encrypt Keys"
+msgstr "Anahtarları Şifrele"
+
+#: gui/signatureguiutils.cpp:129
+#, kde-format
+msgid "Decrypt Keys"
+msgstr "Anahtarların Şifresini Çöz"
+
+#: gui/signatureguiutils.cpp:132
+#, kde-format
+msgid "Key Agreement"
+msgstr "Anahtar Antlaşması"
+
+#: gui/signatureguiutils.cpp:135
+#, kde-format
+msgid "Sign Certificate"
+msgstr "Sertifikayı İmzala"
+
+#: gui/signatureguiutils.cpp:138
+#, kde-format
+msgid "Sign CRL"
+msgstr "CRL İmzala"
+
+#: gui/signatureguiutils.cpp:141
+#, kde-format
+msgid "Encrypt Only"
+msgstr "Yalnızca Şifreleme"
+
+#: gui/signatureguiutils.cpp:144
+#, kde-format
+msgid "No Usage Specified"
+msgstr "Kullanım Belirtilmemiş"
+
+#: gui/signatureguiutils.cpp:151
+#, kde-format
+msgctxt "Joins the various ways a signature key can be used in a longer string"
+msgid ", "
+msgstr ", "
+
+#: gui/signatureguiutils.cpp:165
+#, kde-format
+msgid "The document has not been modified since it was signed."
+msgstr "Bu belge, imzalandığından bu yana değiştirilmedi."
+
+#: gui/signatureguiutils.cpp:168
+#, kde-format
+msgid ""
+"The revision of the document that was covered by this signature has not been "
+"modified;\n"
+"however there have been subsequent changes to the document."
+msgstr ""
+"Belgenin, bu imza tarafından kapsanan revizyonu değiştirilmedi; ancak\n"
+"belgeye kapsamlı değişiklikler yapılmış."
+
+#: gui/signatureguiutils.cpp:172
+#, kde-format
+msgid ""
+"The document has been modified in a way not permitted by a previous signer."
+msgstr ""
+"Belge, bir önceki imzalayan tarafından izin verilmeyen bir biçimde "
+"değiştirilmiş."
+
+#: gui/signatureguiutils.cpp:174
+#, kde-format
+msgid "The document integrity verification could not be completed."
+msgstr "Belge bütünlülük doğrulaması tamamlanamadı."
+
+#: gui/signatureguiutils.cpp:212
+#, kde-format
+msgctxt "Digital signature"
+msgid "This document has signature placeholder fields."
+msgstr "Bu belgede imza yerleri var."
+
+#: gui/signatureguiutils.cpp:215
+#, kde-format
+msgid "This document is digitally signed."
+msgstr "Bu belge, sayısal olarak imzalı."
+
+#: gui/signatureguiutils.cpp:217
+#, kde-format
+msgid ""
+"This document is digitally signed. There have been changes since last signed."
+msgstr ""
+"Bu belge, sayısal olarak imzalı. Son imzalandığından bu yana değişiklikler "
+"yapılmış."
+
+#: gui/signatureguiutils.cpp:220
+#, kde-format
+msgid ""
+"This document is digitally signed. Some of the signatures could not be "
+"validated properly."
+msgstr "Bu belge, sayısal olarak imzalı. Bazı imzalar düzgünce doğrulanamadı."
+
+#: gui/signaturemodel.cpp:141
+#, kde-format
+msgctxt "Digital signature"
+msgid "Signature placeholder %1"
+msgstr "İmza yeri %1"
+
+#: gui/signaturemodel.cpp:144 gui/signaturemodel.cpp:181
+#, kde-format
+msgid "Field: %1 on page %2"
+msgstr "Alan: %2 numaralı sayfada %1"
+
+#: gui/signaturemodel.cpp:152
+#, kde-format
+msgid "Rev. %1: Signed By %2"
+msgstr "Revizyon %1: %2 tarafından imzalandı"
+
+#: gui/signaturemodel.cpp:167
+#, kde-format
+msgid "Signing Time: %1"
+msgstr "İmza saati: %1"
+
+#: gui/signaturemodel.cpp:172
+#, kde-format
+msgid "Reason: %1"
+msgstr "Gerekçe: %1"
+
+#: gui/signaturemodel.cpp:177
+#, kde-format
+msgid "Location: %1"
+msgstr "Konum: %1"
+
+#: gui/signaturemodel.cpp:185
+#, kde-format
+msgctxt "Digital signature type"
+msgid "PGP Signature"
+msgstr "PGP imzası"
+
+#: gui/signaturemodel.cpp:187
+#, kde-format
+msgctxt "Digital signature type"
+msgid "Adobe PKCS7"
+msgstr "Adobe PKCS7"
+
+#: gui/signaturemodel.cpp:189
+#, kde-format
+msgctxt "Digital signature type"
+msgid "Adobe PKCS7 Sha1"
+msgstr "Adobe PKCS7 SHA1"
+
+#: gui/signaturemodel.cpp:191
+#, kde-format
+msgctxt "Digital signature type"
+msgid "ETSI CAdES"
+msgstr "ETSI CAdES"
+
+#: gui/signaturemodel.cpp:193
+#, kde-format
+msgctxt "Digital signature type"
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: gui/signaturemodel.cpp:195
+#, kde-format
+msgctxt "Digital signature type"
+msgid "Signature placeholder"
+msgstr "İmza yeri"
+
+#: gui/signaturemodel.cpp:201
+#, kde-format
+msgid "Signature Type: %1"
+msgstr "İmza türü: %1"
+
+#: part/annotationactionhandler.cpp:147
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Red"
+msgstr "Kırmızı"
+
+#: part/annotationactionhandler.cpp:148
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Orange"
+msgstr "Turuncu"
+
+#: part/annotationactionhandler.cpp:149
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Yellow"
+msgstr "Sarı"
+
+#: part/annotationactionhandler.cpp:150
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Green"
+msgstr "Yeşil"
+
+#: part/annotationactionhandler.cpp:151
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Cyan"
+msgstr "Camgöbeği"
+
+#: part/annotationactionhandler.cpp:152
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Blue"
+msgstr "Mavi"
+
+#: part/annotationactionhandler.cpp:153
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Magenta"
+msgstr "Mor"
+
+#: part/annotationactionhandler.cpp:154
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "White"
+msgstr "Beyaz"
+
+#: part/annotationactionhandler.cpp:155
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Gray"
+msgstr "Gri"
+
+#: part/annotationactionhandler.cpp:156
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Black"
+msgstr "Siyah"
+
+#: part/annotationactionhandler.cpp:245 part/annotationactionhandler.cpp:686
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Width %1"
+msgstr "%1 genişlik"
+
+#: part/annotationactionhandler.cpp:251
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "%1%"
+msgstr "%%1"
+
+#: part/annotationactionhandler.cpp:295
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation line width (No annotation selected)"
+msgstr "Ek açıklama çizgi genişliği (seçili açıklama yok)"
+
+#: part/annotationactionhandler.cpp:296
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation color (No annotation selected)"
+msgstr "Ek açıklama rengi (seçili açıklama yok)"
+
+#: part/annotationactionhandler.cpp:297
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation fill color (No annotation selected)"
+msgstr "Ek açıklama dolgu rengi (seçili açıklama yok)"
+
+#: part/annotationactionhandler.cpp:298
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation opacity (No annotation selected)"
+msgstr "Ek açıklama matlığı (seçili açıklama yok)"
+
+#: part/annotationactionhandler.cpp:299
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation font (No annotation selected)"
+msgstr "Ek açıklama yazıtipi (seçili açıklama yok)"
+
+#: part/annotationactionhandler.cpp:300
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Add the current annotation to the quick annotations menu (No annotation "
+"selected)"
+msgstr ""
+"Geçerli ek açıklamayı, tez ek açıklama menüsüne ekle (seçili açıklama yok)"
+
+#: part/annotationactionhandler.cpp:301
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Constrain shape ratio to 1:1 or line angle to 15° steps (No annotation "
+"selected)"
+msgstr ""
+"Şekil oranını 1:1 olarak veya çizgi açısını 15 derecelik adımlara kısıtla "
+"(açıklama seçili değil)"
+
+#: part/annotationactionhandler.cpp:302
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Advanced settings for the current annotation tool (No annotation selected)"
+msgstr ""
+"Geçerli ek açıklama aracı için gelişmiş seçenekler (açıklama seçili değil)"
+
+#: part/annotationactionhandler.cpp:307
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation line width"
+msgstr "Ek açıklama çizgisi genişliği"
+
+#: part/annotationactionhandler.cpp:309
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation line width (Current annotation has no line width)"
+msgstr "Ek açıklama çizgisi genişliği (geçerli açıklamada çizgi genişliği yok)"
+
+#: part/annotationactionhandler.cpp:313
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation text color"
+msgstr "Ek açıklama metin rengi"
+
+#: part/annotationactionhandler.cpp:315
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation border color"
+msgstr "Ek açıklama kenar rengi"
+
+#: part/annotationactionhandler.cpp:317
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation color"
+msgstr "Ek açıklama rengi"
+
+#: part/annotationactionhandler.cpp:321
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation fill color"
+msgstr "Ek açıklama dolgu rengi"
+
+#: part/annotationactionhandler.cpp:323
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation fill color (Current annotation has no fill color)"
+msgstr "Ek açıklama dolgu rengi (geçerli açıklamada dolgu rengi yok)"
+
+#: part/annotationactionhandler.cpp:327
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation font"
+msgstr "Ek açıklama yazıtipi"
+
+#: part/annotationactionhandler.cpp:329
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation font (Current annotation has no font)"
+msgstr "Ek açıklama yazıtipi (geçerli açıklamada yazıtipi yok)"
+
+#: part/annotationactionhandler.cpp:333
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Constrain line angle to 15° steps"
+msgstr "Çizgi açısını 15 derecelik adımlara kısıtla"
+
+#: part/annotationactionhandler.cpp:335
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Constrain shape ratio to 1:1"
+msgstr "Şekil oranını 1:1 olarak kısıtla"
+
+#: part/annotationactionhandler.cpp:337
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Constrain shape ratio to 1:1 or line angle to 15° steps (Not supported by "
+"current annotation)"
+msgstr ""
+"Şekil oranını 1:1 olarak veya çizgi açısını 15 derecelik adımlara kısıtla "
+"(geçerli açıklama tarafından desteklenmiyor)"
+
+#: part/annotationactionhandler.cpp:340
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Annotation opacity"
+msgstr "Ek açıklama matlığı"
+
+#: part/annotationactionhandler.cpp:341
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add the current annotation to the quick annotations menu"
+msgstr "Geçerli ek açıklamayı, tez ek açıklama menüsüne ekle"
+
+#: part/annotationactionhandler.cpp:342
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Advanced settings for the current annotation tool"
+msgstr "Geçerli ek açıklama aracı için gelişmiş seçenekler"
+
+#: part/annotationactionhandler.cpp:431
+#, kde-format
+msgctxt "@action:intoolbar Current annotation config option"
+msgid "Color"
+msgstr "Renk"
+
+#: part/annotationactionhandler.cpp:433
+#, kde-format
+msgctxt "@action:intoolbar Current annotation config option"
+msgid "Fill Color"
+msgstr "Doldurma Rengi"
+
+#: part/annotationactionhandler.cpp:434
+#, kde-format
+msgctxt "@item:inlistbox Color name"
+msgid "Transparent"
+msgstr "Saydam"
+
+#: part/annotationactionhandler.cpp:444
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Custom Color…"
+msgstr "Özel renk…"
+
+#: part/annotationactionhandler.cpp:498
+#, kde-format
+msgctxt "@title:window"
+msgid "Select color"
+msgstr "Renk seç"
+
+#: part/annotationactionhandler.cpp:551
+#, kde-format
+msgid "&Annotations"
+msgstr "&Ek Açıklamalar"
+
+#: part/annotationactionhandler.cpp:552
+#, kde-format
+msgctxt "@action:intoolbar Hide the toolbar"
+msgid "Hide"
+msgstr "Gizle"
+
+#: part/annotationactionhandler.cpp:553
+#, kde-format
+msgctxt "@action:intoolbar Show the builtin annotation toolbar"
+msgid "Show more annotation tools"
+msgstr "Daha Çok Ek Açıklama Aracı Göster"
+
+#: part/annotationactionhandler.cpp:556
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Highlighter"
+msgstr "Vurgulayıcı"
+
+#: part/annotationactionhandler.cpp:557
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Underline"
+msgstr "Altı Çizili"
+
+#: part/annotationactionhandler.cpp:558
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Squiggle"
+msgstr "Dalgalı Çizgili"
+
+#: part/annotationactionhandler.cpp:559
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Strike Out"
+msgstr "Üzeri Çizili"
+
+#: part/annotationactionhandler.cpp:561
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Typewriter"
+msgstr "Daktilo"
+
+#: part/annotationactionhandler.cpp:562
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Inline Note"
+msgstr "İç Not"
+
+#: part/annotationactionhandler.cpp:563
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Popup Note"
+msgstr "Açılır Not"
+
+#: part/annotationactionhandler.cpp:564
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Freehand Line"
+msgstr "Serbest Çizim Çizgisi"
+
+#: part/annotationactionhandler.cpp:566
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Straight line"
+msgstr "Düz Çizgi"
+
+#: part/annotationactionhandler.cpp:567
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Arrow"
+msgstr "Ok"
+
+#: part/annotationactionhandler.cpp:568
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Rectangle"
+msgstr "Dikdörtgen"
+
+#: part/annotationactionhandler.cpp:569
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Ellipse"
+msgstr "Elips"
+
+#: part/annotationactionhandler.cpp:570
+#, kde-format
+msgctxt "@action:intoolbar Annotation tool"
+msgid "Polygon"
+msgstr "Çokgen"
+
+#: part/annotationactionhandler.cpp:571
+#, kde-format
+msgctxt "@action"
+msgid "Geometrical shapes"
+msgstr "Geometrik Şekiller"
+
+#: part/annotationactionhandler.cpp:617
+#, kde-format
+msgctxt "@action"
+msgid "Stamp"
+msgstr "Damga"
+
+#: part/annotationactionhandler.cpp:637
+#, kde-format
+msgctxt "@action:intoolbar Show list of quick annotation tools"
+msgid "Quick Annotations"
+msgstr "Tez Ek Açıklamalar"
+
+#: part/annotationactionhandler.cpp:640
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Choose an annotation tool from the quick annotations"
+msgstr "Tez ek açıklamalardan bir açıklama aracı seçin"
+
+#: part/annotationactionhandler.cpp:650
+#, kde-format
+msgid "Quick Annotation Bar"
+msgstr "Tez Ek Açıklama Çubuğu"
+
+#: part/annotationactionhandler.cpp:664
+#, kde-format
+msgctxt ""
+"@action:intoolbar Add current annotation tool to the quick annotations list"
+msgid "Add to Quick Annotations"
+msgstr "Tez Ek Açıklamalara Ekle"
+
+#: part/annotationactionhandler.cpp:667
+#, kde-format
+msgctxt ""
+"@action:intoolbar When checked keep the current annotation tool active after "
+"use"
+msgid "Keep Active"
+msgstr "Etkin Tut"
+
+#: part/annotationactionhandler.cpp:668
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Keep the annotation tool active after use"
+msgstr "Kullanımdan sonra ek açıklama aracını etkin tut"
+
+#: part/annotationactionhandler.cpp:673
+#, kde-format
+msgctxt ""
+"@action When checked, line annotations are constrained to 15° steps, shape "
+"annotations to 1:1 ratio"
+msgid "Constrain Ratio and Angle of Annotation Tools"
+msgstr "Ek Açıklama Araçlarının Oran ve Şeklini Kısıtla"
+
+#: part/annotationactionhandler.cpp:679
+#, kde-format
+msgctxt "@action:intoolbar Current annotation config option"
+msgid "Font"
+msgstr "Yazıtipi"
+
+#: part/annotationactionhandler.cpp:680
+#, kde-format
+msgctxt "@action:intoolbar Current annotation advanced settings"
+msgid "Annotation Settings"
+msgstr "Ek Açıklama Seçenekleri"
+
+#: part/annotationactionhandler.cpp:683
+#, kde-format
+msgctxt "@action:intoolbar Current annotation config option"
+msgid "Line width"
+msgstr "Satır genişliği"
+
+#: part/annotationactionhandler.cpp:692
+#, kde-format
+msgctxt "@action:intoolbar Current annotation config option"
+msgid "Opacity"
+msgstr "Matlık"
+
+#: part/annotationactionhandler.cpp:695
+#, kde-format
+msgctxt ""
+"@item:inlistbox Annotation opacity percentage level, make sure to include %1 "
+"in your translation"
+msgid "%1%"
+msgstr "%%1"
+
+#: part/annotationmodel.cpp:322
+#, kde-format
+msgctxt "Page label (number)"
+msgid "Page %1 (%2)"
+msgstr "Sayfa %1 (%2)"
+
+#: part/annotationmodel.cpp:324 part/part.cpp:3206
+#, kde-format
+msgid "Page %1"
+msgstr "Sayfa %1"
+
+#: part/annotationpopup.cpp:127
+#, kde-format
+msgctxt "Menu title"
+msgid "Annotation"
+msgid_plural "%1 Annotations"
+msgstr[0] "Ek Açıklama"
+msgstr[1] "%1 Ek Açıklama"
+
+#: part/annotationpopup.cpp:129 part/annotationpopup.cpp:199
+#, kde-format
+msgid "&Open Pop-up Note"
+msgstr "Açılır &Not Aç"
+
+#: part/annotationpopup.cpp:137 part/annotationpopup.cpp:206
+#: part/bookmarklist.cpp:263 part/part.cpp:2287 part/part.cpp:3212
+#, kde-format
+msgid "Remove Bookmark"
+msgstr "Yer İmini Kaldır"
+
+#: part/annotationpopup.cpp:141 part/annotationpopup.cpp:209 part/part.cpp:3214
+#, kde-format
+msgid "Add Bookmark"
+msgstr "Yer İmi Koy"
+
+#: part/annotationpopup.cpp:146 part/annotationpopup.cpp:213
+#, kde-format
+msgctxt "@action"
+msgid "Copy"
+msgstr "Kopyala"
+
+#: part/annotationpopup.cpp:150 part/annotationpopup.cpp:217
+#, kde-format
+msgid "Paste"
+msgstr "Yapıştır"
+
+#: part/annotationpopup.cpp:155 part/annotationpopup.cpp:222
+#, kde-format
+msgid "Copy Text to Clipboard"
+msgstr "Metni Panoya Kopyala"
+
+#: part/annotationpopup.cpp:159 part/annotationpopup.cpp:226
+#: part/pageview.cpp:2589 part/pageview.cpp:2941 part/pageview.cpp:2943
+#: part/pageview.cpp:3103 part/pageview.cpp:3164 part/pageview.cpp:3166
+#, kde-format
+msgid "Copy forbidden by DRM"
+msgstr "Kopyalama DRM tarafından yasaklandı"
+
+#: part/annotationpopup.cpp:164 part/annotationpopup.cpp:231
+#, kde-format
+msgid "&Delete"
+msgstr "&Sil"
+
+#: part/annotationpopup.cpp:178 part/annotationpopup.cpp:235 part/part.cpp:750
+#: part/propertiesdialog.cpp:54
+#, kde-format
+msgid "&Properties"
+msgstr "Ö&zellikler"
+
+#: part/annotationpopup.cpp:185 part/annotationpopup.cpp:241
+#, kde-format
+msgctxt "%1 is the name of the file to open"
+msgid "&Open '%1'…"
+msgstr "&Aç: “%1”…"
+
+#: part/annotationpopup.cpp:189 part/annotationpopup.cpp:245
+#, kde-format
+msgctxt "%1 is the name of the file to save"
+msgid "&Save '%1'…"
+msgstr "&Kaydet: “%1”…"
+
+#: part/annotationpropertiesdialog.cpp:54
+#, kde-format
+msgid "&Appearance"
+msgstr "&Görünüş"
+
+#: part/annotationpropertiesdialog.cpp:59
+#, kde-format
+msgid "&General"
+msgstr "&Genel"
+
+#: part/annotationpropertiesdialog.cpp:64
+#, kde-format
+msgid "&Author:"
+msgstr "&Yazar:"
+
+#: part/annotationpropertiesdialog.cpp:69
+#, kde-format
+msgid "Created:"
+msgstr "Oluşturulma:"
+
+#: part/annotationpropertiesdialog.cpp:74
+#, kde-format
+msgid "Modified:"
+msgstr "Değiştirilme:"
+
+#: part/annotationpropertiesdialog.cpp:108
+#, kde-format
+msgid "Pop-up Note Properties"
+msgstr "Açılır Not Özellikleri"
+
+#: part/annotationpropertiesdialog.cpp:111
+#, kde-format
+msgid "Typewriter Properties"
+msgstr "Daktilo Özellikleri"
+
+#: part/annotationpropertiesdialog.cpp:113
+#, kde-format
+msgid "Inline Note Properties"
+msgstr "İç Not Özellikleri"
+
+#: part/annotationpropertiesdialog.cpp:119
+#, kde-format
+msgid "Straight Line Properties"
+msgstr "Düz Çizgi Özellikleri"
+
+#: part/annotationpropertiesdialog.cpp:121
+#, kde-format
+msgid "Polygon Properties"
+msgstr "Çokgen Özellikleri"
+
+#: part/annotationpropertiesdialog.cpp:125
+#, kde-format
+msgid "Geometry Properties"
+msgstr "Yerleşim Özellikleri"
+
+#: part/annotationpropertiesdialog.cpp:128
+#, kde-format
+msgid "Text Markup Properties"
+msgstr "Metin Biçimlendirme Özellikleri"
+
+#: part/annotationpropertiesdialog.cpp:131
+#, kde-format
+msgid "Stamp Properties"
+msgstr "Damga Özellikleri"
+
+#: part/annotationpropertiesdialog.cpp:134
+#, kde-format
+msgid "Freehand Line Properties"
+msgstr "Serbest Çizim Çizgi Özellikleri"
+
+#: part/annotationpropertiesdialog.cpp:137
+#, kde-format
+msgid "Caret Properties"
+msgstr "Metin İmleci Özellikleri"
+
+#: part/annotationpropertiesdialog.cpp:140
+#, kde-format
+msgid "File Attachment Properties"
+msgstr "Dosya Eki Özellikleri"
+
+#: part/annotationpropertiesdialog.cpp:143
+#, kde-format
+msgid "Sound Properties"
+msgstr "Ses Özellikleri"
+
+#: part/annotationpropertiesdialog.cpp:146
+#, kde-format
+msgid "Movie Properties"
+msgstr "Film Özellikleri"
+
+#: part/annotationpropertiesdialog.cpp:149
+#, kde-format
+msgid "Annotation Properties"
+msgstr "Ek Açıklama Özellikleri"
+
+#: part/annotationwidgets.cpp:57
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select a custom stamp symbol from file"
+msgstr "Dosyadan özel bir damga sembolü seçin"
+
+#: part/annotationwidgets.cpp:154
+#, kde-format
+msgctxt "@title:window file chooser"
+msgid "Select custom stamp symbol"
+msgstr "Özel damga sembolü seç"
+
+#: part/annotationwidgets.cpp:154
+#, kde-format
+msgid ""
+"*.ico *.png *.xpm *.svg *.svgz | Icon Files (*.ico *.png *.xpm *.svg *.svgz)"
+msgstr ""
+"*.ico *.png *.xpm *.svg *.svgz | Simge dosyaları (*.ico *.png *.xpm *.svg *."
+"svgz)"
+
+#: part/annotationwidgets.cpp:158
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Could not load the file <filename>%1</filename>"
+msgstr "Dosya <filename>%1</filename> yüklenemedi"
+
+#: part/annotationwidgets.cpp:158
+#, kde-format
+msgctxt "@title:window"
+msgid "Invalid file"
+msgstr "Geçersiz dosya"
+
+#: part/annotationwidgets.cpp:265
+#, kde-format
+msgid "&Color:"
+msgstr "Re&nk:"
+
+#: part/annotationwidgets.cpp:274 part/editdrawingtooldialog.cpp:74
+#, kde-format
+msgctxt "@label:spinbox Suffix for the opacity level, e.g. '80%'"
+msgid "%v%"
+msgstr "%%v"
+
+#: part/annotationwidgets.cpp:275 part/editdrawingtooldialog.cpp:68
+#, kde-format
+msgid "&Opacity:"
+msgstr "&Matlık:"
+
+#: part/annotationwidgets.cpp:363
+#, kde-format
+msgid "Icon:"
+msgstr "Simge:"
+
+#: part/annotationwidgets.cpp:364
+#, kde-format
+msgid "Comment"
+msgstr "Açıklama"
+
+#: part/annotationwidgets.cpp:365
+#, kde-format
+msgid "Help"
+msgstr "Yardım"
+
+#: part/annotationwidgets.cpp:366
+#, kde-format
+msgid "Insert"
+msgstr "Ekle"
+
+#: part/annotationwidgets.cpp:367
+#, kde-format
+msgid "Key"
+msgstr "Anahtar"
+
+#: part/annotationwidgets.cpp:368
+#, kde-format
+msgid "New paragraph"
+msgstr "Yeni paragraf"
+
+#: part/annotationwidgets.cpp:369
+#, kde-format
+msgid "Note"
+msgstr "Not"
+
+#: part/annotationwidgets.cpp:370
+#, kde-format
+msgid "Paragraph"
+msgstr "Paragraf"
+
+#: part/annotationwidgets.cpp:378
+#, kde-format
+msgid "Font:"
+msgstr "Yazıtipi:"
+
+#: part/annotationwidgets.cpp:387
+#, kde-format
+msgid "Text &color:"
+msgstr "Metin &rengi:"
+
+#: part/annotationwidgets.cpp:394
+#, kde-format
+msgid "&Align:"
+msgstr "&Hizala:"
+
+#: part/annotationwidgets.cpp:395
+#, kde-format
+msgid "Left"
+msgstr "Sol"
+
+#: part/annotationwidgets.cpp:396
+#, kde-format
+msgid "Center"
+msgstr "Ortala"
+
+#: part/annotationwidgets.cpp:397
+#, kde-format
+msgid "Right"
+msgstr "Sağ"
+
+#: part/annotationwidgets.cpp:405
+#, kde-format
+msgid "Border &width:"
+msgstr "&Kenar genişliği:"
+
+#: part/annotationwidgets.cpp:414
+#, kde-format
+msgid "Approved"
+msgstr "Onaylanmış"
+
+#: part/annotationwidgets.cpp:415
+#, kde-format
+msgid "As Is"
+msgstr "Olduğu gibi"
+
+#: part/annotationwidgets.cpp:416
+#, kde-format
+msgid "Confidential"
+msgstr "Gizli"
+
+#: part/annotationwidgets.cpp:417
+#, kde-format
+msgid "Departmental"
+msgstr "Kısmi"
+
+#: part/annotationwidgets.cpp:418
+#, kde-format
+msgid "Draft"
+msgstr "Taslak"
+
+#: part/annotationwidgets.cpp:419
+#, kde-format
+msgid "Experimental"
+msgstr "Deneysel"
+
+#: part/annotationwidgets.cpp:420
+#, kde-format
+msgid "Expired"
+msgstr "Süresi dolmuş"
+
+#: part/annotationwidgets.cpp:421
+#, kde-format
+msgid "Final"
+msgstr "Son"
+
+#: part/annotationwidgets.cpp:422
+#, kde-format
+msgid "For Comment"
+msgstr "Yorum için"
+
+#: part/annotationwidgets.cpp:423
+#, kde-format
+msgid "For Public Release"
+msgstr "Genel yayım için"
+
+#: part/annotationwidgets.cpp:424
+#, kde-format
+msgid "Not Approved"
+msgstr "Onaylanmadı"
+
+#: part/annotationwidgets.cpp:425
+#, kde-format
+msgid "Not For Public Release"
+msgstr "Genel yayım için değil"
+
+#: part/annotationwidgets.cpp:426
+#, kde-format
+msgid "Sold"
+msgstr "Satılmış"
+
+#: part/annotationwidgets.cpp:427
+#, kde-format
+msgid "Top Secret"
+msgstr "Çok gizli"
+
+#: part/annotationwidgets.cpp:428
+#, kde-format
+msgid "Bookmark"
+msgstr "Yer imi"
+
+#: part/annotationwidgets.cpp:429
+#, kde-format
+msgid "Information"
+msgstr "Bilgi"
+
+#: part/annotationwidgets.cpp:430
+#, kde-format
+msgid "KDE"
+msgstr "KDE"
+
+#: part/annotationwidgets.cpp:451
+#, kde-format
+msgid "Stamp symbol:"
+msgstr "Damga sembolü:"
+
+#: part/annotationwidgets.cpp:499 part/annotationwidgets.cpp:561
+#: part/annotationwidgets.cpp:624 part/annotationwidgets.cpp:698
+#: part/annotationwidgets.cpp:777
+#, kde-format
+msgid "&Width:"
+msgstr "G&enişlik:"
+
+#: part/annotationwidgets.cpp:504
+#, kde-format
+msgid "Line start:"
+msgstr "Çizgi başı:"
+
+#: part/annotationwidgets.cpp:506
+#, kde-format
+msgid "Line end:"
+msgstr "Çizgi sonu:"
+
+#: part/annotationwidgets.cpp:509
+#, kde-format
+msgid "Square"
+msgstr "Kare"
+
+#: part/annotationwidgets.cpp:510
+#, kde-format
+msgid "Circle"
+msgstr "Daire"
+
+#: part/annotationwidgets.cpp:511
+#, kde-format
+msgid "Diamond"
+msgstr "Elmas"
+
+#: part/annotationwidgets.cpp:512
+#, kde-format
+msgid "Open Arrow"
+msgstr "Açık Ok"
+
+#: part/annotationwidgets.cpp:513
+#, kde-format
+msgid "Closed Arrow"
+msgstr "Kapalı Ok"
+
+#: part/annotationwidgets.cpp:514
+#, kde-format
+msgid "None"
+msgstr "Hiçbiri"
+
+#: part/annotationwidgets.cpp:515
+#, kde-format
+msgid "Butt"
+msgstr "Kıç"
+
+#: part/annotationwidgets.cpp:516
+#, kde-format
+msgid "Right Open Arrow"
+msgstr "Sağ Açık Ok"
+
+#: part/annotationwidgets.cpp:517
+#, kde-format
+msgid "Right Closed Arrow"
+msgstr "Sağ Kapalı Ok"
+
+#: part/annotationwidgets.cpp:518
+#, kde-format
+msgid "Slash"
+msgstr "Eğik Çizgi"
+
+#: part/annotationwidgets.cpp:531
+#, kde-format
+msgid "Leader line length:"
+msgstr "Lider çizgi uzunluğu:"
+
+#: part/annotationwidgets.cpp:533
+#, kde-format
+msgid "Leader line extensions length:"
+msgstr "Lider çizgi uzantısı uzunluğu:"
+
+#: part/annotationwidgets.cpp:547 part/annotationwidgets.cpp:691
+#, kde-format
+msgid "Enabled"
+msgstr "Etkin"
+
+#: part/annotationwidgets.cpp:551 part/annotationwidgets.cpp:695
+#, kde-format
+msgid "Shape fill:"
+msgstr "Şekil dolgusu:"
+
+#: part/annotationwidgets.cpp:651 part/annotationwidgets.cpp:685
+#, kde-format
+msgid "Type:"
+msgstr "Tür:"
+
+#: part/annotationwidgets.cpp:656 part/pageviewannotator.cpp:1496
+#, kde-format
+msgid "Strike out"
+msgstr "Üzeri çizili"
+
+#: part/annotationwidgets.cpp:745
+#, kde-format
+msgid "File attachment symbol:"
+msgstr "Dosya eki sembolü"
+
+#: part/annotationwidgets.cpp:748
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Graph"
+msgstr "Grafik"
+
+#: part/annotationwidgets.cpp:749
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Push Pin"
+msgstr "Raptiye"
+
+#: part/annotationwidgets.cpp:750
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Paperclip"
+msgstr "Ataç"
+
+#: part/annotationwidgets.cpp:751
+#, kde-format
+msgctxt "Symbol for file attachment annotations"
+msgid "Tag"
+msgstr "Etiket"
+
+#: part/annotationwidgets.cpp:760
+#, kde-format
+msgctxt "'File' as normal file, that can be opened, saved, etc.."
+msgid "File"
+msgstr "Dosya"
+
+#: part/annotationwidgets.cpp:764 part/embeddedfilesdialog.cpp:94
+#, kde-format
+msgctxt "Not available size"
+msgid "N/A"
+msgstr "Erişilemez"
+
+#: part/annotationwidgets.cpp:765
+#, kde-format
+msgid "No description available."
+msgstr "Hiç tanımlama yok."
+
+#: part/annotationwidgets.cpp:773
+#, kde-format
+msgid "Name:"
+msgstr "&Ad:"
+
+#: part/annotationwidgets.cpp:784
+#, kde-format
+msgid "Description:"
+msgstr "Açıklama:"
+
+#: part/annotationwidgets.cpp:843
+#, kde-format
+msgid "Caret symbol:"
+msgstr "Metin imleci sembolü:"
+
+#: part/annotationwidgets.cpp:845
+#, kde-format
+msgctxt "Symbol for caret annotations"
+msgid "None"
+msgstr "Hiçbiri"
+
+#: part/annotationwidgets.cpp:846
+#, kde-format
+msgctxt "Symbol for caret annotations"
+msgid "P"
+msgstr "P"
+
+#: part/annotwindow.cpp:58
+#, kde-format
+msgid "Close this note"
+msgstr "Bu notu kapat"
+
+#: part/annotwindow.cpp:138 part/findbar.cpp:63
+#, kde-format
+msgid "Options"
+msgstr "Seçenekler"
+
+#: part/annotwindow.cpp:149
+#, kde-format
+msgid ""
+"This annotation may contain LaTeX code.\n"
+"Click here to render."
+msgstr ""
+"Bu ek açıklama, LaTeX kodu içeriyor olabilir.\n"
+"Sunmak için buraya tıklayın."
+
+#: part/annotwindow.cpp:250 part/annotwindow.cpp:272
+#, kde-format
+msgid "Unknown author"
+msgstr "Bilinmeyen yazar"
+
+#: part/annotwindow.cpp:253 part/annotwindow.cpp:275
+#, kde-format
+msgid "No date recognized"
+msgstr "Tanımlanabilen tarih yok"
+
+#: part/annotwindow.cpp:562
+#, kde-format
+msgid "Cannot find latex executable."
+msgstr "latex yürütülebiliri bulunamadı."
+
+#: part/annotwindow.cpp:562 part/annotwindow.cpp:567 part/annotwindow.cpp:572
+#: part/annotwindow.cpp:577
+#, kde-format
+msgid "LaTeX rendering failed"
+msgstr "LaTeX sunumu başarısız oldu"
+
+#: part/annotwindow.cpp:567
+#, kde-format
+msgid "Cannot find dvipng executable."
+msgstr "dvipng yürütülebiliri bulunamadı."
+
+#: part/annotwindow.cpp:572
+#, kde-format
+msgid "A problem occurred during the execution of the 'latex' command."
+msgstr "“latex” komutu yürütülürken bir hata oluştu."
+
+#: part/annotwindow.cpp:577
+#, kde-format
+msgid "A problem occurred during the execution of the 'dvipng' command."
+msgstr "“dvipng” komutu yürütülürken bir hata oluştu."
+
+#: part/bookmarklist.cpp:114
+#, kde-format
+msgctxt "%1 is the file name"
+msgid ""
+"%1\n"
+"\n"
+"One bookmark"
+msgid_plural ""
+"%1\n"
+"\n"
+"%2 bookmarks"
+msgstr[0] ""
+"%1\n"
+"\n"
+"%2 yer imi"
+msgstr[1] ""
+"%1\n"
+"\n"
+"%2 yer imi"
+
+#: part/bookmarklist.cpp:130 part/part.cpp:416
+#, kde-format
+msgid "Bookmarks"
+msgstr "Yer İmleri"
+
+#: part/bookmarklist.cpp:134
+#, kde-format
+msgid "Show for all documents"
+msgstr "Tüm belgeler için göster"
+
+#: part/bookmarklist.cpp:141 part/searchwidget.cpp:38 part/side_reviews.cpp:127
+#: part/toc.cpp:41
+#, kde-format
+msgid "Search…"
+msgstr "Ara…"
+
+#: part/bookmarklist.cpp:259 part/bookmarklist.cpp:293 part/part.cpp:3194
+#, kde-format
+msgid "Expand All"
+msgstr "Tümünü Genişlet"
+
+#: part/bookmarklist.cpp:260 part/bookmarklist.cpp:294 part/part.cpp:3195
+#, kde-format
+msgid "Collapse All"
+msgstr "Tümünü Daralt"
+
+#: part/bookmarklist.cpp:261
+#, kde-format
+msgid "Go to This Bookmark"
+msgstr "Bu Yer İmine Git"
+
+#: part/bookmarklist.cpp:262 part/bookmarklist.cpp:299 part/part.cpp:692
+#: part/part.cpp:2482
+#, kde-format
+msgid "Rename Bookmark"
+msgstr "Yer İmini Yeniden Adlandır"
+
+#: part/bookmarklist.cpp:297
+#, kde-format
+msgctxt "Opens the selected document"
+msgid "Open Document"
+msgstr "Belge Aç"
+
+#: part/bookmarklist.cpp:300
+#, kde-format
+msgid "Remove all Bookmarks for this Document"
+msgstr "Bu Belgeden Tüm Yer İmlerini Kaldır"
+
+#: part/certificateviewer.cpp:47
+#, kde-format
+msgid "Certificate Viewer"
+msgstr "Sertifika Görüntüleyicisi"
+
+#: part/certificateviewer.cpp:50
+#, kde-format
+msgid "Export…"
+msgstr "Dışa Aktar…"
+
+#: part/certificateviewer.cpp:56 part/preferencesdialog.cpp:41
+#, kde-format
+msgid "General"
+msgstr "Genel"
+
+#: part/certificateviewer.cpp:63
+#, kde-format
+msgid "Issued By"
+msgstr "Veren"
+
+#: part/certificateviewer.cpp:66 part/certificateviewer.cpp:76
+#, kde-format
+msgid "Common Name(CN)"
+msgstr "Ortak Ad (CN)"
+
+#: part/certificateviewer.cpp:67 part/certificateviewer.cpp:78
+#, kde-format
+msgid "EMail"
+msgstr "E-posta"
+
+#: part/certificateviewer.cpp:68 part/certificateviewer.cpp:81
+#, kde-format
+msgid "Organization(O)"
+msgstr "Organizasyon (0)"
+
+#: part/certificateviewer.cpp:73
+#, kde-format
+msgid "Issued To"
+msgstr "Verilen"
+
+#: part/certificateviewer.cpp:76 part/propertiesdialog.cpp:424
+#, kde-format
+msgid "Name"
+msgstr "Ad"
+
+#: part/certificateviewer.cpp:86
+#, kde-format
+msgid "Validity"
+msgstr "Geçerlilik"
+
+#: part/certificateviewer.cpp:90
+#, kde-format
+msgctxt "certificate that never expires"
+msgid "Never"
+msgstr "Asla"
+
+#: part/certificateviewer.cpp:94
+#, kde-format
+msgid "Fingerprints"
+msgstr "Parmak İzleri"
+
+#: part/certificateviewer.cpp:104
+#, kde-format
+msgid "SHA-1 Fingerprint"
+msgstr "SHA-1 Parmak İzi"
+
+#: part/certificateviewer.cpp:105
+#, kde-format
+msgid "SHA-256 Fingerprint"
+msgstr "SHA-256 Parmak İzi"
+
+#: part/certificateviewer.cpp:107
+#, kde-format
+msgctxt "certificate key"
+msgid "Fingerprint"
+msgstr "Parmak İzi"
+
+#: part/certificateviewer.cpp:116
+#, kde-format
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: part/certificateviewer.cpp:117
+#, kde-format
+msgid "Certificate Data:"
+msgstr "Sertifika verisi:"
+
+#: part/certificateviewer.cpp:178
+#, kde-format
+msgid "Where do you want to save this certificate?"
+msgstr "Bu sertifikayı nereye kaydetmek istiyorsunuz?"
+
+#: part/certificateviewer.cpp:182
+#, kde-format
+msgid "Certificate File (*.asc)"
+msgstr "Sertifika dosyası (*.asc)"
+
+#: part/certificateviewer.cpp:185
+#, kde-format
+msgid "Certificate File (*.cer)"
+msgstr "Sertifika dosyası (*.cer)"
+
+#: part/certificateviewer.cpp:191
+#, kde-format
+msgid "Could not export the certificate"
+msgstr "Sertifika dışa aktarılamadı"
+
+#: part/colormodemenu.cpp:18
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Color Mode"
+msgstr "&Renk Kipi"
+
+#: part/colormodemenu.cpp:20
+#, kde-format
+msgctxt "@action Change Colors feature toggle action"
+msgid "Change Colors"
+msgstr "Renkleri Değiştir"
+
+#: part/colormodemenu.cpp:28
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "&Normal Colors"
+msgstr "&Normal Renkler"
+
+#: part/colormodemenu.cpp:41
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "&Invert Colors"
+msgstr "Renkleri &Tersine Çevir"
+
+#: part/colormodemenu.cpp:42
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Change &Paper Color"
+msgstr "Kağı&t Rengini Değiştir"
+
+#: part/colormodemenu.cpp:44
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Change &Dark && Light Colors"
+msgstr "Koyu ve Açık Renkleri &Değiştir"
+
+#: part/colormodemenu.cpp:46
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Convert to &Black && White"
+msgstr "Siya&h–Beyaza Dönüştür"
+
+#: part/colormodemenu.cpp:49
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Invert &Lightness"
+msgstr "&Açıklığı Tersine Çevir"
+
+#: part/colormodemenu.cpp:52
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Invert L&uma (sRGB Linear)"
+msgstr "Parlaklığı Tersine Çevir (&Doğrusal sRGB)"
+
+#: part/colormodemenu.cpp:55
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Invert Luma (&Symmetric)"
+msgstr "Parlaklığı Tersine Çevir (&Simetrik)"
+
+#: part/colormodemenu.cpp:58
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Shift Hue P&ositive"
+msgstr "P&ozitif Renk Tonunu Kaydır"
+
+#: part/colormodemenu.cpp:61
+#, kde-format
+msgctxt "@item:inmenu color mode"
+msgid "Shift Hue N&egative"
+msgstr "N&egatif Renk Tonunu Kaydır"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:11
+#, kde-format
+msgid "Red"
+msgstr "Kırmızı"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:16
+#, kde-format
+msgid "Green"
+msgstr "Yeşil"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:21
+#, kde-format
+msgid "Blue"
+msgstr "Mavi"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:26
+#, kde-format
+msgid "Yellow"
+msgstr "Sarı"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:31
+#, kde-format
+msgid "Black"
+msgstr "Siyah"
+
+#. i18n: tag tool attribute name
+#: part/data/drawingtools.xml:36
+#, kde-format
+msgid "White"
+msgstr "Beyaz"
+
+#. i18n: tag tool attribute name
+#: part/data/toolsQuick.xml:9
+#, kde-format
+msgid "Yellow Highlighter"
+msgstr "Sarı Vurgulayıcı"
+
+#. i18n: tag tool attribute name
+#: part/data/toolsQuick.xml:14
+#, kde-format
+msgid "Green Highlighter"
+msgstr "Yeşil Vurgulayıcı"
+
+#. i18n: tag tool attribute name
+#: part/data/toolsQuick.xml:24
+#, kde-format
+msgid "Insert Text"
+msgstr "Metin Ekle"
+
+#: part/dlgaccessibility.cpp:38
+#, kde-format
+msgctxt "@option:check Config dialog, accessibility page"
+msgid "Draw border around links"
+msgstr "Bağlantıların çevresine kenarlık çiz"
+
+#: part/dlgaccessibility.cpp:48
+#, kde-format
+msgctxt "@option:check Config dialog, accessibility page"
+msgid "Change colors"
+msgstr "Renkleri değiştir"
+
+#: part/dlgaccessibility.cpp:54
+#, kde-format
+msgctxt "@info Config dialog, accessibility page"
+msgid "<b>Warning:</b> these options can badly affect drawing speed."
+msgstr "<b>Uyarı</b>: Bu seçenekler çizim hızını kötü etkileyebilir."
+
+#: part/dlgaccessibility.cpp:60
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert colors"
+msgstr "Renkleri tersine çevir"
+
+#: part/dlgaccessibility.cpp:61
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Change paper color"
+msgstr "Kâğıt rengini değiştir"
+
+#: part/dlgaccessibility.cpp:62
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Change dark & light colors"
+msgstr "Koyu ve açık renkleri değiştir"
+
+#: part/dlgaccessibility.cpp:63
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Convert to black & white"
+msgstr "Siyah–beyaza dönüştür"
+
+#: part/dlgaccessibility.cpp:64
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert lightness"
+msgstr "Açıklığı tersine çevir"
+
+#: part/dlgaccessibility.cpp:65
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert luma (sRGB linear)"
+msgstr "Parlaklığı tersine çevir (Doğrusal sRGB)"
+
+#: part/dlgaccessibility.cpp:66
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Invert luma (symmetric)"
+msgstr "Parlaklığı tersine çevir (Simetrik)"
+
+#: part/dlgaccessibility.cpp:67
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Shift hue positive"
+msgstr "Pozitif renk tonunu kaydır"
+
+#: part/dlgaccessibility.cpp:68
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, accessibility page"
+msgid "Shift hue negative"
+msgstr "Negatif renk tonunu kaydır"
+
+#: part/dlgaccessibility.cpp:70
+#, kde-format
+msgctxt "@label:listbox Config dialog, accessibility page"
+msgid "Color mode:"
+msgstr "Renk kipi:"
+
+#: part/dlgaccessibility.cpp:87
+#, kde-format
+msgctxt "@label:chooser Config dialog, accessibility page"
+msgid "Paper color:"
+msgstr "Kâğıt rengi:"
+
+#: part/dlgaccessibility.cpp:99
+#, kde-format
+msgctxt "@label:chooser Config dialog, accessibility page"
+msgid "Dark color:"
+msgstr "Koyu renk:"
+
+#: part/dlgaccessibility.cpp:104
+#, kde-format
+msgctxt "@label:chooser Config dialog, accessibility page"
+msgid "Light color:"
+msgstr "Açık renk:"
+
+#: part/dlgaccessibility.cpp:119
+#, kde-format
+msgctxt "@label:slider Config dialog, accessibility page"
+msgid "Threshold:"
+msgstr "Eşik:"
+
+#: part/dlgaccessibility.cpp:127
+#, kde-format
+msgctxt "@label:slider Config dialog, accessibility page"
+msgid "Contrast:"
+msgstr "Karşıtlık:"
+
+#: part/dlgaccessibility.cpp:158
+#, kde-format
+msgctxt "@label:listbox Config dialog, accessibility page"
+msgid "Text-to-speech engine:"
+msgstr "Konuşma işletkesi:"
+
+#: part/dlgaccessibility.cpp:165
+#, kde-format
+msgctxt "&label:listbox Config dialog, accessibility page"
+msgid "Text-to-speech voice:"
+msgstr "Konuşma sesi:"
+
+#: part/dlgannotations.cpp:25
+#, kde-format
+msgctxt "item:inlistbox Config dialog, general page"
+msgid "Full Annotation Toolbar"
+msgstr "Tam ek açıklama araç çubuğu"
+
+#: part/dlgannotations.cpp:26
+#, kde-format
+msgctxt "item:inlistbox Config dialog, general page"
+msgid "Quick Annotation Toolbar"
+msgstr "Tez ek açıklama araç çubuğu"
+
+#: part/dlgannotations.cpp:28
+#, kde-format
+msgctxt "label:listbox Config dialog, general page"
+msgid "Annotation toolbar:"
+msgstr "Ek açıklama araç çubuğu:"
+
+#: part/dlgannotations.cpp:34
+#, kde-format
+msgctxt "@label:textbox Config dialog, annotations page"
+msgid "Author:"
+msgstr "Yazar:"
+
+#: part/dlgannotations.cpp:38
+#, kde-format
+msgctxt "@info Config dialog, annotations page"
+msgid ""
+"<b>Note:</b> the information here is used only for annotations. The "
+"information is saved in annotated documents, and so will be transmitted "
+"together with the document."
+msgstr ""
+"<b>Not:</b> Buradaki bilgi, yalnızca ek açıklamalar için kullanılır. Bilgi, "
+"ek açıklama eklenmiş belgelerde saklanır ve belgeyle birlikte iletilir."
+
+#: part/dlgannotations.cpp:48
+#, kde-format
+msgctxt ""
+"@label Config dialog, annotations page, heading line for Quick Annotations "
+"tool manager"
+msgid "<h3>Quick Annotation Tools</h3>"
+msgstr "<h3>Tez Ek Açıklama Araçları</h3>"
+
+#: part/dlgeditor.cpp:28
+#, kde-format
+msgctxt "@info:whatsthis Config dialog, editor page"
+msgid ""
+"Choose the editor you want to launch when Okular wants to open a source file."
+msgstr ""
+"Okular bir kaynak dosyasını açmak istediğinde başlatmak istediğiniz "
+"düzenleyiciyi seçin."
+
+#: part/dlgeditor.cpp:29
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Custom Text Editor"
+msgstr "Özel metin düzenleyicisi"
+
+#: part/dlgeditor.cpp:30
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Kate"
+msgstr "Kate"
+
+#: part/dlgeditor.cpp:31
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Kile"
+msgstr "Kile"
+
+#: part/dlgeditor.cpp:32
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "SciTE"
+msgstr "SciTE"
+
+#: part/dlgeditor.cpp:33
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Emacs client"
+msgstr "Emacs istemcisi"
+
+#: part/dlgeditor.cpp:34
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "Lyx client"
+msgstr "Lyx istemcisi"
+
+#: part/dlgeditor.cpp:35
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "TeXstudio"
+msgstr "TeXstudio"
+
+#: part/dlgeditor.cpp:36
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, editor page"
+msgid "TeXiFy IDEA"
+msgstr "TeXiFy IDEA"
+
+#: part/dlgeditor.cpp:37
+#, kde-format
+msgctxt "@label:listbox Config dialog, editor page"
+msgid "Editor:"
+msgstr "Düzenleyici:"
+
+#: part/dlgeditor.cpp:52
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<qt>Set the command of a custom text editor to be launched.<br />\n"
+"You can also put few placeholders:\n"
+"<ul>\n"
+"  <li>%f - the file name</li>\n"
+"  <li>%l - the line of the file to be reached</li>\n"
+"  <li>%c - the column of the file to be reached</li>\n"
+"</ul>\n"
+"If %f is not specified, then the file name is appended to the specified "
+"command."
+msgstr ""
+"<qt>Başlatılacak bir metin düzenleyicisinin komutunu belirleyin.<br />\n"
+"Ayrıca bir kaç yer tutucu koyabilirsiniz:\n"
+"<ul>\n"
+"  <li>%f — dosya adı</li>\n"
+"  <li>%l — dosyanın erişilecek satırı</li>\n"
+"  <li>%c — dosyanın erişilecek sütunu</li>\n"
+"</ul>\n"
+"Eğer %f belirtilmemişse o halde dosya adı belirlenmiş komuta eklenir."
+
+#: part/dlgeditor.cpp:63
+#, kde-format
+msgctxt "@label:textbox Config dialog, editor page"
+msgid "Command:"
+msgstr "Komut:"
+
+#: part/dlggeneral.cpp:35
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Use smooth scrolling"
+msgstr "Pürüzsüz sarma kullan"
+
+#: part/dlggeneral.cpp:37
+#, kde-format
+msgctxt "@title:group Config dialog, general page"
+msgid "Appearance:"
+msgstr "Görünüş:"
+
+#: part/dlggeneral.cpp:41
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Show scrollbars"
+msgstr "Sarma çubuklarını göster"
+
+#: part/dlggeneral.cpp:48
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Link the thumbnails with the page"
+msgstr "Küçük görselleri sayfaya bağlantıla"
+
+#: part/dlggeneral.cpp:55
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Show hints and info messages"
+msgstr "İpuçlarını ve bilgi iletilerini göster"
+
+#: part/dlggeneral.cpp:61
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Notify about embedded files, forms, or signatures"
+msgstr "Gömülü dosyaları, formları veya imzaları bildir"
+
+#: part/dlggeneral.cpp:68
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Display document title in titlebar if available"
+msgstr "Varsa belge başlığını başlık çubuğunda göster"
+
+#: part/dlggeneral.cpp:74
+#, kde-format
+msgctxt "item:inlistbox Config dialog, general page"
+msgid "Display file name only"
+msgstr "Yalnızca dosya adını görüntüle"
+
+#: part/dlggeneral.cpp:75
+#, kde-format
+msgctxt "item:inlistbox Config dialog, general page"
+msgid "Display full file path"
+msgstr "Tam dosya yolunu görüntüle"
+
+#: part/dlggeneral.cpp:77
+#, kde-format
+msgctxt "label:listbox Config dialog, general page"
+msgid "When not displaying document title:"
+msgstr "Belge başlığı görüntülenmediği zaman:"
+
+#: part/dlggeneral.cpp:92
+#, kde-format
+msgctxt "@label:listbox Config dialog, general page"
+msgid "Use custom background color:"
+msgstr "Özel arka plan rengi kullan:"
+
+#: part/dlggeneral.cpp:114
+#, kde-format
+msgctxt "@title:group Config dialog, general page"
+msgid "Program features:"
+msgstr "Uygulama özellikleri:"
+
+#: part/dlggeneral.cpp:121
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Open new files in tabs"
+msgstr "Yeni dosyaları sekmelerde aç"
+
+#: part/dlggeneral.cpp:126
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Switch to existing tab if file is already open"
+msgstr "Dosya hâlihazırda açıksa var olduğu sekmeye geç"
+
+#: part/dlggeneral.cpp:139
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Obey DRM limitations"
+msgstr "DRM sınırlamalarına uy"
+
+#: part/dlggeneral.cpp:148
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Reload document on file change"
+msgstr "Dosya değiştirildiğinde belgeyi yeniden yükle"
+
+#: part/dlggeneral.cpp:155
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Show backend selection dialog"
+msgstr "Arka uç seçimi iletişim kutusunu göster"
+
+#: part/dlggeneral.cpp:162
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Right to left reading direction"
+msgstr "Sağdan sola okuma yönü"
+
+#: part/dlggeneral.cpp:168
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid ""
+"Use file information to determine whether to open in continuous mode by "
+"default"
+msgstr ""
+"Öntanımlı olarak sürdürülen kipte açmayı belirlemek için dosya bilgisini "
+"kullan"
+
+#: part/dlggeneral.cpp:178
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "For files without file information, open in continuous mode by default"
+msgstr ""
+"Dosya bilgisi olmayan dosyalar için öntanımlı olarak sürdürülen kipte aç"
+
+#: part/dlggeneral.cpp:180
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Open in continuous mode by default"
+msgstr "Öntanımlı olarak sürdürülen kipte aç"
+
+#: part/dlggeneral.cpp:188
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "Continue from last viewed page"
+msgstr "Son görüntülenen sayfadan sürdür"
+
+#: part/dlggeneral.cpp:195
+#, kde-format
+msgctxt "@option:check Config dialog, general page"
+msgid "When using Browse Tool, wrap cursor at screen edges"
+msgstr "Göz At aracını kullanırken, ekran kenarlarında imleci kaydır"
+
+#: part/dlggeneral.cpp:203
+#, kde-format
+msgctxt "@label:spinbox Config dialog, general page"
+msgid "Items in recent history:"
+msgstr "Geçmişteki ögeler:"
+
+#: part/dlggeneral.cpp:218
+#, kde-format
+msgctxt "@label:spinbox Config dialog, general page"
+msgid "Overview columns:"
+msgstr "Genel görünüm sütunları:"
+
+#: part/dlggeneral.cpp:225
+#, kde-format
+msgctxt "@item:spinbox Config dialog, general page, page overlap factor"
+msgid "%v%"
+msgstr "%%v"
+
+#: part/dlggeneral.cpp:226
+#, kde-format
+msgctxt "@info:tooltip Config dialog, general page"
+msgid ""
+"Defines how much of the current viewing area will still be visible when "
+"pressing the Page Up/Down keys."
+msgstr ""
+"Sayfa Yukarı/Aşağı düğmelerine basıldığında görüntüleme alanının ne "
+"kadarının görünmeyi sürdüreceğini belirler."
+
+#: part/dlggeneral.cpp:228
+#, kde-format
+msgctxt "@label:spinbox Config dialog, general page"
+msgid "Page Up/Down overlap:"
+msgstr "Sayfa Yukarı/Aşağı çakışması:"
+
+#: part/dlggeneral.cpp:233
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, custom zoom factor"
+msgid "%v%"
+msgstr "%%v"
+
+#: part/dlggeneral.cpp:237
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid "100%"
+msgstr "%​100"
+
+#: part/dlggeneral.cpp:238
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid "Fit Width"
+msgstr "Genişliğe sığdır"
+
+#: part/dlggeneral.cpp:239
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid "Fit Page"
+msgstr "Sayfayı sığdır"
+
+#: part/dlggeneral.cpp:240
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid "Auto Fit"
+msgstr "Kendiliğinden sığdır"
+
+#: part/dlggeneral.cpp:241
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid "Custom"
+msgstr "Özel"
+
+#: part/dlggeneral.cpp:242
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, general page, default zoom"
+msgid ""
+"Defines the default zoom mode for files which were never opened before. For "
+"files which were opened before the previous zoom is applied."
+msgstr ""
+"Daha önce açılmamış dosyalar için öntanımlı yakınlaştırma kipini tanımlar.\n"
+"Daha önce açılan dosyalara önceki yakınlaştırma oranı uygulanır."
+
+#: part/dlggeneral.cpp:246
+#, kde-format
+msgctxt "label:listbox Config dialog, general page, default zoom"
+msgid "Default zoom:"
+msgstr "Öntanımlı yakınlaştırma:"
+
+#: part/dlgperformance.cpp:26
+#, kde-format
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable transparency effects"
+msgstr "&Saydamlık efektlerini etkinleştir"
+
+#: part/dlgperformance.cpp:28
+#, kde-format
+msgctxt "@label Config dialog, performance page"
+msgid "CPU usage:"
+msgstr "İşlemci kullanımı:"
+
+#: part/dlgperformance.cpp:35
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Low"
+msgstr "Düşük"
+
+#: part/dlgperformance.cpp:36
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Normal (default)"
+msgstr "Normal (öntanımlı)"
+
+#: part/dlgperformance.cpp:37
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Aggressive"
+msgstr "Yoğun"
+
+#: part/dlgperformance.cpp:38
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, performance page, memory usage"
+msgid "Greedy"
+msgstr "Çok yoğun"
+
+#: part/dlgperformance.cpp:40
+#, kde-format
+msgctxt "@label:listbox Config dialog, performance page, memory usage"
+msgid "Memory usage:"
+msgstr "Bellek kullanımı:"
+
+#: part/dlgperformance.cpp:54
+#, kde-format
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable text antialias"
+msgstr "Metin kenar yumuşatmasını etkinleştir"
+
+#: part/dlgperformance.cpp:56
+#, kde-format
+msgctxt "@title:group Config dialog, performance page"
+msgid "Rendering options:"
+msgstr "Sunma seçenekleri:"
+
+#: part/dlgperformance.cpp:59
+#, kde-format
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable graphics antialias"
+msgstr "Grafik kenar yumuşatmasını etkinleştir"
+
+#: part/dlgperformance.cpp:64
+#, kde-format
+msgctxt "@option:check Config dialog, performance page"
+msgid "Enable text hinting"
+msgstr "Metin piksel hizalamasını etkinleştir"
+
+#: part/dlgperformance.cpp:77
+#, kde-format
+msgid ""
+"Keeps used memory as low as possible. Do not reuse anything. (For systems "
+"with low memory.)"
+msgstr ""
+"Kullanılan belleği olabildiğince düşük tutar (Düşük bellekli sistemler için)"
+
+#: part/dlgperformance.cpp:80
+#, kde-format
+msgid ""
+"A good compromise between memory usage and speed gain. Preload next page and "
+"boost searches. (For systems with 2GB of memory, typically.)"
+msgstr ""
+"Bellek kullanımı ile hız kazancı arasında iyi bir uzlaşma sağlar. Sonraki "
+"sayfayı önyükler ve aramaları hızlandırır. (2 GB bellekli sistemler için.)"
+
+#: part/dlgperformance.cpp:83
+#, kde-format
+msgid ""
+"Keeps everything in memory. Preload next pages. Boost searches. (For systems "
+"with more than 4GB of memory.)"
+msgstr ""
+"Her şeyi bellekte tutar. Sonraki sayfaları önyükler. Aramaları hızlandırır "
+"(4 GB’dan çok bellekli sistemler için)"
+
+#: part/dlgperformance.cpp:87
+#, no-c-format, kde-format
+msgid ""
+"Loads and keeps everything in memory. Preload all pages. (Will use at "
+"maximum 50% of your total memory or your free memory, whatever is bigger.)"
+msgstr ""
+"Her şeyi yükleyerek bellekte tutar. Tüm sayfaları yükler (Toplam "
+"belleğinizin veya boş belleğinizin en çok %​50’sini kullanır.)."
+
+#: part/dlgpresentation.cpp:38
+#, kde-format
+msgctxt "@label:spinbox Advance automatically: Every n second"
+msgid "every %v second"
+msgid_plural "every %v seconds"
+msgstr[0] "her %v saniye"
+msgstr[1] "her %v saniye"
+
+#: part/dlgpresentation.cpp:45
+#, kde-format
+msgctxt "@label:spinbox Config dialog, presentation page"
+msgid "Advance automatically:"
+msgstr "Kendiliğinden ilerle:"
+
+#: part/dlgpresentation.cpp:53
+#, kde-format
+msgctxt "@option:check Config dialog, presentation page"
+msgid "Loop after last page"
+msgstr "Son sayfadan sonra başa dön"
+
+#: part/dlgpresentation.cpp:59
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, tap navigation"
+msgid "Tap left/right side to go back/forward"
+msgstr "İleri/Geri gitmek için sağ/sol tarafa dokun"
+
+#: part/dlgpresentation.cpp:60
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, tap navigation"
+msgid "Tap anywhere to go forward"
+msgstr "İleri gitmek için herhangi bir yere dokun"
+
+#: part/dlgpresentation.cpp:61
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, tap navigation"
+msgid "Disabled"
+msgstr "Devre dışı"
+
+#: part/dlgpresentation.cpp:63
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, tap navigation"
+msgid "Touch navigation:"
+msgstr "Dokunma dolaşımı:"
+
+#: part/dlgpresentation.cpp:72
+#, kde-format
+msgctxt "@label:chooser Config dialog, presentation page"
+msgid "Background color:"
+msgstr "Arka plan rengi:"
+
+#: part/dlgpresentation.cpp:76
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, cursor visibility"
+msgid "Hidden after delay"
+msgstr "Gecikmeden sonra gizle"
+
+#: part/dlgpresentation.cpp:77
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, cursor visibility"
+msgid "Always visible"
+msgstr "Her zaman görünür"
+
+#: part/dlgpresentation.cpp:78
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, cursor visibility"
+msgid "Always hidden"
+msgstr "Her zaman gizli"
+
+#: part/dlgpresentation.cpp:80
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, cursor visibility"
+msgid "Mouse cursor:"
+msgstr "Fare imleci:"
+
+#: part/dlgpresentation.cpp:84
+#, kde-format
+msgctxt "@option:check Config dialog, presentation page"
+msgid "Show progress indicator"
+msgstr "İlerleme göstergesini göster"
+
+#: part/dlgpresentation.cpp:90
+#, kde-format
+msgctxt "@option:check Config dialog, presentation page"
+msgid "Show summary page"
+msgstr "Özet sayfasını göster"
+
+#: part/dlgpresentation.cpp:100
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Instant (Never use animations)"
+msgstr "Anlık (Hiçbir zaman canlandırma kullanma)"
+
+#: part/dlgpresentation.cpp:101
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Replace"
+msgstr "Değiştir"
+
+#: part/dlgpresentation.cpp:102
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Random transition"
+msgstr "Rastgele geçiş"
+
+#: part/dlgpresentation.cpp:103
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Blinds vertical"
+msgstr "Dikey geçiş"
+
+#: part/dlgpresentation.cpp:104
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Blinds horizontal"
+msgstr "Yatay geçiş"
+
+#: part/dlgpresentation.cpp:105
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Box in"
+msgstr "Şurada kutu"
+
+#: part/dlgpresentation.cpp:106
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Box out"
+msgstr "Dışta kutu"
+
+#: part/dlgpresentation.cpp:107
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Dissolve"
+msgstr "Çözünme"
+
+#: part/dlgpresentation.cpp:108
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Fade"
+msgstr "Soldur"
+
+#: part/dlgpresentation.cpp:109
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Glitter down"
+msgstr "Aşağı doğru parılda"
+
+#: part/dlgpresentation.cpp:110
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Glitter right"
+msgstr "Sağa doğru parılda"
+
+#: part/dlgpresentation.cpp:111
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Glitter right-down"
+msgstr "Sağ aşağı doğru parılda"
+
+#: part/dlgpresentation.cpp:112
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split horizontal in"
+msgstr "Şurada yatay böl"
+
+#: part/dlgpresentation.cpp:113
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split horizontal out"
+msgstr "Dışarı yatay ayrıl"
+
+#: part/dlgpresentation.cpp:114
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split vertical in"
+msgstr "Şurada dikey böl"
+
+#: part/dlgpresentation.cpp:115
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Split vertical out"
+msgstr "Dışarı dikey ayrıl"
+
+#: part/dlgpresentation.cpp:116
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe down"
+msgstr "Aşağı sil"
+
+#: part/dlgpresentation.cpp:117
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe right"
+msgstr "Sağa sil"
+
+#: part/dlgpresentation.cpp:118
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe left"
+msgstr "Sola sil"
+
+#: part/dlgpresentation.cpp:119
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, transitions"
+msgid "Wipe up"
+msgstr "Yukarı sil"
+
+#: part/dlgpresentation.cpp:121
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, transitions"
+msgid "Default transition:"
+msgstr "Öntanımlı geçiş:"
+
+#: part/dlgpresentation.cpp:130
+#, kde-format
+msgctxt "@label:listbox Config dialog, presentation page, preferred screen"
+msgid "Preferred screen:"
+msgstr "Yeğlenen ekran:"
+
+#: part/dlgpresentation.cpp:137
+#, kde-format
+msgctxt ""
+"@label Config dialog, presentation page, heading line for drawing tool "
+"manager"
+msgid "<h3>Drawing Tools</h3>"
+msgstr "<h3>Çizim Araçları</h3>"
+
+#: part/dlgpresentation.cpp:171
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, preferred screen"
+msgid "Current Screen"
+msgstr "Geçerli ekran"
+
+#: part/dlgpresentation.cpp:172
+#, kde-format
+msgctxt "@item:inlistbox Config dialog, presentation page, preferred screen"
+msgid "Default Screen"
+msgstr "Öntanımlı ekran"
+
+#: part/dlgpresentation.cpp:178
+#, kde-format
+msgctxt ""
+"@item:inlistbox Config dialog, presentation page, preferred screen. %1 is "
+"the screen number (0, 1, ...). %2 is the screen manufacturer name. %3 is the "
+"screen model name. %4 is the screen name like DVI-0"
+msgid "Screen %1 (%2 %3 %4)"
+msgstr "Ekran %1 (%2 %3 %4)"
+
+#: part/dlgpresentation.cpp:190
+#, kde-format
+msgctxt ""
+"@item:inlistbox Config dialog, presentation page, preferred screen. %1 is "
+"the screen number (0, 1, ...), hopefully not 0."
+msgid "Screen %1 (disconnected)"
+msgstr "Ekran %1 (bağlantı kesildi)"
+
+#: part/drawingtoolactions.cpp:192
+#, kde-format
+msgid "Drawing Tool: %1"
+msgstr "Çizim aracı: %1"
+
+#: part/drawingtoolactions.cpp:214 part/drawingtoolactions.cpp:215
+#, kde-format
+msgid "Eraser"
+msgstr "Silgi"
+
+#: part/editannottooldialog.cpp:59 part/editdrawingtooldialog.cpp:44
+#, kde-format
+msgid "&Name:"
+msgstr "&Ad:"
+
+#: part/editannottooldialog.cpp:69
+#, kde-format
+msgid "&Type:"
+msgstr "&Tür:"
+
+#: part/editannottooldialog.cpp:82
+#, kde-format
+msgid "Appearance"
+msgstr "Görünüş"
+
+#: part/editannottooldialog.cpp:93
+#, kde-format
+msgid "Text markup"
+msgstr "Metin Biçimlendirme"
+
+#: part/editannottooldialog.cpp:94
+#, kde-format
+msgid "Geometrical shape"
+msgstr "Geometrik Şekil"
+
+#: part/editannottooldialog.cpp:101
+#, kde-format
+msgid "Create annotation tool"
+msgstr "Ek Açıklama Aracı Oluştur"
+
+#: part/editannottooldialog.cpp:103
+#, kde-format
+msgid "Edit annotation tool"
+msgstr "Ek Açıklama Aracını Düzenle"
+
+#: part/editdrawingtooldialog.cpp:51
+#, kde-format
+msgid "Color:"
+msgstr "Renk:"
+
+#: part/editdrawingtooldialog.cpp:58
+#, kde-format
+msgid "&Pen Width:"
+msgstr "Ka&lem genişliği:"
+
+#: part/editdrawingtooldialog.cpp:64
+#, kde-format
+msgctxt "@label:spinbox Suffix for the pen width, e.g. '10 px'"
+msgid "%v px"
+msgstr "%v pks"
+
+#: part/editdrawingtooldialog.cpp:79
+#, kde-format
+msgid "Create drawing tool"
+msgstr "Çizim aracı oluştur"
+
+#: part/editdrawingtooldialog.cpp:84
+#, kde-format
+msgid "Edit drawing tool"
+msgstr "Çizim aracını düzenle"
+
+#: part/embeddedfilesdialog.cpp:41
+#, kde-format
+msgctxt "Unknown date"
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: part/embeddedfilesdialog.cpp:47
+#, kde-format
+msgctxt "@title:window"
+msgid "Embedded Files"
+msgstr "Gömülü Dosyalar"
+
+#: part/embeddedfilesdialog.cpp:61
+#, kde-format
+msgctxt "@action:button"
+msgid "View"
+msgstr "Görünüm"
+
+#: part/embeddedfilesdialog.cpp:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Open"
+msgstr "Aç"
+
+#: part/embeddedfilesdialog.cpp:74
+#, kde-format
+msgctxt "@title:column"
+msgid "Name"
+msgstr "Ad"
+
+#: part/embeddedfilesdialog.cpp:75
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
+msgstr "Açıklama"
+
+#: part/embeddedfilesdialog.cpp:76
+#, kde-format
+msgctxt "@title:column"
+msgid "Size"
+msgstr "Boyut"
+
+#: part/embeddedfilesdialog.cpp:77
+#, kde-format
+msgctxt "@title:column"
+msgid "Created"
+msgstr "Oluşturulma zamanı"
+
+#: part/embeddedfilesdialog.cpp:78
+#, kde-format
+msgctxt "@title:column"
+msgid "Modified"
+msgstr "Değiştirilme zamanı"
+
+#: part/embeddedfilesdialog.cpp:169
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Save As…"
+msgstr "&Farklı Kaydet…"
+
+#: part/embeddedfilesdialog.cpp:170
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&View…"
+msgstr "Görü&nüm…"
+
+#: part/embeddedfilesdialog.cpp:171
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Open…"
+msgstr "&Aç…"
+
+#: part/fileprinterpreview.cpp:113
+#, kde-format
+msgid "Could not load print preview part"
+msgstr "Yazdırma önizlemesi programcığı yüklenemedi"
+
+#: part/fileprinterpreview.cpp:125
+#, kde-format
+msgid "Print Preview"
+msgstr "Yazdırma Önizlemesi"
+
+#: part/findbar.cpp:34 part/presentationsearchbar.cpp:63
+#, kde-format
+msgid "Close"
+msgstr "Kapat"
+
+#: part/findbar.cpp:38
+#, kde-format
+msgctxt "Find text"
+msgid "F&ind:"
+msgstr "&Bul:"
+
+#: part/findbar.cpp:49
+#, kde-format
+msgid "Text to search for"
+msgstr "Aranacak metin"
+
+#: part/findbar.cpp:54
+#, kde-format
+msgctxt "Find and go to the next search match"
+msgid "Next"
+msgstr "Sonraki"
+
+#: part/findbar.cpp:55
+#, kde-format
+msgid "Jump to next match"
+msgstr "Sonraki eşleşmeye git"
+
+#: part/findbar.cpp:58
+#, kde-format
+msgctxt "Find and go to the previous search match"
+msgid "Previous"
+msgstr "Önceki"
+
+#: part/findbar.cpp:59
+#, kde-format
+msgid "Jump to previous match"
+msgstr "Önceki eşleşmeye git"
+
+#: part/findbar.cpp:64
+#, kde-format
+msgid "Modify search behavior"
+msgstr "Arama davranışını düzenle"
+
+#: part/findbar.cpp:66
+#, kde-format
+msgid "Case sensitive"
+msgstr "BÜYÜK/küçük Harf Duyarlı"
+
+#: part/findbar.cpp:68
+#, kde-format
+msgid "From current page"
+msgstr "Geçerli Sayfadan"
+
+#: part/findbar.cpp:70
+#, kde-format
+msgid "Find as you type"
+msgstr "Yazarken Bul"
+
+#: part/formwidgets.cpp:872
+#, kde-format
+msgid "All Files (*)"
+msgstr "Tüm Dosyalar (*)"
+
+#: part/formwidgets.cpp:1282
+#, kde-format
+msgctxt "Digital signature"
+msgid "Signature placeholder (Click to Sign)"
+msgstr "İmza yeri (imzalamak için tıklayın)"
+
+#: part/formwidgets.cpp:1348 part/signaturepanel.cpp:97
+#, kde-format
+msgid "&Sign…"
+msgstr "İ&mzala…"
+
+#: part/formwidgets.cpp:1352 part/signaturepropertiesdialog.cpp:43
+#, kde-format
+msgid "Signature Properties"
+msgstr "İmza Özellikleri"
+
+#: part/ktreeviewsearchline.cpp:283
+#, kde-format
+msgid "Search Options"
+msgstr "Arama Seçenekleri"
+
+#: part/ktreeviewsearchline.cpp:284
+#, kde-format
+msgctxt "Enable case sensitive search in the side navigation panels"
+msgid "Case Sensitive"
+msgstr "BÜYÜK/küçük Harf Duyarlı"
+
+#: part/ktreeviewsearchline.cpp:287
+#, kde-format
+msgctxt "Enable regular expression search in the side navigation panels"
+msgid "Regular Expression"
+msgstr "Düzenli İfade"
+
+#: part/layers.cpp:33 part/part.cpp:2330
+#, kde-format
+msgid "Layers"
+msgstr "Katmanlar"
+
+#: part/minibar.cpp:192
+#, kde-format
+msgctxt "Layouted like: '5 [pages] of 10'"
+msgid "of"
+msgstr "/"
+
+#: part/pageview.cpp:534
+#, kde-format
+msgid "Zoom"
+msgstr "Yakınlaştır"
+
+#: part/pageview.cpp:546
+#, kde-format
+msgid "Zoom to 100%"
+msgstr "%​100’e Yakınlaştır"
+
+#: part/pageview.cpp:557
+#, kde-format
+msgid "Rotate &Right"
+msgstr "&Sağa Döndür"
+
+#: part/pageview.cpp:558
+#, kde-format
+msgctxt "Rotate right"
+msgid "Right"
+msgstr "Sağ"
+
+#: part/pageview.cpp:562
+#, kde-format
+msgid "Rotate &Left"
+msgstr "S&ola Döndür"
+
+#: part/pageview.cpp:563
+#, kde-format
+msgctxt "Rotate left"
+msgid "Left"
+msgstr "Sol"
+
+#: part/pageview.cpp:567
+#, kde-format
+msgid "Original Orientation"
+msgstr "Özgün Yönelim"
+
+#: part/pageview.cpp:573
+#, kde-format
+msgid "&Trim View"
+msgstr "Görünümü &Kırp"
+
+#: part/pageview.cpp:577
+#, kde-format
+msgid "&Trim Margins"
+msgstr "Kenar Boşluklarını &Kırp"
+
+#: part/pageview.cpp:584
+#, kde-format
+msgid "Trim To &Selection"
+msgstr "&Seçime Kırp"
+
+#: part/pageview.cpp:590
+#, kde-format
+msgid "Fit &Width"
+msgstr "G&enişliğe Sığdır"
+
+#: part/pageview.cpp:594
+#, kde-format
+msgid "Fit &Page"
+msgstr "Say&fayı Sığdır"
+
+#: part/pageview.cpp:598
+#, kde-format
+msgid "&Auto Fit"
+msgstr "&Kendiliğinden Sığdır"
+
+#: part/pageview.cpp:602
+#, kde-format
+msgid "Fit Wi&ndow to Page"
+msgstr "Pencereyi Say&faya Sığdır"
+
+#: part/pageview.cpp:609
+#, kde-format
+msgid "&View Mode"
+msgstr "Görünüm Ki&pi"
+
+#: part/pageview.cpp:621
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Single Page"
+msgstr "&Tek Sayfa"
+
+#: part/pageview.cpp:622
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Facing Pages"
+msgstr "Yüzleşen Sayfa&lar"
+
+#: part/pageview.cpp:623
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Facing Pages (&Center First Page)"
+msgstr "Yüzleşen Sayfalar (İlk Sayfayı Orta&la)"
+
+#: part/pageview.cpp:626
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Overview"
+msgstr "Genel &Görünüm"
+
+#: part/pageview.cpp:638
+#, kde-format
+msgid "&Continuous"
+msgstr "&Sürekli"
+
+#: part/pageview.cpp:645
+#, kde-format
+msgctxt "@action page layout"
+msgid "Use Right to Left Reading Direction"
+msgstr "Sağdan Sola Okuma Yönünü Kullan"
+
+#: part/pageview.cpp:654
+#, kde-format
+msgid "&Browse"
+msgstr "&Göz At"
+
+#: part/pageview.cpp:662
+#, kde-format
+msgid "&Zoom"
+msgstr "&Yakınlaştır"
+
+#: part/pageview.cpp:682
+#, kde-format
+msgid "Area &Selection"
+msgstr "Alan Seçi&mi"
+
+#: part/pageview.cpp:689
+#, kde-format
+msgid "&Text Selection"
+msgstr "Meti&n Seçimi"
+
+#: part/pageview.cpp:696
+#, kde-format
+msgid "T&able Selection"
+msgstr "T&ablo Seçimi"
+
+#: part/pageview.cpp:703
+#, kde-format
+msgid "&Magnifier"
+msgstr "Bü&yüteç"
+
+#: part/pageview.cpp:712
+#, kde-format
+msgctxt "@action"
+msgid "Selection Tools"
+msgstr "Seçim Araçları"
+
+#: part/pageview.cpp:738
+#, kde-format
+msgid "Digitally &Sign…"
+msgstr "Sayısal Olarak İm&zala…"
+
+#: part/pageview.cpp:744
+#, kde-format
+msgid "Speak Whole Document"
+msgstr "Tüm Belgeyi Konuş"
+
+#: part/pageview.cpp:749
+#, kde-format
+msgid "Speak From Current Page"
+msgstr "Geçerli Sayfadan Konuş"
+
+#: part/pageview.cpp:754
+#, kde-format
+msgid "Speak Current Page"
+msgstr "Geçerli Sayfayı Konuş"
+
+#: part/pageview.cpp:759
+#, kde-format
+msgid "Stop Speaking"
+msgstr "Konuşmayı Durdur"
+
+#: part/pageview.cpp:764
+#, kde-format
+msgid "Pause/Resume Speaking"
+msgstr "Konuşmayı Sürdür/Duraklat"
+
+#: part/pageview.cpp:776
+#, kde-format
+msgid "Scroll Up"
+msgstr "Yukarı Sar"
+
+#: part/pageview.cpp:782
+#, kde-format
+msgid "Scroll Down"
+msgstr "Aşağı Sar"
+
+#: part/pageview.cpp:788
+#, kde-format
+msgid "Scroll Page Up"
+msgstr "Sayfayı Yukarı Sar"
+
+#: part/pageview.cpp:794
+#, kde-format
+msgid "Scroll Page Down"
+msgstr "Sayfayı Aşağı Sar"
+
+#: part/pageview.cpp:800
+#, kde-format
+msgid "Show Forms"
+msgstr "Formları Göster"
+
+#: part/pageview.cpp:1312
+#, kde-format
+msgid " Loaded a one-page document."
+msgid_plural " Loaded a %1-page document."
+msgstr[0] " %1 sayfalık bir belge yüklendi."
+msgstr[1] " %1 sayfalık bir belge yüklendi."
+
+#: part/pageview.cpp:2583
+#, kde-format
+msgid "Copy Table Contents to Clipboard"
+msgstr "Tablo İçeriğini Panoya Kopyala"
+
+#: part/pageview.cpp:2933
+#, kde-format
+msgid "Text (1 character)"
+msgid_plural "Text (%1 characters)"
+msgstr[0] "Metin (%1 karakter)"
+msgstr[1] "Metin (%1 karakter)"
+
+#: part/pageview.cpp:2934 part/pageview.cpp:2956
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "Panoya Kopyala"
+
+#: part/pageview.cpp:2936 part/pageview.cpp:3155 part/part.cpp:843
+#, kde-format
+msgid "Copy Text (Without line breaks)"
+msgstr "Metni Kopyala (Satır Sonu Olmadan)"
+
+#: part/pageview.cpp:2947 part/pageview.cpp:3159
+#, kde-format
+msgid "Speak Text"
+msgstr "Metni Konuş"
+
+#: part/pageview.cpp:2955
+#, kde-format
+msgid "Image (%1 × %2 pixels)"
+msgstr "Görsel (%1 × %2 piksel)"
+
+#: part/pageview.cpp:2957
+#, kde-format
+msgid "Save to File…"
+msgstr "Dosyaya Kaydet…"
+
+#: part/pageview.cpp:2977
+#, kde-format
+msgid "Image [%1 × %2] copied to clipboard."
+msgstr "Görsel [%1 × %2] panoya kopyalandı."
+
+#: part/pageview.cpp:2980
+#, kde-format
+msgid "Save file"
+msgstr "Dosyayı kaydet"
+
+#: part/pageview.cpp:2980
+#, kde-format
+msgid "Images (*.png *.jpeg)"
+msgstr "Görseller (*.png *.jpeg)"
+
+#: part/pageview.cpp:2982
+#, kde-format
+msgid "File not saved."
+msgstr "Dosya kaydedilmedi."
+
+#: part/pageview.cpp:2993
+#, kde-format
+msgid "Image [%1 × %2] saved to %3 file."
+msgstr "Görsel [%1 × %2], %3 dosyasına kaydedildi."
+
+#: part/pageview.cpp:3154
+#, kde-format
+msgid "Copy Text"
+msgstr "Metni Kopyala"
+
+#: part/pageview.cpp:3177
+#, kde-format
+msgid "Go to '%1'"
+msgstr "Git: “%1”"
+
+#: part/pageview.cpp:4208 part/part.cpp:3217
+#, kde-format
+msgid "Fit Width"
+msgstr "Genişliğe sığdır"
+
+#: part/pageview.cpp:4208
+#, kde-format
+msgid "Fit Page"
+msgstr "Sayfayı sığdır"
+
+#: part/pageview.cpp:4208
+#, kde-format
+msgid "Auto Fit"
+msgstr "Kendiliğinden sığdır"
+
+#: part/pageview.cpp:4231
+#, kde-format
+msgctxt ""
+"Zoom percentage value %1 will be replaced by the actual zoom factor value, "
+"so make sure you include it in your translation in order to not to break "
+"anything"
+msgid "%1%"
+msgstr "%%1"
+
+#: part/pageview.cpp:4514
+#, kde-format
+msgid "Search for '%1' with"
+msgstr "“%1” İfadesini Şununla Ara"
+
+#: part/pageview.cpp:4528
+#, kde-format
+msgid "Configure Web Shortcuts…"
+msgstr "Web Kısayollarını Yapılandır…"
+
+#: part/pageview.cpp:4554
+#, kde-format
+msgid "Follow This Link"
+msgstr "Bu Bağlantıyı Takip Et"
+
+#: part/pageview.cpp:4557
+#, kde-format
+msgid "Play this Sound"
+msgstr "Bu Sesi Çal"
+
+#: part/pageview.cpp:4559
+#, kde-format
+msgid "Stop Sound"
+msgstr "Sesi Durdur"
+
+#: part/pageview.cpp:4565
+#, kde-format
+msgid "Copy Link Address"
+msgstr "Bağlantı Adresini Kopyala"
+
+#: part/pageview.cpp:4622
+#, kde-format
+msgid "Search for '%1' in this document"
+msgstr "“%1” İfadesini Bu Belgede Ara"
+
+#: part/pageview.cpp:5154
+#, kde-format
+msgid "Welcome"
+msgstr "Hoş Geldiniz"
+
+#: part/pageview.cpp:5280
+#, kde-format
+msgid "Select zooming area. Right-click to zoom out."
+msgstr ""
+"Yakınlaştırılacak alanı seçin. Uzaklaşmak için farenin sağ düğmesine "
+"tıklayın."
+
+#: part/pageview.cpp:5295
+#, kde-format
+msgid "Click to see the magnified view."
+msgstr "Büyütülmüş görünümü görmek için tıklayın."
+
+#: part/pageview.cpp:5312
+#, kde-format
+msgid "Draw a rectangle around the text/graphics to copy."
+msgstr "Kopyalamak için metnin/grafiğin etrafına bir dikdörtgen çizin."
+
+#: part/pageview.cpp:5328
+#, kde-format
+msgid "Select text"
+msgstr "Metin seç"
+
+#: part/pageview.cpp:5344
+#, kde-format
+msgid ""
+"Draw a rectangle around the table, then click near edges to divide up; press "
+"Esc to clear."
+msgstr ""
+"Tablonun etrafına bir dikdörtgen çizin, kenarlıkların yanına tıklayarak "
+"ayırın, temizlemek için Esc düğmesine basın."
+
+#: part/pageview.cpp:5359 part/pageview.cpp:5367
+#, kde-format
+msgid ""
+"All your signing certificates are invalid. In case signing worked before, "
+"please check their validity dates."
+msgstr ""
+"Tüm imza sertifikalarınız geçersiz. İmzalama daha önce çalışıyordu ise "
+"lütfen geçerlilik tarihlerini denetleyin."
+
+#: part/pageview.cpp:5360
+#, kde-format
+msgid "No valid certificates"
+msgstr "Geçerli Sertifika Yok"
+
+#: part/pageview.cpp:5361 part/pageview.cpp:5376
+#, kde-format
+msgid "Open Certificate Manager"
+msgstr "Sertifika Yöneticisini Aç"
+
+#: part/pageview.cpp:5372
+#, kde-format
+msgid ""
+"There are no available signing certificates.<br/>Launch Certificate Manager "
+"to import or manage certificates<br/>For more information, please see the "
+"section about <a href=\"%1\">Adding Digital Signatures</a> in the manual."
+msgstr ""
+"Kullanılabilir bir imza sertifikası yok.<br/>Sertifikalar içe aktarmak veya "
+"var olanları yönetmek için Sertifika Yöneticisi’ni açın.<br/>Ek bilgi için "
+"kullanım kılavuzundaki <a href=\"%1\">Sayısal İmza Ekleme</a> bölümüne bakın."
+
+#: part/pageview.cpp:5375 part/pageview.cpp:5387
+#, kde-format
+msgid "No certificates found"
+msgstr "Bulunan Sertifika Yok"
+
+#: part/pageview.cpp:5385
+#, kde-format
+msgid ""
+"There are no available signing certificates.<br/>For more information, "
+"please see the section about <a href=\"%1\">Adding Digital Signatures</a> in "
+"the manual."
+msgstr ""
+"Kullanılabilir bir imza sertifikası yok.<br/>Ek bilgi için kullanım "
+"kılavuzundaki <a href=\"%1\">Sayısal İmza Ekleme</a> bölümüne bakın."
+
+#: part/pageview.cpp:5410
+#, kde-format
+msgid "You have unsaved changes. Please save the document before signing it."
+msgstr ""
+"Kaydedilmemiş değişiklikleriniz var. Belgeyi imzalamadan önce kaydedin."
+
+#: part/pageview.cpp:5433
+#, kde-format
+msgid "Draw a rectangle to insert the signature field"
+msgstr "İmza alanını eklemek için bir dikdörtgen çizin"
+
+#: part/pageview.cpp:5583
+#, kde-format
+msgid "Draw a rectangle around the page area you wish to keep visible"
+msgstr ""
+"Görünür olarak tutmak istediğiniz sayfa alanının etrafına bir dikdörtgen "
+"çizin"
+
+#: part/pageviewannotator.cpp:262
+#, kde-format
+msgid "New Text Note"
+msgstr "Yeni Metin Notu"
+
+#: part/pageviewannotator.cpp:262
+#, kde-format
+msgid "Text of the new note:"
+msgstr "Yeni notun metni:"
+
+#: part/pageviewannotator.cpp:409
+#, kde-format
+msgid ""
+"Signed by: %1\n"
+"\n"
+"Date: %2"
+msgstr ""
+"İmzalayan: %1\n"
+"\n"
+"Tarih: %2"
+
+#: part/pageviewannotator.cpp:486
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"A signature of this size may be too small to read. If you would like to "
+"create a potentially more readable signature, press <interface>Start over</"
+"interface> and draw a bigger rectangle."
+msgstr ""
+"Bu boyuttaki bir imza okumak için pek küçük olabilir. Daha okunabilir bir "
+"imza oluşturmak için <interface>Baştan Başlat</interface>’a basın ve daha "
+"büyük bir dikdörtgen çizin."
+
+#: part/pageviewannotator.cpp:488
+#, kde-format
+msgctxt "@action:button"
+msgid "Start Over"
+msgstr "Baştan Başlat"
+
+#: part/pageviewannotator.cpp:489
+#, kde-format
+msgctxt "@action:button"
+msgid "Sign"
+msgstr "İmzala"
+
+#: part/pageviewannotator.cpp:1334
+#, kde-format
+msgid "Author name"
+msgstr "Yazar adı"
+
+#: part/pageviewannotator.cpp:1334
+#, kde-format
+msgid "Author name for the annotation:"
+msgstr "Ek açıklamalar için yazar adı:"
+
+#: part/pageviewannotator.cpp:1395
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw an ellipse (drag to select a zone)"
+msgstr "Bir çember çiz (bir alan seçmek için sürükleyin)"
+
+#: part/pageviewannotator.cpp:1397
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Highlight text"
+msgstr "Metni vurgula"
+
+#: part/pageviewannotator.cpp:1399
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a freehand line"
+msgstr "Serbest çizim çizgisi çiz"
+
+#: part/pageviewannotator.cpp:1401
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Inline Text Annotation (drag to select a zone)"
+msgstr "İç Metin Açıklama (bir alan seçmek için fare işaretçisini sürükleyin)"
+
+#: part/pageviewannotator.cpp:1403
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Put a pop-up note"
+msgstr "Bir açılır not koy"
+
+#: part/pageviewannotator.cpp:1405
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a polygon (click on the first point to close it)"
+msgstr "Bir çokgen çiz (kapatmak için ilk noktaya tıklayın)"
+
+#: part/pageviewannotator.cpp:1407
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a rectangle"
+msgstr "Bir dikdörtgen çiz"
+
+#: part/pageviewannotator.cpp:1409
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Squiggle text"
+msgstr "Metnin altını dalgalı çizgiyle çiz"
+
+#: part/pageviewannotator.cpp:1411
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Put a stamp symbol"
+msgstr "Bir damga sembolü koy"
+
+#: part/pageviewannotator.cpp:1413
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Draw a straight line"
+msgstr "Düz bir çizgi çiz"
+
+#: part/pageviewannotator.cpp:1415
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Strike out text"
+msgstr "Metnin üzerini çiz"
+
+#: part/pageviewannotator.cpp:1417
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Underline text"
+msgstr "Metnin altını çiz"
+
+#: part/pageviewannotator.cpp:1419
+#, kde-format
+msgctxt "Annotation tool"
+msgid "Typewriter Annotation (drag to select a zone)"
+msgstr "Daktilo Açıklama (bir alan seçmek için sürükleyin)"
+
+#: part/pageviewannotator.cpp:1478
+#, kde-format
+msgid "Highlighter"
+msgstr "Vurgulayıcı"
+
+#: part/pageviewannotator.cpp:1775
+#, kde-format
+msgid "Add favorite annotation"
+msgstr "Favori Açıklama Ekle"
+
+#: part/pageviewannotator.cpp:1775
+#, kde-format
+msgid "Custom annotation name:"
+msgstr "Özel ek açıklama adı:"
+
+#. i18n: ectx: Menu (file)
+#: part/part-viewermode.rc:6 part/part.rc:5
+#, kde-format
+msgid "&File"
+msgstr "&Dosya"
+
+#. i18n: ectx: Menu (settings)
+#: part/part-viewermode.rc:10 part/part.rc:93
+#, kde-format
+msgid "&Settings"
+msgstr "Ayar&lar"
+
+#. i18n: ectx: Menu (help)
+#: part/part-viewermode.rc:15 part/part.rc:100
+#, kde-format
+msgid "&Help"
+msgstr "&Yardım"
+
+#. i18n: ectx: Menu (view_orientation)
+#: part/part-viewermode.rc:32 part/part.rc:46
+#, kde-format
+msgid "&Orientation"
+msgstr "&Yönelim"
+
+#. i18n: ectx: Menu (bookmarks)
+#. i18n: ectx: Menu (okular_bookmarks)
+#: part/part-viewermode.rc:50 part/part.rc:67
+#, kde-format
+msgid "&Bookmarks"
+msgstr "Y&er İmleri"
+
+#. i18n: ectx: ToolBar (OkularViewerToolBar)
+#: part/part-viewermode.rc:63
+#, kde-format
+msgid "Viewer Toolbar"
+msgstr "Görüntüleyici Araç Çubuğu"
+
+#: part/part.cpp:406 part/thumbnaillist.cpp:46
+#, kde-format
+msgid "Thumbnails"
+msgstr "Küçük Görseller"
+
+#: part/part.cpp:412 part/preferencesdialog.cpp:50 part/side_reviews.cpp:97
+#, kde-format
+msgid "Annotations"
+msgstr "Ek Açıklamalar"
+
+#: part/part.cpp:436
+#, kde-format
+msgid ""
+"This document contains annotations or form data that were saved internally "
+"by a previous Okular version. Internal storage is <b>no longer supported</b>."
+"<br/>Please save to a file in order to move them if you want to continue to "
+"edit the document."
+msgstr ""
+"Bu belge, Okular’ın daha eski bir sürümünde içsel olarak kaydedilen ek "
+"açıklamalar veya form verisi içeriyor. İçsel depolama <b>artık "
+"desteklenmiyor</b>.<br/>Dosyayı düzenlemeyi sürdürmek için kurtarma amaçlı "
+"olarak onları lütfen bir dosyaya kaydedin."
+
+#: part/part.cpp:444
+#, kde-format
+msgid ""
+"This document has embedded files. <a href=\"okular:/embeddedfiles\">Click "
+"here to see them</a> or go to File -> Embedded Files."
+msgstr ""
+"Bu belgede gömülü dosyalar var. Dosyaları görmek için <a href=\"okular:/"
+"embeddedfiles\">buraya</a> veya “Dosya → Gömülü Dosyalar” menü ögesine "
+"tıklayın."
+
+#: part/part.cpp:468
+#, kde-format
+msgctxt "This is a normal pdf feature, but can be abused by hostile parties"
+msgid ""
+"This document has elements that might be hidden or shown differently when "
+"printed. For important documents, please verify both."
+msgstr ""
+"Bu belgede, yazdırıldığında gizlenen veya farklı görünen ögeler olabilir. "
+"Önemli belgeler söz konusuysa her ikisine de dikkatlice bakın."
+
+#: part/part.cpp:480
+#, kde-format
+msgid ""
+"Signing in progress. You can adjust the position and size of the signature"
+msgstr "İmzalama sürüyor. İmzanın konumunu ve boyutunu ayarlayabilirsiniz."
+
+#: part/part.cpp:482
+#, kde-format
+msgctxt "@action:button finish the signing process"
+msgid "Finish Signing"
+msgstr "İmzalamayı Bitir"
+
+#: part/part.cpp:655
+#, kde-format
+msgctxt "Previous page"
+msgid "Previous"
+msgstr "Önceki"
+
+#: part/part.cpp:656
+#, kde-format
+msgid "Go back to the Previous Page"
+msgstr "Önceki Sayfaya Dön"
+
+#: part/part.cpp:657
+#, kde-format
+msgid "Moves to the previous page of the document"
+msgstr "Önceki sayfaya gider"
+
+#: part/part.cpp:664
+#, kde-format
+msgctxt "Next page"
+msgid "Next"
+msgstr "Sonraki"
+
+#: part/part.cpp:665
+#, kde-format
+msgid "Advance to the Next Page"
+msgstr "Sonraki Sayfaya Git"
+
+#: part/part.cpp:666
+#, kde-format
+msgid "Moves to the next page of the document"
+msgstr "Sonraki sayfaya gider"
+
+#: part/part.cpp:674
+#, kde-format
+msgid "Beginning of the document"
+msgstr "Belge Başı"
+
+#: part/part.cpp:675
+#, kde-format
+msgid "Moves to the beginning of the document"
+msgstr "Belgenin başlangıcına gider"
+
+#: part/part.cpp:679
+#, kde-format
+msgid "End of the document"
+msgstr "Belge Sonu"
+
+#: part/part.cpp:680
+#, kde-format
+msgid "Moves to the end of the document"
+msgstr "Belgenin sonuna gider"
+
+#: part/part.cpp:694
+#, kde-format
+msgid "Rename the current bookmark"
+msgstr "Geçerli yer imini yeniden adlandır"
+
+#: part/part.cpp:698
+#, kde-format
+msgid "Previous Bookmark"
+msgstr "Önceki Yer İmi"
+
+#: part/part.cpp:700
+#, kde-format
+msgid "Go to the previous bookmark"
+msgstr "Önceki yer imine git"
+
+#: part/part.cpp:704
+#, kde-format
+msgid "Next Bookmark"
+msgstr "Sonraki Yer İmi"
+
+#: part/part.cpp:706
+#, kde-format
+msgid "Go to the next bookmark"
+msgstr "Sonraki yer imine git"
+
+#: part/part.cpp:736
+#, kde-format
+msgid "Configure Okular…"
+msgstr "Okular Uygulamasını Yapılandır…"
+
+#: part/part.cpp:739
+#, kde-format
+msgid "Configure Viewer…"
+msgstr "Görüntüleyiciyi Yapılandır…"
+
+#: part/part.cpp:774
+#, kde-format
+msgid "About Backend"
+msgstr "Arka Uç Hakkında"
+
+#: part/part.cpp:779
+#, kde-format
+msgid "Reloa&d"
+msgstr "&Yeniden Yükle"
+
+#: part/part.cpp:781
+#, kde-format
+msgid "Reload the current document from disk."
+msgstr "Şimdiki belgeyi sabit diskten yeniden yükle."
+
+#: part/part.cpp:787
+#, kde-format
+msgid "Close &Find Bar"
+msgstr "&Bul Çubuğunu Kapat"
+
+#: part/part.cpp:792
+#, kde-format
+msgid "Page Number"
+msgstr "Sayfa Numarası"
+
+#: part/part.cpp:796
+#, kde-format
+msgctxt "@action"
+msgid "Configure Color Modes…"
+msgstr "Renk Kiplerini Yapılandır…"
+
+#: part/part.cpp:835 part/part.cpp:3222
+#, kde-format
+msgid "Paste Annotation"
+msgstr "Ek Açıklamayı Yapıştır"
+
+#: part/part.cpp:853
+#, kde-format
+msgid "Select All Text on Current Page"
+msgstr "Geçerli Sayfadaki Tüm Metni Seç"
+
+#: part/part.cpp:866
+#, kde-format
+msgid "Show S&idebar"
+msgstr "&Kenar Çubuğunu Göster"
+
+#: part/part.cpp:875
+#, kde-format
+msgid "Show &Page Bar"
+msgstr "&Sayfa Çubuğunu Göster"
+
+#: part/part.cpp:881
+#, kde-format
+msgid "Show &Signatures Panel"
+msgstr "İ&mza Panelini Göster"
+
+#: part/part.cpp:892
+#, kde-format
+msgid "&Embedded Files"
+msgstr "Gö&mülü Dosyalar"
+
+#: part/part.cpp:898
+#, kde-format
+msgid "E&xport As"
+msgstr "Farklı Dışa A&ktar"
+
+#: part/part.cpp:910
+#, kde-format
+msgid "S&hare"
+msgstr "P&aylaş"
+
+#: part/part.cpp:919
+#, kde-format
+msgid "P&resentation"
+msgstr "&Sunum"
+
+#: part/part.cpp:926
+#, kde-format
+msgid "Open Con&taining Folder"
+msgstr "İçeren K&lasörü Aç"
+
+#: part/part.cpp:940
+#, kde-format
+msgid "&Import PostScript as PDF…"
+msgstr "&PostScript’i PDF Olarak İçe Aktar…"
+
+#: part/part.cpp:944
+#, kde-format
+msgid "Switch Blackscreen Mode"
+msgstr "Siyah Ekran Kipine Geç"
+
+#: part/part.cpp:952
+#, kde-format
+msgid "Erase Drawing"
+msgstr "Çizimi Sil"
+
+#: part/part.cpp:957
+#, kde-format
+msgid "Configure Annotations…"
+msgstr "Ek Açıklamaları Yapılandır…"
+
+#: part/part.cpp:962
+#, kde-format
+msgid "Play/Pause Presentation"
+msgstr "Sunumu Oynat/Duraklat"
+
+#: part/part.cpp:1118
+#, kde-format
+msgid ""
+"You have just modified the open document, but this kind of document can not "
+"be saved.\n"
+"Any modification will be lost once Okular is closed."
+msgstr ""
+"Açık belgeyi düzenlediniz; ancak bu tür belgeler kaydedilemez.\n"
+"Okular kapatıldığında değişiklikler kaybolacak."
+
+#: part/part.cpp:1119
+#, kde-format
+msgid "Document can't be saved"
+msgstr "Belge kaydedilemiyor"
+
+#: part/part.cpp:1148
+#, kde-format
+msgid "Could not open '%1' (%2) "
+msgstr "“%1” (%2) açılamadı "
+
+#: part/part.cpp:1201
+#, kde-format
+msgid "The loading of %1 has been canceled."
+msgstr "%1 belgesini yükleme işlemi iptal edildi."
+
+#: part/part.cpp:1217
+#, kde-format
+msgid "Could not open %1. Reason: %2"
+msgstr "%1 açılamadı. Gerekçe: %2"
+
+#: part/part.cpp:1311
+#, kde-format
+msgid ""
+"The program \"ps2pdf\" was not found, so Okular can not import PS files "
+"using it."
+msgstr ""
+"“ps2pdf” uygulaması bulunamadı. Bu nedenle Okular PS dosyalarını içe "
+"aktaramayacak."
+
+#: part/part.cpp:1311
+#, kde-format
+msgid "ps2pdf not found"
+msgstr "ps2pdf bulunamadı"
+
+#: part/part.cpp:1316
+#, kde-format
+msgid "PostScript files (%1)"
+msgstr "PostScript dosyaları (%1)"
+
+#: part/part.cpp:1331
+#, kde-format
+msgid "Importing PS file as PDF (this may take a while)…"
+msgstr "PS dosyası PDF olarak içe aktarılıyor (biraz zaman alabilir)…"
+
+#: part/part.cpp:1463
+#, kde-format
+msgctxt "%1 is filename of the file to open"
+msgid "Please enter the password to read the document: %1"
+msgstr "Belgeyi okumak için lütfen parolayı girin: %1"
+
+#: part/part.cpp:1465
+#, kde-format
+msgctxt "%1 is filename of the file to open"
+msgid "Incorrect password. Try again: %1"
+msgstr "Yanlış parola. Yeniden deneyin: %1"
+
+#: part/part.cpp:1476
+#, kde-format
+msgid "Document Password"
+msgstr "Belge Parolası"
+
+#: part/part.cpp:1599
+#, kde-format
+msgid "This document has XFA forms, which are currently <b>unsupported</b>."
+msgstr "Bu belgede şu anda <b>desteklenmeyen</b> XFA formları bulunmaktadır."
+
+#: part/part.cpp:1606
+#, kde-format
+msgid ""
+"This document has forms. Click on the button to interact with them, or use "
+"View -> Show Forms."
+msgstr ""
+"Bu belgenin formları var. Bu formlarla etkileşmek için düğmelere tıklayın ya "
+"da “Görünüm → Formları Göster” menüsünü kullanın."
+
+#: part/part.cpp:1623
+#, kde-format
+msgid ""
+"All editing and interactive features for this document are disabled. Please "
+"save a copy and reopen to edit this document."
+msgstr ""
+"Bu belgenin tüm düzenleme ve etkileşim özellikleri devre dışı. Düzenlemek "
+"için yeni bir kopya kaydedin ve öyle açın."
+
+#: part/part.cpp:1742
+#, kde-format
+msgid ""
+"This document wants to be shown full screen.\n"
+"Leave normal mode and enter presentation mode?"
+msgstr ""
+"Bu belge tam ekran görüntülenmek istiyor.\n"
+"Normal kipten ayrılıp sunum kipine geçilsin mi?"
+
+#: part/part.cpp:1744
+#, kde-format
+msgid "Request to Change Viewing Mode"
+msgstr "Görüntülenme Kipini Değiştir İsteği"
+
+#: part/part.cpp:1745
+#, kde-format
+msgid "Enter Presentation Mode"
+msgstr "Sunum Kipine Gir"
+
+#: part/part.cpp:1746
+#, kde-format
+msgid "Deny Request"
+msgstr "İsteği Reddet"
+
+#: part/part.cpp:1836
+#, kde-format
+msgid "Could not open %1. %2"
+msgstr "%1 açılamadı. %2"
+
+#: part/part.cpp:1866
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The file <filename>%1</filename> has unsaved changes but has been modified "
+"by another program. Reloading it will replace the unsaved changes with the "
+"changes made in the other program.<nl/><nl/>Do you want to continue "
+"reloading the file?"
+msgstr ""
+"<filename>%1</filename> dosyasında kaydedilmemiş değişiklikler var; ancak  "
+"başka bir program tarafından değiştirilmiş. Onu yeniden yüklemek, "
+"kaydedilmemiş değişiklikleri diğer program tarafından yapılan "
+"değişikliklerle değiştirir.<nl/><nl/>Dosyayı yeniden yüklemeyi sürdürmek "
+"istiyor musunuz?"
+
+#: part/part.cpp:1870 part/part.cpp:1880
+#, kde-format
+msgid "File Changed"
+msgstr "Dosya Değiştirildi"
+
+#: part/part.cpp:1871
+#, kde-format
+msgid "Continue Reloading"
+msgstr "Yeniden Yüklemeyi Sürdür"
+
+#: part/part.cpp:1872
+#, kde-format
+msgid "Abort Reloading"
+msgstr "Yeniden Yüklemeyi İptal Et"
+
+#: part/part.cpp:1876
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The file <filename>%1</filename> has unsaved changes but has been modified "
+"by another program. Closing it will replace the unsaved changes with the "
+"changes made in the other program.<nl/><nl/>Do you want to continue closing "
+"the file?"
+msgstr ""
+"<filename>%1</filename> dosyasında kaydedilmemiş değişiklikler var; ancak  "
+"başka bir program tarafından değiştirilmiş. Onu kapatmak, kaydedilmemiş "
+"değişiklikleri diğer program tarafından yapılan değişikliklerle değiştirir."
+"<nl/><nl/>Dosyayı kapatmayı sürdürmek istiyor musunuz?"
+
+#: part/part.cpp:1881
+#, kde-format
+msgid "Continue Closing"
+msgstr "Kapatmayı Sürdür"
+
+#: part/part.cpp:1882
+#, kde-format
+msgid "Abort Closing"
+msgstr "Kapatmayı İptal Et"
+
+#: part/part.cpp:1889
+#, kde-format
+msgid "Do you want to save your changes to \"%1\" or discard them?"
+msgstr ""
+"“%1” dosyasına yaptığınız değişiklikler kaydedilsin mi yoksa atılsın mı?"
+
+#: part/part.cpp:1889
+#, kde-format
+msgid "Close Document"
+msgstr "Belgeyi Kapat"
+
+#: part/part.cpp:2021
+#, kde-format
+msgid ""
+"This link points to a close document action that does not work when using "
+"the embedded viewer."
+msgstr ""
+"Bu bağlantı, gömülü görüntüleyicide çalışmayan bir belgeyi kapat eylemine "
+"işaret ediyor."
+
+#: part/part.cpp:2027
+#, kde-format
+msgid ""
+"This link points to a quit application action that does not work when using "
+"the embedded viewer."
+msgstr ""
+"Bu bağlantı, gömülü görüntüleyicide çalışmayan bir uygulamadan çık eylemine "
+"işaret ediyor."
+
+#: part/part.cpp:2119 part/part.cpp:2141
+#, kde-format
+msgid "Reloading the document…"
+msgstr "Belge yeniden yükleniyor…"
+
+#: part/part.cpp:2310 part/toc.cpp:36
+#, kde-format
+msgid "Contents"
+msgstr "İçerik"
+
+#: part/part.cpp:2339 part/signaturepanel.cpp:45
+#, kde-format
+msgid "Signatures"
+msgstr "İmzalar"
+
+#: part/part.cpp:2366
+#, kde-format
+msgid "Go to Page"
+msgstr "Sayfaya Git"
+
+#: part/part.cpp:2389
+#, kde-format
+msgid "&Page:"
+msgstr "Sa&yfa:"
+
+#: part/part.cpp:2482
+#, kde-format
+msgid "Enter the new name of the bookmark:"
+msgstr "Yer iminin yeni adını girin:"
+
+#: part/part.cpp:2528
+#, kde-format
+msgid "Rename this Bookmark"
+msgstr "Bu Yer İmini Yeniden Adlandır"
+
+#: part/part.cpp:2531
+#, kde-format
+msgid "Remove this Bookmark"
+msgstr "Bu Yer İmini Kaldır"
+
+#: part/part.cpp:2617 part/part.cpp:2618 part/part.cpp:3534
+#: part/signaturepartutils.cpp:321
+#, kde-format
+msgctxt "File type name and pattern"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: part/part.cpp:2625 part/revisionviewer.cpp:44
+#, kde-format
+msgid "Save As"
+msgstr "Farklı Kaydet"
+
+#: part/part.cpp:2642
+#, kde-format
+msgid ""
+"You have chosen to save an Okular Archive without the file name ending with "
+"the '%1' extension. That is not allowed, do you want to choose a new name?"
+msgstr ""
+"Bir Okular Arşivini dosya adında “%1” uzantısı olmadan kaydetmeyi seçtiniz. "
+"Buna izin verilmez, başka bir ad seçmek istiyor musunuz?"
+
+#: part/part.cpp:2643
+#, kde-format
+msgid "Unsupported extension"
+msgstr "Desteklenmeyen uzantı"
+
+#: part/part.cpp:2644
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose New Name"
+msgstr "Yeni Ad Seç"
+
+#: part/part.cpp:2687
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The file <filename>%1</filename> has been modified by another program. If "
+"you save now, any changes made in the other program will be lost. Are you "
+"sure you want to continue?"
+msgstr ""
+"<filename>%1</filename> dosyası başka bir program tarafından değiştirilmiş. "
+"Şimdi kaydederseniz diğer programda yapılmış tüm değişiklikler kaybolur. "
+"Sürdürmek istediğinizden emin misiniz?"
+
+#: part/part.cpp:2690 part/part.cpp:2709 part/part.cpp:2761
+#, kde-format
+msgid "Save - Warning"
+msgstr "Kaydet — Uyarı"
+
+#: part/part.cpp:2692
+#, kde-format
+msgid "Save a Copy Elsewhere"
+msgstr "Başka Bir Yere Bir Kopya Kaydet"
+
+#: part/part.cpp:2708
+#, kde-format
+msgid ""
+"The current document is protected with a password.<br />In order to save, "
+"the file needs to be reloaded. You will be asked for the password again and "
+"your undo/redo history will be lost.<br />Do you want to continue?"
+msgstr ""
+"Geçerli belge bir parola ile korunuyor.<br />Kaydetmek için bu dosyanın "
+"yeniden yüklenmesi gerekiyor. Sizden parolayı girmeniz istenecek ve geri al/"
+"yinele geçmişiniz kaybolacak.<br />Sürdürmek istiyor musunuz?"
+
+#: part/part.cpp:2735
+#, kde-format
+msgid "Could not open the temporary file for saving."
+msgstr "Geçici dosya kaydetmek için açılamadı."
+
+#: part/part.cpp:2748
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Could not overwrite <filename>%1</filename> because that file is read-only. "
+"Try saving to another location or changing that file's permissions."
+msgstr ""
+"<filename>%1</filename> üzerine yazılamadı; çünkü dosya saltokunur. Dosyanın "
+"izinlerini değiştirmeyi veya başka bir konuma kaydetmeyi deneyin."
+
+#: part/part.cpp:2760
+#, kde-format
+msgid ""
+"After saving, the current document format requires the file to be reloaded. "
+"Your undo/redo history will be lost.<br />Do you want to continue?"
+msgstr ""
+"Geçerli dosya biçimi, kaydetme sonrasında dosyanın yeniden yüklenmesini "
+"gerektiriyor. Geri Al/Yinele geçmişiniz kaybolacak.<br />Sürdürmek istiyor "
+"musunuz?"
+
+#: part/part.cpp:2775 part/part.cpp:2844 part/part.cpp:2865 part/part.cpp:3549
+#, kde-format
+msgid "File could not be saved in '%1'. Try to save it to another location."
+msgstr "Dosya “%1” içine kaydedilemedi. Başka bir yere kaydetmeyi deneyin."
+
+#: part/part.cpp:2788
+#, kde-format
+msgid "Filled form contents"
+msgstr "Doldurulan form içeriği"
+
+#: part/part.cpp:2791
+#, kde-format
+msgid "User annotations"
+msgstr "Kullanıcı ek açıklamaları"
+
+#: part/part.cpp:2796
+#, kde-format
+msgid ""
+"You are about to save changes, but the current file format does not support "
+"saving the following elements. Please use the <i>Okular document archive</i> "
+"format to preserve them."
+msgstr ""
+"Değişiklikleri kaydetmek üzeresiniz; ancak geçerli dosya biçimi aşağıdaki "
+"ögeleri kaydetmeyi desteklemiyor. Onları korumak için lütfen <i>Okular belge "
+"arşivi</i> biçimini kullanın."
+
+#: part/part.cpp:2800 part/part.cpp:2822
+#, kde-format
+msgid "Warning"
+msgstr "Uyarı"
+
+#: part/part.cpp:2801 part/part.cpp:2823
+#, kde-format
+msgid "Save as Okular document archive…"
+msgstr "Okular Belge Arşivi Olarak Kaydet…"
+
+#: part/part.cpp:2813
+#, kde-format
+msgid ""
+"You are about to save changes, but the current file format does not support "
+"saving the following elements. Please use the <i>Okular document archive</i> "
+"format to preserve them. Click <i>Continue</i> to save the document and "
+"discard these elements."
+msgstr ""
+"Değişiklikleri kaydetmek üzeresiniz; ancak geçerli dosya biçimi aşağıdaki "
+"ögeleri kaydetmeyi desteklemiyor. Onları korumak için lütfen <i>Okular belge "
+"arşivi</i> biçimini kullanın. Bu ögeleri atmak ve dosyayı kaydetmek için "
+"<i>Sürdür></i>’e tıklayın."
+
+#: part/part.cpp:2816
+#, kde-format
+msgid ""
+"You are about to save changes, but the current file format does not support "
+"saving the following elements. Please use the <i>Okular document archive</i> "
+"format to preserve them. Click <i>Continue</i> to save, but you will lose "
+"these elements as well as the undo/redo history."
+msgstr ""
+"Değişiklikleri kaydetmek üzeresiniz; ancak geçerli dosya biçimi aşağıdaki "
+"ögeleri kaydetmeyi desteklemiyor. Onları korumak için lütfen <i>Okular belge "
+"arşivi</i> biçimini kullanın. Kaydetmek için <i>Sürdür</i>’e tıklayın; ancak "
+"bu ögeleri ve geri al/yine geçmişini kaybedeceksiniz."
+
+#: part/part.cpp:2818
+#, kde-format
+msgid "Continue"
+msgstr "Sürdür"
+
+#: part/part.cpp:2818
+#, kde-format
+msgid "Continue losing changes"
+msgstr "Değişiklikleri kaybetmeyi sürdür"
+
+#: part/part.cpp:2846
+#, kde-format
+msgid "File could not be saved in '%1'. %2"
+msgstr "Dosya “%1” içerisine kaydedilemedi. %2"
+
+#: part/part.cpp:2885
+#, kde-format
+msgid ""
+"Okular cannot copy %1 to the specified location.\n"
+"\n"
+"The document does not exist anymore."
+msgstr ""
+"Okular %1 ögesini belirtilen konuma kopyalayamıyor.\n"
+"\n"
+"Belge artık yok."
+
+#: part/part.cpp:2921
+#, kde-format
+msgid ""
+"File could not be saved in '%1'. Error: '%2'. Try to save it to another "
+"location."
+msgstr ""
+"Dosya “%1” içine kaydedilemedi. Hata: “%2”. Başka bir yere kaydetmeyi "
+"deneyin."
+
+#: part/part.cpp:3192
+#, kde-format
+msgid "Expand Whole Section"
+msgstr "Tüm Bölümü Genişlet"
+
+#: part/part.cpp:3193
+#, kde-format
+msgid "Collapse Whole Section"
+msgstr "Tüm Bölümü Daralt"
+
+#: part/part.cpp:3209
+#, kde-format
+msgid "Sync Thumbnail with Page"
+msgstr "Küçük görselleri sayfa ile eşzamanla"
+
+#: part/part.cpp:3241
+#, kde-format
+msgid "Tools"
+msgstr "Araçlar"
+
+#: part/part.cpp:3429
+#, kde-format
+msgctxt "@action:inmenu menu that contains actions to control text to speach"
+msgid "Speak"
+msgstr "Konuş"
+
+#: part/part.cpp:3587
+#, kde-format
+msgctxt "@title:window"
+msgid "Print"
+msgstr "Yazdır"
+
+#: part/part.cpp:3644
+#, kde-format
+msgid "Printing this document is not allowed."
+msgstr "Bu belgenin yazdırılmasına izin verilmiyor."
+
+#: part/part.cpp:3657
+#, kde-format
+msgid ""
+"Could not print the document. Unknown error. Please report to bugs.kde.org"
+msgstr ""
+"Bu belge yazdırılamıyor. Bilinmeyen hata. Lütfen bugs.kde.org adresinden "
+"hatayı raporlayın."
+
+#: part/part.cpp:3659
+#, kde-format
+msgid ""
+"Could not print the document. Detailed error is \"%1\". Please report to "
+"bugs.kde.org"
+msgstr ""
+"Belge yazdırılamıyor. Ayrıntılı hata “%1”. Lütfen bugs.kde.org adresinden "
+"hatayı raporlayın."
+
+#: part/part.cpp:3751
+#, kde-format
+msgid "Go to the place you were before"
+msgstr "Daha önce bulunduğunuz yere gider"
+
+#: part/part.cpp:3755
+#, kde-format
+msgid "Go to the place you were after"
+msgstr "Daha sonra bulunduğunuz yere gider"
+
+#: part/part.cpp:3780
+#, kde-format
+msgid ""
+"<qt><strong>File Error!</strong> Could not create temporary file "
+"<nobr><strong>%1</strong></nobr>.</qt>"
+msgstr ""
+"<qt><strong>Dosya Hatası!</strong> Geçici dosya oluşturulamadı <nobr><strong>"
+"%1</strong></nobr>.</qt>"
+
+#: part/part.cpp:3792
+#, kde-format
+msgid ""
+"<qt><strong>File Error!</strong> Could not open the file <nobr><strong>%1</"
+"strong></nobr> for uncompression. The file will not be loaded.</qt>"
+msgstr ""
+"<qt><strong>Dosya Hatası!</strong> Sıkıştırmasını açmak için <nobr><strong>"
+"%1</strong></nobr> dosyası açılamadı. Dosya yüklenmeycek.</qt>"
+
+#: part/part.cpp:3796
+#, kde-format
+msgid ""
+"<qt>This error typically occurs if you do not have enough permissions to "
+"read the file. You can check ownership and permissions if you right-click on "
+"the file in the Dolphin file manager, then choose the 'Properties' option, "
+"and select 'Permissions' tab in the opened window.</qt>"
+msgstr ""
+"<qt>Bu hata genelde yeterli dosya okuma iznine sahip değilseniz meydana "
+"gelir. Dolphin dosya yöneticisinde dosyanın üzerine sağ tıklar ve daha sonra "
+"“Özellikler” sekmesini seçerseniz sahiplik ve izinleri denetleyebilirsiniz.</"
+"qt>"
+
+#: part/part.cpp:3818
+#, kde-format
+msgid ""
+"<qt><strong>File Error!</strong> Could not uncompress the file <nobr><strong>"
+"%1</strong></nobr>. The file will not be loaded.</qt>"
+msgstr ""
+"<qt><strong>Dosya Hatası!</strong> <nobr><strong>%1</strong></nobr> "
+"dosyasının sıkıştırması açılamadı. Dosya yüklenmeyecek.</qt>"
+
+#: part/part.cpp:3822
+#, kde-format
+msgid ""
+"<qt>This error typically occurs if the file is corrupt. If you want to be "
+"sure, try to decompress the file manually using command-line tools.</qt>"
+msgstr ""
+"<qt>Bu hata genellikle dosya bozuksa meydana gelir. Emin olmak istiyorsanız, "
+"dosyayı komut satırında elle açmayı deneyin.</qt>"
+
+#: part/part.cpp:3848
+#, kde-format
+msgid "No Bookmarks"
+msgstr "Yer İmi Yok"
+
+#: part/part.cpp:3919
+#, kde-format
+msgid "There was a problem sharing the document: %1"
+msgstr "Belge paylaşılırken bir hata oluştu: %1"
+
+#: part/part.cpp:3919 part/part.cpp:3925
+#, kde-format
+msgid "Share"
+msgstr "Paylaş"
+
+#: part/part.cpp:3923
+#, kde-format
+msgid "Document shared successfully"
+msgstr "Belge paylaşımı başarılı"
+
+#: part/part.cpp:3925
+#, kde-format
+msgid "You can find the shared document at: <a href=\"%1\">%1</a>"
+msgstr "Paylaşılan belgeyi şurada bulabilirsiniz: <a href=\"%1\">%1</a>"
+
+#. i18n: ectx: Menu (edit)
+#: part/part.rc:19
+#, kde-format
+msgid "&Edit"
+msgstr "Dü&zen"
+
+#. i18n: ectx: Menu (view)
+#: part/part.rc:34
+#, kde-format
+msgid "&View"
+msgstr "Görü&nüm"
+
+#. i18n: ectx: Menu (go)
+#: part/part.rc:55
+#, kde-format
+msgid "&Go"
+msgstr "G&it"
+
+#. i18n: ectx: Menu (tools)
+#: part/part.rc:75
+#, kde-format
+msgid "&Tools"
+msgstr "&Araçlar"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: part/part.rc:104 shell/shell.rc:24
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Ana Araç Çubuğu"
+
+#. i18n: ectx: ToolBar (annotationToolBar)
+#: part/part.rc:125
+#, kde-format
+msgid "Annotation Toolbar"
+msgstr "Ek Açıklama Araç Çubuğu"
+
+#. i18n: ectx: ToolBar (quickAnnotationToolBar)
+#: part/part.rc:149
+#, kde-format
+msgid "Quick Annotation Toolbar"
+msgstr "Tez Ek Açıklama Araç Çubuğu"
+
+#: part/preferencesdialog.cpp:41
+#, kde-format
+msgid "General Options"
+msgstr "Genel Seçenekler"
+
+#: part/preferencesdialog.cpp:42
+#, kde-format
+msgid "Accessibility"
+msgstr "Erişilebilirlik"
+
+#: part/preferencesdialog.cpp:42
+#, kde-format
+msgid "Accessibility Reading Aids"
+msgstr "Okuma Erişilebilirlik Yardımı"
+
+#: part/preferencesdialog.cpp:43
+#, kde-format
+msgid "Performance"
+msgstr "Başarım"
+
+#: part/preferencesdialog.cpp:43
+#, kde-format
+msgid "Performance Tuning"
+msgstr "Başarım Ayarı"
+
+#: part/preferencesdialog.cpp:45
+#, kde-format
+msgid "Configure Viewer"
+msgstr "Görüntüleyiciyi Yapılandır"
+
+#: part/preferencesdialog.cpp:49
+#, kde-format
+msgid "Presentation"
+msgstr "Sunum"
+
+#: part/preferencesdialog.cpp:49
+#, kde-format
+msgid "Options for Presentation Mode"
+msgstr "Sunum Kipi Seçenekleri"
+
+#: part/preferencesdialog.cpp:50
+#, kde-format
+msgid "Annotation Options"
+msgstr "Ek Açıklama Seçenekleri"
+
+#: part/preferencesdialog.cpp:53 part/preferencesdialog.cpp:59
+#, kde-format
+msgid "Editor"
+msgstr "Düzenleyici"
+
+#: part/preferencesdialog.cpp:53 part/preferencesdialog.cpp:59
+#, kde-format
+msgid "Editor Options"
+msgstr "Düzenleyici Seçenekleri"
+
+#: part/preferencesdialog.cpp:56
+#, kde-format
+msgctxt ""
+"Give the user a hint, that it enabled the option --editor-cmd together with "
+"the current value of the option."
+msgid ""
+"The editor was set by the command line to \n"
+" %1 \n"
+"If you want to use the setting, start okular without the option --editor-cmd"
+msgstr ""
+"Komut satırı tarafından ayarlanan düzenleyici: \n"
+"%1 \n"
+"Ayarı kullanmak isterseniz Okular’ı --editor-cmd seçeneği olmadan başlatın"
+
+#: part/presentationsearchbar.cpp:77
+#, kde-format
+msgid "Find Next"
+msgstr "Sonrakini Bul"
+
+#: part/presentationwidget.cpp:174
+#, kde-format
+msgctxt "[document title/filename] – Presentation"
+msgid "%1 – Presentation"
+msgstr "%1 – Sunum"
+
+#: part/presentationwidget.cpp:228
+#, kde-format
+msgid "Switch Screen"
+msgstr "Ekrana Geç"
+
+#: part/presentationwidget.cpp:233
+#, kde-format
+msgctxt "%1 is the screen number (0, 1, ...)"
+msgid "Screen %1"
+msgstr "Ekran %1"
+
+#: part/presentationwidget.cpp:240
+#, kde-format
+msgid "Exit Presentation Mode"
+msgstr "Sunum Kipinden Çık"
+
+#: part/presentationwidget.cpp:373
+#, kde-format
+msgid "Title: %1"
+msgstr "Başlık: %1"
+
+#: part/presentationwidget.cpp:378
+#, kde-format
+msgid "Pages: %1"
+msgstr "Sayfa: %1"
+
+#: part/presentationwidget.cpp:379
+#, kde-format
+msgid "Click to begin"
+msgstr "Başlamak için tıklayın"
+
+#: part/presentationwidget.cpp:521
+#, kde-format
+msgctxt "For Presentation"
+msgid "Pause"
+msgstr "Duraklat"
+
+#: part/presentationwidget.cpp:524
+#, kde-format
+msgctxt "For Presentation"
+msgid "Play"
+msgstr "Oynat"
+
+#: part/presentationwidget.cpp:1622
+#, kde-format
+msgid ""
+"There are two ways of exiting presentation mode, you can press either ESC "
+"key or click with the quit button that appears when placing the mouse in the "
+"top-right corner. Of course you can cycle windows (Alt+TAB by default)"
+msgstr ""
+"Sunum kipinden çıkmanın iki yolu vardır; ESC düğmesine veya fareyi sağ üst "
+"köşeye götürdüğünüzde görünen çıkış düğmesine basabilirsiniz. Pencereler "
+"arasında da dolaşmak olanaklıdır (öntanımlı olarak Alt+Sekme)."
+
+#: part/presentationwidget.cpp:1718
+#, kde-format
+msgctxt ""
+"Reason for inhibiting the screensaver activation, when the presentation mode "
+"is active"
+msgid "Giving a presentation"
+msgstr "Bir sunum yapmak"
+
+#: part/propertiesdialog.cpp:49
+#, kde-format
+msgid "Unknown File"
+msgstr "Bilinmeyen Dosya"
+
+#: part/propertiesdialog.cpp:63
+#, kde-format
+msgid "%1 Properties"
+msgstr "%1 Özellikler"
+
+#: part/propertiesdialog.cpp:104
+#, kde-format
+msgctxt "mimetype information, example: \"PDF Document (application/pdf)\""
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: part/propertiesdialog.cpp:117
+#, kde-format
+msgid "%1:"
+msgstr "%1:"
+
+#: part/propertiesdialog.cpp:124
+#, kde-format
+msgid "&Fonts"
+msgstr "&Yazıtipleri"
+
+#: part/propertiesdialog.cpp:145
+#, kde-format
+msgid "Reading font information…"
+msgstr "Yazıtipi bilgisi okunuyor…"
+
+#: part/propertiesdialog.cpp:158
+#, kde-format
+msgid "&Page Sizes"
+msgstr "Sa&yfa Boyutu"
+
+#: part/propertiesdialog.cpp:225
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Extract Font"
+msgstr "&Yazıtipini Çıkar"
+
+#: part/propertiesdialog.cpp:273
+#, kde-format
+msgid "Type 1"
+msgstr "Tür 1"
+
+#: part/propertiesdialog.cpp:276
+#, kde-format
+msgid "Type 1C"
+msgstr "Tür 1C"
+
+#: part/propertiesdialog.cpp:279
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "Type 1C (OT)"
+msgstr "Tür 1C (OT)"
+
+#: part/propertiesdialog.cpp:282
+#, kde-format
+msgid "Type 3"
+msgstr "Tür 3"
+
+#: part/propertiesdialog.cpp:285
+#, kde-format
+msgid "TrueType"
+msgstr "TrueType"
+
+#: part/propertiesdialog.cpp:288
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "TrueType (OT)"
+msgstr "TrueType (OT)"
+
+#: part/propertiesdialog.cpp:291
+#, kde-format
+msgid "CID Type 0"
+msgstr "CID Türü 0"
+
+#: part/propertiesdialog.cpp:294
+#, kde-format
+msgid "CID Type 0C"
+msgstr "CID Türü 0C"
+
+#: part/propertiesdialog.cpp:297
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "CID Type 0C (OT)"
+msgstr "CID Türü 0C (OT)"
+
+#: part/propertiesdialog.cpp:300
+#, kde-format
+msgid "CID TrueType"
+msgstr "CID TrueType"
+
+#: part/propertiesdialog.cpp:303
+#, kde-format
+msgctxt "OT means OpenType"
+msgid "CID TrueType (OT)"
+msgstr "CID TrueType (OT)"
+
+#: part/propertiesdialog.cpp:306
+#, kde-format
+msgid "TeX PK"
+msgstr "TeX PK"
+
+#: part/propertiesdialog.cpp:309
+#, kde-format
+msgid "TeX virtual"
+msgstr "TeX sanal"
+
+#: part/propertiesdialog.cpp:312
+#, kde-format
+msgid "TeX Font Metric"
+msgstr "TeX Yazıtipi Metriği"
+
+#: part/propertiesdialog.cpp:315
+#, kde-format
+msgid "TeX FreeType-handled"
+msgstr "TeX FreeType-handled"
+
+#: part/propertiesdialog.cpp:318
+#, kde-format
+msgctxt "Unknown font type"
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: part/propertiesdialog.cpp:331
+#, kde-format
+msgid "Embedded (subset)"
+msgstr "Gömülü (altküme)"
+
+#: part/propertiesdialog.cpp:334
+#, kde-format
+msgid "Fully embedded"
+msgstr "Tam gömülü"
+
+#: part/propertiesdialog.cpp:344
+#, kde-format
+msgid "No"
+msgstr "Hayır"
+
+#: part/propertiesdialog.cpp:347
+#, kde-format
+msgid "Yes (subset)"
+msgstr "Evet (altküme)"
+
+#: part/propertiesdialog.cpp:350
+#, kde-format
+msgid "Yes"
+msgstr "Evet"
+
+#: part/propertiesdialog.cpp:370
+#, kde-format
+msgctxt "Replacing missing font with another one"
+msgid "%1 (substituting with %2)"
+msgstr "%1 (%2 ile değiştiriliyor)"
+
+#: part/propertiesdialog.cpp:372
+#, kde-format
+msgctxt "font name not available (empty)"
+msgid "[n/a]"
+msgstr "[n/a]"
+
+#: part/propertiesdialog.cpp:385
+#, kde-format
+msgid "Unknown font"
+msgstr "Bilinmeyen yazıtipi"
+
+#: part/propertiesdialog.cpp:391
+#, kde-format
+msgid "Embedded: %1"
+msgstr "Gömülü: %1"
+
+#: part/propertiesdialog.cpp:427
+#, kde-format
+msgid "Type"
+msgstr "Tür"
+
+#: part/propertiesdialog.cpp:430
+#, kde-format
+msgid "File"
+msgstr "Dosya"
+
+#: part/propertiesdialog.cpp:498
+#, kde-format
+msgid "Page"
+msgstr "Sayfalar"
+
+#: part/propertiesdialog.cpp:501
+#, kde-format
+msgid "Size"
+msgstr "Boyut"
+
+#: part/revisionviewer.cpp:41
+#, kde-format
+msgid "Revision Preview"
+msgstr "Revizyon Önizlemesi"
+
+#: part/revisionviewer.cpp:53
+#, kde-format
+msgid "Where do you want to save this revision?"
+msgstr "Bu revizyonu nereye kaydetmek istiyorsunuz?"
+
+#: part/revisionviewer.cpp:56
+#, kde-format
+msgid "Could not save file %1."
+msgstr "%1 dosyası kaydedilemedi."
+
+#: part/revisionviewer.cpp:75
+#, kde-format
+msgid "Could not view revision."
+msgstr "Revizyon görüntülenemedi."
+
+#: part/searchwidget.cpp:39
+#, kde-format
+msgid "Enter at least 3 letters to filter pages"
+msgstr "Sayfaları süzmek için en az 3 harf girin"
+
+#: part/searchwidget.cpp:49
+#, kde-format
+msgid "Case Sensitive"
+msgstr "BÜYÜK/küçük Harf Duyarlı"
+
+#: part/searchwidget.cpp:51
+#, kde-format
+msgid "Match Phrase"
+msgstr "Deyimi Eşleştir"
+
+#: part/searchwidget.cpp:52
+#, kde-format
+msgid "Match All Words"
+msgstr "Tüm Sözcükleri Eşleştir"
+
+#: part/searchwidget.cpp:53
+#, kde-format
+msgid "Match Any Word"
+msgstr "Herhangi Bir Sözcüğü Eşleştir"
+
+#: part/searchwidget.cpp:72
+#, kde-format
+msgid "Filter Options"
+msgstr "Süzgeç Seçenekleri"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectCertificateDialog)
+#: part/selectcertificatedialog.ui:14
+#, kde-format
+msgid "Certificates"
+msgstr "Sertifikalar"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: part/selectcertificatedialog.ui:20
+#, kde-format
+msgid "Select certificate to sign with:"
+msgstr "Birlikte imzalamak için sertifika seçin:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, allCertificateOption)
+#: part/selectcertificatedialog.ui:29
+#, kde-format
+msgid "All"
+msgstr "Tümü"
+
+#. i18n: ectx: property (text), widget (QRadioButton, qesCertificates)
+#: part/selectcertificatedialog.ui:39
+#, kde-format
+msgid "Only QES certificates"
+msgstr "Yalnızca QES sertifikaları"
+
+#. i18n: ectx: property (text), widget (QRadioButton, pgpOption)
+#: part/selectcertificatedialog.ui:46
+#, kde-format
+msgctxt "@option:radio"
+msgid "Only PGP keys"
+msgstr "Yalnızca PGP anahtarları"
+
+#. i18n: ectx: property (text), widget (QLabel, reasonLabel)
+#: part/selectcertificatedialog.ui:70 part/signaturepropertiesdialog.cpp:71
+#, kde-format
+msgid "Reason:"
+msgstr "Neden:"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, reasonInput)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, locationInput)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, backgroundInput)
+#: part/selectcertificatedialog.ui:77 part/selectcertificatedialog.ui:94
+#: part/selectcertificatedialog.ui:113
+#, kde-format
+msgid "optional"
+msgstr "isteğe bağlı"
+
+#. i18n: ectx: property (text), widget (QLabel, locationLabel)
+#: part/selectcertificatedialog.ui:87 part/signaturepropertiesdialog.cpp:73
+#, kde-format
+msgid "Location:"
+msgstr "Konum:"
+
+#. i18n: ectx: property (text), widget (QLabel, backgroundLabel)
+#: part/selectcertificatedialog.ui:104
+#, kde-format
+msgid "Background:"
+msgstr "Arka plan:"
+
+#. i18n: ectx: property (text), widget (QPushButton, backgroundButton)
+#: part/selectcertificatedialog.ui:123
+#, kde-format
+msgid "Choose..."
+msgstr "Seç…"
+
+#. i18n: ectx: property (text), widget (QLabel, recentLabel)
+#: part/selectcertificatedialog.ui:136
+#, kde-format
+msgid "Recent backgrounds:"
+msgstr "Son kullanılan arka planlar:"
+
+#. i18n: ectx: property (text), widget (QLabel, signatureTypeLabel)
+#: part/selectcertificatedialog.ui:152
+#, kde-format
+msgid "Signature Type"
+msgstr "İmza türü"
+
+#: part/side_reviews.cpp:64
+#, kde-format
+msgid ""
+"<div align=center><h3>No annotations</h3>To create new annotations press F6 "
+"or select <i>Tools -&gt; Annotations</i> from the menu.</div>"
+msgstr ""
+"<div align=center><h3>Ek açıklama yok</h3>Yeni ek açıklama oluşturmak için "
+"F6 düğmesine basın veya menüden <i>Araçlar → Ek Açıklamalar</i> seçeneğine "
+"tıklayın.</div>"
+
+#: part/side_reviews.cpp:140
+#, kde-format
+msgid "Group by Page"
+msgstr "Sayfaya Göre Grupla"
+
+#: part/side_reviews.cpp:145
+#, kde-format
+msgid "Group by Author"
+msgstr "Yazara Göre Grupla"
+
+#: part/side_reviews.cpp:153
+#, kde-format
+msgid "Show annotations for current page only"
+msgstr "Yalnızca geçerli sayfa için olan ek açıklamaları göster"
+
+#: part/side_reviews.cpp:163
+#, kde-format
+msgid "Expand all elements"
+msgstr "Tüm Ögeleri Genişlet"
+
+#: part/side_reviews.cpp:165
+#, kde-format
+msgid "Collapse all elements"
+msgstr "Tüm Ögeleri Daralt"
+
+#: part/signaturepanel.cpp:101
+#, kde-format
+msgid "Properties"
+msgstr "Özellikler"
+
+#: part/signaturepartutils.cpp:57
+#, kde-format
+msgctxt ""
+"This string is describing a default entry that generally shouldn't be shown "
+"to the user. To a point where it would be a coding bug somewhere to have it"
+msgid "NONE"
+msgstr "YOK"
+
+#: part/signaturepartutils.cpp:59
+#, kde-format
+msgctxt "Signature type"
+msgid "Adobe PKCS7 signature"
+msgstr "Adobe PKCS7 imzası"
+
+#: part/signaturepartutils.cpp:61
+#, kde-format
+msgctxt "Signature type"
+msgid "Basic eIDAS signature"
+msgstr "Temel eIDAS imzası"
+
+#: part/signaturepartutils.cpp:63
+#, kde-format
+msgctxt "Signature type"
+msgid "eIDAS signature with timestamp"
+msgstr "Zaman damgalı eIDAS imzası"
+
+#: part/signaturepartutils.cpp:65
+#, kde-format
+msgctxt "Signature type"
+msgid "eIDAS signature with timestamp for long term validation"
+msgstr "Uzun dönemli doğrulama için zaman damgalı eIDAS imzası"
+
+#: part/signaturepartutils.cpp:67
+#, kde-format
+msgctxt "Signature type"
+msgid ""
+"eIDAS signature with timestamp for long term validation and support for re-"
+"validation"
+msgstr ""
+"Uzun dönemli doğrulama için zaman damgalı ve yeniden doğrulama için destek "
+"içeren eIDAS imzası"
+
+#: part/signaturepartutils.cpp:222
+#, kde-format
+msgctxt "file types in a file open dialog"
+msgid "Images (%1)"
+msgstr "Görseller (%1)"
+
+#: part/signaturepartutils.cpp:223
+#, kde-format
+msgid "Select background image"
+msgstr "Arka plan rengi seç"
+
+#: part/signaturepartutils.cpp:228
+#, kde-format
+msgid "Forget image"
+msgstr "Görseli Unut"
+
+#: part/signaturepartutils.cpp:229
+#, kde-format
+msgid "Forget all images"
+msgstr "Tüm Görselleri Unut"
+
+#: part/signaturepartutils.cpp:272
+#, kde-format
+msgid "Enter password/pin (if any) to unlock certificate: %1"
+msgstr "Sertifika kilidini açmak için (varsa) parolayı/PİN’i girin: %1"
+
+#: part/signaturepartutils.cpp:297
+#, kde-format
+msgid "Enter document password"
+msgstr "Belge parolasını girin"
+
+#: part/signaturepartutils.cpp:331
+#, kde-format
+msgid "Save Signed File As"
+msgstr "İmzalı Dosyayı Farklı Kaydet"
+
+#: part/signaturepartutils.cpp:333
+#, kde-format
+msgctxt "Error message"
+msgid ""
+"The original file cannot be overwritten. Please choose a different filename."
+msgstr "Özgün dosyanın üzerine yazılamıyor. Lütfen başka bir dosya adı seçin."
+
+#: part/signaturepartutils.h:63
+#, kde-format
+msgctxt ""
+"Used when suggesting a new name for a digitally signed file. %1 is the old "
+"file name and %2 its extension"
+msgid "%1_signed.%2"
+msgstr "%1_imzalı.%2"
+
+#: part/signaturepropertiesdialog.cpp:56
+#, kde-format
+msgid "Validity Status"
+msgstr "Geçerlilik Durumu"
+
+#: part/signaturepropertiesdialog.cpp:59
+#, kde-format
+msgid "Signature Validity:"
+msgstr "İmza geçerliliği:"
+
+#: part/signaturepropertiesdialog.cpp:60
+#, kde-format
+msgid "Document Modifications:"
+msgstr "Belge değişiklikleri:"
+
+#: part/signaturepropertiesdialog.cpp:63
+#, kde-format
+msgid "Additional Information"
+msgstr "Ek Bilgi"
+
+#: part/signaturepropertiesdialog.cpp:66
+#, kde-format
+msgid "Signed By:"
+msgstr "İmzalayan:"
+
+#: part/signaturepropertiesdialog.cpp:67
+#, kde-format
+msgid "Signing Time:"
+msgstr "İmza saati:"
+
+#: part/signaturepropertiesdialog.cpp:83
+#, kde-format
+msgid "Document Version"
+msgstr "Belge Sürümü"
+
+#: part/signaturepropertiesdialog.cpp:86
+#, kde-format
+msgctxt "Document Revision <current> of <total>"
+msgid "Document Revision %1 of %2"
+msgstr "Belge Revizyonu %1/%2"
+
+#: part/signaturepropertiesdialog.cpp:88
+#, kde-format
+msgid "View Signed Version…"
+msgstr "İmzalanmış Sürümü Görüntüle…"
+
+#: part/signaturepropertiesdialog.cpp:95
+#, kde-format
+msgid "View Certificate…"
+msgstr "Sertifikayı Görüntüle…"
+
+#: part/signaturepropertiesdialog.cpp:97
+#, kde-format
+msgid "View in Certificate Manager"
+msgstr "Sertifika Yöneticisinde Görüntüle"
+
+#: part/signaturepropertiesdialog.cpp:101
+#, kde-format
+msgid "KDE Certificate Manager (kleopatra) not found"
+msgstr "KDE Sertifika Yöneticisi (Kleopatra) bulunamadı"
+
+#: part/signingcertificatelistmodel.cpp:102
+#, kde-format
+msgctxt "Qualified electronic signature, see wikipedia"
+msgid "Qualified"
+msgstr "Kalifiye"
+
+#: part/signingcertificatelistmodel.cpp:105
+#, kde-format
+msgid "PGP"
+msgstr "PGP"
+
+#: part/thumbnaillist.cpp:1013
+#, kde-format
+msgid "Show bookmarked pages only"
+msgstr "Yalnızca yer imi koyulmuş sayfaları göster"
+
+#: part/videowidget.cpp:179
+#, kde-format
+msgctxt "start the movie playback"
+msgid "Play"
+msgstr "Oynat"
+
+#: part/videowidget.cpp:182
+#, kde-format
+msgctxt "pause the movie playback"
+msgid "Pause"
+msgstr "Duraklat"
+
+#: part/videowidget.cpp:312
+#, kde-format
+msgctxt "stop the movie playback"
+msgid "Stop"
+msgstr "Durdur"
+
+#: part/videowidget.cpp:561
+#, kde-format
+msgid "Videos not supported in this okular"
+msgstr "Bu Okular’da videolar desteklenmiyor"
+
+#: part/videowidget.cpp:565
+#, kde-format
+msgid "Videos not supported in this Okular"
+msgstr "Bu Okular’da videolar desteklenmiyor"
+
+#: part/widgetconfigurationtoolsbase.cpp:28
+#, kde-format
+msgid "&Add…"
+msgstr "&Ekle…"
+
+#: part/widgetconfigurationtoolsbase.cpp:31
+#, kde-format
+msgid "&Edit…"
+msgstr "Dü&zenle…"
+
+#: part/widgetconfigurationtoolsbase.cpp:35
+#, kde-format
+msgid "&Remove"
+msgstr "&Kaldır"
+
+#: part/widgetconfigurationtoolsbase.cpp:39
+#, kde-format
+msgid "Move &Up"
+msgstr "Y&ukarı Taşı"
+
+#: part/widgetconfigurationtoolsbase.cpp:43
+#, kde-format
+msgid "Move &Down"
+msgstr "Aşağı &Taşı"
+
+#: part/widgetdrawingtools.cpp:105
+#, kde-format
+msgid "Default Drawing Tool #%1"
+msgstr "Öntanımlı Çizim Aracı #%1"
+
+#: part/widgetdrawingtools.cpp:139 part/widgetdrawingtools.cpp:183
+#, kde-format
+msgid "There's already a tool with that name. Using a default one"
+msgstr "Bu ada sahip bir araç zaten var. Öntanımlı olan kullanılıyor"
+
+#: part/widgetdrawingtools.cpp:139 part/widgetdrawingtools.cpp:183
+#, kde-format
+msgid "Duplicated Name"
+msgstr "Yinelenen Ad"
+
+#: shell/main.cpp:114
+#, kde-format
+msgid "Page of the document to be shown"
+msgstr "Belgenin gösterilecek sayfası"
+
+#: shell/main.cpp:115
+#, kde-format
+msgid "Start the document in presentation mode"
+msgstr "Belgeyi sunum kipinde başlat"
+
+#: shell/main.cpp:116
+#, kde-format
+msgid "Start with print dialog"
+msgstr "Yazdırma iletişim kutusuyla başla"
+
+#: shell/main.cpp:117
+#, kde-format
+msgid "Start with print dialog and exit after printing"
+msgstr "Yazdırma iletişim kutusuyla başlat ve yazdırma sonrasında çık"
+
+#: shell/main.cpp:118
+#, kde-format
+msgid "\"Unique instance\" control"
+msgstr "“Benzersiz örnek” denetimi"
+
+#: shell/main.cpp:119
+#, kde-format
+msgid "Not raise window"
+msgstr "Pencereyi yükseltme"
+
+#: shell/main.cpp:120
+#, kde-format
+msgid "Find a string on the text"
+msgstr "Metinde bir dizi bul"
+
+#: shell/main.cpp:121
+#, kde-format
+msgid "Sets the external editor command"
+msgstr "Dış düzenleyici komutunu ayarlar"
+
+#: shell/main.cpp:122
+#, kde-format
+msgid "Documents to open. Specify '-' to read from stdin."
+msgstr ""
+"Açılacak belgeler. Standart girdiden okuma yapmak için “-” ifadesini "
+"belirtin."
+
+#: shell/okular_main.cpp:66 shell/okular_main.cpp:171
+#, kde-format
+msgid ""
+"You cannot set the editor command in an already running okular instance. "
+"Please disable the tabs and try again. Please note, that unique is also not "
+"supported when setting the editor command at the commandline.\n"
+msgstr ""
+"Düzenleyici komutunu hâlihazırda çalışan bir Okular örneğinde "
+"ayarlayamazsınız. Lütfen sekmeleri devre dışı bırakın ve yeniden deneyin. "
+"Düzenleyici komutu, komut satırında ayarlandığında bu benzersiz de "
+"desteklenmez.\n"
+
+#: shell/okular_main.cpp:192
+#, kde-format
+msgid "Error: Can't open more than one document with the --unique switch"
+msgstr "Hata: --unique anahtarıyla birden çok belge açılamaz"
+
+#: shell/okular_main.cpp:198
+#, kde-format
+msgid "Error: Can't open more than one document with the --presentation switch"
+msgstr "Hata: --presentation anahtarıyla birden çok belge açılamaz"
+
+#: shell/okular_main.cpp:204
+#, kde-format
+msgid "Error: Can't open more than one document with the --print switch"
+msgstr "Hata: --print anahtarıyla birden çok belge açılamaz"
+
+#: shell/okular_main.cpp:210
+#, kde-format
+msgid "Error: Can't open more than one document with the --page switch"
+msgstr "Hata: --page anahtarıyla birden çok belge açılamaz"
+
+#: shell/okular_main.cpp:216
+#, kde-format
+msgid "Error: Can't open more than one document with the --find switch"
+msgstr "Hata: --print anahtarıyla birden çok belge açılamaz"
+
+#: shell/shell.cpp:204
+#, kde-format
+msgid "Unable to find the Okular component: %1"
+msgstr "Okular bileşeni bulunamıyor: %1"
+
+#: shell/shell.cpp:247
+#, kde-format
+msgid "Sidebar"
+msgstr "Kenar Çubuğu"
+
+#: shell/shell.cpp:283
+#, kde-format
+msgid ""
+"There is already a unique Okular instance running. This instance won't be "
+"the unique one."
+msgstr ""
+"Benzersiz bir Okular örneği hâlihazırda çalışıyor. Bu örnek benzersiz "
+"olmayacaktır."
+
+#: shell/shell.cpp:312
+#, kde-format
+msgid "Unable to find the Okular component."
+msgstr "Okular bileşeni bulunamıyor."
+
+#: shell/shell.cpp:567
+#, kde-format
+msgid ""
+"Click to open a file\n"
+"Click and hold to open a recent file"
+msgstr ""
+"Bir dosyayı açmak için tıklayın\n"
+"Son kullanılan dosyaları açmak için tıklayın ve bekleyin"
+
+#: shell/shell.cpp:568
+#, kde-format
+msgid ""
+"<b>Click</b> to open a file or <b>Click and hold</b> to select a recent file"
+msgstr ""
+"Bir dosya açmak için <b>tıklayın</b> veya Son kullanılan bir dosyayı açmak "
+"için <b>tıklayın ve bekleyin</b>"
+
+#: shell/shell.cpp:583
+#, kde-format
+msgid "Next Tab"
+msgstr "Sonraki Sekme"
+
+#: shell/shell.cpp:589
+#, kde-format
+msgid "Previous Tab"
+msgstr "Önceki Sekme"
+
+#: shell/shell.cpp:597
+#, kde-format
+msgid "Switch to Tab %1"
+msgstr "%1. Sekmeye Geç"
+
+#: shell/shell.cpp:613
+#, kde-format
+msgid "Undo close tab"
+msgstr "Sekme Kapatmayı Geri Al"
+
+#: shell/shell.cpp:622
+#, kde-format
+msgid "Lock Sidebar"
+msgstr "Kenar Çubuğunu Kilitle"
+
+#: shell/shell.cpp:722
+#, kde-format
+msgid "All files (*)"
+msgstr "Tüm dosyalar (*)"
+
+#: shell/shell.cpp:723
+#, kde-format
+msgid "All supported files (%1)"
+msgstr "Desteklenen tüm dosyalar (%1)"
+
+#: shell/shell.cpp:727
+#, kde-format
+msgid "Open Document"
+msgstr "Belge Aç"
+
+#: shell/shell.cpp:841
+#, kde-format
+msgid "Confirm Close"
+msgstr "Kapatmayı Onayla"
+
+#: shell/shell.cpp:845
+#, kde-format
+msgid "Close Tabs"
+msgstr "Sekmeleri Kapat"
+
+#: shell/shell.cpp:852
+#, kde-format
+msgid "You are about to close %1 tabs. Are you sure you want to continue?"
+msgstr "%1 sekmeyi kapatmak üzeresiniz. Sürdürmek istediğinizden emin misiniz?"
+
+#: shell/shell.cpp:854
+#, kde-format
+msgid "Warn me when I attempt to close multiple tabs"
+msgstr "Çok sayıda sekmeyi kapatmaya çalıştığımda beni uyar"
+
+#: shell/welcomescreen.cpp:64
+#, kde-format
+msgid "&Copy Path"
+msgstr "Yolu Ko&pyala"
+
+#: shell/welcomescreen.cpp:77
+#, kde-format
+msgid "&Open Containing Folder"
+msgstr "İçeren K&lasörü Aç"
+
+#: shell/welcomescreen.cpp:89
+#, kde-format
+msgctxt "recent items context menu"
+msgid "&Forget This Item"
+msgstr "&Bu Ögeyi Unut"
+
+#: shell/welcomescreen.cpp:137
+#, kde-format
+msgctxt "on welcome screen"
+msgid "No recent documents"
+msgstr "Son kullanılan belge yok"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shell/welcomescreen.ui:153
+#, kde-format
+msgid "Welcome to Okular"
+msgstr "Okular’a hoş geldiniz"
+
+#. i18n: ectx: property (text), widget (QPushButton, openButton)
+#: shell/welcomescreen.ui:232
+#, kde-format
+msgctxt "on welcome screen"
+msgid "Open Document..."
+msgstr "Belge Aç…"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: shell/welcomescreen.ui:382
+#, kde-format
+msgctxt "on welcome screen"
+msgid "Recent documents"
+msgstr "Son kullanılan belgeler"
+
+#. i18n: ectx: property (text), widget (QToolButton, forgetAllButton)
+#: shell/welcomescreen.ui:392
+#, kde-format
+msgctxt "on welcome screen (recent document list)"
+msgid "Forget All"
+msgstr "Tümünü Unut"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, closeButton)
+#: shell/welcomescreen.ui:460
+#, kde-format
+msgid "Hide welcome screen"
+msgstr "Karşılama ekranını gizle"
+
+#~ msgid "Enter certificate password"
+#~ msgstr "Sertifika parolasını girin"
+
+#~ msgid "Configure Viewer Backends…"
+#~ msgstr "Görüntüleyici Arka Uçlarını Yapılandır…"
+
+#~ msgid "Configure Backends…"
+#~ msgstr "Arka Uçları Yapılandır…"
+
+#~ msgid "Configure Viewer Backends"
+#~ msgstr "Görüntüleyici Arka Uçlarını Yapılandır"
+
+#~ msgid "Configure Backends"
+#~ msgstr "Arka Uçları Yapılandır"

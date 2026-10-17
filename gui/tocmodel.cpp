@@ -1,0 +1,487 @@
+/*
+    SPDX-FileCopyrightText: 2007 Pino Toscano <pino@kde.org>
+
+    SPDX-License-Identifier: GPL-2.0-or-later
+*/
+
+#include "tocmodel.h"
+
+#include <QApplication>
+#include <QList>
+#include <QTreeView>
+#include <qdom.h>
+
+#include <QFont>
+
+#include "core/document.h"
+#include "core/page.h"
+
+Q_DECLARE_METATYPE(QModelIndex)
+
+struct TOCItem {
+    TOCItem();
+    TOCItem(TOCItem *parent, const Okular::DocumentSynopsis::Element &e);
+    ~TOCItem();
+
+    TOCItem(const TOCItem &) = delete;
+    TOCItem &operator=(const TOCItem &) = delete;
+
+    QString text;
+    Okular::DocumentViewport viewport;
+    QString extFileName;
+    QString url;
+    bool highlight : 1;
+    TOCItem *parent;
+    QList<TOCItem *> children;
+    TOCModelPrivate *model;
+};
+
+class TOCModelPrivate
+{
+public:
+    explicit TOCModelPrivate(TOCModel *qq);
+    ~TOCModelPrivate();
+
+    void addChildren(const QVector<Okular::DocumentSynopsis::Element> &nodes, TOCItem *parentItem);
+    QModelIndex indexForItem(TOCItem *item) const;
+    void findViewport(const Okular::DocumentViewport &viewport, TOCItem *item, QList<TOCItem *> &list) const;
+
+    TOCModel *q;
+    TOCItem *root;
+    bool dirty : 1;
+    Okular::Document *document;
+    QList<TOCItem *> itemsToOpen;
+    QList<TOCItem *> currentPage;
+    TOCModel *m_oldModel;
+    QList<QModelIndex> m_oldTocExpandedIndexes;
+    Q_DISABLE_COPY(TOCModelPrivate)
+};
+
+TOCItem::TOCItem()
+    : highlight(false)
+    , parent(nullptr)
+    , model(nullptr)
+{
+}
+
+TOCItem::TOCItem(TOCItem *_parent, const Okular::DocumentSynopsis::Element &e)
+    : highlight(false)
+    , parent(_parent)
+{
+    parent->children.append(this);
+    model = parent->model;
+    text = e.title();
+
+    // viewport loading
+    if (auto vp = e.viewPort()) {
+        // if the node has a viewport, set it
+        viewport = vp.value();
+    } else {
+        // if the node references a viewport, get the reference and set it
+        if (const auto page = e.viewPortName()) {
+            Okular::DocumentViewport namedviewport = model->document->metaData(QStringLiteral("NamedViewport"), page.value()).value<Okular::DocumentViewport>();
+            if (namedviewport.isValid()) {
+                viewport = namedviewport;
+            }
+        }
+    }
+
+    extFileName = e.externalFileName();
+    url = e.url();
+}
+
+TOCItem::~TOCItem()
+{
+    qDeleteAll(children);
+}
+
+TOCModelPrivate::TOCModelPrivate(TOCModel *qq)
+    : q(qq)
+    , root(new TOCItem)
+    , dirty(false)
+    , document(nullptr)
+    , m_oldModel(nullptr)
+{
+    root->model = this;
+}
+
+TOCModelPrivate::~TOCModelPrivate()
+{
+    delete root;
+    delete m_oldModel;
+}
+
+void TOCModelPrivate::addChildren(const QVector<Okular::DocumentSynopsis::Element> &nodes, TOCItem *parentItem)
+{
+    TOCItem *currentItem = nullptr;
+    for (const auto &child : nodes) {
+        // insert the entry as top level (listview parented) or 2nd+ level
+        currentItem = new TOCItem(parentItem, child);
+
+        // descend recursively and advance to the next node
+        addChildren(child.children(), currentItem);
+
+        // open/keep close the item
+        bool isOpen = child.isOpen();
+        if (isOpen) {
+            itemsToOpen.append(currentItem);
+        }
+
+        Q_EMIT q->countChanged();
+    }
+}
+
+QModelIndex TOCModelPrivate::indexForItem(TOCItem *item) const
+{
+    if (item->parent) {
+        int id = item->parent->children.indexOf(item);
+        if (id >= 0 && id < item->parent->children.count()) {
+            return q->createIndex(id, 0, item);
+        }
+    }
+    return QModelIndex();
+}
+
+void TOCModelPrivate::findViewport(const Okular::DocumentViewport &viewport, TOCItem *item, QList<TOCItem *> &list) const
+{
+    TOCItem *todo = item;
+
+    while (todo) {
+        const TOCItem *current = todo;
+        todo = nullptr;
+        TOCItem *pos = nullptr;
+
+        for (TOCItem *child : current->children) {
+            if (child->viewport.isValid()) {
+                if (child->viewport.pageNumber <= viewport.pageNumber) {
+                    pos = child;
+                    if (child->viewport.pageNumber == viewport.pageNumber) {
+                        break;
+                    }
+                } else {
+                    break;
+                }
+            }
+        }
+        if (pos) {
+            list.append(pos);
+            todo = pos;
+        }
+    }
+}
+
+TOCModel::TOCModel(Okular::Document *document, QObject *parent)
+    : QAbstractItemModel(parent)
+    , d(new TOCModelPrivate(this))
+{
+    d->document = document;
+
+    qRegisterMetaType<QModelIndex>();
+}
+
+TOCModel::~TOCModel()
+{
+    delete d;
+}
+
+QHash<int, QByteArray> TOCModel::roleNames() const
+{
+    QHash<int, QByteArray> roles = QAbstractItemModel::roleNames();
+    roles[PageRole] = "page";
+    roles[PageLabelRole] = "pageLabel";
+    roles[HighlightRole] = "highlight";
+    roles[HighlightedParentRole] = "highlightedParent";
+    return roles;
+}
+
+int TOCModel::columnCount(const QModelIndex &parent) const
+{
+    Q_UNUSED(parent)
+    return 1;
+}
+
+QVariant TOCModel::data(const QModelIndex &index, int role) const
+{
+    if (!index.isValid()) {
+        return QVariant();
+    }
+
+    TOCItem *item = static_cast<TOCItem *>(index.internalPointer());
+    switch (role) {
+    case Qt::DisplayRole:
+    case Qt::ToolTipRole:
+        return item->text;
+        break;
+    case Qt::FontRole:
+        if (item->highlight) {
+            QFont font;
+            font.setBold(true);
+
+            const TOCItem *lastHighlighted = d->currentPage.last();
+
+            // in the mobile version our parent is not a QTreeView; embolden the last highlighted item
+            // TODO misusing parent() here, fix
+            QTreeView *view = dynamic_cast<QTreeView *>(QObject::parent());
+            if (!view) {
+                if (item == lastHighlighted) {
+                    return font;
+                }
+                return QVariant();
+            }
+
+            if (view->isExpanded(index)) {
+                // if this is the last highlighted node, its child is on a page below, thus it gets emboldened
+                if (item == lastHighlighted) {
+                    return font;
+                }
+            } else {
+                return font;
+            }
+        }
+        break;
+    case HighlightRole:
+        return item->highlight;
+    case PageRole:
+        if (item->viewport.isValid()) {
+            return item->viewport.pageNumber + 1;
+        }
+        break;
+    case PageLabelRole:
+        if (item->viewport.isValid() && item->viewport.pageNumber < int(d->document->pages())) {
+            return d->document->page(item->viewport.pageNumber)->label();
+        }
+        break;
+    }
+    return QVariant();
+}
+
+bool TOCModel::hasChildren(const QModelIndex &parent) const
+{
+    if (!parent.isValid()) {
+        return true;
+    }
+
+    TOCItem *item = static_cast<TOCItem *>(parent.internalPointer());
+    return !item->children.isEmpty();
+}
+
+QVariant TOCModel::headerData(int section, Qt::Orientation orientation, int role) const
+{
+    if (orientation != Qt::Horizontal) {
+        return QVariant();
+    }
+
+    if (section == 0 && role == Qt::DisplayRole) {
+        return QStringLiteral("Topics");
+    }
+
+    return QVariant();
+}
+
+QModelIndex TOCModel::index(int row, int column, const QModelIndex &parent) const
+{
+    if (row < 0 || column != 0) {
+        return QModelIndex();
+    }
+
+    TOCItem *item = parent.isValid() ? static_cast<TOCItem *>(parent.internalPointer()) : d->root;
+    if (row < item->children.count()) {
+        return createIndex(row, column, item->children.at(row));
+    }
+
+    return QModelIndex();
+}
+
+QModelIndex TOCModel::parent(const QModelIndex &index) const
+{
+    if (!index.isValid()) {
+        return QModelIndex();
+    }
+
+    TOCItem *item = static_cast<TOCItem *>(index.internalPointer());
+    return d->indexForItem(item->parent);
+}
+
+int TOCModel::rowCount(const QModelIndex &parent) const
+{
+    TOCItem *item = parent.isValid() ? static_cast<TOCItem *>(parent.internalPointer()) : d->root;
+    return item->children.count();
+}
+
+static QModelIndex indexForIndex(const QModelIndex &oldModelIndex, QAbstractItemModel *newModel)
+{
+    QModelIndex newModelIndex;
+    if (oldModelIndex.parent().isValid()) {
+        newModelIndex = newModel->index(oldModelIndex.row(), oldModelIndex.column(), indexForIndex(oldModelIndex.parent(), newModel));
+    } else {
+        newModelIndex = newModel->index(oldModelIndex.row(), oldModelIndex.column());
+    }
+    return newModelIndex;
+}
+
+void TOCModel::fill(const Okular::DocumentSynopsis *toc)
+{
+    if (!toc) {
+        return;
+    }
+
+    clear();
+    Q_EMIT layoutAboutToBeChanged();
+    d->addChildren(toc->children(), d->root);
+    d->dirty = true;
+    Q_EMIT layoutChanged();
+    if (equals(d->m_oldModel)) {
+        for (const QModelIndex &oldIndex : std::as_const(d->m_oldTocExpandedIndexes)) {
+            const QModelIndex idx = indexForIndex(oldIndex, this);
+            if (!idx.isValid()) {
+                continue;
+            }
+
+            // TODO misusing parent() here, fix
+            QMetaObject::invokeMethod(QObject::parent(), "expand", Qt::QueuedConnection, Q_ARG(QModelIndex, idx));
+        }
+    } else {
+        for (TOCItem *item : std::as_const(d->itemsToOpen)) {
+            const QModelIndex idx = d->indexForItem(item);
+            if (!idx.isValid()) {
+                continue;
+            }
+
+            // TODO misusing parent() here, fix
+            QMetaObject::invokeMethod(QObject::parent(), "expand", Qt::QueuedConnection, Q_ARG(QModelIndex, idx));
+        }
+    }
+    d->itemsToOpen.clear();
+    delete d->m_oldModel;
+    d->m_oldModel = nullptr;
+    d->m_oldTocExpandedIndexes.clear();
+}
+
+void TOCModel::clear()
+{
+    if (!d->dirty) {
+        return;
+    }
+
+    beginResetModel();
+    qDeleteAll(d->root->children);
+    d->root->children.clear();
+    d->currentPage.clear();
+    endResetModel();
+    d->dirty = false;
+}
+
+void TOCModel::setCurrentViewport(const Okular::DocumentViewport &viewport)
+{
+    for (TOCItem *item : std::as_const(d->currentPage)) {
+        QModelIndex idx = d->indexForItem(item);
+        if (!idx.isValid()) {
+            continue;
+        }
+
+        item->highlight = false;
+        Q_EMIT dataChanged(idx, idx);
+    }
+    d->currentPage.clear();
+
+    QList<TOCItem *> newCurrentPage;
+    d->findViewport(viewport, d->root, newCurrentPage);
+
+    d->currentPage = newCurrentPage;
+
+    for (TOCItem *item : std::as_const(d->currentPage)) {
+        QModelIndex idx = d->indexForItem(item);
+        if (!idx.isValid()) {
+            continue;
+        }
+
+        item->highlight = true;
+        Q_EMIT dataChanged(idx, idx);
+    }
+}
+
+bool TOCModel::isEmpty() const
+{
+    return d->root->children.isEmpty();
+}
+
+bool TOCModel::equals(const TOCModel *model) const
+{
+    if (model) {
+        return checkequality(model);
+    } else {
+        return false;
+    }
+}
+
+void TOCModel::setOldModelData(TOCModel *model, const QList<QModelIndex> &list)
+{
+    delete d->m_oldModel;
+    d->m_oldModel = model;
+    d->m_oldTocExpandedIndexes = list;
+}
+
+bool TOCModel::hasOldModelData() const
+{
+    return (d->m_oldModel != nullptr);
+}
+
+TOCModel *TOCModel::clearOldModelData() const
+{
+    TOCModel *oldModel = d->m_oldModel;
+    d->m_oldModel = nullptr;
+    d->m_oldTocExpandedIndexes.clear();
+    return oldModel;
+}
+
+QString TOCModel::externalFileNameForIndex(const QModelIndex &index) const
+{
+    if (!index.isValid()) {
+        return QString();
+    }
+
+    const TOCItem *item = static_cast<TOCItem *>(index.internalPointer());
+    return item->extFileName;
+}
+
+Okular::DocumentViewport TOCModel::viewportForIndex(const QModelIndex &index) const
+{
+    if (!index.isValid()) {
+        return Okular::DocumentViewport();
+    }
+
+    const TOCItem *item = static_cast<TOCItem *>(index.internalPointer());
+    return item->viewport;
+}
+
+QString TOCModel::urlForIndex(const QModelIndex &index) const
+{
+    if (!index.isValid()) {
+        return QString();
+    }
+
+    const TOCItem *item = static_cast<TOCItem *>(index.internalPointer());
+    return item->url;
+}
+
+bool TOCModel::checkequality(const TOCModel *model, const QModelIndex &parentA, const QModelIndex &parentB) const
+{
+    if (rowCount(parentA) != model->rowCount(parentB)) {
+        return false;
+    }
+    for (int i = 0; i < rowCount(parentA); i++) {
+        QModelIndex indxA = index(i, 0, parentA);
+        QModelIndex indxB = model->index(i, 0, parentB);
+        if (indxA.data() != indxB.data()) {
+            return false;
+        }
+        if (hasChildren(indxA) != model->hasChildren(indxB)) {
+            return false;
+        }
+        if (!checkequality(model, indxA, indxB)) {
+            return false;
+        }
+    }
+    return true;
+}
+#include "moc_tocmodel.cpp"

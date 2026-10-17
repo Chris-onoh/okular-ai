@@ -1,0 +1,233 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Alexander Lakhin <exclusion@gmail.com>, 2013.
+# Alexander Potashev <aspotashev@gmail.com>, 2019.
+# SPDX-FileCopyrightText: 2020, 2021, 2022, 2025 Alexander Yavorsky <kekcuha@gmail.com>
+# SPDX-FileCopyrightText: 2022, 2025 Olesya Gerasimenko <translation-team@basealt.ru>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2025-12-11 19:18+0300\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 25.11.90\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: ui/Bookmarks.qml:20 ui/OkularDrawer.qml:85
+msgid "Bookmarks"
+msgstr "Закладки"
+
+#: ui/CertificateViewerPage.qml:23
+msgid "Certificate Viewer"
+msgstr "Просмотр сертификатов"
+
+#: ui/CertificateViewerPage.qml:26
+msgid "Issued By"
+msgstr "Выдано"
+
+#: ui/CertificateViewerPage.qml:31 ui/CertificateViewerPage.qml:56
+msgid "Common Name:"
+msgstr "Общее имя (CN):"
+
+#: ui/CertificateViewerPage.qml:38 ui/CertificateViewerPage.qml:63
+msgid "EMail:"
+msgstr "Адрес эл. почты:"
+
+#: ui/CertificateViewerPage.qml:45 ui/CertificateViewerPage.qml:70
+msgid "Organization:"
+msgstr "Организация:"
+
+#: ui/CertificateViewerPage.qml:51
+msgid "Issued To"
+msgstr "Выдано для"
+
+#: ui/CertificateViewerPage.qml:76
+msgid "Validity"
+msgstr "Срок действия"
+
+#: ui/CertificateViewerPage.qml:81
+msgid "Issued On:"
+msgstr "Дата выдачи:"
+
+#: ui/CertificateViewerPage.qml:88
+msgid "Expires On:"
+msgstr "Дата истечения срока действия:"
+
+#: ui/CertificateViewerPage.qml:94
+msgid "Fingerprints"
+msgstr "Отпечатки"
+
+#: ui/CertificateViewerPage.qml:99
+msgid "SHA-1 Fingerprint:"
+msgstr "Отпечаток SHA-1:"
+
+#: ui/CertificateViewerPage.qml:106
+msgid "SHA-256 Fingerprint:"
+msgstr "Отпечаток SHA-256:"
+
+#: ui/CertificateViewerPage.qml:118 ui/CertificateViewerPage.qml:130
+msgid "Export…"
+msgstr "Экспорт…"
+
+#: ui/CertificateViewerPage.qml:137 ui/SignaturePropertiesPage.qml:148
+msgid "Close"
+msgstr "Закрыть"
+
+#: ui/CertificateViewerPage.qml:146
+msgid "Certificate File (*.cer)"
+msgstr "Файл сертификата (*.cer)"
+
+#: ui/CertificateViewerPage.qml:161 ui/SignaturePropertiesPage.qml:169
+msgid "Error"
+msgstr "Ошибка"
+
+#: ui/CertificateViewerPage.qml:163
+msgid "Could not export the certificate."
+msgstr "Не удалось экспортировать сертификат."
+
+#: ui/Main.qml:25 ui/Main.qml:66
+msgid "Okular"
+msgstr "Okular"
+
+#: ui/Main.qml:42
+msgid "Open…"
+msgstr "Открыть…"
+
+#: ui/Main.qml:49
+msgid "About"
+msgstr "О программе"
+
+#: ui/Main.qml:99
+msgid "Password Needed"
+msgstr "Требуется пароль"
+
+#: ui/MainView.qml:29
+msgid "Remove bookmark"
+msgstr "Удалить закладку"
+
+#: ui/MainView.qml:29
+msgid "Bookmark this page"
+msgstr "Добавить страницу в закладки"
+
+#: ui/OkularDrawer.qml:57
+msgid "Thumbnails"
+msgstr "Миниатюры"
+
+#: ui/OkularDrawer.qml:71
+msgid "Table of contents"
+msgstr "Содержание"
+
+#: ui/OkularDrawer.qml:99
+msgid "Signatures"
+msgstr "Подписи"
+
+#: ui/SignaturePropertiesPage.qml:33
+msgid "Signature Properties"
+msgstr "Свойства подписи"
+
+#: ui/SignaturePropertiesPage.qml:40
+msgid "Validity Status"
+msgstr "Достоверность"
+
+#: ui/SignaturePropertiesPage.qml:46
+msgid "Signature Validity:"
+msgstr "Достоверность подписи:"
+
+#: ui/SignaturePropertiesPage.qml:53
+msgid "Document Modifications:"
+msgstr "Изменения документа:"
+
+#: ui/SignaturePropertiesPage.qml:58
+msgid "Additional Information"
+msgstr "Дополнительные сведения"
+
+#: ui/SignaturePropertiesPage.qml:64
+msgid "Signed By:"
+msgstr "Подписано:"
+
+#: ui/SignaturePropertiesPage.qml:71
+msgid "Signing Time:"
+msgstr "Время подписания:"
+
+#: ui/SignaturePropertiesPage.qml:80
+msgid "Reason:"
+msgstr "Причина:"
+
+#: ui/SignaturePropertiesPage.qml:90
+msgid "Location:"
+msgstr "Расположение:"
+
+#: ui/SignaturePropertiesPage.qml:96
+msgid "Document Version"
+msgstr "Версия документа"
+
+#: ui/SignaturePropertiesPage.qml:104
+msgctxt "Document Revision <current> of <total>"
+msgid "Document Revision %1 of %2"
+msgstr "Редакция документа %1 из %2"
+
+#: ui/SignaturePropertiesPage.qml:108
+msgid "Save Signed Version…"
+msgstr "Сохранить подписанную версию…"
+
+#: ui/SignaturePropertiesPage.qml:122 ui/SignaturePropertiesPage.qml:137
+msgid "View Certificate…"
+msgstr "Просмотреть сертификат…"
+
+#: ui/SignaturePropertiesPage.qml:171
+msgid "Could not save the signature."
+msgstr "Не удалось сохранить подпись."
+
+#: ui/Signatures.qml:27
+msgid "Not Available"
+msgstr "Недоступно"
+
+#: ui/ThumbnailsBase.qml:42
+msgid "No results found."
+msgstr "Нет результатов."
+
+#: ui/WelcomeView.qml:43
+msgid "No document open"
+msgstr "Не открыто ни одного документа"
+
+#: ui/WelcomeView.qml:49
+msgctxt "in welcome screen"
+msgid "Recent Documents"
+msgstr "Последние документы"
+
+#: ui/WelcomeView.qml:108
+msgctxt "in welcome screen"
+msgid "My Documents"
+msgstr "Мои документы"
+
+#~ msgid "Open..."
+#~ msgstr "Открыть..."
+
+#~ msgid "Search..."
+#~ msgstr "Поиск..."
+
+#~ msgid "Document viewer for Plasma Active using Okular"
+#~ msgstr "Просмотрщик документов для Plasma Active на базе Okular"
+
+#~ msgid "Reader"
+#~ msgstr "Просмотрщик"
+
+#~ msgid "Copyright 2012 Marco Martin"
+#~ msgstr "© Маrco Martin, 2012"
+
+#~ msgid "Marco Martin"
+#~ msgstr "Marco Martin"
+
+#~ msgid "URL of the file to open"
+#~ msgstr "Адрес открываемого файла"

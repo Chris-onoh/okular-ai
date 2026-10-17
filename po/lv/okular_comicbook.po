@@ -1,0 +1,61 @@
+# translation of okular_comicbook.po to Latvian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Viesturs Zarins <viesturs.zarins@mii.lu.lv>, 2008.
+# SPDX-FileCopyrightText: 2023 Toms Trasuns <toms.trasuns@posteo.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_comicbook\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2023-12-28 22:47+0200\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 23.08.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Viesturs Zariņš, Toms Trasūns"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "viesturs.zarins@mi.lu.lv, toms.trasuns@posteo.net"
+
+#: document.cpp:97
+#, kde-format
+msgid "Cannot open document, neither unrar nor unarchiver were found."
+msgstr ""
+"Neizdevās atvērt dokumentu, nav atrastas ne „unrar“, ne arī „unarchiver“ "
+"komandas."
+
+#: document.cpp:102
+#, kde-format
+msgid ""
+"The version of unrar on your system is not suitable for opening comicbooks."
+msgstr "Jūsu sistēmā esošā „unrar“ versija nav derīga „comicbook“ atvēršanai."
+
+#: document.cpp:131
+#, kde-format
+msgid "Unknown ComicBook format."
+msgstr "Nezināms „ComicBook“ formāts."
+
+#~ msgid "ComicBook Backend"
+#~ msgstr "ComicBook aizmugure"
+
+#~ msgid "A renderer for various comic book formats"
+#~ msgstr "Dažādu komiksu grāmatu formātu renderētājs"
+
+#~ msgid "© 2007-2008 Tobias Koenig"
+#~ msgstr "© 2007-2008 Tobias Koenig"
+
+#~ msgid "Tobias Koenig"
+#~ msgstr "Tobias Koenig"

@@ -1,0 +1,210 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Volkan Gezer, 2013.
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kdegraphics-kde4\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2025-07-30 17:35+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.07.70\n"
+
+#: ui/Bookmarks.qml:20 ui/OkularDrawer.qml:85
+msgid "Bookmarks"
+msgstr "Yer İmleri"
+
+#: ui/CertificateViewerPage.qml:23
+msgid "Certificate Viewer"
+msgstr "Sertifika Görüntüleyicisi"
+
+#: ui/CertificateViewerPage.qml:26
+msgid "Issued By"
+msgstr "Veren"
+
+#: ui/CertificateViewerPage.qml:31 ui/CertificateViewerPage.qml:56
+msgid "Common Name:"
+msgstr "Ortak ad:"
+
+#: ui/CertificateViewerPage.qml:38 ui/CertificateViewerPage.qml:63
+msgid "EMail:"
+msgstr "E-posta:"
+
+#: ui/CertificateViewerPage.qml:45 ui/CertificateViewerPage.qml:70
+msgid "Organization:"
+msgstr "Organizasyon:"
+
+#: ui/CertificateViewerPage.qml:51
+msgid "Issued To"
+msgstr "Verilen"
+
+#: ui/CertificateViewerPage.qml:76
+msgid "Validity"
+msgstr "Geçerlilik"
+
+#: ui/CertificateViewerPage.qml:81
+msgid "Issued On:"
+msgstr "Verilme tarihi:"
+
+#: ui/CertificateViewerPage.qml:88
+msgid "Expires On:"
+msgstr "Süre dolum tarihi:"
+
+#: ui/CertificateViewerPage.qml:94
+msgid "Fingerprints"
+msgstr "Parmak İzleri"
+
+#: ui/CertificateViewerPage.qml:99
+msgid "SHA-1 Fingerprint:"
+msgstr "SHA-1 parmak izi:"
+
+#: ui/CertificateViewerPage.qml:106
+msgid "SHA-256 Fingerprint:"
+msgstr "SHA-256 parmak izi:"
+
+#: ui/CertificateViewerPage.qml:118 ui/CertificateViewerPage.qml:130
+msgid "Export…"
+msgstr "Dışa Aktar…"
+
+#: ui/CertificateViewerPage.qml:137 ui/SignaturePropertiesPage.qml:148
+msgid "Close"
+msgstr "Kapat"
+
+#: ui/CertificateViewerPage.qml:146
+msgid "Certificate File (*.cer)"
+msgstr "Sertifika Dosyası (*.cer)"
+
+#: ui/CertificateViewerPage.qml:161 ui/SignaturePropertiesPage.qml:169
+msgid "Error"
+msgstr "Hata"
+
+#: ui/CertificateViewerPage.qml:163
+msgid "Could not export the certificate."
+msgstr "Sertifika dışa aktarılamadı."
+
+#: ui/Main.qml:25 ui/Main.qml:66
+msgid "Okular"
+msgstr "Okular"
+
+#: ui/Main.qml:42
+msgid "Open…"
+msgstr "Aç…"
+
+#: ui/Main.qml:49
+msgid "About"
+msgstr "Hakkında"
+
+#: ui/Main.qml:99
+msgid "Password Needed"
+msgstr "Parola Gerekiyor"
+
+#: ui/MainView.qml:29
+msgid "Remove bookmark"
+msgstr "Yer imini kaldır"
+
+#: ui/MainView.qml:29
+msgid "Bookmark this page"
+msgstr "Bu sayfaya yer imi koy"
+
+#: ui/OkularDrawer.qml:57
+msgid "Thumbnails"
+msgstr "Küçük Resimler"
+
+#: ui/OkularDrawer.qml:71
+msgid "Table of contents"
+msgstr "İçindekiler tablosu"
+
+#: ui/OkularDrawer.qml:99
+msgid "Signatures"
+msgstr "İmzalar"
+
+#: ui/SignaturePropertiesPage.qml:33
+msgid "Signature Properties"
+msgstr "İmza Özellikleri"
+
+#: ui/SignaturePropertiesPage.qml:40
+msgid "Validity Status"
+msgstr "Geçerlilik Durumu"
+
+#: ui/SignaturePropertiesPage.qml:46
+msgid "Signature Validity:"
+msgstr "İmza geçerliliği:"
+
+#: ui/SignaturePropertiesPage.qml:53
+msgid "Document Modifications:"
+msgstr "Belge değişiklikleri:"
+
+#: ui/SignaturePropertiesPage.qml:58
+msgid "Additional Information"
+msgstr "Ek Bilgi"
+
+#: ui/SignaturePropertiesPage.qml:64
+msgid "Signed By:"
+msgstr "İmzalayan:"
+
+#: ui/SignaturePropertiesPage.qml:71
+msgid "Signing Time:"
+msgstr "İmza zamanı:"
+
+#: ui/SignaturePropertiesPage.qml:80
+msgid "Reason:"
+msgstr "Gerekçe:"
+
+#: ui/SignaturePropertiesPage.qml:90
+msgid "Location:"
+msgstr "Konum:"
+
+#: ui/SignaturePropertiesPage.qml:96
+msgid "Document Version"
+msgstr "Belge Sürümü"
+
+#: ui/SignaturePropertiesPage.qml:104
+msgctxt "Document Revision <current> of <total>"
+msgid "Document Revision %1 of %2"
+msgstr "Belge Sürümü %1/%2"
+
+#: ui/SignaturePropertiesPage.qml:108
+msgid "Save Signed Version…"
+msgstr "İmzalı Sürümü Kaydet…"
+
+#: ui/SignaturePropertiesPage.qml:122 ui/SignaturePropertiesPage.qml:137
+msgid "View Certificate…"
+msgstr "Sertifikayı Görüntüle…"
+
+#: ui/SignaturePropertiesPage.qml:171
+msgid "Could not save the signature."
+msgstr "Bu imza kaydedilemedi."
+
+#: ui/Signatures.qml:27
+msgid "Not Available"
+msgstr "Kullanılabilir Değil"
+
+#: ui/ThumbnailsBase.qml:42
+msgid "No results found."
+msgstr "Sonuç bulunamadı."
+
+#: ui/WelcomeView.qml:43
+msgid "No document open"
+msgstr "Açık belge yok"
+
+#: ui/WelcomeView.qml:49
+msgctxt "in welcome screen"
+msgid "Recent Documents"
+msgstr "Son Kullanılan Belgeler"
+
+#: ui/WelcomeView.qml:108
+msgctxt "in welcome screen"
+msgid "My Documents"
+msgstr "Belgelerim"
+
+#~ msgid "Open..."
+#~ msgstr "Aç…"

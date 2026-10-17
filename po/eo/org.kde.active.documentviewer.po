@@ -1,0 +1,211 @@
+# translation of org.kde.active.documentviewer.pot to esperanto
+# Copyright (C) 2012 Free Software Foundation, Inc.
+# This file is distributed under the same license as the okular package.
+# Oliver Kellogg <olivermkellogg@gmail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: okular\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2024-12-27 17:40+0100\n"
+"Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
+"Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: translate-po (https://github.com/zcribe/translate-po)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ui/Bookmarks.qml:20 ui/OkularDrawer.qml:85
+msgid "Bookmarks"
+msgstr "Legosignoj"
+
+#: ui/CertificateViewerPage.qml:23
+msgid "Certificate Viewer"
+msgstr "Atestilo-Vidilo"
+
+#: ui/CertificateViewerPage.qml:26
+msgid "Issued By"
+msgstr "Publikigita de"
+
+#: ui/CertificateViewerPage.qml:31 ui/CertificateViewerPage.qml:56
+msgid "Common Name:"
+msgstr "Komuna Nomo:"
+
+#: ui/CertificateViewerPage.qml:38 ui/CertificateViewerPage.qml:63
+msgid "EMail:"
+msgstr "Retpoŝto:"
+
+#: ui/CertificateViewerPage.qml:45 ui/CertificateViewerPage.qml:70
+msgid "Organization:"
+msgstr "Organizo:"
+
+#: ui/CertificateViewerPage.qml:51
+msgid "Issued To"
+msgstr "Eldonita Al"
+
+#: ui/CertificateViewerPage.qml:76
+msgid "Validity"
+msgstr "Valideco"
+
+#: ui/CertificateViewerPage.qml:81
+msgid "Issued On:"
+msgstr "Eldonita Je:"
+
+#: ui/CertificateViewerPage.qml:88
+msgid "Expires On:"
+msgstr "Eksvalidiĝas je:"
+
+#: ui/CertificateViewerPage.qml:94
+msgid "Fingerprints"
+msgstr "Fingrospuroj"
+
+#: ui/CertificateViewerPage.qml:99
+msgid "SHA-1 Fingerprint:"
+msgstr "SHA-1 Fingrosigno:"
+
+#: ui/CertificateViewerPage.qml:106
+msgid "SHA-256 Fingerprint:"
+msgstr "SHA-256 Fingrosigno:"
+
+#: ui/CertificateViewerPage.qml:118 ui/CertificateViewerPage.qml:130
+msgid "Export…"
+msgstr "Eksporti…"
+
+#: ui/CertificateViewerPage.qml:137 ui/SignaturePropertiesPage.qml:148
+msgid "Close"
+msgstr "Fermi"
+
+#: ui/CertificateViewerPage.qml:146
+msgid "Certificate File (*.cer)"
+msgstr "Atestilo (*.cer)"
+
+#: ui/CertificateViewerPage.qml:161 ui/SignaturePropertiesPage.qml:169
+msgid "Error"
+msgstr "Eraro"
+
+#: ui/CertificateViewerPage.qml:163
+msgid "Could not export the certificate."
+msgstr "Ne eblis eksporti la atestilon."
+
+#: ui/Main.qml:25 ui/Main.qml:66
+msgid "Okular"
+msgstr "Okulara"
+
+#: ui/Main.qml:42
+msgid "Open…"
+msgstr ""
+
+#: ui/Main.qml:49
+msgid "About"
+msgstr "Pri"
+
+#: ui/Main.qml:99
+msgid "Password Needed"
+msgstr "Pasvorto Bezonata"
+
+#: ui/MainView.qml:29
+msgid "Remove bookmark"
+msgstr "Forigi legosignon"
+
+#: ui/MainView.qml:29
+msgid "Bookmark this page"
+msgstr "Legomarku ĉi tiun paĝon"
+
+#: ui/OkularDrawer.qml:57
+msgid "Thumbnails"
+msgstr "Bildetojn"
+
+#: ui/OkularDrawer.qml:71
+msgid "Table of contents"
+msgstr "Enhavtabelo"
+
+#: ui/OkularDrawer.qml:99
+msgid "Signatures"
+msgstr "Subskriboj"
+
+#: ui/SignaturePropertiesPage.qml:33
+msgid "Signature Properties"
+msgstr "Subskribo Propraĵoj"
+
+#: ui/SignaturePropertiesPage.qml:40
+msgid "Validity Status"
+msgstr "Statuso de valideco"
+
+#: ui/SignaturePropertiesPage.qml:46
+msgid "Signature Validity:"
+msgstr "Valido de subskribo:"
+
+#: ui/SignaturePropertiesPage.qml:53
+msgid "Document Modifications:"
+msgstr "Dokumentaj Modifoj:"
+
+#: ui/SignaturePropertiesPage.qml:58
+msgid "Additional Information"
+msgstr "Kromaj Informoj"
+
+#: ui/SignaturePropertiesPage.qml:64
+msgid "Signed By:"
+msgstr "Subskribita de:"
+
+#: ui/SignaturePropertiesPage.qml:71
+msgid "Signing Time:"
+msgstr "Tempo de subskribo:"
+
+#: ui/SignaturePropertiesPage.qml:80
+msgid "Reason:"
+msgstr "Kialo:"
+
+#: ui/SignaturePropertiesPage.qml:90
+msgid "Location:"
+msgstr "Loko:"
+
+#: ui/SignaturePropertiesPage.qml:96
+msgid "Document Version"
+msgstr "Dokumenta Versio"
+
+#: ui/SignaturePropertiesPage.qml:104
+msgctxt "Document Revision <current> of <total>"
+msgid "Document Revision %1 of %2"
+msgstr "Dokumenta Revizio %1 de %2"
+
+#: ui/SignaturePropertiesPage.qml:108
+msgid "Save Signed Version…"
+msgstr "Konservi subskribitan version…"
+
+#: ui/SignaturePropertiesPage.qml:122 ui/SignaturePropertiesPage.qml:137
+msgid "View Certificate…"
+msgstr "Vidi Atestilon…"
+
+#: ui/SignaturePropertiesPage.qml:171
+msgid "Could not save the signature."
+msgstr "Ne eblis konservi la subskribon."
+
+#: ui/Signatures.qml:27
+msgid "Not Available"
+msgstr "Ne disponebla"
+
+#: ui/ThumbnailsBase.qml:42
+msgid "No results found."
+msgstr "Neniuj rezultoj trovitaj."
+
+#: ui/WelcomeView.qml:43
+msgid "No document open"
+msgstr "Neniu dokumento malfermita"
+
+#: ui/WelcomeView.qml:49
+msgctxt "in welcome screen"
+msgid "Recent Documents"
+msgstr ""
+
+#: ui/WelcomeView.qml:108
+#, fuzzy
+#| msgid "Document Version"
+msgctxt "in welcome screen"
+msgid "My Documents"
+msgstr "Dokumenta Versio"
+
+#~ msgid "Open..."
+#~ msgstr "Malfermu..."

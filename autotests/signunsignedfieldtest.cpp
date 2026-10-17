@@ -1,0 +1,164 @@
+/*
+    SPDX-FileCopyrightText: 2022 Albert Astals Cid <aacid@kde.org>
+
+    SPDX-License-Identifier: GPL-2.0-or-later
+*/
+
+#include <QDialogButtonBox>
+#include <QLineEdit>
+#include <QMimeDatabase>
+#include <QPushButton>
+#include <QTemporaryFile>
+#include <QTest>
+#include <QTimer>
+
+#include "../core/document.h"
+#include "../core/form.h"
+#include "../core/page.h"
+#include "../settings_core.h"
+
+class EnterPasswordDialogHelper : public QObject
+{
+    Q_OBJECT
+
+public:
+    EnterPasswordDialogHelper()
+    {
+        QTimer::singleShot(0, this, &EnterPasswordDialogHelper::enterPassword);
+    }
+
+    void enterPassword()
+    {
+        QWidget *dialog = qApp->activeModalWidget();
+        if (!dialog) {
+            QTimer::singleShot(0, this, &EnterPasswordDialogHelper::enterPassword);
+            return;
+        }
+        QLineEdit *lineEdit = dialog->findChild<QLineEdit *>();
+        lineEdit->setText(QStringLiteral("fakeokular"));
+
+        QDialogButtonBox *buttonBox = dialog->findChild<QDialogButtonBox *>();
+        buttonBox->button(QDialogButtonBox::Ok)->click();
+    }
+};
+
+class SignUnsignedFieldTest : public QObject
+{
+    Q_OBJECT
+
+private Q_SLOTS:
+    void initTestCase();
+    void init();
+    void cleanup();
+    void testSignUnsignedField();
+    void testSignUnsignedFieldWriteCurrentFile();
+
+private:
+    Okular::Document *m_document;
+    std::unique_ptr<QTemporaryDir> m_workdir;
+    QString m_targetFile;
+};
+
+void SignUnsignedFieldTest::initTestCase()
+{
+    QStandardPaths::setTestModeEnabled(true);
+    Okular::SettingsCore::instance(QStringLiteral("signunsignedfieldtest"));
+
+    KConfig cfg(QStringLiteral("okular-generator-popplerrc"));
+    KConfigGroup g = cfg.group(QStringLiteral("Signatures"));
+    g.writeEntry(QStringLiteral("UseDefaultCertDB"), false);
+    g.writeEntry(QStringLiteral("DBCertificatePath"), "file:///" KDESRCDIR "data/fake_okular_certstore");
+
+    m_document = new Okular::Document(nullptr);
+}
+
+void SignUnsignedFieldTest::init()
+{
+    const QString testFile = QStringLiteral(KDESRCDIR "data/hello_with_dummy_signature.pdf");
+    QMimeDatabase db;
+    QFileInfo fi(testFile);
+    m_workdir = std::make_unique<QTemporaryDir>();
+    m_targetFile = m_workdir->filePath(fi.fileName());
+    QFile::copy(fi.absoluteFilePath(), m_targetFile);
+
+    const QMimeType mime = db.mimeTypeForFile(m_targetFile);
+    QCOMPARE(m_document->openDocument(m_targetFile, QUrl(), mime), Okular::Document::OpenSuccess);
+}
+
+void SignUnsignedFieldTest::cleanup()
+{
+    m_document->closeDocument();
+}
+
+void SignUnsignedFieldTest::testSignUnsignedField()
+{
+    const QList<Okular::FormField *> forms = m_document->page(0)->formFields();
+    QCOMPARE(forms.count(), 1);
+    Okular::FormFieldSignature *ffs = dynamic_cast<Okular::FormFieldSignature *>(forms.first());
+
+    QCOMPARE(ffs->signatureType(), Okular::FormFieldSignature::UnsignedSignature);
+
+    const Okular::CertificateStore *certStore = m_document->certificateStore();
+    bool userCancelled, nonDateValidCerts;
+    {
+        EnterPasswordDialogHelper helper;
+        const QList<Okular::CertificateInfo> &certs = certStore->signingCertificatesForNow(&userCancelled, &nonDateValidCerts);
+        QCOMPARE(certs.count(), 1);
+    }
+
+    Okular::NewSignatureData data;
+    data.setCertNickname(QStringLiteral("fake-okular"));
+    auto signedFileName = m_workdir->filePath(QStringLiteral("signedDoc.pdf"));
+    auto signResult = ffs->sign(data, signedFileName);
+    QCOMPARE(signResult.first, Okular::SigningResult::SigningSuccess);
+
+    m_document->closeDocument();
+    QMimeDatabase db;
+    const QMimeType mime = db.mimeTypeForFile(signedFileName);
+    QCOMPARE(m_document->openDocument(signedFileName, QUrl(), mime), Okular::Document::OpenSuccess);
+
+    const QList<Okular::FormField *> newForms = m_document->page(0)->formFields();
+    QCOMPARE(newForms.count(), 1);
+    ffs = dynamic_cast<Okular::FormFieldSignature *>(newForms.first());
+    QCOMPARE(ffs->signatureType(), Okular::FormFieldSignature::AdbePkcs7detached);
+    QCOMPARE(ffs->signatureInfo().signerName(), QStringLiteral("FakeOkular"));
+}
+
+void SignUnsignedFieldTest::testSignUnsignedFieldWriteCurrentFile()
+{
+    const QList<Okular::FormField *> forms = m_document->page(0)->formFields();
+    QCOMPARE(forms.count(), 1);
+    Okular::FormFieldSignature *ffs = dynamic_cast<Okular::FormFieldSignature *>(forms.first());
+
+    QCOMPARE(ffs->signatureType(), Okular::FormFieldSignature::UnsignedSignature);
+
+    const Okular::CertificateStore *certStore = m_document->certificateStore();
+    bool userCancelled, nonDateValidCerts;
+    {
+        EnterPasswordDialogHelper helper;
+        const QList<Okular::CertificateInfo> &certs = certStore->signingCertificatesForNow(&userCancelled, &nonDateValidCerts);
+        QCOMPARE(certs.count(), 1);
+    }
+
+    Okular::NewSignatureData data;
+    data.setCertNickname(QStringLiteral("fake-okular"));
+    auto signResult = ffs->sign(data, m_targetFile);
+#if defined(Q_OS_WIN)
+    QSKIP("Writing to current document not supported");
+#endif
+    QCOMPARE(signResult.first, Okular::SigningResult::SigningSuccess);
+
+    m_document->closeDocument();
+    QMimeDatabase db;
+    const QMimeType mime = db.mimeTypeForFile(m_targetFile);
+    QCOMPARE(m_document->openDocument(m_targetFile, QUrl(), mime), Okular::Document::OpenSuccess);
+
+    const QList<Okular::FormField *> newForms = m_document->page(0)->formFields();
+    QCOMPARE(newForms.count(), 1);
+    ffs = dynamic_cast<Okular::FormFieldSignature *>(newForms.first());
+    QCOMPARE(ffs->signatureType(), Okular::FormFieldSignature::AdbePkcs7detached);
+    QCOMPARE(ffs->signatureInfo().signerName(), QStringLiteral("FakeOkular"));
+}
+
+QTEST_MAIN(SignUnsignedFieldTest)
+#include "signunsignedfieldtest.moc"

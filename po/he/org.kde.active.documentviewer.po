@@ -1,0 +1,209 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the okular package.
+#
+# SPDX-FileCopyrightText: 2024, 2025 Yaron Shahrabani <sh.yaron@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: okular\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2025-07-29 08:23+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Lokalize 25.04.3\n"
+
+#: ui/Bookmarks.qml:20 ui/OkularDrawer.qml:85
+msgid "Bookmarks"
+msgstr "סימניות"
+
+#: ui/CertificateViewerPage.qml:23
+msgid "Certificate Viewer"
+msgstr "מציג אישורים"
+
+#: ui/CertificateViewerPage.qml:26
+msgid "Issued By"
+msgstr "הונפק על ידי"
+
+#: ui/CertificateViewerPage.qml:31 ui/CertificateViewerPage.qml:56
+msgid "Common Name:"
+msgstr "שם נפוץ:"
+
+#: ui/CertificateViewerPage.qml:38 ui/CertificateViewerPage.qml:63
+msgid "EMail:"
+msgstr "דוא״ל:"
+
+#: ui/CertificateViewerPage.qml:45 ui/CertificateViewerPage.qml:70
+msgid "Organization:"
+msgstr "ארגון:"
+
+#: ui/CertificateViewerPage.qml:51
+msgid "Issued To"
+msgstr "הונפק לטובת"
+
+#: ui/CertificateViewerPage.qml:76
+msgid "Validity"
+msgstr "תוקף"
+
+#: ui/CertificateViewerPage.qml:81
+msgid "Issued On:"
+msgstr "הונפק ב־:"
+
+#: ui/CertificateViewerPage.qml:88
+msgid "Expires On:"
+msgstr "תום התוקף:"
+
+#: ui/CertificateViewerPage.qml:94
+msgid "Fingerprints"
+msgstr "טביעות אצבע"
+
+#: ui/CertificateViewerPage.qml:99
+msgid "SHA-1 Fingerprint:"
+msgstr "טביעת אצבע SHA-1:"
+
+#: ui/CertificateViewerPage.qml:106
+msgid "SHA-256 Fingerprint:"
+msgstr "טביעת אצבע SHA-256:"
+
+#: ui/CertificateViewerPage.qml:118 ui/CertificateViewerPage.qml:130
+msgid "Export…"
+msgstr "ייצוא…"
+
+#: ui/CertificateViewerPage.qml:137 ui/SignaturePropertiesPage.qml:148
+msgid "Close"
+msgstr "סגירה"
+
+#: ui/CertificateViewerPage.qml:146
+msgid "Certificate File (*.cer)"
+msgstr "קובץ אישור (‎*.cer)"
+
+#: ui/CertificateViewerPage.qml:161 ui/SignaturePropertiesPage.qml:169
+msgid "Error"
+msgstr "שגיאה"
+
+#: ui/CertificateViewerPage.qml:163
+msgid "Could not export the certificate."
+msgstr "לא ניתן לייצא את האישור."
+
+#: ui/Main.qml:25 ui/Main.qml:66
+msgid "Okular"
+msgstr "Okular"
+
+#: ui/Main.qml:42
+msgid "Open…"
+msgstr "פתיחה…"
+
+#: ui/Main.qml:49
+msgid "About"
+msgstr "על אודות"
+
+#: ui/Main.qml:99
+msgid "Password Needed"
+msgstr "דורש סיסמה"
+
+#: ui/MainView.qml:29
+msgid "Remove bookmark"
+msgstr "הסרת סימנייה"
+
+#: ui/MainView.qml:29
+msgid "Bookmark this page"
+msgstr "סימון העמוד הזה"
+
+#: ui/OkularDrawer.qml:57
+msgid "Thumbnails"
+msgstr "תמונות ממוזערות"
+
+#: ui/OkularDrawer.qml:71
+msgid "Table of contents"
+msgstr "תוכן עניינים"
+
+#: ui/OkularDrawer.qml:99
+msgid "Signatures"
+msgstr "חתימות"
+
+#: ui/SignaturePropertiesPage.qml:33
+msgid "Signature Properties"
+msgstr "מאפייני חתימה"
+
+#: ui/SignaturePropertiesPage.qml:40
+msgid "Validity Status"
+msgstr "מצב תוקף"
+
+#: ui/SignaturePropertiesPage.qml:46
+msgid "Signature Validity:"
+msgstr "תוקף חתימה:"
+
+#: ui/SignaturePropertiesPage.qml:53
+msgid "Document Modifications:"
+msgstr "שינויים למסמך:"
+
+#: ui/SignaturePropertiesPage.qml:58
+msgid "Additional Information"
+msgstr "מידע נוסף"
+
+#: ui/SignaturePropertiesPage.qml:64
+msgid "Signed By:"
+msgstr "נחתם על ידי:"
+
+#: ui/SignaturePropertiesPage.qml:71
+msgid "Signing Time:"
+msgstr "זמן החתימה:"
+
+#: ui/SignaturePropertiesPage.qml:80
+msgid "Reason:"
+msgstr "סיבה:"
+
+#: ui/SignaturePropertiesPage.qml:90
+msgid "Location:"
+msgstr "מקום:"
+
+#: ui/SignaturePropertiesPage.qml:96
+msgid "Document Version"
+msgstr "גרסת מסמך"
+
+#: ui/SignaturePropertiesPage.qml:104
+msgctxt "Document Revision <current> of <total>"
+msgid "Document Revision %1 of %2"
+msgstr "מהדורת מסמך %1 מתוך %2"
+
+#: ui/SignaturePropertiesPage.qml:108
+msgid "Save Signed Version…"
+msgstr "שמירת הגרסה החתומה…"
+
+#: ui/SignaturePropertiesPage.qml:122 ui/SignaturePropertiesPage.qml:137
+msgid "View Certificate…"
+msgstr "הצגת אישור…"
+
+#: ui/SignaturePropertiesPage.qml:171
+msgid "Could not save the signature."
+msgstr "לא ניתן לשמור את החתימה."
+
+#: ui/Signatures.qml:27
+msgid "Not Available"
+msgstr "לא זמין"
+
+#: ui/ThumbnailsBase.qml:42
+msgid "No results found."
+msgstr "לא נמצאה תוצאה."
+
+#: ui/WelcomeView.qml:43
+msgid "No document open"
+msgstr "אין מסמך פתוח"
+
+#: ui/WelcomeView.qml:49
+msgctxt "in welcome screen"
+msgid "Recent Documents"
+msgstr "מסמכים אחרונים"
+
+#: ui/WelcomeView.qml:108
+msgctxt "in welcome screen"
+msgid "My Documents"
+msgstr "המסמכים שלי"
+
+#~ msgid "Open..."
+#~ msgstr "פתיחה…"

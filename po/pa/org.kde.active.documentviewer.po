@@ -1,0 +1,234 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2012, 2021, 2024 A S Alam <aalam@users.sf.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2024-01-01 12:20-0600\n"
+"Last-Translator: A S Alam <aalam@punlinux.org>\n"
+"Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.4\n"
+
+#: ui/Bookmarks.qml:20 ui/OkularDrawer.qml:85
+msgid "Bookmarks"
+msgstr "ਬੁੱਕਮਾਰਕ"
+
+#: ui/CertificateViewerPage.qml:23
+msgid "Certificate Viewer"
+msgstr "ਸਰਟੀਫਿਕੇਟ ਦਰਸ਼ਕ"
+
+#: ui/CertificateViewerPage.qml:26
+msgid "Issued By"
+msgstr "ਇਸ ਵਲੋਂ ਜਾਰੀ"
+
+#: ui/CertificateViewerPage.qml:31 ui/CertificateViewerPage.qml:56
+msgid "Common Name:"
+msgstr "ਆਮ ਨਾਂ:"
+
+#: ui/CertificateViewerPage.qml:38 ui/CertificateViewerPage.qml:63
+msgid "EMail:"
+msgstr "ਈਮੇਲ:"
+
+#: ui/CertificateViewerPage.qml:45 ui/CertificateViewerPage.qml:70
+msgid "Organization:"
+msgstr "ਸੰਗਠਨ:"
+
+#: ui/CertificateViewerPage.qml:51
+msgid "Issued To"
+msgstr "ਇਸ ਨੂੰ ਜਾਰੀ ਕੀਤਾ"
+
+#: ui/CertificateViewerPage.qml:76
+msgid "Validity"
+msgstr "ਵੈਧਤਾ"
+
+#: ui/CertificateViewerPage.qml:81
+msgid "Issued On:"
+msgstr "ਇਸ ਨੂੰ ਜਾਰੀ ਕੀਤਾ:"
+
+#: ui/CertificateViewerPage.qml:88
+msgid "Expires On:"
+msgstr "ਮਿਆਦ ਪੁੱਗਣੀ:"
+
+#: ui/CertificateViewerPage.qml:94
+msgid "Fingerprints"
+msgstr "ਫਿੰਗਰਪਰਿੰਟ"
+
+#: ui/CertificateViewerPage.qml:99
+msgid "SHA-1 Fingerprint:"
+msgstr "SHA-1 ਫਿੰਗਰਪਰਿੰਟ:"
+
+#: ui/CertificateViewerPage.qml:106
+msgid "SHA-256 Fingerprint:"
+msgstr "SHA-256 ਫਿੰਗਰਪਰਿੰਟ:"
+
+#: ui/CertificateViewerPage.qml:118 ui/CertificateViewerPage.qml:130
+#, fuzzy
+#| msgid "Export..."
+msgid "Export…"
+msgstr "ਐਕਸਪੋਰਟ..."
+
+#: ui/CertificateViewerPage.qml:137 ui/SignaturePropertiesPage.qml:148
+msgid "Close"
+msgstr "ਬੰਦ ਕਰੋ"
+
+#: ui/CertificateViewerPage.qml:146
+msgid "Certificate File (*.cer)"
+msgstr "ਸਰਟੀਫਿਕੇਟ ਫਾਇਲ (*.cer)"
+
+#: ui/CertificateViewerPage.qml:161 ui/SignaturePropertiesPage.qml:169
+msgid "Error"
+msgstr "ਗਲਤੀ"
+
+#: ui/CertificateViewerPage.qml:163
+msgid "Could not export the certificate."
+msgstr ""
+
+#: ui/Main.qml:25 ui/Main.qml:66
+msgid "Okular"
+msgstr "ਓਕੁਲਾਰ"
+
+#: ui/Main.qml:42
+msgid "Open…"
+msgstr ""
+
+#: ui/Main.qml:49
+msgid "About"
+msgstr "ਇਸ ਬਾਰੇ"
+
+#: ui/Main.qml:99
+msgid "Password Needed"
+msgstr "ਪਾਸਵਰਡ ਚਾਹੀਦਾ ਹੈ"
+
+#: ui/MainView.qml:29
+msgid "Remove bookmark"
+msgstr "ਬੁੱਕਮਾਰਕ ਹਟਾਓ"
+
+#: ui/MainView.qml:29
+msgid "Bookmark this page"
+msgstr "ਇਹ ਸਫ਼ਾ ਬੁੱਕਮਾਰਕ ਕਰੋ"
+
+#: ui/OkularDrawer.qml:57
+msgid "Thumbnails"
+msgstr "ਥੰਮਨੇਲ"
+
+#: ui/OkularDrawer.qml:71
+msgid "Table of contents"
+msgstr "ਸਮੱਗਰੀ ਸਾਰਣੀ"
+
+#: ui/OkularDrawer.qml:99
+msgid "Signatures"
+msgstr "ਦਸਤਖ਼ਤ"
+
+#: ui/SignaturePropertiesPage.qml:33
+msgid "Signature Properties"
+msgstr ""
+
+#: ui/SignaturePropertiesPage.qml:40
+msgid "Validity Status"
+msgstr "ਵੈਧਤਾ ਸਥਿਤੀ"
+
+#: ui/SignaturePropertiesPage.qml:46
+msgid "Signature Validity:"
+msgstr "ਦਸਤਖਤ ਵੈਧਤਾ:"
+
+#: ui/SignaturePropertiesPage.qml:53
+msgid "Document Modifications:"
+msgstr "ਡੌਕੂਮੈਂਟ ਸੋਧਾਂ:"
+
+#: ui/SignaturePropertiesPage.qml:58
+msgid "Additional Information"
+msgstr "ਹੋਰ ਜਾਣਕਾਰੀ"
+
+#: ui/SignaturePropertiesPage.qml:64
+msgid "Signed By:"
+msgstr "ਇਸ ਵਲੋਂ ਦਸਤਖ਼ਤ ਕੀਤੇ:"
+
+#: ui/SignaturePropertiesPage.qml:71
+msgid "Signing Time:"
+msgstr "ਦਸਤਖ਼ਤ ਦਾ ਵੇਲਾ: "
+
+#: ui/SignaturePropertiesPage.qml:80
+msgid "Reason:"
+msgstr "ਕਾਰਨ:"
+
+#: ui/SignaturePropertiesPage.qml:90
+msgid "Location:"
+msgstr "ਟਿਕਾਣਾ:"
+
+#: ui/SignaturePropertiesPage.qml:96
+msgid "Document Version"
+msgstr "ਡੌਕੂਮੈਂਟ ਵਰਜ਼ਨ"
+
+#: ui/SignaturePropertiesPage.qml:104
+msgctxt "Document Revision <current> of <total>"
+msgid "Document Revision %1 of %2"
+msgstr "%2 ਵਿੱਚੋਂ %1 ਡੌਕੂਮੈਂਟ ਰੀਵਿਜ਼ਨ"
+
+#: ui/SignaturePropertiesPage.qml:108
+#, fuzzy
+#| msgid "Save Signed Version..."
+msgid "Save Signed Version…"
+msgstr "ਦਸਤਖਤ ਕੀਤਾ ਵਰਜ਼ਨ ਵੇਖੋ..."
+
+#: ui/SignaturePropertiesPage.qml:122 ui/SignaturePropertiesPage.qml:137
+#, fuzzy
+#| msgid "View Certificate..."
+msgid "View Certificate…"
+msgstr "...ਸਰਟੀਫਿਕੇਟ ਵੇਖੋ"
+
+#: ui/SignaturePropertiesPage.qml:171
+msgid "Could not save the signature."
+msgstr ""
+
+#: ui/Signatures.qml:27
+msgid "Not Available"
+msgstr "ਮੌਜੂਦ ਨਹੀਂ"
+
+#: ui/ThumbnailsBase.qml:42
+msgid "No results found."
+msgstr "ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ ਲੱਭਾ।"
+
+#: ui/WelcomeView.qml:43
+msgid "No document open"
+msgstr "ਕੋਈ ਦਸਤਾਵੇਜ਼ ਖੁੱਲ੍ਹਾ ਨਹੀਂ ਹੈ"
+
+#: ui/WelcomeView.qml:49
+msgctxt "in welcome screen"
+msgid "Recent Documents"
+msgstr ""
+
+#: ui/WelcomeView.qml:108
+#, fuzzy
+#| msgid "Document Version"
+msgctxt "in welcome screen"
+msgid "My Documents"
+msgstr "ਡੌਕੂਮੈਂਟ ਵਰਜ਼ਨ"
+
+#~ msgid "Open..."
+#~ msgstr "...ਖੋਲ੍ਹੋ"
+
+#~ msgid "Search..."
+#~ msgstr "ਖੋਜੋ..."
+
+#~ msgid "Document viewer for Plasma Active using Okular"
+#~ msgstr "ਓਕਲਾਰ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਪਲਾਜ਼ਮਾ ਐਕਟਿਵ ਲਈ ਡੌਕੂਮੈਂਟ ਦਰਸ਼ਕ"
+
+#~ msgid "Reader"
+#~ msgstr "ਰੀਡਰ"
+
+#~ msgid "Copyright 2012 Marco Martin"
+#~ msgstr "Copyright 2012 Marco Martin"
+
+#~ msgid "Marco Martin"
+#~ msgstr "ਮਾਰਕੋ ਮਾਰਟਿਨ"
+
+#~ msgid "URL of the file to open"
+#~ msgstr "ਫਾਇਲ ਖੋਲ੍ਹਣ ਲਈ URL"

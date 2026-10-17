@@ -1,0 +1,458 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Tamas Szanto <tszanto@interware.hu>, 2008.
+# Kristóf Kiszel <ulysses@kubuntu.org>, 2010, 2020.
+# Balázs Úr <urbalazs@gmail.com>, 2012, 2013.
+# SPDX-FileCopyrightText: 2021, 2024, 2025 Kristof Kiszel <kiszel.kristof@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE 4.2\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-06 00:44+0000\n"
+"PO-Revision-Date: 2025-07-12 22:26+0200\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.04.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kiszel Kristóf"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ulysses@fsf.hu"
+
+#: annots.cpp:592 formfields.cpp:539 generator_pdf.cpp:2225
+#: generator_pdf.cpp:2253
+#, kde-format
+msgid "Failed writing temporary file"
+msgstr "Az átmeneti fájl írása sikertelen"
+
+#: annots.cpp:608 formfields.cpp:561 generator_pdf.cpp:2276
+#, fuzzy, kde-format
+#| msgid "Failed renaming temporary file"
+msgid "Failed removing file"
+msgstr "Az átmeneti fájl átnevezése sikertelen"
+
+#: annots.cpp:612
+#, kde-format
+msgid "Failed renaming temporary file"
+msgstr "Az átmeneti fájl átnevezése sikertelen"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: conf/pdfsettingswidget.ui:19
+#, kde-format
+msgid "Enable overprint preview:"
+msgstr "Felülnyomási előnézet bekapcsolása:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_OverprintPreviewEnabled)
+#: conf/pdfsettingswidget.ui:27
+#, kde-format
+msgid "Never"
+msgstr "Soha"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_OverprintPreviewEnabled)
+#: conf/pdfsettingswidget.ui:32
+#, kde-format
+msgid "Always"
+msgstr "Mindig"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_OverprintPreviewEnabled)
+#: conf/pdfsettingswidget.ui:37
+#, kde-format
+msgid "Automatic"
+msgstr "Automatikus"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/pdfsettingswidget.ui:62
+#, kde-format
+msgid "Enhance thin lines:"
+msgstr "Vékony vonalak növelése:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:73 generator_pdf.cpp:1032
+#, kde-format
+msgid "No"
+msgstr "Nem"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:78
+#, kde-format
+msgid "Solid"
+msgstr "Egyszínű"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:83
+#, kde-format
+msgid "Shape"
+msgstr "Alakzat"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conf/pdfsettingswidget.ui:108
+#, kde-format
+msgid "Default scaling mode when printing:"
+msgstr "Alapértelmezett méretezési mód nyomtatáskor:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintScaleMode)
+#: conf/pdfsettingswidget.ui:116 generator_pdf.cpp:104
+#, kde-format
+msgid "Fit to printable area"
+msgstr "Illesztés a nyomtatási területhez"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintScaleMode)
+#: conf/pdfsettingswidget.ui:121 generator_pdf.cpp:105
+#, kde-format
+msgid "Fit to full page"
+msgstr "Illesztés teljes oldalra"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintScaleMode)
+#: conf/pdfsettingswidget.ui:126 generator_pdf.cpp:106
+#, kde-format
+msgid "None; print original size"
+msgstr "Nincs; nyomtatás eredeti méretben"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_CheckOCSPServers)
+#: conf/pdfsettingswidget.ui:149
+#, kde-format
+msgid ""
+"Enabling this option will allow Okular to contact 3rd-party OCSP servers to "
+"check if the certificates used for digital signing have been revoked since "
+"their creation."
+msgstr ""
+"A beállítás engedélyezésével megengedi az Okularnak, hogy harmadik fél OCSP "
+"kiszolgálóihoz csatlakozzon a digitális aláírásokhoz használt tanúsítványok "
+"ellenőrzéséhez, nem-e vonták vissza azokat."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckOCSPServers)
+#: conf/pdfsettingswidget.ui:152
+#, kde-format
+msgid ""
+"Check revocation of digital signatures' certificates using 3rd-party servers"
+msgstr ""
+"Digitális aláírások tanúsítványai érvényességének ellenőrzése harmadik fél "
+"bevonásával"
+
+#. i18n: ectx: property (text), widget (QLabel, label_signature_backend)
+#: conf/pdfsettingswidget.ui:174
+#, kde-format
+msgid "Signature backend:"
+msgstr "Aláíró alrendszer:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_EnablePgp)
+#: conf/pdfsettingswidget.ui:200
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"These signatures can only be validated by modern Okular users with GnuPG "
+"backend activated"
+msgstr ""
+"Ezeket az aláírások csak modern Okular felhasználói érvényesíthetik "
+"bekapcsolt GnuPG modul mellett"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnablePgp)
+#: conf/pdfsettingswidget.ui:203
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow PGP keys for signatures (Okular extension)"
+msgstr "PGP-kulcsok engedélyezése aláírásokhoz (Okular kiterjesztés)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, certDBGroupBox)
+#: conf/pdfsettingswidget.ui:210
+#, kde-format
+msgid "Certificate Database"
+msgstr "Tanúsítvány-adatbázis"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_UseDefaultCertDB)
+#: conf/pdfsettingswidget.ui:219
+#, kde-format
+msgid "Default:"
+msgstr "Alapértelmezett:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, customRadioButton)
+#: conf/pdfsettingswidget.ui:226
+#, kde-format
+msgid "Custom:"
+msgstr "Egyéni:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, certificatesGroup)
+#: conf/pdfsettingswidget.ui:243
+#, kde-format
+msgid "Available Certificates"
+msgstr "Elérhető tanúsítványok"
+
+#. i18n: ectx: property (text), widget (QPushButton, loadSignaturesButton)
+#: conf/pdfsettingswidget.ui:251
+#, kde-format
+msgid "&Load Signatures"
+msgstr "Aláírások betö&ltése"
+
+#: formfields.cpp:565 generator_pdf.cpp:2280
+#, fuzzy, kde-format
+#| msgid "Failed renaming temporary file"
+msgctxt "%1 is an error message"
+msgid "Failed renaming temporary file: %1"
+msgstr "Az átmeneti fájl átnevezése sikertelen"
+
+#: generator_pdf.cpp:89
+#, kde-format
+msgid "PDF Options"
+msgstr "PDF-beállítások"
+
+#: generator_pdf.cpp:91
+#, kde-format
+msgid "Print annotations"
+msgstr "Megjegyzések nyomtatása"
+
+#: generator_pdf.cpp:92
+#, kde-format
+msgid "Include annotations in the printed document"
+msgstr "Megjegyzések felvétele a nyomtatott dokumentumba"
+
+#: generator_pdf.cpp:93
+#, kde-format
+msgid ""
+"Includes annotations in the printed document. You can disable this if you "
+"want to print the original unannotated document."
+msgstr ""
+"Megjegyzések felvétele a nyomtatott dokumentumba. Letilthatja ezt, ha az "
+"eredeti, megjegyzés nélküli dokumentumot akarja nyomtatni."
+
+#: generator_pdf.cpp:95
+#, kde-format
+msgid "Force rasterization"
+msgstr "Raszterizálás mindig"
+
+#: generator_pdf.cpp:96
+#, kde-format
+msgid "Rasterize into an image before printing"
+msgstr "Raszterizált kép készítése nyomtatás előtt"
+
+#: generator_pdf.cpp:97
+#, kde-format
+msgid ""
+"Forces the rasterization of each page into an image before printing it. This "
+"usually gives somewhat worse results, but is useful when printing documents "
+"that appear to print incorrectly."
+msgstr ""
+"Nyomtatás előtt a program mindenből raszterizált képet készít. Ez néha "
+"minőségcsökkenést okoz, de így egyes esetekben kiküszöbölhetők más "
+"nyomtatási hibák."
+
+#: generator_pdf.cpp:107
+#, kde-format
+msgid "Scaling mode for the printed pages"
+msgstr "A nyomtatott oldalak méretezési módja"
+
+#: generator_pdf.cpp:108
+#, kde-format
+msgid "Scale mode:"
+msgstr "Méretezési mód:"
+
+#: generator_pdf.cpp:1030
+#, kde-format
+msgctxt "PDF v. <version>"
+msgid "PDF v. %1.%2"
+msgstr "PDF v. %1.%2"
+
+#: generator_pdf.cpp:1030
+#, kde-format
+msgid "Format"
+msgstr "Formátum"
+
+#: generator_pdf.cpp:1031
+#, kde-format
+msgid "Encrypted"
+msgstr "Titkosított"
+
+#: generator_pdf.cpp:1031
+#, kde-format
+msgid "Unencrypted"
+msgstr "Nem titkosított"
+
+#: generator_pdf.cpp:1031
+#, kde-format
+msgid "Security"
+msgstr "Biztonság"
+
+#: generator_pdf.cpp:1032
+#, kde-format
+msgid "Yes"
+msgstr "Igen"
+
+#: generator_pdf.cpp:1032
+#, kde-format
+msgid "Optimized"
+msgstr "Optimalizált"
+
+#: generator_pdf.cpp:1521
+#, kde-format
+msgid ""
+"Signed by: %1\n"
+"\n"
+"Date: %2"
+msgstr ""
+"Aláírta: %1\n"
+"\n"
+"Dátum: %2"
+
+#: generator_pdf.cpp:1744
+#, kde-format
+msgid "Using Poppler %1"
+msgstr "A Poppler %1 használata"
+
+#: generator_pdf.cpp:1746
+#, kde-format
+msgid ""
+"Using Poppler %1\n"
+"\n"
+"Built against Poppler %2"
+msgstr ""
+"A Poppler %1 használata\n"
+"\n"
+"A Poppler %2 verziójával fordítva"
+
+#: generator_pdf.cpp:1781
+#, kde-format
+msgid "PDF"
+msgstr "PDF"
+
+#: generator_pdf.cpp:1781
+#, kde-format
+msgid "PDF Backend Configuration"
+msgstr "PDF háttérprogram beállítás"
+
+#: generator_pdf.cpp:2300
+#, kde-format
+msgid ""
+"Some errors were found in the document, Okular might not be able to show the "
+"content correctly"
+msgstr ""
+"Hibák találhatók a dokumentumban, az Okular nem biztos, hogy helyesen "
+"jeleníti meg annak tartalmát"
+
+#: pdfsettingswidget.cpp:116
+#, kde-format
+msgctxt "@info Kind of a notice/warning"
+msgid ""
+"These signatures only work between modern versions of Okular with the GnuPG "
+"based backend activated"
+msgstr ""
+"Ezek az aláírások csak az Okular modern verziói között működnek bekapcsolt "
+"GnuPG-alapú modul mellett"
+
+#: pdfsettingswidget.cpp:117
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Enable PGP Signatures"
+msgstr "PGP aláírások engedélyezése"
+
+#: pdfsettingswidget.cpp:147
+#, kde-format
+msgctxt "Name of the person to whom the cerficate was issued"
+msgid "Issued to"
+msgstr "Kiállítva neki:"
+
+#: pdfsettingswidget.cpp:147
+#, kde-format
+msgid "E-mail"
+msgstr "E-mail"
+
+#: pdfsettingswidget.cpp:147
+#, kde-format
+msgctxt "Certificate expiration date"
+msgid "Expiration date"
+msgstr "Lejárati dátum"
+
+#: pdfsettingswidget.cpp:152
+#, fuzzy, kde-format
+#| msgid "Available Certificates"
+msgctxt "@button"
+msgid "List certificates"
+msgstr "Elérhető tanúsítványok"
+
+#: pdfsettingswidget.cpp:174
+#, kde-format
+msgid ""
+"You are using a Poppler library built without NSS support.\n"
+"Adding Digital Signatures isn't available for that reason"
+msgstr ""
+"Az Ön által használt Poppler programkönyvtárat NSS támogatás nélkül "
+"fordították.\n"
+"Ezért nem lehetséges digitális aláírások hozzáadása"
+
+#: pdfsettingswidget.cpp:198
+#, kde-format
+msgctxt "certificate end validity"
+msgid "forever"
+msgstr "örökké"
+
+#: pdfsettingswidget.cpp:222
+#, kde-format
+msgid "Restart needed"
+msgstr "Újraindítás szükséges"
+
+#: pdfsettingswidget.cpp:222
+#, kde-format
+msgid "You need to restart Okular after changing the NSS directory settings"
+msgstr ""
+"Újra kell indítani az Okulart az NSS mappabeállítások megváltoztatása után."
+
+#: pdfsignatureutils.cpp:275 pdfsignatureutils.cpp:315
+#, fuzzy, kde-format
+#| msgid "Enter password to open %1:"
+msgctxt ""
+"%1 is the thing to open (hardware or software token, certificate DB,...)"
+msgid "Enter password to open: %1"
+msgstr "Adja meg a jelszót a(z) %1 megnyitásához:"
+
+#~ msgid "Enter Password"
+#~ msgstr "Adja meg a jelszót"
+
+#, fuzzy
+#~| msgid "Failed renaming temporary file"
+#~ msgid "Failed renaming temporary file %1:"
+#~ msgstr "Az átmeneti fájl átnevezése sikertelen"
+
+#~ msgid "Not Available"
+#~ msgstr "Nem érhető el"
+
+#~ msgid "PDF Backend"
+#~ msgstr "PDF-kezelő"
+
+#~ msgid "A PDF file renderer"
+#~ msgstr "Megjelenítő PDF-fájlokhoz"
+
+#~ msgid "© 2005-2008 Albert Astals Cid"
+#~ msgstr "(c) Albert Astals Cid, 2005-2008."
+
+#~ msgid "Albert Astals Cid"
+#~ msgstr "Albert Astals Cid"
+
+#~ msgid "Saving files with /Encrypt is not supported."
+#~ msgstr "Fájlok mentése /Encrypt-tel nem támogatott."
+
+#~ msgid "Unknown"
+#~ msgstr "Ismeretlen"
+
+#~ msgid "Unknown Date"
+#~ msgstr "Ismeretlen dátum"
+
+#~ msgid "Unknown Encryption"
+#~ msgstr "Ismeretlen titkosítás"
+
+#~ msgid "Unknown Optimization"
+#~ msgstr "Ismeretlen titkosítás"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "Adja meg a jelszót a dokumentum olvasásához:"
+
+#~ msgid "Incorrect password. Try again:"
+#~ msgstr "A jelszó hibás, próbálja meg még egyszer:"

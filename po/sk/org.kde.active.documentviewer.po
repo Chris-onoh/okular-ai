@@ -1,0 +1,233 @@
+# translation of org.kde.active.documentviewer.po to Slovak
+# Roman Paholík <wizzardsk@gmail.com>, 2012, 2016.
+# Matej Mrenica <matejm98mthw@gmail.com>, 2019, 2020, 2021.
+# Ferdinand Galko <galko.ferdinand@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: org.kde.active.documentviewer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2023-02-19 16:51+0100\n"
+"Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
+"Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.12.3\n"
+
+#: ui/Bookmarks.qml:20 ui/OkularDrawer.qml:85
+msgid "Bookmarks"
+msgstr "Záložky"
+
+#: ui/CertificateViewerPage.qml:23
+msgid "Certificate Viewer"
+msgstr "Prehliadač certifikátov"
+
+#: ui/CertificateViewerPage.qml:26
+msgid "Issued By"
+msgstr "Vydané (kým)"
+
+#: ui/CertificateViewerPage.qml:31 ui/CertificateViewerPage.qml:56
+msgid "Common Name:"
+msgstr "Bežný názov:"
+
+#: ui/CertificateViewerPage.qml:38 ui/CertificateViewerPage.qml:63
+msgid "EMail:"
+msgstr "EMail:"
+
+#: ui/CertificateViewerPage.qml:45 ui/CertificateViewerPage.qml:70
+msgid "Organization:"
+msgstr "Organizácia:"
+
+#: ui/CertificateViewerPage.qml:51
+msgid "Issued To"
+msgstr "Vydané (komu)"
+
+#: ui/CertificateViewerPage.qml:76
+msgid "Validity"
+msgstr "Platnosť"
+
+#: ui/CertificateViewerPage.qml:81
+msgid "Issued On:"
+msgstr "Vydané (kedy):"
+
+#: ui/CertificateViewerPage.qml:88
+msgid "Expires On:"
+msgstr "Platnosť končí (kedy):"
+
+#: ui/CertificateViewerPage.qml:94
+msgid "Fingerprints"
+msgstr "Odtlačky"
+
+#: ui/CertificateViewerPage.qml:99
+msgid "SHA-1 Fingerprint:"
+msgstr "Odtlačok SHA-1:"
+
+#: ui/CertificateViewerPage.qml:106
+msgid "SHA-256 Fingerprint:"
+msgstr "Odtlačok SHA-256:"
+
+#: ui/CertificateViewerPage.qml:118 ui/CertificateViewerPage.qml:130
+msgid "Export…"
+msgstr "Exportovať..."
+
+#: ui/CertificateViewerPage.qml:137 ui/SignaturePropertiesPage.qml:148
+msgid "Close"
+msgstr "Zatvoriť"
+
+#: ui/CertificateViewerPage.qml:146
+msgid "Certificate File (*.cer)"
+msgstr "Súbor certifikátu (*.cer)"
+
+#: ui/CertificateViewerPage.qml:161 ui/SignaturePropertiesPage.qml:169
+msgid "Error"
+msgstr "Chyba"
+
+#: ui/CertificateViewerPage.qml:163
+msgid "Could not export the certificate."
+msgstr "Nepodarilo sa exportovať certifikát."
+
+#: ui/Main.qml:25 ui/Main.qml:66
+msgid "Okular"
+msgstr "Okular"
+
+#: ui/Main.qml:42
+msgid "Open…"
+msgstr "Otvoriť…"
+
+#: ui/Main.qml:49
+msgid "About"
+msgstr "O aplikácii"
+
+#: ui/Main.qml:99
+msgid "Password Needed"
+msgstr "Vyžaduje sa heslo"
+
+#: ui/MainView.qml:29
+msgid "Remove bookmark"
+msgstr "Odstrániť záložku"
+
+#: ui/MainView.qml:29
+msgid "Bookmark this page"
+msgstr "Pridať túto stránku do záložiek"
+
+#: ui/OkularDrawer.qml:57
+msgid "Thumbnails"
+msgstr "Miniatúry"
+
+#: ui/OkularDrawer.qml:71
+msgid "Table of contents"
+msgstr "Obsah"
+
+#: ui/OkularDrawer.qml:99
+msgid "Signatures"
+msgstr "Podpisy"
+
+#: ui/SignaturePropertiesPage.qml:33
+msgid "Signature Properties"
+msgstr "Vlastnosti podpisu"
+
+#: ui/SignaturePropertiesPage.qml:40
+msgid "Validity Status"
+msgstr "Stav platnosti"
+
+#: ui/SignaturePropertiesPage.qml:46
+msgid "Signature Validity:"
+msgstr "Platnosť podpisu:"
+
+#: ui/SignaturePropertiesPage.qml:53
+msgid "Document Modifications:"
+msgstr "Zmeny dokumentu:"
+
+#: ui/SignaturePropertiesPage.qml:58
+msgid "Additional Information"
+msgstr "Dodatočné informácie"
+
+#: ui/SignaturePropertiesPage.qml:64
+msgid "Signed By:"
+msgstr "Podpísané (kým):"
+
+#: ui/SignaturePropertiesPage.qml:71
+msgid "Signing Time:"
+msgstr "Čas podpisu:"
+
+#: ui/SignaturePropertiesPage.qml:80
+msgid "Reason:"
+msgstr "Dôvod:"
+
+#: ui/SignaturePropertiesPage.qml:90
+msgid "Location:"
+msgstr "Umiestnenie:"
+
+#: ui/SignaturePropertiesPage.qml:96
+msgid "Document Version"
+msgstr "Verzia dokumentu"
+
+#: ui/SignaturePropertiesPage.qml:104
+msgctxt "Document Revision <current> of <total>"
+msgid "Document Revision %1 of %2"
+msgstr "Revízia dokumentu %1 z %2"
+
+#: ui/SignaturePropertiesPage.qml:108
+msgid "Save Signed Version…"
+msgstr "Uložiť podpísanú verziu..."
+
+#: ui/SignaturePropertiesPage.qml:122 ui/SignaturePropertiesPage.qml:137
+msgid "View Certificate…"
+msgstr "Zobraziť certifikát..."
+
+#: ui/SignaturePropertiesPage.qml:171
+msgid "Could not save the signature."
+msgstr "Podpis sa nepodarilo uložiť."
+
+#: ui/Signatures.qml:27
+msgid "Not Available"
+msgstr "Nedostupné"
+
+#: ui/ThumbnailsBase.qml:42
+msgid "No results found."
+msgstr "Nenájdené žiadne výsledky."
+
+#: ui/WelcomeView.qml:43
+msgid "No document open"
+msgstr "Žiadny dokument nie je otvorený"
+
+#: ui/WelcomeView.qml:49
+msgctxt "in welcome screen"
+msgid "Recent Documents"
+msgstr "Nedávne dokumenty"
+
+#: ui/WelcomeView.qml:108
+msgctxt "in welcome screen"
+msgid "My Documents"
+msgstr "Verzia dokumentu"
+
+#~ msgid "Open..."
+#~ msgstr "Otvoriť..."
+
+#~ msgid "Search..."
+#~ msgstr "Hľadať..."
+
+#~ msgid ""
+#~ "No Documents found. To start to read, put some files in the Documents "
+#~ "folder of your device."
+#~ msgstr ""
+#~ "Nenašli sa žiadne dokumenty. Na začatie čítania vložte nejaké súbory do "
+#~ "priečinka dokumentov vášho zariadenia."
+
+#~ msgid "Document viewer for Plasma Active using Okular"
+#~ msgstr "Prehliadač dokumentov pre Plasma Active cez Okular"
+
+#~ msgid "Reader"
+#~ msgstr "Čítačka"
+
+#~ msgid "Copyright 2012 Marco Martin"
+#~ msgstr "Copyright 2012 Marco Martin"
+
+#~ msgid "Marco Martin"
+#~ msgstr "Marco Martin"
+
+#~ msgid "URL of the file to open"
+#~ msgstr "URL súboru na otvorenie"

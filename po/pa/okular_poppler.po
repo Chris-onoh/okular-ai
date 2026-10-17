@@ -1,0 +1,430 @@
+# translation of okular_poppler.po to Punjabi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2007, 2009, 2010, 2012, 2014, 2019, 2024 A S Alam <aalam@users.sf.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_poppler\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-06 00:44+0000\n"
+"PO-Revision-Date: 2024-02-01 09:11-0600\n"
+"Last-Translator: A S Alam <aalam@punlinux.org>\n"
+"Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 23.08.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "alam.yellow@gmail.com"
+
+#: annots.cpp:592 formfields.cpp:539 generator_pdf.cpp:2225
+#: generator_pdf.cpp:2253
+#, kde-format
+msgid "Failed writing temporary file"
+msgstr ""
+
+#: annots.cpp:608 formfields.cpp:561 generator_pdf.cpp:2276
+#, kde-format
+msgid "Failed removing file"
+msgstr ""
+
+#: annots.cpp:612
+#, kde-format
+msgid "Failed renaming temporary file"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: conf/pdfsettingswidget.ui:19
+#, kde-format
+msgid "Enable overprint preview:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_OverprintPreviewEnabled)
+#: conf/pdfsettingswidget.ui:27
+#, kde-format
+msgid "Never"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_OverprintPreviewEnabled)
+#: conf/pdfsettingswidget.ui:32
+#, kde-format
+msgid "Always"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_OverprintPreviewEnabled)
+#: conf/pdfsettingswidget.ui:37
+#, kde-format
+msgid "Automatic"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/pdfsettingswidget.ui:62
+#, kde-format
+msgid "Enhance thin lines:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:73 generator_pdf.cpp:1032
+#, kde-format
+msgid "No"
+msgstr "ਨਹੀਂ"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:78
+#, kde-format
+msgid "Solid"
+msgstr "ਗੂੜ੍ਹਾ"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:83
+#, kde-format
+msgid "Shape"
+msgstr "ਸ਼ਕਲ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conf/pdfsettingswidget.ui:108
+#, kde-format
+msgid "Default scaling mode when printing:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintScaleMode)
+#: conf/pdfsettingswidget.ui:116 generator_pdf.cpp:104
+#, kde-format
+msgid "Fit to printable area"
+msgstr "ਛਾਪਣਯੋਗ ਖੇਤਰ ਲਈ ਫਿੱਟ ਕਰੋ"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintScaleMode)
+#: conf/pdfsettingswidget.ui:121 generator_pdf.cpp:105
+#, kde-format
+msgid "Fit to full page"
+msgstr "ਪੂਰੇ ਸਫ਼ੇ ਲਈ ਫਿੱਟ ਕਰੋ"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintScaleMode)
+#: conf/pdfsettingswidget.ui:126 generator_pdf.cpp:106
+#, kde-format
+msgid "None; print original size"
+msgstr "ਕੋਈ ਨਹੀਂ; ਅਸਲ ਆਕਾਰ ਨੂੰ ਛਾਪੋ"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_CheckOCSPServers)
+#: conf/pdfsettingswidget.ui:149
+#, kde-format
+msgid ""
+"Enabling this option will allow Okular to contact 3rd-party OCSP servers to "
+"check if the certificates used for digital signing have been revoked since "
+"their creation."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckOCSPServers)
+#: conf/pdfsettingswidget.ui:152
+#, kde-format
+msgid ""
+"Check revocation of digital signatures' certificates using 3rd-party servers"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_signature_backend)
+#: conf/pdfsettingswidget.ui:174
+#, kde-format
+msgid "Signature backend:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_EnablePgp)
+#: conf/pdfsettingswidget.ui:200
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"These signatures can only be validated by modern Okular users with GnuPG "
+"backend activated"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnablePgp)
+#: conf/pdfsettingswidget.ui:203
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow PGP keys for signatures (Okular extension)"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, certDBGroupBox)
+#: conf/pdfsettingswidget.ui:210
+#, kde-format
+msgid "Certificate Database"
+msgstr "ਸਰਟੀਫਿਕੇਟ ਡਾਟਾਬੇਸ"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_UseDefaultCertDB)
+#: conf/pdfsettingswidget.ui:219
+#, kde-format
+msgid "Default:"
+msgstr "ਡਿਫਾਲਟ:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, customRadioButton)
+#: conf/pdfsettingswidget.ui:226
+#, kde-format
+msgid "Custom:"
+msgstr "ਕਸਟਮ:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, certificatesGroup)
+#: conf/pdfsettingswidget.ui:243
+#, kde-format
+msgid "Available Certificates"
+msgstr "ਮੌਜੂਦ ਸਰਟੀਫਿਕੇਟ"
+
+#. i18n: ectx: property (text), widget (QPushButton, loadSignaturesButton)
+#: conf/pdfsettingswidget.ui:251
+#, kde-format
+msgid "&Load Signatures"
+msgstr "ਦਸਤਖ਼ਤ ਲੋਡ ਕਰੋ(&L)"
+
+#: formfields.cpp:565 generator_pdf.cpp:2280
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Failed renaming temporary file: %1"
+msgstr ""
+
+#: generator_pdf.cpp:89
+#, kde-format
+msgid "PDF Options"
+msgstr "PDF ਚੋਣਾਂ"
+
+#: generator_pdf.cpp:91
+#, kde-format
+msgid "Print annotations"
+msgstr "ਵਿਆਖਿਆਵਾਂ ਪਰਿੰਟ ਕਰੋ"
+
+#: generator_pdf.cpp:92
+#, kde-format
+msgid "Include annotations in the printed document"
+msgstr "ਪਰਿੰਟ ਕੀਤੇ ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਵਿਆਖਿਆ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: generator_pdf.cpp:93
+#, kde-format
+msgid ""
+"Includes annotations in the printed document. You can disable this if you "
+"want to print the original unannotated document."
+msgstr ""
+"ਪਰਿੰਟ ਕੀਤੇ ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਵਿਆਖਿਆ ਸ਼ਾਮਲ ਕਰੋ। ਜੇ ਤੁਸੀਂ ਅਸਲ ਬਿਨਾਂ-ਵਿਆਖਿਆ ਦੇ ਦਸਤਾਵੇਜ਼ ਨੂੰ ਪਰਿੰਟ "
+"ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਤੁਸੀਂ ਇਸ ਨੂੰ ਅਸਮਰੱਥ ਕਰ ਸਕਦੇ ਹੋ।"
+
+#: generator_pdf.cpp:95
+#, kde-format
+msgid "Force rasterization"
+msgstr "ਧੱਕੇ ਨਾਲ ਰਾਸਟਰੀਜ਼ੇਸ਼ਨ"
+
+#: generator_pdf.cpp:96
+#, kde-format
+msgid "Rasterize into an image before printing"
+msgstr "ਪਰਿੰਟਿੰਗ ਤੋਂ ਪਹਿਲਾਂ ਇੱਕ ਚਿੱਤਰ ਦੇ ਰੂਪ 'ਚ ਰਾਸਟਰੀਜ਼ ਕਰੋ"
+
+#: generator_pdf.cpp:97
+#, kde-format
+msgid ""
+"Forces the rasterization of each page into an image before printing it. This "
+"usually gives somewhat worse results, but is useful when printing documents "
+"that appear to print incorrectly."
+msgstr ""
+
+#: generator_pdf.cpp:107
+#, kde-format
+msgid "Scaling mode for the printed pages"
+msgstr "ਪਰਿੰਟ ਕੀਤੇ ਸਫ਼ਿਆਂ ਲਈ ਸਕੇਲਿੰਗ ਢੰਗ"
+
+#: generator_pdf.cpp:108
+#, kde-format
+msgid "Scale mode:"
+msgstr "ਸਕੇਲ ਢੰਗ:"
+
+#: generator_pdf.cpp:1030
+#, kde-format
+msgctxt "PDF v. <version>"
+msgid "PDF v. %1.%2"
+msgstr "PDF ਵਰਜ਼ਨ %1.%2"
+
+#: generator_pdf.cpp:1030
+#, kde-format
+msgid "Format"
+msgstr "ਫਾਰਮੈਟ"
+
+#: generator_pdf.cpp:1031
+#, kde-format
+msgid "Encrypted"
+msgstr "ਇਕ੍ਰਿਪਟਡ"
+
+#: generator_pdf.cpp:1031
+#, kde-format
+msgid "Unencrypted"
+msgstr "ਅਣ-ਇਕ੍ਰਿਪਟਡ"
+
+#: generator_pdf.cpp:1031
+#, kde-format
+msgid "Security"
+msgstr "ਸੁਰੱਖਿਆ"
+
+#: generator_pdf.cpp:1032
+#, kde-format
+msgid "Yes"
+msgstr "ਹਾਂ"
+
+#: generator_pdf.cpp:1032
+#, kde-format
+msgid "Optimized"
+msgstr "ਅਨੁਕੂਲ ਕੀਤਾ"
+
+#: generator_pdf.cpp:1521
+#, kde-format
+msgid ""
+"Signed by: %1\n"
+"\n"
+"Date: %2"
+msgstr ""
+"ਦਸਤਖ਼ਤ ਕੀਤੇ: %1\n"
+"\n"
+"ਤਾਰੀਖ: %2"
+
+#: generator_pdf.cpp:1744
+#, kde-format
+msgid "Using Poppler %1"
+msgstr ""
+
+#: generator_pdf.cpp:1746
+#, kde-format
+msgid ""
+"Using Poppler %1\n"
+"\n"
+"Built against Poppler %2"
+msgstr ""
+
+#: generator_pdf.cpp:1781
+#, kde-format
+msgid "PDF"
+msgstr "PDF"
+
+#: generator_pdf.cpp:1781
+#, kde-format
+msgid "PDF Backend Configuration"
+msgstr "PDF ਬੈਕਐਂਡ ਸੰਰਚਨਾ"
+
+#: generator_pdf.cpp:2300
+#, kde-format
+msgid ""
+"Some errors were found in the document, Okular might not be able to show the "
+"content correctly"
+msgstr ""
+"ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਕੁਝ ਗਲਤੀਆਂ ਲੱਭੀਆਂ ਹਨ। ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਓਕੁਲਾਰ ਸਮੱਗਰੀ ਨੂੰ ਠੀਕ ਤਰ੍ਹਾਂ ਨਾ ਦਿਖਾ ਸਕੇ।"
+
+#: pdfsettingswidget.cpp:116
+#, kde-format
+msgctxt "@info Kind of a notice/warning"
+msgid ""
+"These signatures only work between modern versions of Okular with the GnuPG "
+"based backend activated"
+msgstr ""
+
+#: pdfsettingswidget.cpp:117
+#, fuzzy, kde-format
+#| msgid "&Load Signatures"
+msgctxt "@title:dialog"
+msgid "Enable PGP Signatures"
+msgstr "ਦਸਤਖ਼ਤ ਲੋਡ ਕਰੋ(&L)"
+
+#: pdfsettingswidget.cpp:147
+#, kde-format
+msgctxt "Name of the person to whom the cerficate was issued"
+msgid "Issued to"
+msgstr "ਇਸ ਨੂੰ ਜਾਰੀ ਕੀਤਾ"
+
+#: pdfsettingswidget.cpp:147
+#, kde-format
+msgid "E-mail"
+msgstr "ਈ-ਮੇਲ"
+
+#: pdfsettingswidget.cpp:147
+#, kde-format
+msgctxt "Certificate expiration date"
+msgid "Expiration date"
+msgstr "ਮਿਆਦ"
+
+#: pdfsettingswidget.cpp:152
+#, fuzzy, kde-format
+#| msgid "Available Certificates"
+msgctxt "@button"
+msgid "List certificates"
+msgstr "ਮੌਜੂਦ ਸਰਟੀਫਿਕੇਟ"
+
+#: pdfsettingswidget.cpp:174
+#, kde-format
+msgid ""
+"You are using a Poppler library built without NSS support.\n"
+"Adding Digital Signatures isn't available for that reason"
+msgstr ""
+
+#: pdfsettingswidget.cpp:198
+#, kde-format
+msgctxt "certificate end validity"
+msgid "forever"
+msgstr ""
+
+#: pdfsettingswidget.cpp:222
+#, kde-format
+msgid "Restart needed"
+msgstr "ਮੁੜ-ਚਾਲੂ ਕਰਨ ਦੀ ਲੋੜ ਹੈ"
+
+#: pdfsettingswidget.cpp:222
+#, kde-format
+msgid "You need to restart Okular after changing the NSS directory settings"
+msgstr ""
+
+#: pdfsignatureutils.cpp:275 pdfsignatureutils.cpp:315
+#, fuzzy, kde-format
+#| msgid "Enter password to open %1:"
+msgctxt ""
+"%1 is the thing to open (hardware or software token, certificate DB,...)"
+msgid "Enter password to open: %1"
+msgstr "%1 ਨੂੰ ਖੋਲ੍ਹਣ ਲਈ ਪਾਸਵਰਡ ਦਿਓ:"
+
+#~ msgid "Enter Password"
+#~ msgstr "ਪਾਸਵਰਡ ਦਿਓ"
+
+#~ msgid "Not Available"
+#~ msgstr "ਉਪਲੱਬਧ ਨਹੀਂ"
+
+#~ msgid "PDF Backend"
+#~ msgstr "PDF ਬੈਕਐਂਡ"
+
+#~ msgid "A PDF file renderer"
+#~ msgstr "ਇੱਕ PDF ਫਾਇਲ ਰੈਂਡਰਰ"
+
+#~ msgid "© 2005-2008 Albert Astals Cid"
+#~ msgstr "© 2005-2008 Albert Astals Cid"
+
+#~ msgid "Albert Astals Cid"
+#~ msgstr "Albert Astals Cid"
+
+#~ msgid "Saving files with /Encrypt is not supported."
+#~ msgstr "/Encrypt ਨਾਲ ਫਾਇਲ ਸੰਭਾਲਣ ਲਈ ਸਹਾਇਕ ਨਹੀਂ ਹੈ।"
+
+#~ msgid "Unknown"
+#~ msgstr "ਅਣਜਾਣ"
+
+#~ msgid "Unknown Date"
+#~ msgstr "ਅਣਜਾਣੀ ਮਿਤੀ"
+
+#~ msgid "Unknown Encryption"
+#~ msgstr "ਅਣਜਾਣੀ ਇਕ੍ਰਿਪਸ਼ਨ"
+
+#~ msgid "Unknown Optimization"
+#~ msgstr "ਅਣਜਾਣ ਅਨੁਕੂਲਤਾ"
+
+#~ msgid "Please enter the password to read the document:"
+#~ msgstr "ਡੌਕੂਮੈਂਟ ਪੜ੍ਹਨ ਲਈ ਪਾਸਵਰਡ ਦਿਓ ਜੀ:"
+
+#~ msgid "Incorrect password. Try again:"
+#~ msgstr "ਗਲਤ ਪਾਸਵਰਡ ਹੈ। ਮੁੜ ਕੋਸ਼ਿਸ ਕਰੋ:"

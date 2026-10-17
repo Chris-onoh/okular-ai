@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+    <kcfgfile name="okular-generator-popplerrc"/>
+    <signal name="useDefaultDBChanged" />
+    <signal name="signatureBackendChanged" />
+    <signal name="dBCertificatePathChanged" />
+    <signal name="enablePgpChanged" />
+    <group name="General">
+        <entry key="EnhanceThinLines" type="Enum" >
+            <default>No</default>
+            <choices>
+                <choice name="No" />
+                <choice name="Solid" />
+                <choice name="Shape" />
+            </choices>
+        </entry>
+        <entry key="OverprintPreviewEnabled" type="Enum">
+            <default>Automatic</default>
+            <choices>
+                <choice name="Never" />
+                <choice name="Always" />
+                <choice name="Automatic" />
+            </choices>
+        </entry>
+    </group>
+    <group name="PDF Printing">
+        <entry key="PrintScaleMode" type="UInt" >
+            <default>0</default>
+            <max>2</max>
+        </entry>
+    </group>
+    <group name="Signatures" >
+      <entry key="SignatureBackend" type="String">
+          <emit signal="signatureBackendChanged" />
+      </entry>
+      <entry key="EnablePgp" type="Bool">
+          <default>false</default>
+          <emit signal="enablePgpChanged" />
+      </entry>
+      <entry key="UseDefaultCertDB" type="Bool">
+          <default>true</default>
+          <emit signal="useDefaultDBChanged" />
+      </entry>
+      <entry key="DBCertificatePath" type="String">
+          <emit signal="dBCertificatePathChanged" />
+      </entry>
+      <entry key="CheckOCSPServers" type="Bool" >
+          <default>true</default>
+      </entry>
+    </group>
+</kcfg>
+<!-- vim:set ts=4 -->

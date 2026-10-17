@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="addon">
+  <id>org.kde.okular-md</id>
+  <extends>org.kde.okular.desktop</extends>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0+ and GFDL-1.3</project_license>
+  <name>Markdown</name>
+  <name xml:lang="ar">مارك‌داون</name>
+  <name xml:lang="ast">Markdown</name>
+  <name xml:lang="az">Markdown</name>
+  <name xml:lang="be">Markdown</name>
+  <name xml:lang="bg">Markdown</name>
+  <name xml:lang="ca">Markdown</name>
+  <name xml:lang="ca-valencia">Markdown</name>
+  <name xml:lang="cs">Markdown</name>
+  <name xml:lang="de">Markdown</name>
+  <name xml:lang="el">Markdown</name>
+  <name xml:lang="en-GB">Markdown</name>
+  <name xml:lang="eo">Markdown</name>
+  <name xml:lang="es">Markdown</name>
+  <name xml:lang="et">Markdown</name>
+  <name xml:lang="eu">Markdown</name>
+  <name xml:lang="fi">Markdown</name>
+  <name xml:lang="fr">Markdown</name>
+  <name xml:lang="ga">Markdown</name>
+  <name xml:lang="gl">Markdown</name>
+  <name xml:lang="he">Markdown</name>
+  <name xml:lang="hi">मार्कडाउन</name>
+  <name xml:lang="hu">Markdown</name>
+  <name xml:lang="ia">Markdown</name>
+  <name xml:lang="ie">Markdown</name>
+  <name xml:lang="is">Markdown</name>
+  <name xml:lang="it">Markdown</name>
+  <name xml:lang="ka">Markdown</name>
+  <name xml:lang="ko">마크다운</name>
+  <name xml:lang="lt">Markdown</name>
+  <name xml:lang="lv">Markdown</name>
+  <name xml:lang="ml">മാർക്ഡൗൺ</name>
+  <name xml:lang="nl">Markdown</name>
+  <name xml:lang="nn">Markdown</name>
+  <name xml:lang="pl">Markdown</name>
+  <name xml:lang="pt">Markdown</name>
+  <name xml:lang="pt-BR">Markdown</name>
+  <name xml:lang="ro">Markdown</name>
+  <name xml:lang="ru">Markdown</name>
+  <name xml:lang="sa">मार्कडाउन</name>
+  <name xml:lang="sk">Markdown</name>
+  <name xml:lang="sl">Markdown</name>
+  <name xml:lang="sr">Маркдаун</name>
+  <name xml:lang="sr-Latn">Markdown</name>
+  <name xml:lang="sr-ijekavian">Маркдаун</name>
+  <name xml:lang="sr-ijekavianlatin">Markdown</name>
+  <name xml:lang="sv">Markdown</name>
+  <name xml:lang="ta">Markdown</name>
+  <name xml:lang="tr">Markdown</name>
+  <name xml:lang="uk">Markdown</name>
+  <name xml:lang="vi">Markdown</name>
+  <name xml:lang="zh-CN">Markdown</name>
+  <name xml:lang="zh-TW">Markdown</name>
+  <summary>Adds support for reading Markdown documents</summary>
+  <summary xml:lang="ar">يضيف دعم لقراءة مستندات مارك‌داون</summary>
+  <summary xml:lang="az">Markdown sənədlərini oxumaq üçün dəstək əlavə edir</summary>
+  <summary xml:lang="be">Падтрымка чытання дакументаў Markdown</summary>
+  <summary xml:lang="bg">Добавя поддръжка за четене на Markdown документи</summary>
+  <summary xml:lang="ca">Afegeix la implementació per a llegir documents en Markdown</summary>
+  <summary xml:lang="ca-valencia">Afig la implementació per a llegir documents en Markdown</summary>
+  <summary xml:lang="cs">Přidává podporu pro čtení dokumentů Markdown</summary>
+  <summary xml:lang="de">Bietet Unterstützung zum Lesen von Markdown-Dokumenten</summary>
+  <summary xml:lang="el">Προσθέτει υποστήριξη για ανάγνωση Markdown εγγράφων</summary>
+  <summary xml:lang="en-GB">Adds support for reading Markdown documents</summary>
+  <summary xml:lang="eo">Aldonas subtenon por legi Markdown-dokumentojn</summary>
+  <summary xml:lang="es">Permite la lectura de documentos Markdown</summary>
+  <summary xml:lang="et">Markdowni dokumentide lugemise toetuse lisamine</summary>
+  <summary xml:lang="eu">Markdown dokumentuak irakurtzeko euskarria gehitzen du</summary>
+  <summary xml:lang="fi">Lisää Markdown-tiedostojen lukutuen</summary>
+  <summary xml:lang="fr">Permet la lecture des documents Markdown</summary>
+  <summary xml:lang="ga">Cuireann sé tacaíocht leis chun doiciméid Markdown a léamh</summary>
+  <summary xml:lang="gl">Engade a posibilidade de ler documentos Markdown</summary>
+  <summary xml:lang="he">מוסיף תמיכה בקריאת מסמכי Markdown</summary>
+  <summary xml:lang="hi">मार्कडाउन दस्तावेज़ पढ़ने के लिए समर्थन जोड़ता है</summary>
+  <summary xml:lang="hu">Támogatás Markdown dokumentumok olvasásához</summary>
+  <summary xml:lang="ia">Adde supporto per leger documentos Markdown</summary>
+  <summary xml:lang="ie">Adjunte li supporte de letion de documentes Markdown</summary>
+  <summary xml:lang="is">Bætir við stuðningi til að lesa Markdown-skjöl</summary>
+  <summary xml:lang="it">Aggiunge il supporto per la lettura di documenti Markdown</summary>
+  <summary xml:lang="ka">Markdown -ის დოკუმენტების კითხვის მხარდაჭერის დამატება</summary>
+  <summary xml:lang="ko">마크다운 문서 읽기 지원 추가</summary>
+  <summary xml:lang="lt">Prideda palaikymą Markdown dokumentų skaitymui</summary>
+  <summary xml:lang="lv">Pievieno atbalstu „Markdown“ dokumentu lasīšanai</summary>
+  <summary xml:lang="ml">മാർക്ഡൗൺ പ്രമാണങ്ങൾ വായിക്കുന്നതിനുള്ള പിന്തുണ ചേർക്കുന്നു</summary>
+  <summary xml:lang="nl">Voegt ondersteuning voor lezen van Markdown-documenten toe</summary>
+  <summary xml:lang="nn">Legg til støtte for å lesa Markdown-dokument</summary>
+  <summary xml:lang="pl">Dodaje obsługę dokumentów Markdown</summary>
+  <summary xml:lang="pt">Adiciona o suporte para a leitura de documentos em Markdown</summary>
+  <summary xml:lang="pt-BR">Adiciona o suporte para leitura de documentos em Markdown</summary>
+  <summary xml:lang="ro">Adaugă suport pentru citirea documentelor Markdown</summary>
+  <summary xml:lang="ru">Поддержка чтения документов Markdown</summary>
+  <summary xml:lang="sa">Markdown दस्तावेजान् पठितुं समर्थनं योजयति</summary>
+  <summary xml:lang="sk">Pridá podporu pre čítanie Markdown dokumentov</summary>
+  <summary xml:lang="sl">Doda podporo za branje dokumentov Markdown</summary>
+  <summary xml:lang="sr">Подршка за читање маркдаун докумената</summary>
+  <summary xml:lang="sr-Latn">Podrška za čitanje Markdown dokumenata</summary>
+  <summary xml:lang="sr-ijekavian">Подршка за читање маркдаун докумената</summary>
+  <summary xml:lang="sr-ijekavianlatin">Podrška za čitanje Markdown dokumenata</summary>
+  <summary xml:lang="sv">Lägger till stöd för att läsa Markdown-dokument</summary>
+  <summary xml:lang="ta">Markdown ஆவணங்களைப் படிப்பதற்கான ஆதரவை சேர்க்கும்</summary>
+  <summary xml:lang="tr">Markdown belgelerini okuma desteği ekler</summary>
+  <summary xml:lang="ug">Markdown پۈتۈك ئوقۇشنى قوللاش ئىقتىدارىنى قوشىدۇ</summary>
+  <summary xml:lang="uk">Додає підтримку читання документів Markdown</summary>
+  <summary xml:lang="vi">Thêm hỗ trợ đọc tài liệu Markdown</summary>
+  <summary xml:lang="zh-CN">增加对 Markdown 文档的阅读支持</summary>
+  <summary xml:lang="zh-TW">增加讀取 Markdown 文件的支援</summary>
+  <provides>
+    <mediatype>text/markdown</mediatype>
+  </provides>
+  <url type="homepage">https://okular.kde.org</url>
+  <releases>
+    <release version="26.08.2" date="2026-10-08"/>
+    <release version="26.08.1" date="2026-09-10"/>
+    <release version="26.08.0" date="2026-08-20"/>
+    <release version="26.04.3" date="2026-07-02"/>
+    <release version="26.04.2" date="2026-06-04"/>
+    <release version="26.04.1" date="2026-05-07"/>
+    <release version="26.04.0" date="2026-04-16"/>
+    <release version="25.12.3" date="2026-03-05"/>
+    <release version="25.12.2" date="2026-02-05"/>
+    <release version="25.12.1" date="2026-01-08"/>
+    <release version="25.12.0" date="2025-12-11"/>
+    <release version="25.08.3" date="2025-11-06"/>
+    <release version="25.08.2" date="2025-10-09"/>
+    <release version="25.08.1" date="2025-09-11"/>
+    <release version="25.08.0" date="2025-08-14"/>
+    <release version="25.04.3" date="2025-07-03"/>
+    <release version="25.04.2" date="2025-06-05"/>
+    <release version="25.04.1" date="2025-05-08"/>
+    <release version="25.04.0" date="2025-04-17"/>
+    <release version="24.12.3" date="2025-03-06"/>
+    <release version="24.12.2" date="2025-02-06"/>
+    <release version="24.12.1" date="2025-01-09"/>
+    <release version="24.12.0" date="2024-12-12"/>
+    <release version="24.08.3" date="2024-11-07"/>
+    <release version="24.08.2" date="2024-10-10"/>
+    <release version="24.08.1" date="2024-09-12"/>
+    <release version="24.08.0" date="2024-08-22"/>
+    <release version="24.05.2" date="2024-07-04"/>
+    <release version="24.05.1" date="2024-06-13"/>
+    <release version="24.05.0" date="2024-05-23"/>
+    <release version="24.02.2" date="2024-04-11"/>
+    <release version="24.02.1" date="2024-03-21"/>
+    <release version="24.02.0" date="2024-02-28"/>
+    <release version="23.08.5" date="2024-02-15"/>
+  </releases>
+</component>

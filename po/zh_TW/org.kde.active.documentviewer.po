@@ -1,0 +1,214 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2012.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+# pan93412 <pan93412@gmail.com>, 2018, 2019.
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Kisaragi Hiu <mail@kisaragi-hiu.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2025-08-29 23:17+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 25.11.70\n"
+
+#: ui/Bookmarks.qml:20 ui/OkularDrawer.qml:85
+msgid "Bookmarks"
+msgstr "書籤"
+
+#: ui/CertificateViewerPage.qml:23
+msgid "Certificate Viewer"
+msgstr "憑證檢視器"
+
+#: ui/CertificateViewerPage.qml:26
+msgid "Issued By"
+msgstr "簽發者"
+
+#: ui/CertificateViewerPage.qml:31 ui/CertificateViewerPage.qml:56
+msgid "Common Name:"
+msgstr "通用名稱："
+
+#: ui/CertificateViewerPage.qml:38 ui/CertificateViewerPage.qml:63
+msgid "EMail:"
+msgstr "電子郵件："
+
+#: ui/CertificateViewerPage.qml:45 ui/CertificateViewerPage.qml:70
+msgid "Organization:"
+msgstr "組織："
+
+#: ui/CertificateViewerPage.qml:51
+msgid "Issued To"
+msgstr "簽發給"
+
+#: ui/CertificateViewerPage.qml:76
+msgid "Validity"
+msgstr "有效性"
+
+#: ui/CertificateViewerPage.qml:81
+msgid "Issued On:"
+msgstr "簽發時間："
+
+#: ui/CertificateViewerPage.qml:88
+msgid "Expires On:"
+msgstr "失效時間："
+
+#: ui/CertificateViewerPage.qml:94
+msgid "Fingerprints"
+msgstr "金鑰指紋"
+
+#: ui/CertificateViewerPage.qml:99
+msgid "SHA-1 Fingerprint:"
+msgstr "SHA-1 指紋："
+
+#: ui/CertificateViewerPage.qml:106
+msgid "SHA-256 Fingerprint:"
+msgstr "SHA-256 指紋："
+
+#: ui/CertificateViewerPage.qml:118 ui/CertificateViewerPage.qml:130
+msgid "Export…"
+msgstr "匯出…"
+
+#: ui/CertificateViewerPage.qml:137 ui/SignaturePropertiesPage.qml:148
+msgid "Close"
+msgstr "關閉"
+
+#: ui/CertificateViewerPage.qml:146
+msgid "Certificate File (*.cer)"
+msgstr "憑證檔案 (*.cer)"
+
+#: ui/CertificateViewerPage.qml:161 ui/SignaturePropertiesPage.qml:169
+msgid "Error"
+msgstr "錯誤"
+
+#: ui/CertificateViewerPage.qml:163
+msgid "Could not export the certificate."
+msgstr "無法匯出憑證。"
+
+#: ui/Main.qml:25 ui/Main.qml:66
+msgid "Okular"
+msgstr "Okular"
+
+#: ui/Main.qml:42
+msgid "Open…"
+msgstr "開啟…"
+
+#: ui/Main.qml:49
+msgid "About"
+msgstr "關於"
+
+#: ui/Main.qml:99
+msgid "Password Needed"
+msgstr "需要密碼"
+
+#: ui/MainView.qml:29
+msgid "Remove bookmark"
+msgstr "移除書籤"
+
+#: ui/MainView.qml:29
+msgid "Bookmark this page"
+msgstr "將此頁面加入書籤"
+
+#: ui/OkularDrawer.qml:57
+msgid "Thumbnails"
+msgstr "縮圖"
+
+#: ui/OkularDrawer.qml:71
+msgid "Table of contents"
+msgstr "目錄"
+
+#: ui/OkularDrawer.qml:99
+msgid "Signatures"
+msgstr "簽名"
+
+#: ui/SignaturePropertiesPage.qml:33
+msgid "Signature Properties"
+msgstr "簽名屬性"
+
+#: ui/SignaturePropertiesPage.qml:40
+msgid "Validity Status"
+msgstr "有效狀態"
+
+#: ui/SignaturePropertiesPage.qml:46
+msgid "Signature Validity:"
+msgstr "簽名有效性："
+
+#: ui/SignaturePropertiesPage.qml:53
+msgid "Document Modifications:"
+msgstr "文件變更："
+
+#: ui/SignaturePropertiesPage.qml:58
+msgid "Additional Information"
+msgstr "額外資訊"
+
+#: ui/SignaturePropertiesPage.qml:64
+msgid "Signed By:"
+msgstr "簽署者："
+
+#: ui/SignaturePropertiesPage.qml:71
+msgid "Signing Time:"
+msgstr "簽署時間："
+
+#: ui/SignaturePropertiesPage.qml:80
+msgid "Reason:"
+msgstr "原因："
+
+#: ui/SignaturePropertiesPage.qml:90
+msgid "Location:"
+msgstr "地點："
+
+#: ui/SignaturePropertiesPage.qml:96
+msgid "Document Version"
+msgstr "文件版本"
+
+#: ui/SignaturePropertiesPage.qml:104
+msgctxt "Document Revision <current> of <total>"
+msgid "Document Revision %1 of %2"
+msgstr "文件修訂版 %1，共 %2"
+
+#: ui/SignaturePropertiesPage.qml:108
+msgid "Save Signed Version…"
+msgstr "儲存已簽名的版本…"
+
+#: ui/SignaturePropertiesPage.qml:122 ui/SignaturePropertiesPage.qml:137
+msgid "View Certificate…"
+msgstr "檢視憑證…"
+
+#: ui/SignaturePropertiesPage.qml:171
+msgid "Could not save the signature."
+msgstr "無法儲存簽名。"
+
+#: ui/Signatures.qml:27
+msgid "Not Available"
+msgstr "不可用"
+
+#: ui/ThumbnailsBase.qml:42
+msgid "No results found."
+msgstr "找不到資料。"
+
+#: ui/WelcomeView.qml:43
+msgid "No document open"
+msgstr "沒有開啟文件"
+
+#: ui/WelcomeView.qml:49
+msgctxt "in welcome screen"
+msgid "Recent Documents"
+msgstr "最近的文件"
+
+#: ui/WelcomeView.qml:108
+msgctxt "in welcome screen"
+msgid "My Documents"
+msgstr "我的文件"
+
+#~ msgid "Open..."
+#~ msgstr "開啟…"
+
+#~ msgid "Search..."
+#~ msgstr "搜尋…"

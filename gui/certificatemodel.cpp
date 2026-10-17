@@ -1,0 +1,219 @@
+/*
+    SPDX-FileCopyrightText: 2018 Chinmoy Ranjan Pradhan <chinmoyrp65@gmail.com>
+
+    SPDX-License-Identifier: GPL-2.0-or-later
+*/
+
+#include "certificatemodel.h"
+
+#include "signatureguiutils.h"
+
+#include <KLocalizedString>
+
+#include <QCryptographicHash>
+#include <QDebug>
+#include <QSaveFile>
+#include <QUrl>
+
+static QList<CertificateModel::Property> propertiesForType(Okular::CertificateInfo::CertificateType type)
+{
+    switch (type) {
+    case Okular::CertificateInfo::X509:
+        return {
+            CertificateModel::Version, CertificateModel::SerialNumber, CertificateModel::Issuer, CertificateModel::IssuedOn, CertificateModel::ExpiresOn, CertificateModel::Subject, CertificateModel::PublicKey, CertificateModel::KeyUsage};
+    case Okular::CertificateInfo::PGP:
+        return {CertificateModel::IssuedOn, CertificateModel::ExpiresOn, CertificateModel::Subject, CertificateModel::CertificateModel::PublicKey, CertificateModel::KeyUsage};
+    }
+    return {};
+}
+
+CertificateModel::CertificateModel(const Okular::CertificateInfo &certInfo, QObject *parent)
+    : QAbstractTableModel(parent)
+    , m_certificateProperties(propertiesForType(certInfo.certificateType()))
+    , m_certificateInfo(certInfo)
+{
+}
+
+int CertificateModel::columnCount(const QModelIndex &) const
+{
+    return 2;
+}
+
+int CertificateModel::rowCount(const QModelIndex &) const
+{
+    return m_certificateProperties.size();
+}
+
+static QString propertyVisibleName(CertificateModel::Property p, Okular::CertificateInfo::CertificateType type)
+{
+    switch (p) {
+    case CertificateModel::Version:
+        return i18n("Version");
+    case CertificateModel::SerialNumber:
+        return i18n("Serial Number");
+    case CertificateModel::Issuer:
+        return i18n("Issuer");
+    case CertificateModel::IssuedOn:
+        return i18n("Issued On");
+    case CertificateModel::ExpiresOn:
+        return i18n("Expires On");
+    case CertificateModel::Subject:
+        return type == Okular::CertificateInfo::X509 ? i18nc("The person/company that made the signature", "Subject") : i18nc("Name/email on key", "User Id");
+    case CertificateModel::PublicKey:
+        return i18n("Public Key");
+    case CertificateModel::KeyUsage:
+        return i18n("Key Usage");
+    case CertificateModel::IssuerName:
+    case CertificateModel::IssuerEmail:
+    case CertificateModel::IssuerOrganization:
+    case CertificateModel::SubjectName:
+    case CertificateModel::SubjectEmail:
+    case CertificateModel::SubjectOrganization:
+    case CertificateModel::Sha1:
+    case CertificateModel::Sha256:
+        Q_ASSERT(false);
+        qWarning() << "Unimplemented";
+    }
+    return QString();
+}
+
+QString CertificateModel::propertyVisibleValue(CertificateModel::Property p) const
+{
+    switch (p) {
+    case CertificateModel::Version:
+        return i18n("V%1", QString::number(m_certificateInfo.version()));
+    case CertificateModel::SerialNumber:
+        return QString::fromLatin1(m_certificateInfo.serialNumber().toHex(' '));
+    case CertificateModel::Issuer:
+        return m_certificateInfo.issuerInfo(Okular::CertificateInfo::DistinguishedName, Okular::CertificateInfo::EmptyString::TranslatedNotAvailable);
+    case CertificateModel::IssuedOn:
+        return QLocale().toString(m_certificateInfo.validityStart(), QLocale::LongFormat);
+    case CertificateModel::ExpiresOn:
+        return QLocale().toString(m_certificateInfo.validityEnd(), QLocale::LongFormat);
+    case CertificateModel::Subject:
+        return m_certificateInfo.subjectInfo(Okular::CertificateInfo::DistinguishedName, Okular::CertificateInfo::EmptyString::TranslatedNotAvailable);
+    case CertificateModel::PublicKey:
+        return i18n("%1 (%2 bits)", SignatureGuiUtils::getReadablePublicKeyType(m_certificateInfo.publicKeyType()), m_certificateInfo.publicKeyStrength());
+    case CertificateModel::KeyUsage:
+        return SignatureGuiUtils::getReadableKeyUsageCommaSeparated(m_certificateInfo.keyUsageExtensions());
+    case CertificateModel::IssuerName:
+        return m_certificateInfo.issuerInfo(Okular::CertificateInfo::CommonName, Okular::CertificateInfo::EmptyString::TranslatedNotAvailable);
+    case CertificateModel::IssuerEmail:
+        return m_certificateInfo.issuerInfo(Okular::CertificateInfo::EmailAddress, Okular::CertificateInfo::EmptyString::TranslatedNotAvailable);
+    case CertificateModel::IssuerOrganization:
+        return m_certificateInfo.issuerInfo(Okular::CertificateInfo::Organization, Okular::CertificateInfo::EmptyString::TranslatedNotAvailable);
+    case CertificateModel::SubjectName:
+        return m_certificateInfo.subjectInfo(Okular::CertificateInfo::CommonName, Okular::CertificateInfo::EmptyString::TranslatedNotAvailable);
+    case CertificateModel::SubjectEmail:
+        return m_certificateInfo.subjectInfo(Okular::CertificateInfo::EmailAddress, Okular::CertificateInfo::EmptyString::TranslatedNotAvailable);
+    case CertificateModel::SubjectOrganization:
+        return m_certificateInfo.subjectInfo(Okular::CertificateInfo::Organization, Okular::CertificateInfo::EmptyString::TranslatedNotAvailable);
+    case CertificateModel::Sha1:
+        return QString::fromLatin1(QCryptographicHash::hash(m_certificateInfo.certificateData(), QCryptographicHash::Sha1).toHex(' '));
+    case CertificateModel::Sha256:
+        return QString::fromLatin1(QCryptographicHash::hash(m_certificateInfo.certificateData(), QCryptographicHash::Sha256).toHex(' '));
+    }
+    return QString();
+}
+
+QVariant CertificateModel::data(const QModelIndex &index, int role) const
+{
+    const int row = index.row();
+    if (!index.isValid() || row < 0 || row >= m_certificateProperties.count()) {
+        return QVariant();
+    }
+
+    switch (role) {
+    case Qt::DisplayRole:
+    case Qt::ToolTipRole:
+        switch (index.column()) {
+        case 0:
+            return propertyVisibleName(m_certificateProperties[row], m_certificateInfo.certificateType());
+        case 1:
+            return propertyVisibleValue(m_certificateProperties[row]);
+        default:
+            return QString();
+        }
+    case PropertyKeyRole:
+        return m_certificateProperties[row];
+    case PropertyVisibleValueRole:
+        return propertyVisibleValue(m_certificateProperties[row]);
+    }
+
+    return QVariant();
+}
+
+QVariant CertificateModel::headerData(int section, Qt::Orientation orientation, int role) const
+{
+    if (role == Qt::TextAlignmentRole) {
+        return QVariant(Qt::AlignLeft);
+    }
+
+    if (orientation != Qt::Horizontal || role != Qt::DisplayRole) {
+        return QVariant();
+    }
+
+    switch (section) {
+    case 0:
+        return i18n("Property");
+    case 1:
+        return i18n("Value");
+    default:
+        return QVariant();
+    }
+}
+
+bool CertificateModel::exportCertificateTo(const QString &path)
+{
+    const QUrl url = QUrl::fromUserInput(path);
+    if (!url.isLocalFile()) {
+        return false;
+    }
+    QSaveFile targetFile(url.toLocalFile());
+    if (!targetFile.open(QIODevice::WriteOnly)) {
+        return false;
+    }
+    const QByteArray certificateData = m_certificateInfo.certificateData();
+    switch (m_certificateInfo.certificateType()) {
+    case Okular::CertificateInfo::X509:
+        if (targetFile.write(certificateData) == certificateData.size()) {
+            targetFile.commit();
+            return true;
+        } else {
+            targetFile.cancelWriting();
+            return false;
+        }
+    case Okular::CertificateInfo::PGP: {
+        if (targetFile.write("-----BEGIN PGP PUBLIC KEY BLOCK-----\n\n") != 38) {
+            return false;
+        }
+        const auto base64 = certificateData.toBase64(QByteArray::Base64Encoding | QByteArray::KeepTrailingEquals);
+
+        bool last = false;
+        for (qsizetype i = 0; i < base64.size(); i += 64) {
+            qsizetype remainder = base64.size() - i;
+            auto written = targetFile.write(base64.sliced(i, std::min<qsizetype>(64, remainder)));
+            if (last) {
+                qWarning("Some failed write during export");
+                return false;
+            }
+            if (written != 64) {
+                last = true;
+                if (written != remainder) {
+                    return false;
+                }
+            }
+            if (targetFile.write("\n") != 1) {
+                return false;
+            }
+        }
+        if (targetFile.write("-----END PGP PUBLIC KEY BLOCK-----\n") != 35) {
+            return false;
+        }
+        return targetFile.commit();
+    }
+    }
+    return false;
+}
+
+#include "moc_certificatemodel.cpp"
