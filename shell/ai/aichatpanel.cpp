@@ -1618,6 +1618,7 @@ void AiChatPanel::showSettings(bool preferLocal)
 
     auto *probeLabel = new QLabel(&dialog);
     probeLabel->setWordWrap(true);
+    probeLabel->setOpenExternalLinks(true);
     probeLabel->setObjectName(QStringLiteral("probeLabel"));
     auto *detectButton = new QPushButton(i18n("Detect models"), &dialog);
 
@@ -1796,8 +1797,15 @@ void AiChatPanel::showSettings(bool preferLocal)
         }
     });
     connect(catalog, &ModelCatalog::probeFailed, &dialog, [&](int source, const QString &message) {
-        Q_UNUSED(source)
-        probeLabel->setText(message);
+        Q_UNUSED(message)
+        if (source == ModelCatalog::Ollama) {
+            probeLabel->setText(i18n("Ollama was not detected. Install it from "
+                                     "<a href=\"https://ollama.com\">ollama.com</a>, then run "
+                                     "<b>ollama pull qwen2.5:1.5b</b> and press Detect again."));
+        } else {
+            probeLabel->setText(i18n("No local llama.cpp server was found. Start it with "
+                                     "<b>llama-server -m model.gguf --port 8080</b>, then press Detect again."));
+        }
     });
     connect(providerCombo, QOverload<int>::of(&QComboBox::currentIndexChanged), &dialog, [&](int) {
         const QString provider = providerCombo->currentData().toString();
