@@ -234,7 +234,9 @@ Web search is off by default. When enabled, the query leaves the machine; see
 - **Document / This page** chooses whether the whole document or only the
   current page is used as context.
 - The **model picker** switches between configured models.
-- The **lightbulb** toggle shows or hides the model's reasoning.
+- The **Thinking** pill turns reasoning on or off. When off, reasoning is hidden
+  and the model is asked to answer directly. The choice is saved and is also
+  available in AI settings.
 - The **globe** toggle enables web search for subsequent questions.
 - User messages can be edited from the pencil action. Editing rewinds the
   conversation to that point.

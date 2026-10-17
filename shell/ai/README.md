@@ -22,8 +22,10 @@ open source by Chris-Onoh Chukwuebuka <ebukaconoh@gmail.com>.
   fills the editable model picker.
 - A **Set up local AI** banner appears when no key is configured, so a local
   model can be selected without touching the advanced fields.
-- A **Thinking** toggle shows the model's reasoning in a collapsible box
-  before the answer. Reasoning is streamed and can be expanded or collapsed.
+- A **Thinking** pill in the panel header (and a checkbox in AI settings)
+  turns reasoning on or off. When on, reasoning streams into a collapsible box
+  before the answer. When off, reasoning is hidden and the model is asked to
+  answer directly. The choice is persisted.
 - A **Web** toggle searches the web (Brave Search, with DuckDuckGo as a
   fallback) and adds the top results to the prompt. No search API key is
   needed.

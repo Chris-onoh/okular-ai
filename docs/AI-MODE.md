@@ -247,12 +247,23 @@ Reasoning is displayed only when the model emits `reasoning_content`.
 - `appendAssistantReasoning()` creates or updates the thinking box.
 - `appendAssistantChunk()` finishes and collapses the thinking box as soon as
   the first answer token arrives.
-- The header lightbulb toggle persists `ShowThinking`. When off, reasoning
-  chunks are ignored and the box is collapsed.
+- The **Thinking** pill in the panel header and the **Show the model's
+  thinking** checkbox in AI settings both persist `ShowThinking`.
+- When off, reasoning chunks are ignored, any open thinking box collapses, and
+  the system prompt asks the model to answer directly without step-by-step
+  reasoning.
 
 The box animates its maximum height over 160 ms and truncates very long
-reasoning at 6,000 characters. Hiding reasoning does **not** stop the model from
-reasoning; it only controls what the UI shows.
+reasoning at 6,000 characters.
+
+`ShowThinking` is a cross-provider setting. It always controls the display and
+the prompt, but it cannot force every provider to stop private reasoning:
+reasoning models may still think internally before producing the answer. For
+providers that expose a server-side switch, the correct place to change it is
+the provider or model configuration.
+
+The header controls use text labels (`Thinking`, `Web`) as well as icons so the
+state is discoverable without hovering.
 
 ---
 

@@ -108,14 +108,16 @@ AiChatPanel::AiChatPanel(QWidget *parent)
     header->addWidget(title);
     header->addStretch(1);
 
-    auto makeHeaderToggle = [this, header](const QString &iconName, const QString &fallbackIcon, const QString &tooltip) {
+    auto makeHeaderToggle = [this, header](const QString &iconName, const QString &fallbackIcon, const QString &text, const QString &tooltip) {
         auto *button = new QToolButton(this);
         button->setObjectName(QStringLiteral("aiHeaderToggle"));
         button->setAutoRaise(true);
         button->setCheckable(true);
+        button->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
+        button->setText(text);
         button->setIcon(QIcon::fromTheme(iconName, QIcon::fromTheme(fallbackIcon)));
-        button->setIconSize(QSize(17, 17));
-        button->setFixedSize(28, 26);
+        button->setIconSize(QSize(16, 16));
+        button->setFixedHeight(26);
         button->setToolTip(tooltip);
         button->setAccessibleName(tooltip);
         button->setCursor(Qt::PointingHandCursor);
@@ -123,9 +125,9 @@ AiChatPanel::AiChatPanel(QWidget *parent)
         return button;
     };
 
-    m_thinkingButton = makeHeaderToggle(QStringLiteral("help-hint"), QStringLiteral("dialog-information"), i18n("Show the model's thinking"));
+    m_thinkingButton = makeHeaderToggle(QStringLiteral("help-hint"), QStringLiteral("dialog-information"), i18n("Thinking"), i18n("Show the model's thinking"));
     m_thinkingButton->setChecked(m_config.showThinking);
-    m_webButton = makeHeaderToggle(QStringLiteral("applications-internet"), QStringLiteral("network-workgroup"), i18n("Search the web for context"));
+    m_webButton = makeHeaderToggle(QStringLiteral("applications-internet"), QStringLiteral("network-workgroup"), i18n("Web"), i18n("Search the web for context"));
     m_webButton->setChecked(m_config.webSearchEnabled);
 
     m_modelCombo = new QComboBox(this);
@@ -253,6 +255,9 @@ AiChatPanel::AiChatPanel(QWidget *parent)
         m_config.save();
         if (!checked) {
             m_transcript->finishAssistantReasoning();
+        }
+        if (m_statusLabel) {
+            updateStatus();
         }
     });
     connect(m_webButton, &QToolButton::toggled, this, [this](bool checked) {
@@ -933,6 +938,10 @@ void AiChatPanel::sendQuestion(const QString &question, const QString &context, 
                                         "Answer questions about the document using only the excerpts provided. "
                                         "Cite pages as [page N]. If the answer is not in the excerpts, say so clearly "
                                         "instead of guessing. Be concise and use short paragraphs or bullet points.");
+    if (!m_config.showThinking) {
+        systemContent += QStringLiteral(" Do not include step-by-step reasoning or hidden analysis in the answer; "
+                                        "respond directly.");
+    }
     if (!context.isEmpty()) {
         systemContent += QStringLiteral("\n\n") + context;
     }
@@ -1412,9 +1421,9 @@ QFrame#chatBubbleUser QLabel#bubbleContent { color: @accentText; }
 QFrame#chatBubbleUser QLabel#bubbleMeta { color: @accentMeta; }
 QToolButton#messageAction { border: none; border-radius: 6px; padding: 2px; background: transparent; }
 QToolButton#messageAction:hover { background: @hover; }
-QToolButton#aiHeaderToggle { border: none; border-radius: 8px; background: transparent; }
-QToolButton#aiHeaderToggle:hover { background: @hover; }
-QToolButton#aiHeaderToggle:checked { background: @accentSoft; }
+QToolButton#aiHeaderToggle { border: none; border-radius: 8px; background: transparent; padding: 2px 8px; color: @muted; }
+QToolButton#aiHeaderToggle:hover { background: @hover; color: @text; }
+QToolButton#aiHeaderToggle:checked { background: @accentSoft; color: @text; }
 QWidget#thinkingBox { background: @surface; border: 1px solid @border; border-radius: 10px; }
 QToolButton#thinkingToggle { border: none; background: transparent; color: @muted; padding: 0; text-align: left; }
 QToolButton#thinkingToggle:hover { color: @text; }
@@ -1631,6 +1640,11 @@ void AiChatPanel::showSettings(bool preferLocal)
     detectLayout->addWidget(detectButton);
     detectLayout->addWidget(probeLabel, 1);
     simpleForm->addRow(QString(), detectRow);
+
+    auto *thinkingCheck = new QCheckBox(i18n("Show the model's thinking"), &dialog);
+    thinkingCheck->setChecked(m_config.showThinking);
+    thinkingCheck->setToolTip(i18n("When off, reasoning is hidden and the model is asked to answer directly."));
+    simpleForm->addRow(QString(), thinkingCheck);
     layout->addLayout(simpleForm);
 
     auto *form = new QFormLayout;
@@ -1886,6 +1900,11 @@ void AiChatPanel::showSettings(bool preferLocal)
         m_config.model = modelCombo->currentText().trimmed();
     }
     m_config.maxContextChars = contextSpin->value();
+    m_config.showThinking = thinkingCheck->isChecked();
+    if (m_thinkingButton) {
+        const QSignalBlocker blocker(m_thinkingButton);
+        m_thinkingButton->setChecked(m_config.showThinking);
+    }
 
     const QString newBackend = embeddingBackendCombo->currentData().toString();
     const QString newEndpoint = embeddingEndpointEdit->text().trimmed();
